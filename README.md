@@ -1,6 +1,7 @@
 # Decomp_ChampionshipManagerItalia_ST
 
 This is currently incomplete as I am still working on the main .asm file to get 100% compatability, I will upload it once it is done.
+As it stands I have the file header, .TEXT, .DATA and .BSS sections correct however the program appears to have a relocation table at the end which I have not yet figured out.
 
 A decompilation of the Atari ST game Championship Manager Italia. This is the hard drive install of the game and not the floppy disk based version. It still has working DRM which requires you to type in football scores from the manual. I have not removed that, YET.
 
