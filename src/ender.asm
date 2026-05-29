@@ -1,131 +1,105 @@
 DWORD_0006584a:               
-    dc.l        $0658BA
-    dc.l        $0658CA
-    dc.l        $0658D9
-;Warnings and errors here! FIXME
-;    dc.l        $0658E9
+	dc.l 		$0558BA
+    dc.l        $0558CA
+    dc.l        $0558D9
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$58
 	dc.b 		$0E9
-;    dc.l        $0658FA
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$58
 	dc.b 		$0FA
-;    dc.l        $065902
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$02
-;    dc.l        $065911
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$11
-;    dc.l        $065919
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$19
-;    dc.l        $065920
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$20
-;    dc.l        $06592E
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$2E
-;    dc.l        $06593D
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$3D
-;    dc.l        $06594B
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$4B
-;    dc.l        $06595A
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$5A
-;    dc.l        $065968
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$68
-;    dc.l        $06597B
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$7B
-;    dc.l        $065988
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$88
-;    dc.l        $065995
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$95
-;    dc.l        $0659AA
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$AA
-;    dc.l        $0659BD
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$BD
-;    dc.l        $0659CA
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$CA
-;    dc.l        $0659D9
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$D9
-;    dc.l        $0659E7
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$E7
-;    dc.l        $0659F5
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$59
 	dc.b 		$F5
-;    dc.l        $065A09
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$5A
 	dc.b 		$09
-;    dc.l        $065A1C
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$5A
 	dc.b 		$1C
-;    dc.l        $065A2F
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$5A
 	dc.b 		$2F
-;    dc.l        $065A3C
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$5A
 	dc.b 		$3C
-;    dc.l        $065A4E
 	dc.b  		$00
-	dc.b 		$06
+	dc.b 		$05
 	dc.b 		$5A
 	dc.b 		$4E
     dc.b        "severe bruising",0                                                               
@@ -158,19 +132,19 @@ DWORD_0006584a:
     dc.b        "suspension",0                                                                   
     dc.b        "delayed suspension",0                                                           
 DWORD_00065a6c:               
-    dc.l        $065AA0
-    dc.l        $065AAB
-    dc.l        $065AB6
-    dc.l        $065AC0
-    dc.l        $065ACC
-    dc.l        $065AD6
-    dc.l        $065ADF
-    dc.l        $065AEA
-    dc.l        $065AF5
-    dc.l        $065AFF
-    dc.l        $065B0A
-    dc.l        $065B12
-    dc.l        $065B1D
+    dc.l        $055AA0
+    dc.l        $055AAB
+    dc.l        $055AB6
+    dc.l        $055AC0
+    dc.l        $055ACC
+    dc.l        $055AD6
+    dc.l        $055ADF
+    dc.l        $055AEA
+    dc.l        $055AF5
+    dc.l        $055AFF
+    dc.l        $055B0A
+    dc.l        $055B12
+    dc.l        $055B1D
     dc.b        "Goalkeeper",0                                                                   
     dc.b        "Right Back",0                                                                   
     dc.b        "Left Back",0                                                                    
@@ -186,16 +160,16 @@ DWORD_00065a6c:
     dc.b        "Support Man",0                                                                  
     dc.b        $0
 DWORD_00065b2a:               
-    dc.l        $065B52
-    dc.l        $065B5C
-    dc.l        $065B64
-    dc.l        $065B6C
-    dc.l        $065B76
-    dc.l        $065B81
-    dc.l        $065B8D
-    dc.l        $065B96
-    dc.l        $065BA0
-    dc.l        $065BAB
+    dc.l        $055B52
+    dc.l        $055B5C
+    dc.l        $055B64
+    dc.l        $055B6C
+    dc.l        $055B76
+    dc.l        $055B81
+    dc.l        $055B8D
+    dc.l        $055B96
+    dc.l        $055BA0
+    dc.l        $055BAB
     dc.b        "Withdrawn",0                                                                    
     dc.b        "Passive",0                                                                      
     dc.b        "Selfish",0                                                                      
@@ -207,11 +181,11 @@ DWORD_00065b2a:
     dc.b        "Thoughtful",0                                                                   
     dc.b        "Rash",0                                                                         
 DWORD_00065bb0:               
-    dc.l        $065BC4
-    dc.l        $065BCE
-    dc.l        $065BDB
-    dc.l        $065BEA
-    dc.l        $065BF6
+    dc.l        $055BC4
+    dc.l        $055BCE
+    dc.l        $055BDB
+    dc.l        $055BEA
+    dc.l        $055BF6
     dc.b        "Long ball",0                                                                    
     dc.b        "Pass to feet",0                                                                 
     dc.b        "Counter-attack",0                                                               
@@ -29047,8 +29021,8 @@ BYTE_0006cc68:
     dc.b        $10
     dc.b        $3B
     dc.b        $4C
-    dc.b        $3
-    dc.b        $3
+    dc.b        $3E
+    dc.b        $3E
     dc.b        $5A
     dc.b        $24
     dc.b        $33
@@ -29065,7 +29039,7 @@ BYTE_0006cc68:
     dc.b        $33
     dc.b        $34
     dc.b        $2A
-    dc.b        $2
+    dc.b        $2E
     dc.b        $2C
     dc.b        $2F
     dc.b        $5D
@@ -29671,454 +29645,452 @@ BYTE_0006cd7f:
     dc.b        $0
     dc.b        $0
 DWORD_0006cee8:               
-    dc.l        $06D5DC
-    dc.l        $06D5E6
-    dc.l        $06D5EC
-    dc.l        $06D5F2
-    dc.l        $06D5F9
-    dc.l        $06D601
-    dc.l        $06D609
-    dc.l        $06D612
-    dc.l        $06D617
-    dc.l        $06D61C
-    dc.l        $06D622
-    dc.l        $06D62A
-    dc.l        $06D630
-    dc.l        $06D636
-    dc.l        $06D63C
-    dc.l        $06D647
-    dc.l        $06D64E
-    dc.l        $06D656
-    dc.l        $06D65F
-    dc.l        $06D666
-    dc.l        $06D66D
-    dc.l        $06D675
-    dc.l        $06D67D
-    dc.l        $06D682
-    dc.l        $06D689
-    dc.l        $06D692
-    dc.l        $06D69A
-    dc.l        $06D6A4
-    dc.l        $06D6AC
-    dc.l        $06D6B2
-    dc.l        $06D6BA
-    dc.l        $06D6C2
-    dc.l        $06D6CB
-    dc.l        $06D6D3
-    dc.l        $06D6DC
-    dc.l        $06D6E2
-    dc.l        $06D6E8
-    dc.l        $06D6EF
-    dc.l        $06D6F6
-    dc.l        $06D6FF
-    dc.l        $06D707
-    dc.l        $06D70B
-    dc.l        $06D713
-    dc.l        $06D71C
-    dc.l        $06D722
-    dc.l        $06D729
-    dc.l        $06D733
-    dc.l        $06D73D
-    dc.l        $06D74A
-    dc.l        $06D752
-    dc.l        $06D759
-    dc.l        $06D75E
-    dc.l        $06D763
-    dc.l        $06D76E
-    dc.l        $06D77A
-    dc.l        $06D783
-    dc.l        $06D789
-    dc.l        $06D791
-    dc.l        $06D798
-    dc.l        $06D7A0
-    dc.l        $06D7A6
-    dc.l        $06D7B0
-    dc.l        $06D7BB
-    dc.l        $06D7C6
-    dc.l        $06D7CE
-    dc.l        $06D7D6
-    dc.l        $06D7DC
-    dc.l        $06D7E4
-    dc.l        $06D7EB
-    dc.l        $06D7F2
-    dc.l        $06D7FB
-    dc.l        $06D802
-    dc.l        $06D80A
-    dc.l        $06D811
-    dc.l        $06D818
-    dc.l        $06D81E
-    dc.l        $06D827
-    dc.l        $06D830
-    dc.l        $06D83A
-    dc.l        $06D844
-    dc.l        $06D84D
-    dc.l        $06D852
-    dc.l        $06D85C
-    dc.l        $06D862
-    dc.l        $06D869
-    dc.l        $06D870
-    dc.l        $06D878
-    dc.l        $06D881
-    dc.l        $06D889
-    dc.l        $06D88E
-    dc.l        $06D893
-    dc.l        $06D89D
-    dc.l        $06D8A5
-    dc.l        $06D8AA
-    dc.l        $06D8B0
-    dc.l        $06D8B5
-    dc.l        $06D8B9
-    dc.l        $06D8C0
-    dc.l        $06D8C4
-    dc.l        $06D8CE
-    dc.l        $06D8D5
-    dc.l        $06D8DF
-    dc.l        $06D8E4
-    dc.l        $06D8EA
-    dc.l        $06D8F1
-    dc.l        $06D8F7
-    dc.l        $06D8FE
-    dc.l        $06D908
-    dc.l        $06D910
-    dc.l        $06D91D
-    dc.l        $06D925
-    dc.l        $06D92C
-    dc.l        $06D933
-    dc.l        $06D939
-    dc.l        $06D93E
-    dc.l        $06D944
-    dc.l        $06D94D
-    dc.l        $06D952
-    dc.l        $06D95A
-    dc.l        $06D964
-    dc.l        $06D969
-    dc.l        $06D971
-    dc.l        $06D979
-    dc.l        $06D981
-    dc.l        $06D989
-    dc.l        $06D990
-    dc.l        $06D997
-    dc.l        $06D9A1
-    dc.l        $06D9AA
-    dc.l        $06D9B3
-    dc.l        $06D9B9
-    dc.l        $06D9BE
-    dc.l        $06D9C5
-    dc.l        $06D9CB
-    dc.l        $06D9D2
-    dc.l        $06D9DE
-    dc.l        $06D9E8
-    dc.l        $06D9EE
-    dc.l        $06D9F6
-    dc.l        $06D9FF
-    dc.l        $06DA08
-    dc.l        $06DA10
-    dc.l        $06DA15
-    dc.l        $06DA1C
-    dc.l        $06DA23
-    dc.l        $06DA29
-    dc.l        $06DA30
-    dc.l        $06DA36
-    dc.l        $06DA3E
-    dc.l        $06DA46
-    dc.l        $06DA4F
-    dc.l        $06DA57
-    dc.l        $06DA5F
-    dc.l        $06DA68
-    dc.l        $06DA6D
-    dc.l        $06DA76
-    dc.l        $06DA7C
-    dc.l        $06DA85
-    dc.l        $06DA8C
-    dc.l        $06DA95
-    dc.l        $06DA9C
-    dc.l        $06DAA7
-    dc.l        $06DAB3
-    dc.l        $06DABC
-    dc.l        $06DAC3
-    dc.l        $06DACA
-    dc.l        $06DAD2
-    dc.l        $06DAD4
-    dc.l        $06DB11
-    dc.l        $06DB16
-    dc.l        $06DB1D
-    dc.l        $06DB24
-    dc.l        $06DB2D
-    dc.l        $06DB33
-    dc.l        $06DB39
-    dc.l        $06DB41
-    dc.l        $06DB48
-    dc.l        $06DADC
-    dc.l        $06DAE4
-    dc.l        $06DAEB
-    dc.l        $06DAF3
-    dc.l        $06DAFA
-    dc.l        $06DB03
-    dc.l        $06DB08
-    dc.l        $06DB4F
-    dc.l        $06DB56
-    dc.l        $06DB5D
-    dc.l        $06DB66
-    dc.l        $06DB6F
-    dc.l        $06DB78
-    dc.l        $06DB7F
-    dc.l        $06DB86
-    dc.l        $06DB8B
-    dc.l        $06DB91
-    dc.l        $06DB9A
-    dc.l        $06DBA0
-    dc.l        $06DBA8
-    dc.l        $06DBB0
-    dc.l        $06DBBD
-    dc.l        $06DBC4
-    dc.l        $06DBCC
-    dc.l        $06DBD4
-    dc.l        $06DBE2
-    dc.l        $06DBE9
-    dc.l        $06DBF2
-    dc.l        $06DBF9
-    dc.l        $06DC02
-    dc.l        $06DC09
-    dc.l        $06DC0F
-    dc.l        $06DC15
-    dc.l        $06DC1A
-    dc.l        $06DC21
-    dc.l        $06DC2A
-    dc.l        $06DC34
-    dc.l        $06DC3C
-    dc.l        $06DC42
-    dc.l        $06DC4B
-    dc.l        $06DC53
-    dc.l        $06DC5C
-    dc.l        $06DC66
-    dc.l        $06DC6E
-    dc.l        $06DC78
-    dc.l        $06DC81
-    dc.l        $06DC8B
-    dc.l        $06DC90
-    dc.l        $06DC98
-    dc.l        $06DC9D
-    dc.l        $06DCA5
-    dc.l        $06DCAD
-    dc.l        $06DCB8
-    dc.l        $06DCC1
-    dc.l        $06DCC7
-    dc.l        $06DCCF
-    dc.l        $06DCD8
-    dc.l        $06DCDF
-    dc.l        $06DCE8
-    dc.l        $06DCEE
-    dc.l        $06DCF8
-    dc.l        $06DCFC
-    dc.l        $06DD07
-    dc.l        $06DD10
-    dc.l        $06DD18
-    dc.l        $06DD1F
-    dc.l        $06DD26
-    dc.l        $06DD32
-    dc.l        $06DD3A
-    dc.l        $06DD42
-    dc.l        $06DD50
-    dc.l        $06DD58
-    dc.l        $06DD61
-    dc.l        $06DD68
-    dc.l        $06DD6E
-    dc.l        $06DD79
-    dc.l        $06DD80
-    dc.l        $06DD85
-    dc.l        $06DD8B
-    dc.l        $06DD91
-    dc.l        $06DD96
-    dc.l        $06DDA1
-    dc.l        $06DDA9
-    dc.l        $06DDB0
-    dc.l        $06DDB7
-    dc.l        $06DDBD
-    dc.l        $06DDC5
-    dc.l        $06DDCB
-    dc.l        $06DDD3
-    dc.l        $06DDDC
-    dc.l        $06DDE4
-    dc.l        $06DDEC
-    dc.l        $06DDF5
-    dc.l        $06DDFE
-    dc.l        $06DE06
-    dc.l        $06DE0D
-    dc.l        $06DE12
-    dc.l        $06DE17
-    dc.l        $06DE20
-    dc.l        $06DE24
-    dc.l        $06DE2D
-    dc.l        $06DE35
-    dc.l        $06DE3F
-    dc.l        $06DE4C
+    dc.l        $05D5DC
+    dc.l        $05D5E6
+    dc.l        $05D5EC
+    dc.l        $05D5F2
+    dc.l        $05D5F9
+    dc.l        $05D601
+    dc.l        $05D609
+    dc.l        $05D612
+    dc.l        $05D617
+    dc.l        $05D61C
+    dc.l        $05D622
+    dc.l        $05D62A
+    dc.l        $05D630
+    dc.l        $05D636
+    dc.l        $05D63C
+    dc.l        $05D647
+    dc.l        $05D64E
+    dc.l        $05D656
+    dc.l        $05D65F
+    dc.l        $05D666
+    dc.l        $05D66D
+    dc.l        $05D675
+    dc.l        $05D67D
+    dc.l        $05D682
+    dc.l        $05D689
+    dc.l        $05D692
+    dc.l        $05D69A
+    dc.l        $05D6A4
+    dc.l        $05D6AC
+    dc.l        $05D6B2
+    dc.l        $05D6BA
+    dc.l        $05D6C2
+    dc.l        $05D6CB
+    dc.l        $05D6D3
+    dc.l        $05D6DC
+    dc.l        $05D6E2
+    dc.l        $05D6E8
+    dc.l        $05D6EF
+    dc.l        $05D6F6
+    dc.l        $05D6FF
+    dc.l        $05D707
+    dc.l        $05D70B
+    dc.l        $05D713
+    dc.l        $05D71C
+    dc.l        $05D722
+    dc.l        $05D729
+    dc.l        $05D733
+    dc.l        $05D73D
+    dc.l        $05D74A
+    dc.l        $05D752
+    dc.l        $05D759
+    dc.l        $05D75E
+    dc.l        $05D763
+    dc.l        $05D76E
+    dc.l        $05D77A
+    dc.l        $05D783
+    dc.l        $05D789
+    dc.l        $05D791
+    dc.l        $05D798
+    dc.l        $05D7A0
+    dc.l        $05D7A6
+    dc.l        $05D7B0
+    dc.l        $05D7BB
+    dc.l        $05D7C6
+    dc.l        $05D7CE
+    dc.l        $05D7D6
+    dc.l        $05D7DC
+    dc.l        $05D7E4
+    dc.l        $05D7EB
+    dc.l        $05D7F2
+    dc.l        $05D7FB
+    dc.l        $05D802
+    dc.l        $05D80A
+    dc.l        $05D811
+    dc.l        $05D818
+    dc.l        $05D81E
+    dc.l        $05D827
+    dc.l        $05D830
+    dc.l        $05D83A
+    dc.l        $05D844
+    dc.l        $05D84D
+    dc.l        $05D852
+    dc.l        $05D85C
+    dc.l        $05D862
+    dc.l        $05D869
+    dc.l        $05D870
+    dc.l        $05D878
+    dc.l        $05D881
+    dc.l        $05D889
+    dc.l        $05D88E
+    dc.l        $05D893
+    dc.l        $05D89D
+    dc.l        $05D8A5
+    dc.l        $05D8AA
+    dc.l        $05D8B0
+    dc.l        $05D8B5
+    dc.l        $05D8B9
+    dc.l        $05D8C0
+    dc.l        $05D8C4
+    dc.l        $05D8CE
+    dc.l        $05D8D5
+    dc.l        $05D8DF
+    dc.l        $05D8E4
+    dc.l        $05D8EA
+    dc.l        $05D8F1
+    dc.l        $05D8F7
+    dc.l        $05D8FE
+    dc.l        $05D908
+    dc.l        $05D910
+    dc.l        $05D91D
+    dc.l        $05D925
+    dc.l        $05D92C
+    dc.l        $05D933
+    dc.l        $05D939
+    dc.l        $05D93E
+    dc.l        $05D944
+    dc.l        $05D94D
+    dc.l        $05D952
+    dc.l        $05D95A
+    dc.l        $05D964
+    dc.l        $05D969
+    dc.l        $05D971
+    dc.l        $05D979
+    dc.l        $05D981
+    dc.l        $05D989
+    dc.l        $05D990
+    dc.l        $05D997
+    dc.l        $05D9A1
+    dc.l        $05D9AA
+    dc.l        $05D9B3
+    dc.l        $05D9B9
+    dc.l        $05D9BE
+    dc.l        $05D9C5
+    dc.l        $05D9CB
+    dc.l        $05D9D2
+    dc.l        $05D9DE
+    dc.l        $05D9E8
+    dc.l        $05D9EE
+    dc.l        $05D9F6
+    dc.l        $05D9FF
+    dc.l        $05DA08
+    dc.l        $05DA10
+    dc.l        $05DA15
+    dc.l        $05DA1C
+    dc.l        $05DA23
+    dc.l        $05DA29
+    dc.l        $05DA30
+    dc.l        $05DA36
+    dc.l        $05DA3E
+    dc.l        $05DA46
+    dc.l        $05DA4F
+    dc.l        $05DA57
+    dc.l        $05DA5F
+    dc.l        $05DA68
+    dc.l        $05DA6D
+    dc.l        $05DA76
+    dc.l        $05DA7C
+    dc.l        $05DA85
+    dc.l        $05DA8C
+    dc.l        $05DA95
+    dc.l        $05DA9C
+    dc.l        $05DAA7
+    dc.l        $05DAB3
+    dc.l        $05DABC
+    dc.l        $05DAC3
+    dc.l        $05DACA
+    dc.l        $05DAD2
+    dc.l        $05DAD4	
+    dc.l        $05DADC
+    dc.l        $05DAE4
+    dc.l        $05DAEB
+    dc.l        $05DAF3
+    dc.l        $05DAFA
+    dc.l        $05DB03
+    dc.l        $05DB08
+    dc.l        $05DB11
+    dc.l        $05DB16
+    dc.l        $05DB1D
+    dc.l        $05DB24
+    dc.l        $05DB2D
+    dc.l        $05DB33
+    dc.l        $05DB39
+    dc.l        $05DB41
+    dc.l        $05DB48	
+    dc.l        $05DB4F
+    dc.l        $05DB56
+    dc.l        $05DB5D
+    dc.l        $05DB66
+    dc.l        $05DB6F
+    dc.l        $05DB78
+    dc.l        $05DB7F
+    dc.l        $05DB86
+    dc.l        $05DB8B
+    dc.l        $05DB91
+    dc.l        $05DB9A
+    dc.l        $05DBA0
+    dc.l        $05DBA8
+    dc.l        $05DBB0
+    dc.l        $05DBBD
+    dc.l        $05DBC4
+    dc.l        $05DBCC
+    dc.l        $05DBD4
+    dc.l        $05DBE2
+    dc.l        $05DBE9
+    dc.l        $05DBF2
+    dc.l        $05DBF9
+    dc.l        $05DC02
+    dc.l        $05DC09
+    dc.l        $05DC0F
+    dc.l        $05DC15
+    dc.l        $05DC1A
+    dc.l        $05DC21
+    dc.l        $05DC2A
+    dc.l        $05DC34
+    dc.l        $05DC3C
+    dc.l        $05DC42
+    dc.l        $05DC4B
+    dc.l        $05DC53
+    dc.l        $05DC5C
+    dc.l        $05DC66
+    dc.l        $05DC6E
+    dc.l        $05DC78
+    dc.l        $05DC81
+    dc.l        $05DC8B
+    dc.l        $05DC90
+    dc.l        $05DC98
+    dc.l        $05DC9D
+    dc.l        $05DCA5
+    dc.l        $05DCAD
+    dc.l        $05DCB8
+    dc.l        $05DCC1
+    dc.l        $05DCC7
+    dc.l        $05DCCF
+    dc.l        $05DCD8
+    dc.l        $05DCDF
+    dc.l        $05DCE8
+    dc.l        $05DCEE
+    dc.l        $05DCF8
+    dc.l        $05DCFC
+    dc.l        $05DD07
+    dc.l        $05DD10
+    dc.l        $05DD18
+    dc.l        $05DD1F
+    dc.l        $05DD26
+    dc.l        $05DD32
+    dc.l        $05DD3A
+    dc.l        $05DD42
+    dc.l        $05DD50
+    dc.l        $05DD58
+    dc.l        $05DD61
+    dc.l        $05DD68
+    dc.l        $05DD6E
+    dc.l        $05DD79
+    dc.l        $05DD80
+    dc.l        $05DD85
+    dc.l        $05DD8B
+    dc.l        $05DD91
+    dc.l        $05DD96
+    dc.l        $05DDA1
+    dc.l        $05DDA9
+    dc.l        $05DDB0
+    dc.l        $05DDB7
+    dc.l        $05DDBD
+    dc.l        $05DDC5
+    dc.l        $05DDCB
+    dc.l        $05DDD3
+    dc.l        $05DDDC
+    dc.l        $05DDE4
+    dc.l        $05DDEC
+    dc.l        $05DDF5
+    dc.l        $05DDFE
+    dc.l        $05DE06
+    dc.l        $05DE0D
+    dc.l        $05DE12
+    dc.l        $05DE17
+    dc.l        $05DE20
+    dc.l        $05DE24
+    dc.l        $05DE2D
+    dc.l        $05DE35
+    dc.l        $05DE3F
+    dc.l        $05DE4C
 Warnings_start:               
-    dc.l        $06DE55
-    dc.l        $06DE5C
-    dc.l        $06DE63
-    dc.l        $06DE6B
-    dc.l        $06DE74
-    dc.l        $06DE7D
-    dc.l        $06DE85
-    dc.l        $06DE8E
-    dc.l        $06DE96
-    dc.l        $06DE9B
-    dc.l        $06DEA2
-    dc.l        $06DEAA
-    dc.l        $06DEB1
-    dc.l        $06DEBA
-    dc.l        $06DEBE
-    dc.l        $06DEC6
-    dc.l        $06DECC
-    dc.l        $06DED4
-    dc.l        $06DED6
-    dc.l        $06DEDD
-    dc.l        $06DEE4
-    dc.l        $06DEE8
-    dc.l        $06DEEF
-    dc.l        $06DEF5
-    dc.l        $06DF02
-    dc.l        $06DF07
-    dc.l        $06DF0E
-    dc.l        $06DF15
-    dc.l        $06DF20
-    dc.l        $06DF27
-    dc.l        $06DF2D
-    dc.l        $06DF37
-    dc.l        $06DF3F
-    dc.l        $06DF46
-    dc.l        $06DF4D
-    dc.l        $06DF5A
-    dc.l        $06DF60
-    dc.l        $06DF66
-    dc.l        $06DF6C
-    dc.l        $06DF74
-    dc.l        $06DF7A
-    dc.l        $06DF7F
-    dc.l        $06DF86
-    dc.l        $06DF8D
-    dc.l        $06DF93
-    dc.l        $06DF99
-    dc.l        $06DFA3
-    dc.l        $06DFAC
-    dc.l        $06DFBA
-    dc.l        $06DFC1
-    dc.l        $06DFC6
-    dc.l        $06DFCE
-    dc.l        $06DFD6
-    dc.l        $06DFDD
-    dc.l        $06DFE6
-    dc.l        $06DFEB
-    dc.l        $06DFF1
-    dc.l        $06DFF9
-    dc.l        $06DFFF
-    dc.l        $06E004
-    dc.l        $06E00C
-    dc.l        $06E013
-    dc.l        $06E018
-    dc.l        $06E01D
-    dc.l        $06E022
-    dc.l        $06E028
-    dc.l        $06E02C
-    dc.l        $06E030
-    dc.l        $06E035
-    dc.l        $06E03A
-    dc.l        $06E040
-    dc.l        $06E045
-    dc.l        $06E04B
-    dc.l        $06E050
-    dc.l        $06E056
-    dc.l        $06E05C
-    dc.l        $06E060
-    dc.l        $06E065
-    dc.l        $06E06B
-    dc.l        $06E070
-    dc.l        $06E078
-    dc.l        $06E07F
-    dc.l        $06E084
-    dc.l        $06E088
-;FIXME was showing an error
-    dc.l        $06E08C
-;	dc.b 		$00,$06,$E0,$8c
-    dc.l        $06E092
-    dc.l        $06E096
-    dc.l        $06E09A
-    dc.l        $06E09E
-    dc.l        $06E0A5
-    dc.l        $06E0AB
-    dc.l        $06E0B2
-    dc.l        $06E0B9
-    dc.l        $06E0BD
-    dc.l        $06E0C2
-    dc.l        $06E0C8
-    dc.l        $06E0CF
-    dc.l        $06E0D5
-    dc.l        $06E0DB
-    dc.l        $06E0E0
-    dc.l        $06E0E6
-    dc.l        $06E0EC
-    dc.l        $06E0F1
-    dc.l        $06E0F5
-    dc.l        $06E0FA
-    dc.l        $06E102
-    dc.l        $06E109
-    dc.l        $06E10C
-    dc.l        $06E111
-    dc.l        $06E116
-    dc.l        $06E11C
-    dc.l        $06E124
-    dc.l        $06E128
-    dc.l        $06E131
-    dc.l        $06E138
-    dc.l        $06E13C
-    dc.l        $06E147
-    dc.l        $06E14E
-    dc.l        $06E156
-    dc.l        $06E15C
-    dc.l        $06E164
-    dc.l        $06E16E
-    dc.l        $06E177
-    dc.l        $06E17C
-    dc.l        $06E184
-    dc.l        $06E18A
-    dc.l        $06E193
-    dc.l        $06E19A
-    dc.l        $06E19F
-    dc.l        $06E1A4
-    dc.l        $06E1AB
-    dc.l        $06E1B2
-    dc.l        $06E1B7
-    dc.l        $06E1BE
-    dc.l        $06E1C3
-    dc.l        $06E1CA
-    dc.l        $06E1D1
-    dc.l        $06E1D5
-    dc.l        $06E1DA
-    dc.l        $06E1E1
-    dc.l        $06E1E7
-    dc.l        $06E1EE
-    dc.l        $06E1F6
-    dc.l        $06E1FB
-    dc.l        $06E201
-    dc.l        $06E20E
-    dc.l        $06E210
-    dc.l        $06E217
-    dc.l        $06E220
-    dc.l        $06E228
-    dc.l        $06E230
-    dc.l        $06E238
-    dc.l        $06E23E
-    dc.l        $06E243
-    dc.l        $06E24A
-    dc.l        $06E253
-    dc.l        $06E25A
-    dc.l        $06E261
-    dc.l        $06E268
-    dc.l        $06E26D
-    dc.l        $06E275
-    dc.l        $06E27B
-    dc.l        $06E282
-    dc.l        $06E289
+    dc.l        $05DE55
+    dc.l        $05DE5C
+    dc.l        $05DE63
+    dc.l        $05DE6B
+    dc.l        $05DE74
+    dc.l        $05DE7D
+    dc.l        $05DE85
+    dc.l        $05DE8E
+    dc.l        $05DE96
+    dc.l        $05DE9B
+    dc.l        $05DEA2
+    dc.l        $05DEAA
+    dc.l        $05DEB1
+    dc.l        $05DEBA
+    dc.l        $05DEBE
+    dc.l        $05DEC6
+    dc.l        $05DECC
+    dc.l        $05DED4
+    dc.l        $05DED6
+    dc.l        $05DEDD
+    dc.l        $05DEE4
+    dc.l        $05DEE8
+    dc.l        $05DEEF
+    dc.l        $05DEF5
+    dc.l        $05DF02
+    dc.l        $05DF07
+    dc.l        $05DF0E
+    dc.l        $05DF15
+    dc.l        $05DF20
+    dc.l        $05DF27
+    dc.l        $05DF2D
+    dc.l        $05DF37
+    dc.l        $05DF3F
+    dc.l        $05DF46
+    dc.l        $05DF4D
+    dc.l        $05DF5A
+    dc.l        $05DF60
+    dc.l        $05DF66
+    dc.l        $05DF6C
+    dc.l        $05DF74
+    dc.l        $05DF7A
+    dc.l        $05DF7F
+    dc.l        $05DF86
+    dc.l        $05DF8D
+    dc.l        $05DF93
+    dc.l        $05DF99
+    dc.l        $05DFA3
+    dc.l        $05DFAC
+    dc.l        $05DFBA
+    dc.l        $05DFC1
+    dc.l        $05DFC6
+    dc.l        $05DFCE
+    dc.l        $05DFD6
+    dc.l        $05DFDD
+    dc.l        $05DFE6
+    dc.l        $05DFEB
+    dc.l        $05DFF1
+    dc.l        $05DFF9
+    dc.l        $05DFFF
+    dc.l        $05E004
+    dc.l        $05E00C
+    dc.l        $05E013
+    dc.l        $05E018
+    dc.l        $05E01D
+    dc.l        $05E022
+    dc.l        $05E028
+    dc.l        $05E02C
+    dc.l        $05E030
+    dc.l        $05E035
+    dc.l        $05E03A
+    dc.l        $05E040
+    dc.l        $05E045
+    dc.l        $05E04B
+    dc.l        $05E050
+    dc.l        $05E056
+    dc.l        $05E05C
+    dc.l        $05E060
+    dc.l        $05E065
+    dc.l        $05E06B
+    dc.l        $05E070
+    dc.l        $05E078
+    dc.l        $05E07F
+    dc.l        $05E084
+    dc.l        $05E088
+    dc.l        $05E08C
+    dc.l        $05E092
+    dc.l        $05E096
+    dc.l        $05E09A
+    dc.l        $05E09E
+    dc.l        $05E0A5
+    dc.l        $05E0AB
+    dc.l        $05E0B2
+    dc.l        $05E0B9
+    dc.l        $05E0BD
+    dc.l        $05E0C2
+    dc.l        $05E0C8
+    dc.l        $05E0CF
+    dc.l        $05E0D5
+    dc.l        $05E0DB
+    dc.l        $05E0E0
+    dc.l        $05E0E6
+    dc.l        $05E0EC
+    dc.l        $05E0F1
+    dc.l        $05E0F5
+    dc.l        $05E0FA
+    dc.l        $05E102
+    dc.l        $05E109
+    dc.l        $05E10C
+    dc.l        $05E111
+    dc.l        $05E116
+    dc.l        $05E11C
+    dc.l        $05E124
+    dc.l        $05E128
+    dc.l        $05E131
+    dc.l        $05E138
+    dc.l        $05E13C
+    dc.l        $05E147
+    dc.l        $05E14E
+    dc.l        $05E156
+    dc.l        $05E15C
+    dc.l        $05E164
+    dc.l        $05E16E
+    dc.l        $05E177
+    dc.l        $05E17C
+    dc.l        $05E184
+    dc.l        $05E18A
+    dc.l        $05E193
+    dc.l        $05E19A
+    dc.l        $05E19F
+    dc.l        $05E1A4
+    dc.l        $05E1AB
+    dc.l        $05E1B2
+    dc.l        $05E1B7
+    dc.l        $05E1BE
+    dc.l        $05E1C3
+    dc.l        $05E1CA
+    dc.l        $05E1D1
+    dc.l        $05E1D5
+    dc.l        $05E1DA
+    dc.l        $05E1E1
+    dc.l        $05E1E7
+    dc.l        $05E1EE
+    dc.l        $05E1F6
+    dc.l        $05E1FB
+    dc.l        $05E201
+    dc.l        $05E20E
+    dc.l        $05E210
+    dc.l        $05E217
+    dc.l        $05E220
+    dc.l        $05E228
+    dc.l        $05E230
+    dc.l        $05E238
+    dc.l        $05E23E
+    dc.l        $05E243
+    dc.l        $05E24A
+    dc.l        $05E253
+    dc.l        $05E25A
+    dc.l        $05E261
+    dc.l        $05E268
+    dc.l        $05E26D
+    dc.l        $05E275
+    dc.l        $05E27B
+    dc.l        $05E282
+    dc.l        $05E289
 FIRSTNAME_START:              
     dc.b        "Francesco",0                                                                    
     dc.b        "Bruno",0                                                                        
@@ -30566,1184 +30538,1181 @@ FIRSTNAME_START:
     dc.b        "Mattio",0                                                                       
     dc.b        "Gian",0                                                                         
 DWORD_0006e28e:               
-    dc.l        $06F4EA
-    dc.l        $06F4F3
-    dc.l        $06F4FA
-    dc.l        $06F501
-    dc.l        $06F507
-    dc.l        $06F50F
-    dc.l        $06F517
-    dc.l        $06F522
-    dc.l        $06F527
-    dc.l        $06F52F
-    dc.l        $06F537
-    dc.l        $06F53D
-    dc.l        $06F543
-    dc.l        $06F549
-    dc.l        $06F553
-    dc.l        $06F55B
-    dc.l        $06F564
-    dc.l        $06F56E
-    dc.l        $06F575
-    dc.l        $06F580
-    dc.l        $06F586
-    dc.l        $06F58E
-    dc.l        $06F595
-    dc.l        $06F59D
-    dc.l        $06F5A5
-    dc.l        $06F5AE
-    dc.l        $06F5B3
-    dc.l        $06F5BC
-    dc.l        $06F5C6
-    dc.l        $06F5CF
-    dc.l        $06F5D8
-    dc.l        $06F5E2
-    dc.l        $06F5E9
-    dc.l        $06F5F1
-    dc.l        $06F5F7
-    dc.l        $06F600
-    dc.l        $06F60A
-    dc.l        $06F614
-    dc.l        $06F61B
-    dc.l        $06F622
-    dc.l        $06F627
-    dc.l        $06F62E
-    dc.l        $06F63A
-    dc.l        $06F642
-    dc.l        $06F64A
-    dc.l        $06F650
-    dc.l        $06F658
-    dc.l        $06F65F
-    dc.l        $06F666
-    dc.l        $06F66F
-    dc.l        $06F679
-    dc.l        $06F685
-    dc.l        $06F68E
-    dc.l        $06F698
-    dc.l        $06F69F
-    dc.l        $06F6A9
-    dc.l        $06F6B1
-    dc.l        $06F6B9
-    dc.l        $06F6C2
-    dc.l        $06F6CA
-    dc.l        $06F6D5
-    dc.l        $06F6DE
-    dc.l        $06F6E6
-    dc.l        $06F6EF
-    dc.l        $06F6F7
-    dc.l        $06F6FE
-    dc.l        $06F707
-    dc.l        $06F70F
-    dc.l        $06F718
-    dc.l        $06F71E
-    dc.l        $06F725
-    dc.l        $06F72B
-    dc.l        $06F731
-    dc.l        $06F73A
-    dc.l        $06F741
-    dc.l        $06F749
-    dc.l        $06F755
-    dc.l        $06F75E
-    dc.l        $06F765
-    dc.l        $06F76B
-    dc.l        $06F773
-    dc.l        $06F77C
-    dc.l        $06F782
-    dc.l        $06F78A
-    dc.l        $06F794
-    dc.l        $06F79B
-    dc.l        $06F7A5
-    dc.l        $06F7B0
-    dc.l        $06F7B9
-    dc.l        $06F7C2
-    dc.l        $06F7CC
-    dc.l        $06F7D8
-    dc.l        $06F7E2
-    dc.l        $06F7EF
-    dc.l        $06F7F7
-    dc.l        $06F7FF
-    dc.l        $06F807
-    dc.l        $06F813
-    dc.l        $06F81B
-    dc.l        $06F823
-    dc.l        $06F82D
-    dc.l        $06F837
-    dc.l        $06F83D
-    dc.l        $06F849
-    dc.l        $06F851
-    dc.l        $06F85B
-    dc.l        $06F866
-    dc.l        $06F870
-    dc.l        $06F879
-    dc.l        $06F885
-    dc.l        $06F88F
-    dc.l        $06F897
-    dc.l        $06F8A0
-    dc.l        $06F8A7
-    dc.l        $06F8AE
-    dc.l        $06F8B2
-    dc.l        $06F8BA
-    dc.l        $06F8BF
-    dc.l        $06F8C6
-    dc.l        $06F8D1
-    dc.l        $06F8D8
-    dc.l        $06F8DE
-    dc.l        $06F8E5
-    dc.l        $06F8EA
-    dc.l        $06F8F5
-    dc.l        $06F8FC
-    dc.l        $06F905
-    dc.l        $06F90D
-    dc.l        $06F919
-    dc.l        $06F920
-    dc.l        $06F928
-    dc.l        $06F930
-    dc.l        $06F93B
-    dc.l        $06F945
-    dc.l        $06F94E
-    dc.l        $06F956
-    dc.l        $06F95F
-    dc.l        $06F96A
-    dc.l        $06F972
-    dc.l        $06F97C
-    dc.l        $06F984
-    dc.l        $06F98D
-    dc.l        $06F993
-    dc.l        $06F99B
-    dc.l        $06F9A4
-    dc.l        $06F9A9
-    dc.l        $06F9B2
-    dc.l        $06F9BA
-    dc.l        $06F9C0
-    dc.l        $06F9C6
-    dc.l        $06F9D1
-    dc.l        $06F9D9
-    dc.l        $06F9E2
-    dc.l        $06F9E8
-    dc.l        $06F9F1
-    dc.l        $06F9FA
-    dc.l        $06FA02
-    dc.l        $06FA0C
-    dc.l        $06FA15
-    dc.l        $06FA1A
-    dc.l        $06FA25
-    dc.l        $06FA2B
-    dc.l        $06FA35
-    dc.l        $06FA3F
-    dc.l        $06FA47
-    dc.l        $06FA51
-    dc.l        $06FA5D
-    dc.l        $06FA64
-    dc.l        $06FA6C
-    dc.l        $06FA72
-    dc.l        $06FA7C
-    dc.l        $06FA82
-    dc.l        $06FA8B
-    dc.l        $06FA97
-    dc.l        $06FA9E
-    dc.l        $06FAA7
-    dc.l        $06FAAE
-    dc.l        $06FAB6
-    dc.l        $06FABF
-    dc.l        $06FAC9
-    dc.l        $06FAD3
-    dc.l        $06FADA
-    dc.l        $06FAE2
-    dc.l        $06FAEA
-    dc.l        $06FAEF
-    dc.l        $06FAF7
-    dc.l        $06FAFD
-    dc.l        $06FB07
-    dc.l        $06FB0F
-    dc.l        $06FB18
-    dc.l        $06FB1D
-    dc.l        $06FB24
-    dc.l        $06FB2C
-    dc.l        $06FB34
-    dc.l        $06FB3B
-    dc.l        $06FB44
-    dc.l        $06FB4A
-    dc.l        $06FB56
-    dc.l        $06FB5E
-    dc.l        $06FB67
-    dc.l        $06FB6D
-    dc.l        $06FB75
-    dc.l        $06FB7C
-    dc.l        $06FB83
-    dc.l        $06FB8A
-    dc.l        $06FB92
-    dc.l        $06FB9C
-    dc.l        $06FBA3
-    dc.l        $06FBAE
-    dc.l        $06FBB6
-    dc.l        $06FBBF
-    dc.l        $06FBC6
-    dc.l        $06FBCF
-    dc.l        $06FBD9
-    dc.l        $06FBE1
-    dc.l        $06FBE9
-    dc.l        $06FBF3
-    dc.l        $06FBFB
-    dc.l        $06FC02
-    dc.l        $06FC0C
-    dc.l        $06FC1A
-    dc.l        $06FC20
-    dc.l        $06FC2A
-    dc.l        $06FC31
-    dc.l        $06FC3A
-    dc.l        $06FC42
-    dc.l        $06FC48
-    dc.l        $06FC50
-    dc.l        $06FC5A
-    dc.l        $06FC65
-    dc.l        $06FC6B
-    dc.l        $06FC75
-    dc.l        $06FC7C
-    dc.l        $06FC84
-    dc.l        $06FC8D
-    dc.l        $06FC95
-    dc.l        $06FC9B
-    dc.l        $06FCA5
-    dc.l        $06FCAC
-    dc.l        $06FCB1
-    dc.l        $06FCBB
-    dc.l        $06FCC3
-    dc.l        $06FCCA
-    dc.l        $06FCD2
-    dc.l        $06FCD8
-    dc.l        $06FCE0
-    dc.l        $06FCEB
-    dc.l        $06FCF1
-    dc.l        $06FCFA
-    dc.l        $06FD02
-    dc.l        $06FD06
-    dc.l        $06FD0F
-    dc.l        $06FD16
-    dc.l        $06FD1B
-    dc.l        $06FD22
-    dc.l        $06FD2B
-    dc.l        $06FD38
-    dc.l        $06FD41
-    dc.l        $06FD4C
-    dc.l        $06FD56
-    dc.l        $06FD5E
-    dc.l        $06FD66
-    dc.l        $06FD6F
-    dc.l        $06FD75
-    dc.l        $06FD7A
-    dc.l        $06FD7F
-    dc.l        $06FD88
-    dc.l        $06FD93
-    dc.l        $06FD9D
-    dc.l        $06FDA3
-    dc.l        $06FDA9
-    dc.l        $06FDB0
-    dc.l        $06FDB7
-    dc.l        $06FDC1
-    dc.l        $06FDC6
-    dc.l        $06FDCF
-    dc.l        $06FDD9
-    dc.l        $06FDDF
-    dc.l        $06FDE4
-    dc.l        $06FDE8
-    dc.l        $06FDEE
-    dc.l        $06FDF6
-    dc.l        $06FDFE
-    dc.l        $06FE05
-    dc.l        $06FE0B
-    dc.l        $06FE13
-    dc.l        $06FE18
-    dc.l        $06FE21
-    dc.l        $06FE27
-    dc.l        $06FE30
-    dc.l        $06FE39
-    dc.l        $06FE43
-    dc.l        $06FE4B
-    dc.l        $06FE51
-    dc.l        $06FE5A
-    dc.l        $06FE65
-    dc.l        $06FE6B
-;FIXME
-    dc.l        $6FE75
-;	ds.l 		#458357
-    dc.l        $06FE7B
-    dc.l        $06FE84
-    dc.l        $06FE8C
-    dc.l        $06FE95
-    dc.l        $06FE9F
-    dc.l        $06FEA9
-    dc.l        $06FEB1
-    dc.l        $06FEB8
-    dc.l        $06FEBE
-    dc.l        $06FEC6
-    dc.l        $06FECF
-    dc.l        $06FED8
-    dc.l        $06FEE0
-    dc.l        $06FEE8
-    dc.l        $06FEF2
-    dc.l        $06FEFA
-    dc.l        $06FF03
-    dc.l        $06FF0A
-    dc.l        $06FF14
-    dc.l        $06FF1C
-    dc.l        $06FF24
-    dc.l        $06FF2C
-    dc.l        $06FF34
-    dc.l        $06FF3D
-    dc.l        $06FF47
-    dc.l        $06FF50
-    dc.l        $06FF5C
-    dc.l        $06FF64
-    dc.l        $06FF6E
-    dc.l        $06FF76
-    dc.l        $06FF80
-    dc.l        $06FF87
-    dc.l        $06FF8F
-    dc.l        $06FF97
-    dc.l        $06FFA0
-    dc.l        $06FFAA
-    dc.l        $06FFB5
-    dc.l        $06FFBE
-    dc.l        $06FFC4
-    dc.l        $06FFCB
-    dc.l        $06FFD5
-    dc.l        $06FFDE
-    dc.l        $06FFE5
-    dc.l        $06FFEE
-    dc.l        $06FFF6
-    dc.l        $06FFFE
-    dc.l        $070003
-;FIXME line below
-    dc.l        $07000B
-    dc.l        $070012
-    dc.l        $07001B
-    dc.l        $070023
-    dc.l        $07002E
-    dc.l        $070034
-    dc.l        $07003F
-    dc.l        $07004A
-    dc.l        $070056
-    dc.l        $07005C
-    dc.l        $070062
-    dc.l        $070069
-    dc.l        $070071
-    dc.l        $070077
-    dc.l        $07007F
-    dc.l        $070085
-    dc.l        $07008C
-    dc.l        $070095
-    dc.l        $07009C
-    dc.l        $0700A4
-    dc.l        $0700B0
-    dc.l        $0700B9
-    dc.l        $0700C1
-    dc.l        $0700C7
-    dc.l        $0700D2
-    dc.l        $0700DA
-    dc.l        $0700E4
-    dc.l        $0700EF
-    dc.l        $0700F7
-    dc.l        $070100
-    dc.l        $07010B
-    dc.l        $070111
-    dc.l        $07011A
-    dc.l        $070121
-    dc.l        $070126
-    dc.l        $07012B
-    dc.l        $070131
-    dc.l        $070137
-    dc.l        $070141
-    dc.l        $070148
-    dc.l        $070150
-    dc.l        $070156
-    dc.l        $07015D
-    dc.l        $070166
-    dc.l        $07016B
-    dc.l        $070171
-    dc.l        $07017A
-    dc.l        $070186
-    dc.l        $070192
-    dc.l        $070199
-    dc.l        $0701A0
-    dc.l        $0701AA
-    dc.l        $0701B4
-    dc.l        $0701BF
-    dc.l        $0701C6
-    dc.l        $0701CF
-    dc.l        $0701D9
-    dc.l        $0701E4
-    dc.l        $0701EB
-    dc.l        $0701F4
-    dc.l        $0701FE
-    dc.l        $070209
-    dc.l        $070211
-    dc.l        $07021A
-    dc.l        $070222
-    dc.l        $07022A
-    dc.l        $070235
-    dc.l        $07023D
-    dc.l        $070245
-    dc.l        $07024E
-    dc.l        $070257
-    dc.l        $070261
-    dc.l        $070267
-    dc.l        $07026E
-    dc.l        $070278
-    dc.l        $07027D
-    dc.l        $070287
-    dc.l        $070291
-    dc.l        $070298
-    dc.l        $0702A1
-    dc.l        $0702AC
-    dc.l        $0702B3
-    dc.l        $0702BF
-    dc.l        $0702C8
-    dc.l        $0702D2
-    dc.l        $0702D7
-    dc.l        $0702E0
-    dc.l        $0702E9
-    dc.l        $0702F1
-    dc.l        $0702F7
-    dc.l        $070300
-    dc.l        $070308
-    dc.l        $070311
-    dc.l        $070319
-    dc.l        $070323
-    dc.l        $07032A
-    dc.l        $070334
-    dc.l        $07033C
-    dc.l        $070346
-    dc.l        $07034D
-    dc.l        $070354
-    dc.l        $07035F
-    dc.l        $070368
-    dc.l        $070371
-    dc.l        $070378
-    dc.l        $070383
-    dc.l        $07038A
-    dc.l        $070391
-    dc.l        $070399
-    dc.l        $07039F
-    dc.l        $0703A6
-    dc.l        $0703AB
-    dc.l        $0703B5
-    dc.l        $0703BD
-    dc.l        $0703C3
-    dc.l        $0703D3
-    dc.l        $0703DC
-    dc.l        $0703E5
-    dc.l        $0703EE
-    dc.l        $0703F3
-    dc.l        $0703FE
-    dc.l        $070408
-    dc.l        $07040F
-    dc.l        $070418
-    dc.l        $070421
-    dc.l        $070427
-    dc.l        $07042D
-    dc.l        $070435
-    dc.l        $07043D
-    dc.l        $070449
-    dc.l        $070453
-    dc.l        $07045C
-    dc.l        $070467
-    dc.l        $070473
-    dc.l        $07047C
-    dc.l        $070484
-    dc.l        $07048F
-    dc.l        $070497
-    dc.l        $07049D
-    dc.l        $0704A7
-    dc.l        $0704AF
-    dc.l        $0704B9
-    dc.l        $0704C1
-    dc.l        $0704C9
-    dc.l        $0704D1
-    dc.l        $0704D8
-    dc.l        $0704DF
-    dc.l        $0704E8
-    dc.l        $0704F3
-    dc.l        $0704FF
-    dc.l        $070509
-    dc.l        $070512
-    dc.l        $07051D
-    dc.l        $070525
-    dc.l        $07052C
-    dc.l        $070534
-    dc.l        $07053E
-    dc.l        $070545
-    dc.l        $07054C
-    dc.l        $070553
-    dc.l        $070559
-    dc.l        $070562
-    dc.l        $07056C
-    dc.l        $070575
-    dc.l        $07057B
-    dc.l        $070587
-    dc.l        $070592
-    dc.l        $070598
-    dc.l        $0705A2
-    dc.l        $0705AB
-    dc.l        $0705B1
-    dc.l        $0705BB
-    dc.l        $0705C1
-    dc.l        $0705CC
-    dc.l        $0705D7
-    dc.l        $0705DC
-    dc.l        $0705E4
-    dc.l        $0705EE
-    dc.l        $0705F9
-    dc.l        $070602
-    dc.l        $070608
-    dc.l        $07060F
-    dc.l        $070616
-    dc.l        $07061B
-    dc.l        $070624
-    dc.l        $07062D
-    dc.l        $070634
-    dc.l        $07063F
-    dc.l        $07064A
-    dc.l        $070651
-    dc.l        $07065C
-    dc.l        $070665
-    dc.l        $07066C
-    dc.l        $070672
-    dc.l        $070678
-    dc.l        $07067E
-    dc.l        $070683
-    dc.l        $07068F
-    dc.l        $070699
-    dc.l        $0706A0
-    dc.l        $0706A9
-    dc.l        $0706B3
-    dc.l        $0706BC
-    dc.l        $0706C2
-    dc.l        $0706CC
-    dc.l        $0706D3
-    dc.l        $0706DC
-    dc.l        $0706E5
-    dc.l        $0706EB
-    dc.l        $0706F2
-    dc.l        $0706FA
-    dc.l        $070701
-    dc.l        $07070A
-    dc.l        $070711
-    dc.l        $07071B
-    dc.l        $070721
-    dc.l        $070729
-    dc.l        $070731
-    dc.l        $070737
-    dc.l        $070742
-    dc.l        $070748
-    dc.l        $07074F
-    dc.l        $070759
-    dc.l        $070761
-    dc.l        $070768
-    dc.l        $070770
-    dc.l        $070778
-    dc.l        $07077E
-    dc.l        $07078A
-    dc.l        $070795
-    dc.l        $07079C
-    dc.l        $0707A3
-    dc.l        $0707AC
-    dc.l        $0707B4
-    dc.l        $0707BB
-    dc.l        $0707C3
-    dc.l        $0707CA
-    dc.l        $0707D3
-    dc.l        $0707DD
-    dc.l        $0707E7
-    dc.l        $0707F1
-    dc.l        $0707F9
-    dc.l        $0707FE
-    dc.l        $070805
-    dc.l        $070811
-    dc.l        $070819
-    dc.l        $07081F
-    dc.l        $07082A
-    dc.l        $070834
-    dc.l        $07083D
-    dc.l        $070845
-    dc.l        $07084D
-    dc.l        $070853
-    dc.l        $07085B
-    dc.l        $070865
-    dc.l        $07086B
-    dc.l        $070875
-    dc.l        $07087D
-    dc.l        $070885
-    dc.l        $07088D
-    dc.l        $070896
-    dc.l        $07089C
-    dc.l        $0708A8
-    dc.l        $0708AE
-    dc.l        $0708B4
-    dc.l        $0708BB
-    dc.l        $0708C5
-    dc.l        $0708CF
-    dc.l        $0708DB
-    dc.l        $0708E3
-    dc.l        $0708EA
-    dc.l        $0708F4
-    dc.l        $0708FC
-    dc.l        $070904
-    dc.l        $07090E
-    dc.l        $070917
-    dc.l        $07091D
-    dc.l        $07092A
-    dc.l        $070933
-    dc.l        $07093E
-    dc.l        $070948
-    dc.l        $07094F
-    dc.l        $070956
-    dc.l        $07095C
-    dc.l        $070963
-    dc.l        $07096B
-    dc.l        $070970
-    dc.l        $070979
-    dc.l        $070982
-    dc.l        $070988
-    dc.l        $070990
-    dc.l        $070998
-    dc.l        $0709A0
-    dc.l        $0709A8
-    dc.l        $0709B2
-    dc.l        $0709BC
-    dc.l        $0709C3
-    dc.l        $0709CC
-    dc.l        $0709D5
-    dc.l        $0709DC
-    dc.l        $0709E5
-    dc.l        $0709ED
-    dc.l        $0709F4
-    dc.l        $0709FE
-    dc.l        $070A04
-    dc.l        $070A0D
-    dc.l        $070A14
-    dc.l        $070A1C
-    dc.l        $070A20
-    dc.l        $070A28
-    dc.l        $070A32
-    dc.l        $070A3A
-    dc.l        $070A40
-    dc.l        $070A46
-    dc.l        $070A52
-    dc.l        $070A5C
-    dc.l        $070A63
-    dc.l        $070A6D
-    dc.l        $070A75
-    dc.l        $070A80
-    dc.l        $070A8A
-    dc.l        $070A92
-    dc.l        $070A9A
-    dc.l        $070AA2
-    dc.l        $070AAD
-    dc.l        $070AB3
-    dc.l        $070ABB
-    dc.l        $070AC4
-    dc.l        $070ACB
-    dc.l        $070AD4
-    dc.l        $070ADB
-    dc.l        $070AE1
-    dc.l        $070AEB
-    dc.l        $070AF1
-    dc.l        $070AFB
-    dc.l        $070B04
-    dc.l        $070B0D
-    dc.l        $070B15
-    dc.l        $070B1D
-    dc.l        $070B25
-    dc.l        $070B30
-    dc.l        $070B3E
-    dc.l        $070B47
-    dc.l        $070B51
-    dc.l        $070B5A
-    dc.l        $070B61
-    dc.l        $070B69
-    dc.l        $070B70
-    dc.l        $070B79
-    dc.l        $070B81
-    dc.l        $070B8A
-    dc.l        $070B91
-    dc.l        $070B9C
-    dc.l        $070BA1
-    dc.l        $070BA9
-    dc.l        $070BB3
-    dc.l        $070BBB
-    dc.l        $070BC4
-    dc.l        $070BCC
-    dc.l        $070BD5
-    dc.l        $070BDA
-    dc.l        $070BE2
-    dc.l        $070BE7
-    dc.l        $070BEF
-    dc.l        $070BF7
-    dc.l        $070C02
-    dc.l        $070C08
-    dc.l        $070C0E
-    dc.l        $070C15
-    dc.l        $070C1F
-    dc.l        $070C29
-    dc.l        $070C2F
-    dc.l        $070C3D
-    dc.l        $070C49
-    dc.l        $070C54
-    dc.l        $070C60
-    dc.l        $070C67
-    dc.l        $070C71
-    dc.l        $070C79
-    dc.l        $070C81
-    dc.l        $070C89
-    dc.l        $070C92
-    dc.l        $070C9A
-    dc.l        $070CA1
-    dc.l        $070CAB
-    dc.l        $070CB4
-    dc.l        $070CBB
-    dc.l        $070CC4
-    dc.l        $070CCD
-    dc.l        $070CD7
-    dc.l        $070CE3
-    dc.l        $070CEA
-    dc.l        $070CF2
-    dc.l        $070CF9
-    dc.l        $070CFE
-    dc.l        $070D08
-    dc.l        $070D13
-    dc.l        $070D1C
-    dc.l        $070D22
-    dc.l        $070D2A
-    dc.l        $070D32
-    dc.l        $070D38
-    dc.l        $070D41
-    dc.l        $070D49
-    dc.l        $070D53
-    dc.l        $070D5C
-    dc.l        $070D65
-    dc.l        $070D6E
-    dc.l        $070D79
-    dc.l        $070D7F
-    dc.l        $070D88
-    dc.l        $070D8F
-    dc.l        $070D9B
-    dc.l        $070DA1
-    dc.l        $070DA7
-    dc.l        $070DB1
-    dc.l        $070DBC
-    dc.l        $070DC9
-    dc.l        $070DD3
-    dc.l        $070DD9
-    dc.l        $070DE0
-    dc.l        $070DE8
-    dc.l        $070DF0
-    dc.l        $070DFA
-    dc.l        $070E05
-    dc.l        $070E0B
-    dc.l        $070E15
-    dc.l        $070E1C
-    dc.l        $070E26
-    dc.l        $070E30
-    dc.l        $070E39
-    dc.l        $070E42
-    dc.l        $070E4B
-    dc.l        $070E55
-    dc.l        $070E5C
-    dc.l        $070E63
-    dc.l        $070E69
-    dc.l        $070E6F
-    dc.l        $070E78
-    dc.l        $070E83
-    dc.l        $070E88
-    dc.l        $070E8F
-    dc.l        $070E96
-    dc.l        $070E9F
-    dc.l        $070EA5
-    dc.l        $070EAF
-    dc.l        $070EB7
-    dc.l        $070EC2
-    dc.l        $070ECA
-    dc.l        $070ED3
-    dc.l        $070EDC
-    dc.l        $070EE3
-    dc.l        $070EEC
-    dc.l        $070EF5
-    dc.l        $070EFE
-    dc.l        $070F06
-    dc.l        $070F0C
-    dc.l        $070F14
-    dc.l        $070F1B
-    dc.l        $070F26
-    dc.l        $070F2F
-    dc.l        $070F3A
-    dc.l        $070F41
-    dc.l        $070F49
-    dc.l        $070F54
-    dc.l        $070F5C
-    dc.l        $070F65
-    dc.l        $070F6C
-    dc.l        $070F74
-    dc.l        $070F7D
-    dc.l        $070F86
-    dc.l        $070F8E
-    dc.l        $070F95
-    dc.l        $070F9D
-    dc.l        $070FA5
-    dc.l        $070FAE
-    dc.l        $070FB7
-    dc.l        $070FC0
-    dc.l        $070FCA
-    dc.l        $070FD3
-    dc.l        $070FDC
-    dc.l        $070FE4
-    dc.l        $070FEE
-    dc.l        $070FF8
-    dc.l        $071003
-    dc.l        $071009
-    dc.l        $071012
-    dc.l        $07101F
-    dc.l        $071027
-    dc.l        $07102D
-    dc.l        $071037
-    dc.l        $07103E
-    dc.l        $071046
-    dc.l        $07104E
-    dc.l        $071058
-    dc.l        $071060
-    dc.l        $071065
-    dc.l        $07106C
-    dc.l        $071073
-    dc.l        $07107E
-    dc.l        $071085
-    dc.l        $07108B
-    dc.l        $071093
-    dc.l        $07109E
-    dc.l        $0710A7
-    dc.l        $0710B0
-    dc.l        $0710B7
-    dc.l        $0710C2
-    dc.l        $0710C9
-    dc.l        $0710D0
-    dc.l        $0710D7
-    dc.l        $0710DF
-    dc.l        $0710E4
-    dc.l        $0710F3
-    dc.l        $0710FA
-    dc.l        $071101
-    dc.l        $071107
-    dc.l        $07110D
-    dc.l        $071115
-    dc.l        $07111D
-    dc.l        $071126
-    dc.l        $07112C
-    dc.l        $071136
-    dc.l        $071143
-    dc.l        $07114C
-    dc.l        $071158
-    dc.l        $071162
-    dc.l        $071169
-    dc.l        $07116E
-    dc.l        $071174
-    dc.l        $07117E
-    dc.l        $071182
-    dc.l        $071190
-    dc.l        $071197
-    dc.l        $07119E
-    dc.l        $0711A4
-    dc.l        $0711A9
-    dc.l        $0711AF
-    dc.l        $0711B4
-    dc.l        $0711BC
-    dc.l        $0711C2
-    dc.l        $0711CC
-    dc.l        $0711D3
-    dc.l        $0711D9
-    dc.l        $0711E0
-    dc.l        $0711E8
-    dc.l        $0711F0
-    dc.l        $0711F7
-    dc.l        $071202
-    dc.l        $07120B
-    dc.l        $071216
-    dc.l        $07121D
-    dc.l        $071225
-    dc.l        $07122B
-    dc.l        $071233
-    dc.l        $07123A
-    dc.l        $071240
-    dc.l        $071247
-    dc.l        $071251
-    dc.l        $071259
-    dc.l        $071261
-    dc.l        $071267
-    dc.l        $071271
-    dc.l        $07127A
-    dc.l        $071282
-    dc.l        $071288
-    dc.l        $071290
-    dc.l        $071299
-    dc.l        $0712A4
-    dc.l        $0712AB
-    dc.l        $0712B2
-    dc.l        $0712B9
-    dc.l        $0712C1
-    dc.l        $0712CC
-    dc.l        $0712D1
-    dc.l        $0712D8
-    dc.l        $0712E1
-    dc.l        $0712E7
-    dc.l        $0712EC
-    dc.l        $0712F4
-    dc.l        $0712FD
-    dc.l        $071304
-    dc.l        $07130A
-    dc.l        $071310
-    dc.l        $071316
-    dc.l        $07131D
-    dc.l        $071324
-    dc.l        $07132D
-    dc.l        $071335
-    dc.l        $07133C
-    dc.l        $071345
-    dc.l        $07134B
-    dc.l        $071352
-    dc.l        $07135A
-    dc.l        $071361
-    dc.l        $071369
-    dc.l        $071374
-    dc.l        $07137C
-    dc.l        $071383
-    dc.l        $07138D
-    dc.l        $071397
-    dc.l        $07139C
-    dc.l        $0713A5
-    dc.l        $0713AE
-    dc.l        $0713B4
-    dc.l        $0713BB
-    dc.l        $0713C4
-    dc.l        $0713CD
-    dc.l        $0713D5
-    dc.l        $0713DD
-    dc.l        $0713E3
-    dc.l        $0713EB
-    dc.l        $0713F3
-    dc.l        $0713FB
-    dc.l        $071402
-    dc.l        $071407
-    dc.l        $071410
-    dc.l        $07141A
-    dc.l        $071422
-    dc.l        $071429
-    dc.l        $071432
-    dc.l        $071437
-    dc.l        $071440
-    dc.l        $071447
-    dc.l        $07144E
-    dc.l        $071455
-    dc.l        $07145C
-    dc.l        $071464
-    dc.l        $07146A
-    dc.l        $071473
-    dc.l        $071479
-    dc.l        $07147F
-    dc.l        $071486
-    dc.l        $07148D
-    dc.l        $071492
-    dc.l        $07149C
-    dc.l        $0714A3
-    dc.l        $0714A9
-    dc.l        $0714B4
-    dc.l        $0714BD
-    dc.l        $0714C6
-    dc.l        $0714D1
-    dc.l        $0714DC
-    dc.l        $0714E4
-    dc.l        $0714E9
-    dc.l        $0714F0
-    dc.l        $0714F8
-    dc.l        $071500
-    dc.l        $071505
-    dc.l        $07150C
-    dc.l        $071515
-    dc.l        $07151B
-    dc.l        $071522
-    dc.l        $07152A
-    dc.l        $071532
-    dc.l        $07153D
-    dc.l        $071546
-    dc.l        $071551
-    dc.l        $071558
-    dc.l        $071560
-    dc.l        $071568
-    dc.l        $071572
-    dc.l        $07157C
-    dc.l        $071586
-    dc.l        $07158F
-    dc.l        $071597
-    dc.l        $0715A0
-    dc.l        $0715A9
-    dc.l        $0715B1
-    dc.l        $0715BC
-    dc.l        $0715C6
-    dc.l        $0715CF
-    dc.l        $0715D8
-    dc.l        $0715E1
-    dc.l        $0715EA
-    dc.l        $0715F3
-    dc.l        $0715FF
-    dc.l        $071604
-    dc.l        $071609
-    dc.l        $071611
-    dc.l        $071617
-    dc.l        $07161F
-    dc.l        $071627
-    dc.l        $071630
-    dc.l        $071638
-    dc.l        $07163F
-    dc.l        $071649
-    dc.l        $071652
-    dc.l        $07165C
-    dc.l        $071664
-    dc.l        $07166A
-    dc.l        $071672
-    dc.l        $071679
-    dc.l        $071683
-    dc.l        $07168C
-    dc.l        $071697
-    dc.l        $0716A1
-    dc.l        $0716A9
-    dc.l        $0716B1
-    dc.l        $0716BA
-    dc.l        $0716C3
-    dc.l        $0716CC
-    dc.l        $0716D1
-    dc.l        $0716D9
-    dc.l        $0716E2
-    dc.l        $0716EB
-    dc.l        $0716F4
-    dc.l        $0716FA
-    dc.l        $071701
-    dc.l        $071707
-    dc.l        $07170D
-    dc.l        $071715
-    dc.l        $07171D
-    dc.l        $071724
-    dc.l        $07172B
-    dc.l        $071731
-    dc.l        $071738
-    dc.l        $07173D
-    dc.l        $071744
-    dc.l        $07174D
-    dc.l        $071753
-    dc.l        $07175D
-    dc.l        $071765
-    dc.l        $07176E
-    dc.l        $071776
-    dc.l        $07177B
-    dc.l        $071781
-    dc.l        $07178A
-    dc.l        $071791
-    dc.l        $07179A
-    dc.l        $0717A1
-    dc.l        $0717A7
-    dc.l        $0717AF
-    dc.l        $0717B8
-    dc.l        $0717BE
-    dc.l        $0717C5
-    dc.l        $0717CE
-    dc.l        $0717D4
-    dc.l        $0717DA
-    dc.l        $0717E0
-    dc.l        $0717E5
-    dc.l        $0717F0
-    dc.l        $0717F7
-    dc.l        $0717FD
-    dc.l        $071806
-    dc.l        $07180C
-    dc.l        $071818
-    dc.l        $07181D
-    dc.l        $071824
-    dc.l        $07182C
-    dc.l        $071834
-    dc.l        $07183B
-    dc.l        $071843
-    dc.l        $07184A
-    dc.l        $071853
-    dc.l        $071859
-    dc.l        $071860
-    dc.l        $071868
-    dc.l        $071874
-    dc.l        $07187A
-    dc.l        $071882
-    dc.l        $071889
-    dc.l        $071895
-    dc.l        $07189F
-    dc.l        $0718A7
-    dc.l        $0718AE
-    dc.l        $0718BA
-    dc.l        $0718C4
-    dc.l        $0718CF
-    dc.l        $0718D7
-    dc.l        $0718E1
-    dc.l        $0718EA
-    dc.l        $0718F3
-    dc.l        $0718FB
-    dc.l        $071902
-    dc.l        $07190C
-    dc.l        $071915
-    dc.l        $07191B
-    dc.l        $071924
-    dc.l        $07192C
-    dc.l        $071935
-    dc.l        $07193A
-    dc.l        $071942
-    dc.l        $07194C
-    dc.l        $071957
-    dc.l        $07195F
-    dc.l        $071966
-    dc.l        $07196F
-    dc.l        $071976
-    dc.l        $07197E
-    dc.l        $071988
-    dc.l        $071990
-    dc.l        $07199A
-    dc.l        $0719A4
-    dc.l        $0719AC
-    dc.l        $0719B2
-    dc.l        $0719BD
-    dc.l        $0719C3
-    dc.l        $0719CA
-    dc.l        $0719D2
-    dc.l        $0719D8
-    dc.l        $0719DF
-    dc.l        $0719E8
-    dc.l        $0719F1
-    dc.l        $0719F9
-    dc.l        $071A03
-    dc.l        $071A0C
-    dc.l        $071A14
-    dc.l        $071A1F
-    dc.l        $071A28
-    dc.l        $071A32
-    dc.l        $071A39
-    dc.l        $071A42
-    dc.l        $071A4A
-    dc.l        $071A52
-    dc.l        $071A5A
-    dc.l        $071A61
-    dc.l        $071A6A
-    dc.l        $071A72
-    dc.l        $071A7A
-    dc.l        $071A83
-    dc.l        $071A8B
-    dc.l        $071A91
-    dc.l        $071A9A
-    dc.l        $071A9F
-    dc.l        $071AA7
-    dc.l        $071AB0
-    dc.l        $071AB7
-    dc.l        $071AC2
-    dc.l        $071ACA
+    dc.l        $05F4EA
+    dc.l        $05F4F3
+    dc.l        $05F4FA
+    dc.l        $05F501
+    dc.l        $05F507
+    dc.l        $05F50F
+    dc.l        $05F517
+    dc.l        $05F522
+    dc.l        $05F527
+    dc.l        $05F52F
+    dc.l        $05F537
+    dc.l        $05F53D
+    dc.l        $05F543
+    dc.l        $05F549
+    dc.l        $05F553
+    dc.l        $05F55B
+    dc.l        $05F564
+    dc.l        $05F56E
+    dc.l        $05F575
+    dc.l        $05F580
+    dc.l        $05F586
+    dc.l        $05F58E
+    dc.l        $05F595
+    dc.l        $05F59D
+    dc.l        $05F5A5
+    dc.l        $05F5AE
+    dc.l        $05F5B3
+    dc.l        $05F5BC
+    dc.l        $05F5C6
+    dc.l        $05F5CF
+    dc.l        $05F5D8
+    dc.l        $05F5E2
+    dc.l        $05F5E9
+    dc.l        $05F5F1
+    dc.l        $05F5F7
+    dc.l        $05F600
+    dc.l        $05F60A
+    dc.l        $05F614
+    dc.l        $05F61B
+    dc.l        $05F622
+    dc.l        $05F627
+    dc.l        $05F62E
+    dc.l        $05F63A
+    dc.l        $05F642
+    dc.l        $05F64A
+    dc.l        $05F650
+    dc.l        $05F658
+    dc.l        $05F65F
+    dc.l        $05F666
+    dc.l        $05F66F
+    dc.l        $05F679
+    dc.l        $05F685
+    dc.l        $05F68E
+    dc.l        $05F698
+    dc.l        $05F69F
+    dc.l        $05F6A9
+    dc.l        $05F6B1
+    dc.l        $05F6B9
+    dc.l        $05F6C2
+    dc.l        $05F6CA
+    dc.l        $05F6D5
+    dc.l        $05F6DE
+    dc.l        $05F6E6
+    dc.l        $05F6EF
+    dc.l        $05F6F7
+    dc.l        $05F6FE
+    dc.l        $05F707
+    dc.l        $05F70F
+    dc.l        $05F718
+    dc.l        $05F71E
+    dc.l        $05F725
+    dc.l        $05F72B
+    dc.l        $05F731
+    dc.l        $05F73A
+    dc.l        $05F741
+    dc.l        $05F749
+    dc.l        $05F755
+    dc.l        $05F75E
+    dc.l        $05F765
+    dc.l        $05F76B
+    dc.l        $05F773
+    dc.l        $05F77C
+    dc.l        $05F782
+    dc.l        $05F78A
+    dc.l        $05F794
+    dc.l        $05F79B
+    dc.l        $05F7A5
+    dc.l        $05F7B0
+    dc.l        $05F7B9
+    dc.l        $05F7C2
+    dc.l        $05F7CC
+    dc.l        $05F7D8
+    dc.l        $05F7E2
+    dc.l        $05F7EF
+    dc.l        $05F7F7
+    dc.l        $05F7FF
+    dc.l        $05F807
+    dc.l        $05F813
+    dc.l        $05F81B
+    dc.l        $05F823
+    dc.l        $05F82D
+    dc.l        $05F837
+    dc.l        $05F83D
+    dc.l        $05F849
+    dc.l        $05F851
+    dc.l        $05F85B
+    dc.l        $05F866
+    dc.l        $05F870
+    dc.l        $05F879
+    dc.l        $05F885
+    dc.l        $05F88F
+    dc.l        $05F897
+    dc.l        $05F8A0
+    dc.l        $05F8A7
+    dc.l        $05F8AE
+    dc.l        $05F8B2
+    dc.l        $05F8BA
+    dc.l        $05F8BF
+    dc.l        $05F8C6
+    dc.l        $05F8D1
+    dc.l        $05F8D8
+    dc.l        $05F8DE
+    dc.l        $05F8E5
+    dc.l        $05F8EA
+    dc.l        $05F8F5
+    dc.l        $05F8FC
+    dc.l        $05F905
+    dc.l        $05F90D
+    dc.l        $05F919
+    dc.l        $05F920
+    dc.l        $05F928
+    dc.l        $05F930
+    dc.l        $05F93B
+    dc.l        $05F945
+    dc.l        $05F94E
+    dc.l        $05F956
+    dc.l        $05F95F
+    dc.l        $05F96A
+    dc.l        $05F972
+    dc.l        $05F97C
+    dc.l        $05F984
+    dc.l        $05F98D
+    dc.l        $05F993
+    dc.l        $05F99B
+    dc.l        $05F9A4
+    dc.l        $05F9A9
+    dc.l        $05F9B2
+    dc.l        $05F9BA
+    dc.l        $05F9C0
+    dc.l        $05F9C6
+    dc.l        $05F9D1
+    dc.l        $05F9D9
+    dc.l        $05F9E2
+    dc.l        $05F9E8
+    dc.l        $05F9F1
+    dc.l        $05F9FA
+    dc.l        $05FA02
+    dc.l        $05FA0C
+    dc.l        $05FA15
+    dc.l        $05FA1A
+    dc.l        $05FA25
+    dc.l        $05FA2B
+    dc.l        $05FA35
+    dc.l        $05FA3F
+    dc.l        $05FA47
+    dc.l        $05FA51
+    dc.l        $05FA5D
+    dc.l        $05FA64
+    dc.l        $05FA6C
+    dc.l        $05FA72
+    dc.l        $05FA7C
+    dc.l        $05FA82
+    dc.l        $05FA8B
+    dc.l        $05FA97
+    dc.l        $05FA9E
+    dc.l        $05FAA7
+    dc.l        $05FAAE
+    dc.l        $05FAB6
+    dc.l        $05FABF
+    dc.l        $05FAC9
+    dc.l        $05FAD3
+    dc.l        $05FADA
+    dc.l        $05FAE2
+    dc.l        $05FAEA
+    dc.l        $05FAEF
+    dc.l        $05FAF7
+    dc.l        $05FAFD
+    dc.l        $05FB07
+    dc.l        $05FB0F
+    dc.l        $05FB18
+    dc.l        $05FB1D
+    dc.l        $05FB24
+    dc.l        $05FB2C
+    dc.l        $05FB34
+    dc.l        $05FB3B
+    dc.l        $05FB44
+    dc.l        $05FB4A
+    dc.l        $05FB56
+    dc.l        $05FB5E
+    dc.l        $05FB67
+    dc.l        $05FB6D
+    dc.l        $05FB75
+    dc.l        $05FB7C
+    dc.l        $05FB83
+    dc.l        $05FB8A
+    dc.l        $05FB92
+    dc.l        $05FB9C
+    dc.l        $05FBA3
+    dc.l        $05FBAE
+    dc.l        $05FBB6
+    dc.l        $05FBBF
+    dc.l        $05FBC6
+    dc.l        $05FBCF
+    dc.l        $05FBD9
+    dc.l        $05FBE1
+    dc.l        $05FBE9
+    dc.l        $05FBF3
+    dc.l        $05FBFB
+    dc.l        $05FC02
+    dc.l        $05FC0C
+    dc.l        $05FC1A
+    dc.l        $05FC20
+    dc.l        $05FC2A
+    dc.l        $05FC31
+    dc.l        $05FC3A
+    dc.l        $05FC42
+    dc.l        $05FC48
+    dc.l        $05FC50
+    dc.l        $05FC5A
+    dc.l        $05FC65
+    dc.l        $05FC6B
+    dc.l        $05FC75
+    dc.l        $05FC7C
+    dc.l        $05FC84
+    dc.l        $05FC8D
+    dc.l        $05FC95
+    dc.l        $05FC9B
+    dc.l        $05FCA5
+    dc.l        $05FCAC
+    dc.l        $05FCB1
+    dc.l        $05FCBB
+    dc.l        $05FCC3
+    dc.l        $05FCCA
+    dc.l        $05FCD2
+    dc.l        $05FCD8
+    dc.l        $05FCE0
+    dc.l        $05FCEB
+    dc.l        $05FCF1
+    dc.l        $05FCFA
+    dc.l        $05FD02
+    dc.l        $05FD06
+    dc.l        $05FD0F
+    dc.l        $05FD16
+    dc.l        $05FD1B
+    dc.l        $05FD22
+    dc.l        $05FD2B
+    dc.l        $05FD38
+    dc.l        $05FD41
+    dc.l        $05FD4C
+    dc.l        $05FD56
+    dc.l        $05FD5E
+    dc.l        $05FD66
+    dc.l        $05FD6F
+    dc.l        $05FD75
+    dc.l        $05FD7A
+    dc.l        $05FD7F
+    dc.l        $05FD88
+    dc.l        $05FD93
+    dc.l        $05FD9D
+    dc.l        $05FDA3
+    dc.l        $05FDA9
+    dc.l        $05FDB0
+    dc.l        $05FDB7
+    dc.l        $05FDC1
+    dc.l        $05FDC6
+    dc.l        $05FDCF
+    dc.l        $05FDD9
+    dc.l        $05FDDF
+    dc.l        $05FDE4
+    dc.l        $05FDE8
+    dc.l        $05FDEE
+    dc.l        $05FDF6
+    dc.l        $05FDFE
+    dc.l        $05FE05
+    dc.l        $05FE0B
+    dc.l        $05FE13
+    dc.l        $05FE18
+    dc.l        $05FE21
+    dc.l        $05FE27
+    dc.l        $05FE30
+    dc.l        $05FE39
+    dc.l        $05FE43
+    dc.l        $05FE4B
+    dc.l        $05FE51
+    dc.l        $05FE5A
+    dc.l        $05FE65
+    dc.l        $05FE6B
+    dc.l        $05FE75
+    dc.l        $05FE7B
+    dc.l        $05FE84
+    dc.l        $05FE8C
+    dc.l        $05FE95
+    dc.l        $05FE9F
+    dc.l        $05FEA9
+    dc.l        $05FEB1
+    dc.l        $05FEB8
+    dc.l        $05FEBE
+    dc.l        $05FEC6
+    dc.l        $05FECF
+    dc.l        $05FED8
+    dc.l        $05FEE0
+    dc.l        $05FEE8
+    dc.l        $05FEF2
+    dc.l        $05FEFA
+    dc.l        $05FF03
+    dc.l        $05FF0A
+    dc.l        $05FF14
+    dc.l        $05FF1C
+    dc.l        $05FF24
+    dc.l        $05FF2C
+    dc.l        $05FF34
+    dc.l        $05FF3D
+    dc.l        $05FF47
+    dc.l        $05FF50
+    dc.l        $05FF5C
+    dc.l        $05FF64
+    dc.l        $05FF6E
+    dc.l        $05FF76
+    dc.l        $05FF80
+    dc.l        $05FF87
+    dc.l        $05FF8F
+    dc.l        $05FF97
+    dc.l        $05FFA0
+    dc.l        $05FFAA
+    dc.l        $05FFB5
+    dc.l        $05FFBE
+    dc.l        $05FFC4
+    dc.l        $05FFCB
+    dc.l        $05FFD5
+    dc.l        $05FFDE
+    dc.l        $05FFE5
+    dc.l        $05FFEE
+    dc.l        $05FFF6
+    dc.l        $05FFFE
+    dc.l        $060003
+    dc.l        $06000B
+    dc.l        $060012
+    dc.l        $06001B
+    dc.l        $060023
+    dc.l        $06002E
+    dc.l        $060034
+    dc.l        $06003F
+    dc.l        $06004A
+    dc.l        $060056
+    dc.l        $06005C
+    dc.l        $060062
+    dc.l        $060069
+    dc.l        $060071
+    dc.l        $060077
+    dc.l        $06007F
+    dc.l        $060085
+    dc.l        $06008C
+    dc.l        $060095
+    dc.l        $06009C
+    dc.l        $0600A4
+    dc.l        $0600B0
+    dc.l        $0600B9
+    dc.l        $0600C1
+    dc.l        $0600C7
+    dc.l        $0600D2
+    dc.l        $0600DA
+    dc.l        $0600E4
+    dc.l        $0600EF
+    dc.l        $0600F7
+    dc.l        $060100
+    dc.l        $06010B
+    dc.l        $060111
+    dc.l        $06011A
+    dc.l        $060121
+    dc.l        $060126
+    dc.l        $06012B
+    dc.l        $060131
+    dc.l        $060137
+    dc.l        $060141
+    dc.l        $060148
+    dc.l        $060150
+    dc.l        $060156
+    dc.l        $06015D
+    dc.l        $060166
+    dc.l        $06016B
+    dc.l        $060171
+    dc.l        $06017A
+    dc.l        $060186
+    dc.l        $060192
+    dc.l        $060199
+    dc.l        $0601A0
+    dc.l        $0601AA
+    dc.l        $0601B4
+    dc.l        $0601BF
+    dc.l        $0601C6
+    dc.l        $0601CF
+    dc.l        $0601D9
+    dc.l        $0601E4
+    dc.l        $0601EB
+    dc.l        $0601F4
+    dc.l        $0601FE
+    dc.l        $060209
+    dc.l        $060211
+    dc.l        $06021A
+    dc.l        $060222
+    dc.l        $06022A
+    dc.l        $060235
+    dc.l        $06023D
+    dc.l        $060245
+    dc.l        $06024E
+    dc.l        $060257
+    dc.l        $060261
+    dc.l        $060267
+    dc.l        $06026E
+    dc.l        $060278
+    dc.l        $06027D
+    dc.l        $060287
+    dc.l        $060291
+    dc.l        $060298
+    dc.l        $0602A1
+    dc.l        $0602AC
+    dc.l        $0602B3
+    dc.l        $0602BF
+    dc.l        $0602C8
+    dc.l        $0602D2
+    dc.l        $0602D7
+    dc.l        $0602E0
+    dc.l        $0602E9
+    dc.l        $0602F1
+    dc.l        $0602F7
+    dc.l        $060300
+    dc.l        $060308
+    dc.l        $060311
+    dc.l        $060319
+    dc.l        $060323
+    dc.l        $06032A
+    dc.l        $060334
+    dc.l        $06033C
+    dc.l        $060346
+    dc.l        $06034D
+    dc.l        $060354
+    dc.l        $06035F
+    dc.l        $060368
+    dc.l        $060371
+    dc.l        $060378
+    dc.l        $060383
+    dc.l        $06038A
+    dc.l        $060391
+    dc.l        $060399
+    dc.l        $06039F
+    dc.l        $0603A6
+    dc.l        $0603AB
+    dc.l        $0603B5
+    dc.l        $0603BD
+    dc.l        $0603C3
+    dc.l        $0603D3
+    dc.l        $0603DC
+    dc.l        $0603E5
+    dc.l        $0603EE
+    dc.l        $0603F3
+    dc.l        $0603FE
+    dc.l        $060408
+    dc.l        $06040F
+    dc.l        $060418
+    dc.l        $060421
+    dc.l        $060427
+    dc.l        $06042D
+    dc.l        $060435
+    dc.l        $06043D
+    dc.l        $060449
+    dc.l        $060453
+    dc.l        $06045C
+    dc.l        $060467
+    dc.l        $060473
+    dc.l        $06047C
+    dc.l        $060484
+    dc.l        $06048F
+    dc.l        $060497
+    dc.l        $06049D
+    dc.l        $0604A7
+    dc.l        $0604AF
+    dc.l        $0604B9
+    dc.l        $0604C1
+    dc.l        $0604C9
+    dc.l        $0604D1
+    dc.l        $0604D8
+    dc.l        $0604DF
+    dc.l        $0604E8
+    dc.l        $0604F3
+    dc.l        $0604FF
+    dc.l        $060509
+    dc.l        $060512
+    dc.l        $06051D
+    dc.l        $060525
+    dc.l        $06052C
+    dc.l        $060534
+    dc.l        $06053E
+    dc.l        $060545
+    dc.l        $06054C
+    dc.l        $060553
+    dc.l        $060559
+    dc.l        $060562
+    dc.l        $06056C
+    dc.l        $060575
+    dc.l        $06057B
+    dc.l        $060587
+    dc.l        $060592
+    dc.l        $060598
+    dc.l        $0605A2
+    dc.l        $0605AB
+    dc.l        $0605B1
+    dc.l        $0605BB
+    dc.l        $0605C1
+    dc.l        $0605CC
+    dc.l        $0605D7
+    dc.l        $0605DC
+    dc.l        $0605E4
+    dc.l        $0605EE
+    dc.l        $0605F9
+    dc.l        $060602
+    dc.l        $060608
+    dc.l        $06060F
+    dc.l        $060616
+    dc.l        $06061B
+    dc.l        $060624
+    dc.l        $06062D
+    dc.l        $060634
+    dc.l        $06063F
+    dc.l        $06064A
+    dc.l        $060651
+    dc.l        $06065C
+    dc.l        $060665
+    dc.l        $06066C
+    dc.l        $060672
+    dc.l        $060678
+    dc.l        $06067E
+    dc.l        $060683
+    dc.l        $06068F
+    dc.l        $060699
+    dc.l        $0606A0
+    dc.l        $0606A9
+    dc.l        $0606B3
+    dc.l        $0606BC
+    dc.l        $0606C2
+    dc.l        $0606CC
+    dc.l        $0606D3
+    dc.l        $0606DC
+    dc.l        $0606E5
+    dc.l        $0606EB
+    dc.l        $0606F2
+    dc.l        $0606FA
+    dc.l        $060701
+    dc.l        $06070A
+    dc.l        $060711
+    dc.l        $06071B
+    dc.l        $060721
+    dc.l        $060729
+    dc.l        $060731
+    dc.l        $060737
+    dc.l        $060742
+    dc.l        $060748
+    dc.l        $06074F
+    dc.l        $060759
+    dc.l        $060761
+    dc.l        $060768
+    dc.l        $060770
+    dc.l        $060778
+    dc.l        $06077E
+    dc.l        $06078A
+    dc.l        $060795
+    dc.l        $06079C
+    dc.l        $0607A3
+    dc.l        $0607AC
+    dc.l        $0607B4
+    dc.l        $0607BB
+    dc.l        $0607C3
+    dc.l        $0607CA
+    dc.l        $0607D3
+    dc.l        $0607DD
+    dc.l        $0607E7
+    dc.l        $0607F1
+    dc.l        $0607F9
+    dc.l        $0607FE
+    dc.l        $060805
+    dc.l        $060811
+    dc.l        $060819
+    dc.l        $06081F
+    dc.l        $06082A
+    dc.l        $060834
+    dc.l        $06083D
+    dc.l        $060845
+    dc.l        $06084D
+    dc.l        $060853
+    dc.l        $06085B
+    dc.l        $060865
+    dc.l        $06086B
+    dc.l        $060875
+    dc.l        $06087D
+    dc.l        $060885
+    dc.l        $06088D
+    dc.l        $060896
+    dc.l        $06089C
+    dc.l        $0608A8
+    dc.l        $0608AE
+    dc.l        $0608B4
+    dc.l        $0608BB
+    dc.l        $0608C5
+    dc.l        $0608CF
+    dc.l        $0608DB
+    dc.l        $0608E3
+    dc.l        $0608EA
+    dc.l        $0608F4
+    dc.l        $0608FC
+    dc.l        $060904
+    dc.l        $06090E
+    dc.l        $060917
+    dc.l        $06091D
+    dc.l        $06092A
+    dc.l        $060933
+    dc.l        $06093E
+    dc.l        $060948
+    dc.l        $06094F
+    dc.l        $060956
+    dc.l        $06095C
+    dc.l        $060963
+    dc.l        $06096B
+    dc.l        $060970
+    dc.l        $060979
+    dc.l        $060982
+    dc.l        $060988
+    dc.l        $060990
+    dc.l        $060998
+    dc.l        $0609A0
+    dc.l        $0609A8
+    dc.l        $0609B2
+    dc.l        $0609BC
+    dc.l        $0609C3
+    dc.l        $0609CC
+    dc.l        $0609D5
+    dc.l        $0609DC
+    dc.l        $0609E5
+    dc.l        $0609ED
+    dc.l        $0609F4
+    dc.l        $0609FE
+    dc.l        $060A04
+    dc.l        $060A0D
+    dc.l        $060A14
+    dc.l        $060A1C
+    dc.l        $060A20
+    dc.l        $060A28
+    dc.l        $060A32
+    dc.l        $060A3A
+    dc.l        $060A40
+    dc.l        $060A46
+    dc.l        $060A52
+    dc.l        $060A5C
+    dc.l        $060A63
+    dc.l        $060A6D
+    dc.l        $060A75
+    dc.l        $060A80
+    dc.l        $060A8A
+    dc.l        $060A92
+    dc.l        $060A9A
+    dc.l        $060AA2
+    dc.l        $060AAD
+    dc.l        $060AB3
+    dc.l        $060ABB
+    dc.l        $060AC4
+    dc.l        $060ACB
+    dc.l        $060AD4
+    dc.l        $060ADB
+    dc.l        $060AE1
+    dc.l        $060AEB
+    dc.l        $060AF1
+    dc.l        $060AFB
+    dc.l        $060B04
+    dc.l        $060B0D
+    dc.l        $060B15
+    dc.l        $060B1D
+    dc.l        $060B25
+    dc.l        $060B30
+    dc.l        $060B3E
+    dc.l        $060B47
+    dc.l        $060B51
+    dc.l        $060B5A
+    dc.l        $060B61
+    dc.l        $060B69
+    dc.l        $060B70
+    dc.l        $060B79
+    dc.l        $060B81
+    dc.l        $060B8A
+    dc.l        $060B91
+    dc.l        $060B9C
+    dc.l        $060BA1
+    dc.l        $060BA9
+    dc.l        $060BB3
+    dc.l        $060BBB
+    dc.l        $060BC4
+    dc.l        $060BCC
+    dc.l        $060BD5
+    dc.l        $060BDA
+    dc.l        $060BE2
+    dc.l        $060BE7
+    dc.l        $060BEF
+    dc.l        $060BF7
+    dc.l        $060C02
+    dc.l        $060C08
+    dc.l        $060C0E
+    dc.l        $060C15
+    dc.l        $060C1F
+    dc.l        $060C29
+    dc.l        $060C2F
+    dc.l        $060C3D
+    dc.l        $060C49
+    dc.l        $060C54
+    dc.l        $060C60
+    dc.l        $060C67
+    dc.l        $060C71
+    dc.l        $060C79
+    dc.l        $060C81
+    dc.l        $060C89
+    dc.l        $060C92
+    dc.l        $060C9A
+    dc.l        $060CA1
+    dc.l        $060CAB
+    dc.l        $060CB4
+    dc.l        $060CBB
+    dc.l        $060CC4
+    dc.l        $060CCD
+    dc.l        $060CD7
+    dc.l        $060CE3
+    dc.l        $060CEA
+    dc.l        $060CF2
+    dc.l        $060CF9
+    dc.l        $060CFE
+    dc.l        $060D08
+    dc.l        $060D13
+    dc.l        $060D1C
+    dc.l        $060D22
+    dc.l        $060D2A
+    dc.l        $060D32
+    dc.l        $060D38
+    dc.l        $060D41
+    dc.l        $060D49
+    dc.l        $060D53
+    dc.l        $060D5C
+    dc.l        $060D65
+    dc.l        $060D6E
+    dc.l        $060D79
+    dc.l        $060D7F
+    dc.l        $060D88
+    dc.l        $060D8F
+    dc.l        $060D9B
+    dc.l        $060DA1
+    dc.l        $060DA7
+    dc.l        $060DB1
+    dc.l        $060DBC
+    dc.l        $060DC9
+    dc.l        $060DD3
+    dc.l        $060DD9
+    dc.l        $060DE0
+    dc.l        $060DE8
+    dc.l        $060DF0
+    dc.l        $060DFA
+    dc.l        $060E05
+    dc.l        $060E0B
+    dc.l        $060E15
+    dc.l        $060E1C
+    dc.l        $060E26
+    dc.l        $060E30
+    dc.l        $060E39
+    dc.l        $060E42
+    dc.l        $060E4B
+    dc.l        $060E55
+    dc.l        $060E5C
+    dc.l        $060E63
+    dc.l        $060E69
+    dc.l        $060E6F
+    dc.l        $060E78
+    dc.l        $060E83
+    dc.l        $060E88
+    dc.l        $060E8F
+    dc.l        $060E96
+    dc.l        $060E9F
+    dc.l        $060EA5
+    dc.l        $060EAF
+    dc.l        $060EB7
+    dc.l        $060EC2
+    dc.l        $060ECA
+    dc.l        $060ED3
+    dc.l        $060EDC
+    dc.l        $060EE3
+    dc.l        $060EEC
+    dc.l        $060EF5
+    dc.l        $060EFE
+    dc.l        $060F06
+    dc.l        $060F0C
+    dc.l        $060F14
+    dc.l        $060F1B
+    dc.l        $060F26
+    dc.l        $060F2F
+    dc.l        $060F3A
+    dc.l        $060F41
+    dc.l        $060F49
+    dc.l        $060F54
+    dc.l        $060F5C
+    dc.l        $060F65
+    dc.l        $060F6C
+    dc.l        $060F74
+    dc.l        $060F7D
+    dc.l        $060F86
+    dc.l        $060F8E
+    dc.l        $060F95
+    dc.l        $060F9D
+    dc.l        $060FA5
+    dc.l        $060FAE
+    dc.l        $060FB7
+    dc.l        $060FC0
+    dc.l        $060FCA
+    dc.l        $060FD3
+    dc.l        $060FDC
+    dc.l        $060FE4
+    dc.l        $060FEE
+    dc.l        $060FF8
+    dc.l        $061003
+    dc.l        $061009
+    dc.l        $061012
+    dc.l        $06101F
+    dc.l        $061027
+    dc.l        $06102D
+    dc.l        $061037
+    dc.l        $06103E
+    dc.l        $061046
+    dc.l        $06104E
+    dc.l        $061058
+    dc.l        $061060
+    dc.l        $061065
+    dc.l        $06106C
+    dc.l        $061073
+    dc.l        $06107E
+    dc.l        $061085
+    dc.l        $06108B
+    dc.l        $061093
+    dc.l        $06109E
+    dc.l        $0610A7
+    dc.l        $0610B0
+    dc.l        $0610B7
+    dc.l        $0610C2
+    dc.l        $0610C9
+    dc.l        $0610D0
+    dc.l        $0610D7
+    dc.l        $0610DF
+    dc.l        $0610E4
+    dc.l        $0610F3
+    dc.l        $0610FA
+    dc.l        $061101
+    dc.l        $061107
+    dc.l        $06110D
+    dc.l        $061115
+    dc.l        $06111D
+    dc.l        $061126
+    dc.l        $06112C
+    dc.l        $061136
+    dc.l        $061143
+    dc.l        $06114C
+    dc.l        $061158
+    dc.l        $061162
+    dc.l        $061169
+    dc.l        $06116E
+    dc.l        $061174
+    dc.l        $06117E
+    dc.l        $061182
+    dc.l        $061190
+    dc.l        $061197
+    dc.l        $06119E
+    dc.l        $0611A4
+    dc.l        $0611A9
+    dc.l        $0611AF
+    dc.l        $0611B4
+    dc.l        $0611BC
+    dc.l        $0611C2
+    dc.l        $0611CC
+    dc.l        $0611D3
+    dc.l        $0611D9
+    dc.l        $0611E0
+    dc.l        $0611E8
+    dc.l        $0611F0
+    dc.l        $0611F7
+    dc.l        $061202
+    dc.l        $06120B
+    dc.l        $061216
+    dc.l        $06121D
+    dc.l        $061225
+    dc.l        $06122B
+    dc.l        $061233
+    dc.l        $06123A
+    dc.l        $061240
+    dc.l        $061247
+    dc.l        $061251
+    dc.l        $061259
+    dc.l        $061261
+    dc.l        $061267
+    dc.l        $061271
+    dc.l        $06127A
+    dc.l        $061282
+    dc.l        $061288
+    dc.l        $061290
+    dc.l        $061299
+    dc.l        $0612A4
+    dc.l        $0612AB
+    dc.l        $0612B2
+    dc.l        $0612B9
+    dc.l        $0612C1
+    dc.l        $0612CC
+    dc.l        $0612D1
+    dc.l        $0612D8
+    dc.l        $0612E1
+    dc.l        $0612E7
+    dc.l        $0612EC
+    dc.l        $0612F4
+    dc.l        $0612FD
+    dc.l        $061304
+    dc.l        $06130A
+    dc.l        $061310
+    dc.l        $061316
+    dc.l        $06131D
+    dc.l        $061324
+    dc.l        $06132D
+    dc.l        $061335
+    dc.l        $06133C
+    dc.l        $061345
+    dc.l        $06134B
+    dc.l        $061352
+    dc.l        $06135A
+    dc.l        $061361
+    dc.l        $061369
+    dc.l        $061374
+    dc.l        $06137C
+    dc.l        $061383
+    dc.l        $06138D
+    dc.l        $061397
+    dc.l        $06139C
+    dc.l        $0613A5
+    dc.l        $0613AE
+    dc.l        $0613B4
+    dc.l        $0613BB
+    dc.l        $0613C4
+    dc.l        $0613CD
+    dc.l        $0613D5
+    dc.l        $0613DD
+    dc.l        $0613E3
+    dc.l        $0613EB
+    dc.l        $0613F3
+    dc.l        $0613FB
+    dc.l        $061402
+    dc.l        $061407
+    dc.l        $061410
+    dc.l        $06141A
+    dc.l        $061422
+    dc.l        $061429
+    dc.l        $061432
+    dc.l        $061437
+    dc.l        $061440
+    dc.l        $061447
+    dc.l        $06144E
+    dc.l        $061455
+    dc.l        $06145C
+    dc.l        $061464
+    dc.l        $06146A
+    dc.l        $061473
+    dc.l        $061479
+    dc.l        $06147F
+    dc.l        $061486
+    dc.l        $06148D
+    dc.l        $061492
+    dc.l        $06149C
+    dc.l        $0614A3
+    dc.l        $0614A9
+    dc.l        $0614B4
+    dc.l        $0614BD
+    dc.l        $0614C6
+    dc.l        $0614D1
+    dc.l        $0614DC
+    dc.l        $0614E4
+    dc.l        $0614E9
+    dc.l        $0614F0
+    dc.l        $0614F8
+    dc.l        $061500
+    dc.l        $061505
+    dc.l        $06150C
+    dc.l        $061515
+    dc.l        $06151B
+    dc.l        $061522
+    dc.l        $06152A
+    dc.l        $061532
+    dc.l        $06153D
+    dc.l        $061546
+    dc.l        $061551
+    dc.l        $061558
+    dc.l        $061560
+    dc.l        $061568
+    dc.l        $061572
+    dc.l        $06157C
+    dc.l        $061586
+    dc.l        $06158F
+    dc.l        $061597
+    dc.l        $0615A0
+    dc.l        $0615A9
+    dc.l        $0615B1
+    dc.l        $0615BC
+    dc.l        $0615C6
+    dc.l        $0615CF
+    dc.l        $0615D8
+    dc.l        $0615E1
+    dc.l        $0615EA
+    dc.l        $0615F3
+    dc.l        $0615FF
+    dc.l        $061604
+    dc.l        $061609
+    dc.l        $061611
+    dc.l        $061617
+    dc.l        $06161F
+    dc.l        $061627
+    dc.l        $061630
+    dc.l        $061638
+    dc.l        $06163F
+    dc.l        $061649
+    dc.l        $061652
+    dc.l        $06165C
+    dc.l        $061664
+    dc.l        $06166A
+    dc.l        $061672
+    dc.l        $061679
+    dc.l        $061683
+    dc.l        $06168C
+    dc.l        $061697
+    dc.l        $0616A1
+    dc.l        $0616A9
+    dc.l        $0616B1
+    dc.l        $0616BA
+    dc.l        $0616C3
+    dc.l        $0616CC
+    dc.l        $0616D1
+    dc.l        $0616D9
+    dc.l        $0616E2
+    dc.l        $0616EB
+    dc.l        $0616F4
+    dc.l        $0616FA
+    dc.l        $061701
+    dc.l        $061707
+    dc.l        $06170D
+    dc.l        $061715
+    dc.l        $06171D
+    dc.l        $061724
+    dc.l        $06172B
+    dc.l        $061731
+    dc.l        $061738
+    dc.l        $06173D
+    dc.l        $061744
+    dc.l        $06174D
+    dc.l        $061753
+    dc.l        $06175D
+    dc.l        $061765
+    dc.l        $06176E
+    dc.l        $061776
+    dc.l        $06177B
+    dc.l        $061781
+    dc.l        $06178A
+    dc.l        $061791
+    dc.l        $06179A
+    dc.l        $0617A1
+    dc.l        $0617A7
+    dc.l        $0617AF
+    dc.l        $0617B8
+    dc.l        $0617BE
+    dc.l        $0617C5
+    dc.l        $0617CE
+    dc.l        $0617D4
+    dc.l        $0617DA
+    dc.l        $0617E0
+    dc.l        $0617E5
+    dc.l        $0617F0
+    dc.l        $0617F7
+    dc.l        $0617FD
+    dc.l        $061806
+    dc.l        $06180C
+    dc.l        $061818
+    dc.l        $06181D
+    dc.l        $061824
+    dc.l        $06182C
+    dc.l        $061834
+    dc.l        $06183B
+    dc.l        $061843
+    dc.l        $06184A
+    dc.l        $061853
+    dc.l        $061859
+    dc.l        $061860
+    dc.l        $061868
+    dc.l        $061874
+    dc.l        $06187A
+    dc.l        $061882
+    dc.l        $061889
+    dc.l        $061895
+    dc.l        $06189F
+    dc.l        $0618A7
+    dc.l        $0618AE
+    dc.l        $0618BA
+    dc.l        $0618C4
+    dc.l        $0618CF
+    dc.l        $0618D7
+    dc.l        $0618E1
+    dc.l        $0618EA
+    dc.l        $0618F3
+    dc.l        $0618FB
+    dc.l        $061902
+    dc.l        $06190C
+    dc.l        $061915
+    dc.l        $06191B
+    dc.l        $061924
+    dc.l        $06192C
+    dc.l        $061935
+    dc.l        $06193A
+    dc.l        $061942
+    dc.l        $06194C
+    dc.l        $061957
+    dc.l        $06195F
+    dc.l        $061966
+    dc.l        $06196F
+    dc.l        $061976
+    dc.l        $06197E
+    dc.l        $061988
+    dc.l        $061990
+    dc.l        $06199A
+    dc.l        $0619A4
+    dc.l        $0619AC
+    dc.l        $0619B2
+    dc.l        $0619BD
+    dc.l        $0619C3
+    dc.l        $0619CA
+    dc.l        $0619D2
+    dc.l        $0619D8
+    dc.l        $0619DF
+    dc.l        $0619E8
+    dc.l        $0619F1
+    dc.l        $0619F9
+    dc.l        $061A03
+    dc.l        $061A0C
+    dc.l        $061A14
+    dc.l        $061A1F
+    dc.l        $061A28
+    dc.l        $061A32
+    dc.l        $061A39
+    dc.l        $061A42
+    dc.l        $061A4A
+    dc.l        $061A52
+    dc.l        $061A5A
+    dc.l        $061A61
+    dc.l        $061A6A
+    dc.l        $061A72
+    dc.l        $061A7A
+    dc.l        $061A83
+    dc.l        $061A8B
+    dc.l        $061A91
+    dc.l        $061A9A
+    dc.l        $061A9F
+    dc.l        $061AA7
+    dc.l        $061AB0
+    dc.l        $061AB7
+    dc.l        $061AC2
+    dc.l        $061ACA
 LASTNAMES_START:              
     dc.b        "Guidolin",0                                                                     
     dc.b        "Giorgi",0                                                                       
@@ -32980,7 +32949,7 @@ BYTE_00071ad3:
     dc.b        $39
     dc.b        $0
     dc.b        $0
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -33442,7 +33411,7 @@ BYTE_00071c90:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -36518,17 +36487,17 @@ PreMenuStrings:
     dc.b        "Game Options",0                                                                 
     dc.b        $0
     dc.b        "Save Game",0                                                                    
-    dc.l        $072AE2
-    dc.l        $072AF2
-    dc.l        $072AFE
-    dc.l        $072B0C
-    dc.l        $072B1A
-    dc.l        $072B28
-    dc.l        $072B34
-    dc.l        $072B42
-    dc.l        $072B50
-    dc.l        $072B60
-    dc.l        $072B6E
+    dc.l        $062AE2
+    dc.l        $062AF2
+    dc.l        $062AFE
+    dc.l        $062B0C
+    dc.l        $062B1A
+    dc.l        $062B28
+    dc.l        $062B34
+    dc.l        $062B42
+    dc.l        $062B50
+    dc.l        $062B60
+    dc.l        $062B6E
     dc.b        "New Season",0                                                                   
     dc.b        $0
     dc.b        "Continue Season",0                                                              
@@ -36567,18 +36536,18 @@ PreMenuStrings:
     dc.b        "A",0                                                                            
     dc.b        "PT",0                                                                           
     dc.b        $0
-    dc.l        $072CCA
-    dc.l        $072CCE
-    dc.l        $072CD0
-    dc.l        $072CD2
-    dc.l        $072CD4
-    dc.l        $072CD6
-    dc.l        $072CD8
-    dc.l        $072CDA
-    dc.l        $072CDC
-    dc.l        $072CDE
-    dc.l        $072CE0
-    dc.l        $072CE2
+    dc.l        $062CCA
+    dc.l        $062CCE
+    dc.l        $062CD0
+    dc.l        $062CD2
+    dc.l        $062CD4
+    dc.l        $062CD6
+    dc.l        $062CD8
+    dc.l        $062CDA
+    dc.l        $062CDC
+    dc.l        $062CDE
+    dc.l        $062CE0
+    dc.l        $062CE2
     dc.b        $0
     dc.b        $0
     dc.b        " %s",0                                                                          
@@ -36884,13 +36853,13 @@ PreMenuStrings:
     dc.b        " F ",0                                                                          
     dc.b        " A ",0                                                                          
     dc.b        "PTS",0                                                                          
-    dc.l        $073558
-    dc.l        $07355C
-    dc.l        $073560
-    dc.l        $073564
-    dc.l        $073568
-    dc.l        $07356C
-    dc.l        $073570
+    dc.l        $063558
+    dc.l        $06355C
+    dc.l        $063560
+    dc.l        $063564
+    dc.l        $063568
+    dc.l        $06356C
+    dc.l        $063570
     dc.b        " Team",0                                                                        
     dc.b        " %s ",0                                                                         
     dc.b        $0
@@ -37011,25 +36980,25 @@ DRM_PAGENUMBER_MAYBE:
     dc.b        $11
     dc.b        $0
     dc.b        $22
-    dc.l        $073732
+    dc.l        $063732
     dc.l        $11003E
-    dc.l        $073734
+    dc.l        $063734
     dc.l       $B0061
-    dc.l        $073736
+    dc.l        $063736
     dc.l       $B0084
-    dc.l        $07373A
+    dc.l        $06373A
     dc.l       $B0098
-    dc.l        $07373E
+    dc.l        $06373E
     dc.l       $B00A7
-    dc.l        $073742
+    dc.l        $063742
     dc.l        $15001E
-    dc.l        $073746
+    dc.l        $063746
     dc.l        $0A2001E
-    dc.l        $073748
+    dc.l        $063748
     dc.l        $11A001E
-    dc.l        $07374C
+    dc.l        $06374C
     dc.l        $13A001E
-    dc.l        $073750
+    dc.l        $063750
     dc.b        "League Progress",0                                                              
     dc.b        "                DONE",0,0,0,0                                                         
     dc.b        "GATE RECEIPTS",0                                                                
@@ -37049,20 +37018,20 @@ DRM_PAGENUMBER_MAYBE:
     dc.b        "LEAGUE FINES",0                                                                 
     dc.b        $0
     dc.b        "GENERAL EXPENSES",0,0                                                             
-    dc.l        $0737CC
-    dc.l        $0737DA
-    dc.l        $0737EA
-    dc.l        $0737F8
-    dc.l        $073802
-    dc.l        $073812
-    dc.l        $07381E
-    dc.l        $07382A
-    dc.l        $073836
-    dc.l        $073846
-    dc.l        $073856
-    dc.l        $07386C
-    dc.l        $073880
-    dc.l        $07388E
+    dc.l        $0637CC
+    dc.l        $0637DA
+    dc.l        $0637EA
+    dc.l        $0637F8
+    dc.l        $063802
+    dc.l        $063812
+    dc.l        $06381E
+    dc.l        $06382A
+    dc.l        $063836
+    dc.l        $063846
+    dc.l        $063856
+    dc.l        $06386C
+    dc.l        $063880
+    dc.l        $06388E
     dc.b        "Accounts",0                                                                     
     dc.b        $0
     dc.b        " ITEM                   ",0                                                     
@@ -37361,27 +37330,27 @@ DRM_PAGENUMBER_MAYBE:
     dc.b        "AVR",0                                                                          
     dc.b        "An",0                                                                           
     dc.b        $0
-    dc.l        $0741F8
+    dc.l        $0641F8
     dc.l        $41880000
-    dc.l        $0741FC
+    dc.l        $0641FC
     dc.l        $41990000
-    dc.l        $074200
+    dc.l        $064200
     dc.l        $41AA0000
-    dc.l        $074204
+    dc.l        $064204
     dc.l        $41BB0000
-    dc.l        $074208
+    dc.l        $064208
     dc.l        $41CC0000
-    dc.l        $07420C
+    dc.l        $06420C
     dc.l        $41DD0000
-    dc.l        $074210
+    dc.l        $064210
     dc.l        $41EE0000
-    dc.l        $074214
+    dc.l        $064214
     dc.l        $41FF0000
-    dc.l        $074218
+    dc.l        $064218
     dc.l        $42098000
-    dc.l        $07421C
+    dc.l        $06421C
     dc.l        $42138000
-    dc.l        $074220
+    dc.l        $064220
     dc.b        " DEFENDERS",0                                                                  
     dc.b        $0
     dc.b        " MIDFIELDERS",0                                                                 
@@ -37394,7 +37363,7 @@ DRM_PAGENUMBER_MAYBE:
     dc.b        "ij",0                                                                           
     dc.b        $0
     dc.b        " %.14s",0                                                                       
-    dc.l        $0
+    dc.b        0,0,0,0,0
     dc.b        "%02d",0                                                                         
     dc.b        $0
     dc.b        "%02d",0                                                                         
@@ -37462,7 +37431,7 @@ DRM_PAGENUMBER_MAYBE:
     dc.b        "MILAN",0                                                                        
     dc.b        "MILAN",0                                                                        
     dc.b        "ROTTERDAM",0,0                                                                    
-    dc.w        $0
+    dc.b        0,0,0
     dc.b        "1st Half",0,0                                                                     
     dc.b        "2nd Half",0                                                                     
     dc.b        $0
@@ -37476,11 +37445,11 @@ DRM_SCORES_MAYBE:
     dc.b        "02 09",0                                                                         
     dc.b        "06 14",0                                                                         
     dc.b        "03 13",0                                                                         
-    dc.l        $074496
-    dc.l        $0744A6
-    dc.l        $0744AC
-    dc.l        $0744B2
-    dc.l        $0744B8
+    dc.l        $064496
+    dc.l        $0644A6
+    dc.l        $0644AC
+    dc.l        $0644B2
+    dc.l        $0644B8
     dc.b        "%02d",0                                                                         
     dc.b        $0
     dc.b        "%02d",0                                                                         
@@ -38249,13 +38218,13 @@ DRM_SCORES_MAYBE:
     dc.b        $1
     dc.b        $20
     dc.b        $1
-    dc.b        $2
+    dc.b        $2E
     dc.b        $0
     dc.b        $2
     dc.b        $1
     dc.b        $2F
     dc.b        $1
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $3
     dc.b        $1
@@ -38417,11 +38386,11 @@ DRM_SCORES_MAYBE:
     dc.b        $33
     dc.b        $33
     dc.b        $33
-    dc.b        $3
+    dc.b        $3E
     dc.b       $0CC
     dc.b       $0CC
     dc.b       $0CD
-    dc.b        $3
+    dc.b        $3E
     dc.b        $99
     dc.b        $99
     dc.b        $9A
@@ -38710,22 +38679,22 @@ DRM_SCORES_MAYBE:
     dc.b        "       EXIT",0                                                                  
     dc.b        "   +SCR",0                                                                      
     dc.b        "*",0                                                                            
-    dc.l        $0764E4
+    dc.l        $0664E4
     dc.b        $1
     dc.b        $9
     dc.b        $0
     dc.b        $48
-    dc.l        $0764EC
+    dc.l        $0664EC
     dc.b        $1
     dc.b        $2
     dc.b        $0
     dc.b        $93
-    dc.l        $0764F8
+    dc.l        $0664F8
     dc.b        $1
     dc.b        $9
     dc.b        $0
     dc.b        $48
-    dc.l        $076500
+    dc.l        $066500
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -38734,17 +38703,17 @@ DRM_SCORES_MAYBE:
     dc.b        "            EXIT",0                                                             
     dc.b        $0
     dc.b        "*",0                                                                            
-    dc.l        $076522
+    dc.l        $066522
     dc.b        $1
     dc.b        $9
     dc.b        $0
     dc.b        $48
-    dc.l        $07652A
+    dc.l        $06652A
     dc.b        $1
     dc.b        $2
     dc.b        $0
     dc.b        $0E0
-    dc.l        $07653C
+    dc.l        $06653C
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -38753,29 +38722,29 @@ DRM_SCORES_MAYBE:
     dc.b        $0
     dc.b        "   +SCR",0                                                                      
     dc.b        "*",0                                                                            
-    dc.l        $076556
+    dc.l        $066556
     dc.b        $1
     dc.b        $2
     dc.b        $0
     dc.b        $0E0
-    dc.l        $076568
+    dc.l        $066568
     dc.b        $1
     dc.b        $9
     dc.b        $0
     dc.b        $48
-    dc.l        $076570
+    dc.l        $066570
     dc.b        $0
     dc.b        $0
     dc.b        $0
     dc.b        $0
     dc.b        "                 EXIT",0                                                        
     dc.b        "*",0                                                                            
-    dc.l        $07658A
+    dc.l        $06658A
     dc.b        $1
     dc.b        $2
     dc.b        $1
     dc.b        $2D
-    dc.l        $0765A0
+    dc.l        $0665A0
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -38858,8 +38827,7 @@ DRM_SCORES_MAYBE:
     dc.b        "%s offer accepted",0                                                            
     dc.b        "%s offer refused",0                                                             
     dc.b        $0
-    dc.b        "No deal",0
-;FIXME there was an issue here with the number inside a string	
+    dc.b        "No deal",0	
     dc.b        "They increase the offer to "
 	dc.b 		$0A3
 	dc.b 		"%ld",0                                        
@@ -40363,22 +40331,22 @@ DRM_SCORES_MAYBE:
     dc.b        $7
     dc.b        $0
     dc.b        $32
-    dc.l        $078190
+    dc.l        $068190
     dc.b        $1
     dc.b        $10
     dc.b        $0
     dc.b        $54
-    dc.l        $078198
+    dc.l        $068198
     dc.b        $1
     dc.b       $0D
     dc.b        $0
     dc.b        $76
-    dc.l        $07819E
+    dc.l        $06819E
     dc.b        $1
     dc.b        $10
     dc.b        $0
     dc.b        $98
-    dc.l        $0781A4
+    dc.l        $0681A4
     dc.b        $0
     dc.b        $0
     dc.b        " %s - aged %d",0                                                                
@@ -40432,13 +40400,13 @@ DRM_SCORES_MAYBE:
     dc.b        "FOR",0                                                                          
     dc.b        "AGG",0                                                                          
     dc.b        "PTS",0                                                                          
-    dc.l        $0782B6
-    dc.l        $0782BA
-    dc.l        $0782BE
-    dc.l        $0782C2
-    dc.l        $0782C6
-    dc.l        $0782CA
-    dc.l        $0782CE
+    dc.l        $0682B6
+    dc.l        $0682BA
+    dc.l        $0682BE
+    dc.l        $0682C2
+    dc.l        $0682C6
+    dc.l        $0682CA
+    dc.l        $0682CE
     dc.b        "Info",0                                                                         
     dc.b        "",0                                                                             
     dc.b        "        General",0                                                              
@@ -40720,7 +40688,7 @@ DRM_SCORES_MAYBE:
     dc.b        "                     FUTURE",0                                                  
     dc.b        "                   TARGETED BY",0                                               
     dc.b        $0
-    dc.b        $3E ; was just 3! <GRH>
+    dc.b        $3E
     dc.b        $0
     dc.b        $20
     dc.b        $0
@@ -42778,9 +42746,9 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.b        $2
+    dc.b        $2E
     dc.b        $0
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -42858,11 +42826,11 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $1
-    dc.b        $3
+    dc.b        $3E
     dc.b        $1
-    dc.b        $3
+    dc.b        $3E
     dc.b        $1
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $1
@@ -44784,7 +44752,7 @@ BYTE_0007b5c8:
     dc.b        $6C
     dc.b        $0
     dc.b        $18
-    dc.b        $3
+    dc.b        $3E
     dc.b        $60
     dc.b        $3C
     dc.b        $6
@@ -44954,7 +44922,7 @@ BYTE_0007b5c8:
     dc.b        $3C
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
     dc.b       $0C
     dc.b        $38
@@ -45063,13 +45031,13 @@ BYTE_0007b5c8:
     dc.b        $60
     dc.b        $60
     dc.b        $0
-    dc.b        $3
+    dc.b        $3E
     dc.b        $60
     dc.b        $60
     dc.b        $6E
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $66
     dc.b        $66
@@ -45181,7 +45149,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $66
     dc.b        $66
@@ -45275,9 +45243,9 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $3C
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $60
     dc.b        $60
@@ -45297,11 +45265,11 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $6
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -45321,10 +45289,10 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.b        $3
+    dc.b        $3E
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
     dc.b        $7C
     dc.b        $60
@@ -45401,11 +45369,11 @@ BYTE_0007b5c8:
     dc.b        $60
     dc.b        $0
     dc.b        $0
-    dc.b        $3
+    dc.b        $3E
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
     dc.b        $0
     dc.b        $0
@@ -45417,7 +45385,7 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.b        $3
+    dc.b        $3E
     dc.b        $60
     dc.b        $3C
     dc.b        $6
@@ -45437,7 +45405,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -45468,7 +45436,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
     dc.b        $7C
     dc.b        $0
@@ -45981,7 +45949,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $66
     dc.b        $66
@@ -45989,7 +45957,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $66
     dc.b        $66
@@ -45997,7 +45965,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $66
     dc.b        $66
@@ -46005,7 +45973,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $66
     dc.b        $66
@@ -46035,49 +46003,49 @@ BYTE_0007b5c8:
     dc.b        $8
     dc.b        $3C
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $8
     dc.b        $10
     dc.b        $3C
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $18
     dc.b        $24
     dc.b        $3C
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
     dc.b        $3C
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $24
     dc.b        $0
     dc.b        $3C
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
     dc.b        $3C
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -46237,7 +46205,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $8
     dc.b        $10
@@ -46245,7 +46213,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $18
     dc.b        $24
@@ -46253,7 +46221,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $24
     dc.b        $0
@@ -46261,14 +46229,14 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $8
     dc.b        $10
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
     dc.b        $7C
     dc.b        $0
@@ -46284,7 +46252,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $66
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
     dc.b        $7C
     dc.b        $0
@@ -46349,12 +46317,12 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $18
     dc.b        $18
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $60
     dc.b        $60
     dc.b        $7C
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
     dc.b        $6
     dc.b        $7E
@@ -46668,7 +46636,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
     dc.b        $6
     dc.b        $6
@@ -46873,7 +46841,7 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $60
     dc.b        $60
@@ -47053,7 +47021,7 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $60
     dc.b        $60
@@ -47267,14 +47235,14 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $3C
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -47304,14 +47272,14 @@ BYTE_0007b5c8:
     dc.b        $60
     dc.b        $60
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
     dc.b        $6
     dc.b        $6
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $66
     dc.b        $66
@@ -47319,7 +47287,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -47334,7 +47302,7 @@ BYTE_0007b5c8:
     dc.b        $60
     dc.b        $60
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -47356,14 +47324,14 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $66
     dc.b        $66
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
     dc.b        $7E
     dc.b        $7C
@@ -47506,7 +47474,7 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $66
     dc.b        $66
@@ -47514,7 +47482,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
     dc.b        $6
     dc.b        $0
@@ -47536,7 +47504,7 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $60
     dc.b        $70
@@ -47574,7 +47542,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -47633,7 +47601,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
     dc.b        $7E
     dc.b        $7C
@@ -48692,14 +48660,14 @@ BYTE_0007b5c8:
     dc.b       $0C
     dc.b        $0
     dc.b        $3C
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $6
@@ -48707,14 +48675,14 @@ BYTE_0007b5c8:
     dc.b        $18
     dc.b        $0
     dc.b        $3C
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -48722,14 +48690,14 @@ BYTE_0007b5c8:
     dc.b        $24
     dc.b        $0
     dc.b        $3C
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -48737,14 +48705,14 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $3C
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -48752,14 +48720,14 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $3C
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -48767,14 +48735,14 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $3C
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
-    dc.b        $3
+    dc.b        $3E
     dc.b        $7E
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -48819,7 +48787,7 @@ BYTE_0007b5c8:
     dc.b        $60
     dc.b        $60
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $6
@@ -48834,7 +48802,7 @@ BYTE_0007b5c8:
     dc.b        $60
     dc.b        $60
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -48849,7 +48817,7 @@ BYTE_0007b5c8:
     dc.b        $60
     dc.b        $60
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -48864,7 +48832,7 @@ BYTE_0007b5c8:
     dc.b        $60
     dc.b        $60
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $30
@@ -49074,7 +49042,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $6
@@ -49089,7 +49057,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -49104,7 +49072,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -49119,7 +49087,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $0
     dc.b        $0
     dc.b        $6
@@ -49133,7 +49101,7 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
+    dc.b        $3E
     dc.b        $6
     dc.b        $7E
     dc.b        $7C
@@ -49163,596 +49131,592 @@ BYTE_0007b5c8:
     dc.b        $66
     dc.b        $66
     dc.b        $7E
-    dc.b        $3
-    dc.b        $6
+    dc.b        $3E
+    dc.b        $06
     dc.b        $7E
     dc.b        $7C
-    dc.l        $07DA14
-    dc.l        $07DA1D
-    dc.l        $07DA26
-    dc.l        $07DA30
-    dc.l        $07DA37
-    dc.l        $07DA3D
-    dc.l        $07DA43
-    dc.l        $07DA4C
-    dc.l        $07DA52
-    dc.l        $07DA58
-    dc.l        $07DA5E
-    dc.l        $07DA65
-    dc.l        $07DA6B
-    dc.l        $07DA74
-    dc.l        $07DA7D
-    dc.l        $07DA82
-    dc.l        $07DA8C
-    dc.l        $07DA93
-    dc.l        $07DA9B
-    dc.l        $07DAA4
-    dc.l        $07DAAB
-    dc.l        $07DAB2
-    dc.l        $07DAB7
-    dc.l        $07DABF
-    dc.l        $07DAC6
-    dc.l        $07DACE
-    dc.l        $07DAD7
-    dc.l        $07DAE2
-    dc.l        $07DAEB
-    dc.l        $07DAF2
-    dc.l        $07DAF8
-    dc.l        $07DAFF
-    dc.l        $07DB07
-    dc.l        $07DB0F
-    dc.l        $07DB14
-    dc.l        $07DB1C
-    dc.l        $07DB24
-    dc.l        $07DB2B
-    dc.l        $07DB33
-    dc.l        $07DB33
-    dc.l        $07DB34
-    dc.l        $07DB45
-    dc.l        $07DB50
-    dc.l        $07DB5E
-    dc.l        $07DB6E
-    dc.l        $07DB7E
-    dc.l        $07DB88
-    dc.l        $07DB94
-    dc.l        $07DBA4
-    dc.l        $07DBB2
-    dc.l        $07DBBC
-    dc.l        $07DBC7
-    dc.l        $07DBD6
-    dc.l        $07DBE0
-    dc.l        $07DBEB
-    dc.l        $07DBFB
-    dc.l        $07DC0B
-    dc.l        $07DC17
-    dc.l        $07DC1F
-    dc.l        $07DC30
-    dc.l        $07DC3C
-    dc.l        $07DC4C
-    dc.l        $07DC58
-    dc.l        $07DC69
-    dc.l        $07DC77
-    dc.l        $07DC81
-    dc.l        $07DC92
-    dc.l        $07DCA3
-    dc.l        $07DCB0
-    dc.l        $07DCC1
-    dc.l        $07DCD1
-    dc.l        $07DCE1
-    dc.l        $07DCEE
-    dc.l        $07DCFF
-    dc.l        $07DD0F
-    dc.l        $07DD1E
-    dc.l        $07DD2E
-    dc.l        $07DD3F
-    dc.l        $07DD4C
-    dc.l        $07DD4C
-    dc.l        $07DD4D
-    dc.l        $07DD53
-    dc.l        $07DD5C
-    dc.l        $07DD64
-    dc.l        $07DD6F
-    dc.l        $07DD78
-    dc.l        $07DD81
-    dc.l        $07DD87
-    dc.l        $07DD90
-    dc.l        $07DD98
-    dc.l        $07DDA3
-    dc.l        $07DDAD
-    dc.l        $07DDB6
-    dc.l        $07DDC2
-    dc.l        $07DDCA
-    dc.l        $07DDD2
-    dc.l        $07DDDC
-    dc.l        $07DDE3
-    dc.l        $07DDED
-    dc.l        $07DDF4
-    dc.l        $07DDFC
-    dc.l        $07DE02
-    dc.l        $07DE0C
-    dc.l        $07DE15
-    dc.l        $07DE1E
-    dc.l        $07DE27
-    dc.l        $07DE30
-    dc.l        $07DE39
-    dc.l        $07DE43
-    dc.l        $07DE49
-    dc.l        $07DE4F
-    dc.l        $07DE59
-    dc.l        $07DE61
-    dc.l        $07DE68
-    dc.l        $07DE6D
-    dc.l        $07DE74
-    dc.l        $07DE80
-    dc.l        $07DE85
-    dc.l        $07DE8A
-    dc.l        $07DE90
-    dc.l        $07DE96
-    dc.l        $07DE9F
-    dc.l        $07DEA8
-    dc.l        $07DEB3
-    dc.l        $07DEBA
-    dc.l        $07DEC3
-    dc.l        $07DEC9
-    dc.l        $07DED1
-    dc.l        $07DED8
-    dc.l        $07DEDD
-    dc.l        $07DEE4
-    dc.l        $07DEF0
-    dc.l        $07DEF8
-    dc.l        $07DF00
-    dc.l        $07DF0A
-    dc.l        $07DF13
-    dc.l        $07DF1D
-    dc.l        $07DF24
-    dc.l        $07DF2C
-    dc.l        $07DF36
-    dc.l        $07DF3F
-    dc.l        $07DF47
-    dc.l        $07DF4F
-    dc.l        $07DF5B
-    dc.l        $07DF65
-    dc.l        $07DF6F
-    dc.l        $07DF79
-    dc.l        $07DF81
-    dc.l        $07DF8A
-    dc.l        $07DF94
-    dc.l        $07DF9E
-    dc.l        $07DFAA
-    dc.l        $07DFB1
-    dc.l        $07DFBA
-    dc.l        $07DFC3
-    dc.l        $07DFCB
-    dc.l        $07DFD6
-    dc.l        $07DFDF
-    dc.l        $07DFEA
-    dc.l        $07DFEF
-    dc.l        $07DFF8
-    dc.l        $07E005
-    dc.l        $07E00D
-    dc.l        $07E014
-    dc.l        $07E01C
-    dc.l        $07E025
-    dc.l        $07E02E
-    dc.l        $07E036
-    dc.l        $07E03D
-    dc.l        $07E047
-    dc.l        $07E04E
-    dc.l        $07E053
-    dc.l        $07E05E
-    dc.l        $07E068
-    dc.l        $07E071
-    dc.l        $07E07A
-    dc.l        $07E082
-    dc.l        $07E08A
-    dc.l        $07E091
-    dc.l        $07E09B
-    dc.l        $07E0A2
-    dc.l        $07E0AB
-    dc.l        $07E0B3
-    dc.l        $07E0B8
-    dc.l        $07E0BF
-    dc.l        $07E0C9
-    dc.l        $07E0D2
-    dc.l        $07E0D7
-    dc.l        $07E0E2
-    dc.l        $07E0E8
-    dc.l        $07E0F1
-    dc.l        $07E0FA
-    dc.l        $07E103
-    dc.l        $07E10B
-    dc.l        $07E112
-    dc.l        $07E116
-    dc.l        $07E11B
-    dc.l        $07E125
-    dc.l        $07E12E
-    dc.l        $07E136
-    dc.l        $07E13E
-    dc.l        $07E148
-    dc.l        $07E152
-    dc.l        $07E15B
-    dc.l        $07E164
-    dc.l        $07E16C
-    dc.l        $07E173
-    dc.l        $07E17D
-    dc.l        $07E18A
-    dc.l        $07E18F
-    dc.l        $07E198
-    dc.l        $07E1A3
-    dc.l        $07E1AE
-    dc.l        $07E1B9
-    dc.l        $07E1C3
-    dc.l        $07E1CB
-    dc.l        $07E1D6
-    dc.l        $07E1E1
-    dc.l        $07E1EB
-    dc.l        $07E1F5
-    dc.l        $07E1FE
-    dc.l        $07E208
-    dc.l        $07E212
-    dc.l        $07E21F
-    dc.l        $07E228
-    dc.l        $07E231
-    dc.l        $07E236
-    dc.l        $07E240
-    dc.l        $07E24A
-    dc.l        $07E256
-    dc.l        $07E25F
-    dc.l        $07E268
-    dc.l        $07E272
-    dc.l        $07E27A
-    dc.l        $07E285
-    dc.l        $07E290
-    dc.l        $07E298
-    dc.l        $07E2A0
-    dc.l        $07E2AC
-    dc.l        $07E2B6
-    dc.l        $07E2C0
-    dc.l        $07E2CB
-    dc.l        $07E2D5
-    dc.l        $07E2DF
-    dc.l        $07E2EC
-    dc.l        $07E2F3
-    dc.l        $07E2FB
-    dc.l        $07E301
-    dc.l        $07E30C
-    dc.l        $07E314
-    dc.l        $07E31F
-    dc.l        $07E328
-    dc.l        $07E332
-    dc.l        $07E339
-    dc.l        $07E342
-    dc.l        $07E34C
-    dc.l        $07E353
-    dc.l        $07E35C
-    dc.l        $07E366
-    dc.l        $07E36F
-    dc.l        $07E378
-    dc.l        $07E381
-    dc.l        $07E388
-    dc.l        $07E38F
-    dc.l        $07E395
-    dc.l        $07E39E
-    dc.l        $07E3A7
-    dc.l        $07E3AE
-    dc.l        $07E3B4
-    dc.l        $07E3B8
-    dc.l        $07E3C2
-    dc.l        $07E3CD
-    dc.l        $07E3D6
-    dc.l        $07E3E0
-    dc.l        $07E3E6
-    dc.l        $07E3EF
-    dc.l        $07E3F6
-    dc.l        $07E3FE
-    dc.l        $07E408
-    dc.l        $07E412
-    dc.l        $07E419
-    dc.l        $07E422
-    dc.l        $07E42B
-    dc.l        $07E436
-    dc.l        $07E441
-    dc.l        $07E44D
-    dc.l        $07E45B
-    dc.l        $07E466
-    dc.l        $07E471
-    dc.l        $07E47C
-    dc.l        $07E489
-    dc.l        $07E493
-    dc.l        $07E49B
-    dc.l        $07E4A3
-    dc.l        $07E4A8
-    dc.l        $07E4AD
-    dc.l        $07E4B8
-    dc.l        $07E4C2
-    dc.l        $07E4C9
-    dc.l        $07E4D6
-    dc.l        $07E4E1
-    dc.l        $07E4EC
-    dc.l        $07E4F4
-    dc.l        $07E4FC
-    dc.l        $07E508
-    dc.l        $07E511
-    dc.l        $07E51D
-    dc.l        $07E527
-    dc.l        $07E52F
-    dc.l        $07E53A
-    dc.l        $07E544
-    dc.l        $07E54F
-    dc.l        $07E559
-    dc.l        $07E563
-    dc.l        $07E56D
-    dc.l        $07E577
-    dc.l        $07E581
-    dc.l        $07E58A
-    dc.l        $07E596
-    dc.l        $07E5A0
-    dc.l        $07E5A7
-    dc.l        $07E5B1
-    dc.l        $07E5B6
-    dc.l        $07E5BC
-    dc.l        $07E5C3
-    dc.l        $07E5CE
-    dc.l        $07E5D5
-    dc.l        $07E5DF
-    dc.l        $07E5EB
-    dc.l        $07E5F2
-    dc.l        $07E5FC
-    dc.l        $07E602
-    dc.l        $07E609
-    dc.l        $07E610
-    dc.l        $07E618
-    dc.l        $07E620
-    dc.l        $07E629
-    dc.l        $07E633
-    dc.l        $07E63E
-    dc.l        $07E648
-    dc.l        $07E650
-    dc.l        $07E658
-    dc.l        $07E65E
-    dc.l        $07E669
-    dc.l        $07E675
-    dc.l        $07E67D
-    dc.l        $07E687
-    dc.l        $07E691
-    dc.l        $07E698
-    dc.l        $07E6A1
-    dc.l        $07E6A7
-    dc.l        $07E6AE
-    dc.l        $07E6B7
-    dc.l        $07E6C0
-    dc.l        $07E6C7
-    dc.l        $07E6D0
-    dc.l        $07E6D7
-    dc.l        $07E6DE
-    dc.l        $07E6E3
-    dc.l        $07E6EC
-    dc.l        $07E6F3
-    dc.l        $07E6FD
-    dc.l        $07E704
-    dc.l        $07E70C
-    dc.l        $07E716
-    dc.l        $07E721
-    dc.l        $07E72A
-    dc.l        $07E736
-    dc.l        $07E73F
-    dc.l        $07E74A
-    dc.l        $07E754
-    dc.l        $07E75F
-    dc.l        $07E767
-    dc.l        $07E76E
-    dc.l        $07E776
-    dc.l        $07E77E
-    dc.l        $07E787
-    dc.l        $07E791
-    dc.l        $07E79A
-    dc.l        $07E7A0
-    dc.l        $07E7A9
-    dc.l        $07E7B3
-    dc.l        $07E7BD
-    dc.l        $07E7C6
-    dc.l        $07E7CE
-    dc.l        $07E7DA
-    dc.l        $07E7E1
-    dc.l        $07E7E8
-    dc.l        $07E7F3
-    dc.l        $07E7FB
-    dc.l        $07E804
-    dc.l        $07E80B
-    dc.l        $07E813
-    dc.l        $07E81F
-    dc.l        $07E827
-    dc.l        $07E832
-    dc.l        $07E83D
-    dc.l        $07E84A
-    dc.l        $07E854
-    dc.l        $07E858
-    dc.l        $07E85F
-    dc.l        $07E864
-    dc.l        $07E86F
-    dc.l        $07E878
-    dc.l        $07E883
-    dc.l        $07E889
-    dc.l        $07E892
-    dc.l        $07E89D
-	dc.l		$07E8A5; - FIXME address space overflow
-;	dc.b		00
-;	dc.b		07
-;	dc.b		0E8
-;	dc.b		0A5
-    dc.l        $07E8AB
-    dc.l        $07E8B1
-    dc.l        $07E8BA
-    dc.l        $07E8C6
-    dc.l        $07E8CD
-    dc.l        $07E8D7
-    dc.l        $07E8E3
-    dc.l        $07E8EF
-    dc.l        $07E8F5
-    dc.l        $07E8FE
-    dc.l        $07E904
-    dc.l        $07E90F
-    dc.l        $07E91B
-    dc.l        $07E922
-    dc.l        $07E929
-    dc.l        $07E92F
-    dc.l        $07E93A
-    dc.l        $07E941
-    dc.l        $07E94B
-    dc.l        $07E951
-    dc.l        $07E95D
-    dc.l        $07E967
-    dc.l        $07E96D
-    dc.l        $07E979
-    dc.l        $07E97E
-    dc.l        $07E98A
-    dc.l        $07E992
-    dc.l        $07E999
-    dc.l        $07E9A2
-    dc.l        $07E9A9
-    dc.l        $07E9B3
-    dc.l        $07E9C0
-    dc.l        $07E9CB
-    dc.l        $07E9D5
-    dc.l        $07E9E1
-    dc.l        $07E9EC
-    dc.l        $07E9F6
-    dc.l        $07E9FE
-    dc.l        $07EA04
-    dc.l        $07EA0D
-    dc.l        $07EA15
-    dc.l        $07EA1E
-    dc.l        $07EA27
-    dc.l        $07EA2D
-    dc.l        $07EA38
-    dc.l        $07EA3E
-    dc.l        $07EA46
-    dc.l        $07EA4C
-    dc.l        $07EA52
-    dc.l        $07EA59
-    dc.l        $07EA62
-    dc.l        $07EA6A
-    dc.l        $07EA73
-    dc.l        $07EA7A
-    dc.l        $07EA84
-    dc.l        $07EA8C
-    dc.l        $07EA92
-    dc.l        $07EA9C
-    dc.l        $07EAA3
-    dc.l        $07EAAC
-    dc.l        $07EAB2
-    dc.l        $07EABC
-    dc.l        $07EAC7
-    dc.l        $07EACF
-    dc.l        $07EAD6
-    dc.l        $07EADE
-    dc.l        $07EAE5
-    dc.l        $07EAED
-    dc.l        $07EAF7
-    dc.l        $07EB00
-    dc.l        $07EB0A
-    dc.l        $07EB11
-    dc.l        $07EB19
-    dc.l        $07EB22
-    dc.l        $07EB2A
-    dc.l        $07EB32
-    dc.l        $07EB3E
-    dc.l        $07EB45
-    dc.l        $07EB4B
-    dc.l        $07EB55
-    dc.l        $07EB5C
-    dc.l        $07EB61
-    dc.l        $07EB68
-    dc.l        $07EB6E
-    dc.l        $07EB76
-    dc.l        $07EB80
-    dc.l        $07EB8A
-    dc.l        $07EB99
-    dc.l        $07EB9F
-    dc.l        $07EBA5
-    dc.l        $07EBAF
-    dc.l        $07EBB9
-    dc.l        $07EBC2
-    dc.l        $07EBCB
-    dc.l        $07EBD4
-    dc.l        $07EBDE
-    dc.l        $07EBE6
-    dc.l        $07EBED
-    dc.l        $07EBF4
-    dc.l        $07EBFF
-    dc.l        $07EC09
-    dc.l        $07EC11
-    dc.l        $07EC16
-    dc.l        $07EC1E
-    dc.l        $07EC26
-    dc.l        $07EC2E
-    dc.l        $07EC3A
-    dc.l        $07EC43
-    dc.l        $07EC49
-    dc.l        $07EC51
-    dc.l        $07EC58
-    dc.l        $07EC64
-    dc.l        $07EC6E
-    dc.l        $07EC74
-    dc.l        $07EC7C
-    dc.l        $07EC83
-    dc.l        $07EC89
-    dc.l        $07EC91
-    dc.l        $07EC9D
-    dc.l        $07ECA3
-    dc.l        $07ECAE
-    dc.l        $07ECB9
-    dc.l        $07ECC1
-    dc.l        $07ECC8
-    dc.l        $07ECCF
-    dc.l        $07ECD6
-    dc.l        $07ECDF
-    dc.l        $07ECE7
-    dc.l        $07ECF1
-    dc.l        $07ECFB
-    dc.l        $07ED02
-    dc.l        $07ED0F
-    dc.l        $07ED14
-    dc.l        $07ED20
-    dc.l        $07ED27
-    dc.l        $07ED32
-    dc.l        $07ED3E
-    dc.l        $07ED48
-    dc.l        $07ED53
-    dc.l        $07ED5D
-    dc.l        $07ED63
-    dc.l        $07ED6A
-    dc.l        $07ED72
-    dc.l        $07ED7C
-    dc.l        $07ED84
-    dc.l        $07ED8C
-    dc.l        $07ED93
-    dc.l        $07ED9D
-    dc.l        $07EDA7
-    dc.l        $07EDAE
-    dc.l        $07EDBA
-    dc.l        $07EDC2
-    dc.l        $07EDC9
-    dc.l        $07EDD0
-    dc.l        $07EDD9
-    dc.l        $07EDE2
-    dc.l        $07EDF0
-    dc.l        $07EDF7
-    dc.l        $07EDFC
-    dc.l        $07EE02
-    dc.l        $07EE09
-    dc.l        $07EE17
-    dc.l        $07EE24
-    dc.l        $07EE2C
-    dc.l        $07EE37
-    dc.l        $07EE41
-    dc.l        $07EE49
-    dc.l        $07EE52
-    dc.l        $07EE57
-    dc.l        $07EE61
-    dc.l        $07EE65
-    dc.l        $07EE6B
-    dc.l        $07EE71
+    dc.l        $06DA14
+    dc.l        $06DA1D
+    dc.l        $06DA26
+    dc.l        $06DA30
+    dc.l        $06DA37
+    dc.l        $06DA3D
+    dc.l        $06DA43
+    dc.l        $06DA4C
+    dc.l        $06DA52
+    dc.l        $06DA58
+    dc.l        $06DA5E
+    dc.l        $06DA65
+    dc.l        $06DA6B
+    dc.l        $06DA74
+    dc.l        $06DA7D
+    dc.l        $06DA82
+    dc.l        $06DA8C
+    dc.l        $06DA93
+    dc.l        $06DA9B
+    dc.l        $06DAA4
+    dc.l        $06DAAB
+    dc.l        $06DAB2
+    dc.l        $06DAB7
+    dc.l        $06DABF
+    dc.l        $06DAC6
+    dc.l        $06DACE
+    dc.l        $06DAD7
+    dc.l        $06DAE2
+    dc.l        $06DAEB
+    dc.l        $06DAF2
+    dc.l        $06DAF8
+    dc.l        $06DAFF
+    dc.l        $06DB07
+    dc.l        $06DB0F
+    dc.l        $06DB14
+    dc.l        $06DB1C
+    dc.l        $06DB24
+    dc.l        $06DB2B
+    dc.l        $06DB33
+    dc.l        $06DB33
+    dc.l        $06DB34
+    dc.l        $06DB45
+    dc.l        $06DB50
+    dc.l        $06DB5E
+    dc.l        $06DB6E
+    dc.l        $06DB7E
+    dc.l        $06DB88
+    dc.l        $06DB94
+    dc.l        $06DBA4
+    dc.l        $06DBB2
+    dc.l        $06DBBC
+    dc.l        $06DBC7
+    dc.l        $06DBD6
+    dc.l        $06DBE0
+    dc.l        $06DBEB
+    dc.l        $06DBFB
+    dc.l        $06DC0B
+    dc.l        $06DC17
+    dc.l        $06DC1F
+    dc.l        $06DC30
+    dc.l        $06DC3C
+    dc.l        $06DC4C
+    dc.l        $06DC58
+    dc.l        $06DC69
+    dc.l        $06DC77
+    dc.l        $06DC81
+    dc.l        $06DC92
+    dc.l        $06DCA3
+    dc.l        $06DCB0
+    dc.l        $06DCC1
+    dc.l        $06DCD1
+    dc.l        $06DCE1
+    dc.l        $06DCEE
+    dc.l        $06DCFF
+    dc.l        $06DD0F
+    dc.l        $06DD1E
+    dc.l        $06DD2E
+    dc.l        $06DD3F
+    dc.l        $06DD4C
+    dc.l        $06DD4C
+    dc.l        $06DD4D
+    dc.l        $06DD53
+    dc.l        $06DD5C
+    dc.l        $06DD64
+    dc.l        $06DD6F
+    dc.l        $06DD78
+    dc.l        $06DD81
+    dc.l        $06DD87
+    dc.l        $06DD90
+    dc.l        $06DD98
+    dc.l        $06DDA3
+    dc.l        $06DDAD
+    dc.l        $06DDB6
+    dc.l        $06DDC2
+    dc.l        $06DDCA
+    dc.l        $06DDD2
+    dc.l        $06DDDC
+    dc.l        $06DDE3
+    dc.l        $06DDED
+    dc.l        $06DDF4
+    dc.l        $06DDFC
+    dc.l        $06DE02
+    dc.l        $06DE0C
+    dc.l        $06DE15
+    dc.l        $06DE1E
+    dc.l        $06DE27
+    dc.l        $06DE30
+    dc.l        $06DE39
+    dc.l        $06DE43
+    dc.l        $06DE49
+    dc.l        $06DE4F
+    dc.l        $06DE59
+    dc.l        $06DE61
+    dc.l        $06DE68
+    dc.l        $06DE6D
+    dc.l        $06DE74
+    dc.l        $06DE80
+    dc.l        $06DE85
+    dc.l        $06DE8A
+    dc.l        $06DE90
+    dc.l        $06DE96
+    dc.l        $06DE9F
+    dc.l        $06DEA8
+    dc.l        $06DEB3
+    dc.l        $06DEBA
+    dc.l        $06DEC3
+    dc.l        $06DEC9
+    dc.l        $06DED1
+    dc.l        $06DED8
+    dc.l        $06DEDD
+    dc.l        $06DEE4
+    dc.l        $06DEF0
+    dc.l        $06DEF8
+    dc.l        $06DF00
+    dc.l        $06DF0A
+    dc.l        $06DF13
+    dc.l        $06DF1D
+    dc.l        $06DF24
+    dc.l        $06DF2C
+    dc.l        $06DF36
+    dc.l        $06DF3F
+    dc.l        $06DF47
+    dc.l        $06DF4F
+    dc.l        $06DF5B
+    dc.l        $06DF65
+    dc.l        $06DF6F
+    dc.l        $06DF79
+    dc.l        $06DF81
+    dc.l        $06DF8A
+    dc.l        $06DF94
+    dc.l        $06DF9E
+    dc.l        $06DFAA
+    dc.l        $06DFB1
+    dc.l        $06DFBA
+    dc.l        $06DFC3
+    dc.l        $06DFCB
+    dc.l        $06DFD6
+    dc.l        $06DFDF
+    dc.l        $06DFEA
+    dc.l        $06DFEF
+    dc.l        $06DFF8
+    dc.l        $06E005
+    dc.l        $06E00D
+    dc.l        $06E014
+    dc.l        $06E01C
+    dc.l        $06E025
+    dc.l        $06E02E
+    dc.l        $06E036
+    dc.l        $06E03D
+    dc.l        $06E047
+    dc.l        $06E04E
+    dc.l        $06E053
+    dc.l        $06E05E
+    dc.l        $06E068
+    dc.l        $06E071
+    dc.l        $06E07A
+    dc.l        $06E082
+    dc.l        $06E08A
+    dc.l        $06E091
+    dc.l        $06E09B
+    dc.l        $06E0A2
+    dc.l        $06E0AB
+    dc.l        $06E0B3
+    dc.l        $06E0B8
+    dc.l        $06E0BF
+    dc.l        $06E0C9
+    dc.l        $06E0D2
+    dc.l        $06E0D7
+    dc.l        $06E0E2
+    dc.l        $06E0E8
+    dc.l        $06E0F1
+    dc.l        $06E0FA
+    dc.l        $06E103
+    dc.l        $06E10B
+    dc.l        $06E112
+    dc.l        $06E116
+    dc.l        $06E11B
+    dc.l        $06E125
+    dc.l        $06E12E
+    dc.l        $06E136
+    dc.l        $06E13E
+    dc.l        $06E148
+    dc.l        $06E152
+    dc.l        $06E15B
+    dc.l        $06E164
+    dc.l        $06E16C
+    dc.l        $06E173
+    dc.l        $06E17D
+    dc.l        $06E18A
+    dc.l        $06E18F
+    dc.l        $06E198
+    dc.l        $06E1A3
+    dc.l        $06E1AE
+    dc.l        $06E1B9
+    dc.l        $06E1C3
+    dc.l        $06E1CB
+    dc.l        $06E1D6
+    dc.l        $06E1E1
+    dc.l        $06E1EB
+    dc.l        $06E1F5
+    dc.l        $06E1FE
+    dc.l        $06E208
+    dc.l        $06E212
+    dc.l        $06E21F
+    dc.l        $06E228
+    dc.l        $06E231
+    dc.l        $06E236
+    dc.l        $06E240
+    dc.l        $06E24A
+    dc.l        $06E256
+    dc.l        $06E25F
+    dc.l        $06E268
+    dc.l        $06E272
+    dc.l        $06E27A
+    dc.l        $06E285
+    dc.l        $06E290
+    dc.l        $06E298
+    dc.l        $06E2A0
+    dc.l        $06E2AC
+    dc.l        $06E2B6
+    dc.l        $06E2C0
+    dc.l        $06E2CB
+    dc.l        $06E2D5
+    dc.l        $06E2DF
+    dc.l        $06E2EC
+    dc.l        $06E2F3
+    dc.l        $06E2FB
+    dc.l        $06E301
+    dc.l        $06E30C
+    dc.l        $06E314
+    dc.l        $06E31F
+    dc.l        $06E328
+    dc.l        $06E332
+    dc.l        $06E339
+    dc.l        $06E342
+    dc.l        $06E34C
+    dc.l        $06E353
+    dc.l        $06E35C
+    dc.l        $06E366
+    dc.l        $06E36F
+    dc.l        $06E378
+    dc.l        $06E381
+    dc.l        $06E388
+    dc.l        $06E38F
+    dc.l        $06E395
+    dc.l        $06E39E
+    dc.l        $06E3A7
+    dc.l        $06E3AE
+    dc.l        $06E3B4
+    dc.l        $06E3B8
+    dc.l        $06E3C2
+    dc.l        $06E3CD
+    dc.l        $06E3D6
+    dc.l        $06E3E0
+    dc.l        $06E3E6
+    dc.l        $06E3EF
+    dc.l        $06E3F6
+    dc.l        $06E3FE
+    dc.l        $06E408
+    dc.l        $06E412
+    dc.l        $06E419
+    dc.l        $06E422
+    dc.l        $06E42B
+    dc.l        $06E436
+    dc.l        $06E441
+    dc.l        $06E44D
+    dc.l        $06E45B
+    dc.l        $06E466
+    dc.l        $06E471
+    dc.l        $06E47C
+    dc.l        $06E489
+    dc.l        $06E493
+    dc.l        $06E49B
+    dc.l        $06E4A3
+    dc.l        $06E4A8
+    dc.l        $06E4AD
+    dc.l        $06E4B8
+    dc.l        $06E4C2
+    dc.l        $06E4C9
+    dc.l        $06E4D6
+    dc.l        $06E4E1
+    dc.l        $06E4EC
+    dc.l        $06E4F4
+    dc.l        $06E4FC
+    dc.l        $06E508
+    dc.l        $06E511
+    dc.l        $06E51D
+    dc.l        $06E527
+    dc.l        $06E52F
+    dc.l        $06E53A
+    dc.l        $06E544
+    dc.l        $06E54F
+    dc.l        $06E559
+    dc.l        $06E563
+    dc.l        $06E56D
+    dc.l        $06E577
+    dc.l        $06E581
+    dc.l        $06E58A
+    dc.l        $06E596
+    dc.l        $06E5A0
+    dc.l        $06E5A7
+    dc.l        $06E5B1
+    dc.l        $06E5B6
+    dc.l        $06E5BC
+    dc.l        $06E5C3
+    dc.l        $06E5CE
+    dc.l        $06E5D5
+    dc.l        $06E5DF
+    dc.l        $06E5EB
+    dc.l        $06E5F2
+    dc.l        $06E5FC
+    dc.l        $06E602
+    dc.l        $06E609
+    dc.l        $06E610
+    dc.l        $06E618
+    dc.l        $06E620
+    dc.l        $06E629
+    dc.l        $06E633
+    dc.l        $06E63E
+    dc.l        $06E648
+    dc.l        $06E650
+    dc.l        $06E658
+    dc.l        $06E65E
+    dc.l        $06E669
+    dc.l        $06E675
+    dc.l        $06E67D
+    dc.l        $06E687
+    dc.l        $06E691
+    dc.l        $06E698
+    dc.l        $06E6A1
+    dc.l        $06E6A7
+    dc.l        $06E6AE
+    dc.l        $06E6B7
+    dc.l        $06E6C0
+    dc.l        $06E6C7
+    dc.l        $06E6D0
+    dc.l        $06E6D7
+    dc.l        $06E6DE
+    dc.l        $06E6E3
+    dc.l        $06E6EC
+    dc.l        $06E6F3
+    dc.l        $06E6FD
+    dc.l        $06E704
+    dc.l        $06E70C
+    dc.l        $06E716
+    dc.l        $06E721
+    dc.l        $06E72A
+    dc.l        $06E736
+    dc.l        $06E73F
+    dc.l        $06E74A
+    dc.l        $06E754
+    dc.l        $06E75F
+    dc.l        $06E767
+    dc.l        $06E76E
+    dc.l        $06E776
+    dc.l        $06E77E
+    dc.l        $06E787
+    dc.l        $06E791
+    dc.l        $06E79A
+    dc.l        $06E7A0
+    dc.l        $06E7A9
+    dc.l        $06E7B3
+    dc.l        $06E7BD
+    dc.l        $06E7C6
+    dc.l        $06E7CE
+    dc.l        $06E7DA
+    dc.l        $06E7E1
+    dc.l        $06E7E8
+    dc.l        $06E7F3
+    dc.l        $06E7FB
+    dc.l        $06E804
+    dc.l        $06E80B
+    dc.l        $06E813
+    dc.l        $06E81F
+    dc.l        $06E827
+    dc.l        $06E832
+    dc.l        $06E83D
+    dc.l        $06E84A
+    dc.l        $06E854
+    dc.l        $06E858
+    dc.l        $06E85F
+    dc.l        $06E864
+    dc.l        $06E86F
+    dc.l        $06E878
+    dc.l        $06E883
+    dc.l        $06E889
+    dc.l        $06E892
+    dc.l        $06E89D
+	dc.l		$06E8A5
+    dc.l        $06E8AB
+    dc.l        $06E8B1
+    dc.l        $06E8BA
+    dc.l        $06E8C6
+    dc.l        $06E8CD
+    dc.l        $06E8D7
+    dc.l        $06E8E3
+    dc.l        $06E8EF
+    dc.l        $06E8F5
+    dc.l        $06E8FE
+    dc.l        $06E904
+    dc.l        $06E90F
+    dc.l        $06E91B
+    dc.l        $06E922
+    dc.l        $06E929
+    dc.l        $06E92F
+    dc.l        $06E93A
+    dc.l        $06E941
+    dc.l        $06E94B
+    dc.l        $06E951
+    dc.l        $06E95D
+    dc.l        $06E967
+    dc.l        $06E96D
+    dc.l        $06E979
+    dc.l        $06E97E
+    dc.l        $06E98A
+    dc.l        $06E992
+    dc.l        $06E999
+    dc.l        $06E9A2
+    dc.l        $06E9A9
+    dc.l        $06E9B3
+    dc.l        $06E9C0
+    dc.l        $06E9CB
+    dc.l        $06E9D5
+    dc.l        $06E9E1
+    dc.l        $06E9EC
+    dc.l        $06E9F6
+    dc.l        $06E9FE
+    dc.l        $06EA04
+    dc.l        $06EA0D
+    dc.l        $06EA15
+    dc.l        $06EA1E
+    dc.l        $06EA27
+    dc.l        $06EA2D
+    dc.l        $06EA38
+    dc.l        $06EA3E
+    dc.l        $06EA46
+    dc.l        $06EA4C
+    dc.l        $06EA52
+    dc.l        $06EA59
+    dc.l        $06EA62
+    dc.l        $06EA6A
+    dc.l        $06EA73
+    dc.l        $06EA7A
+    dc.l        $06EA84
+    dc.l        $06EA8C
+    dc.l        $06EA92
+    dc.l        $06EA9C
+    dc.l        $06EAA3
+    dc.l        $06EAAC
+    dc.l        $06EAB2
+    dc.l        $06EABC
+    dc.l        $06EAC7
+    dc.l        $06EACF
+    dc.l        $06EAD6
+    dc.l        $06EADE
+    dc.l        $06EAE5
+    dc.l        $06EAED
+    dc.l        $06EAF7
+    dc.l        $06EB00
+    dc.l        $06EB0A
+    dc.l        $06EB11
+    dc.l        $06EB19
+    dc.l        $06EB22
+    dc.l        $06EB2A
+    dc.l        $06EB32
+    dc.l        $06EB3E
+    dc.l        $06EB45
+    dc.l        $06EB4B
+    dc.l        $06EB55
+    dc.l        $06EB5C
+    dc.l        $06EB61
+    dc.l        $06EB68
+    dc.l        $06EB6E
+    dc.l        $06EB76
+    dc.l        $06EB80
+    dc.l        $06EB8A
+    dc.l        $06EB99
+    dc.l        $06EB9F
+    dc.l        $06EBA5
+    dc.l        $06EBAF
+    dc.l        $06EBB9
+    dc.l        $06EBC2
+    dc.l        $06EBCB
+    dc.l        $06EBD4
+    dc.l        $06EBDE
+    dc.l        $06EBE6
+    dc.l        $06EBED
+    dc.l        $06EBF4
+    dc.l        $06EBFF
+    dc.l        $06EC09
+    dc.l        $06EC11
+    dc.l        $06EC16
+    dc.l        $06EC1E
+    dc.l        $06EC26
+    dc.l        $06EC2E
+    dc.l        $06EC3A
+    dc.l        $06EC43
+    dc.l        $06EC49
+    dc.l        $06EC51
+    dc.l        $06EC58
+    dc.l        $06EC64
+    dc.l        $06EC6E
+    dc.l        $06EC74
+    dc.l        $06EC7C
+    dc.l        $06EC83
+    dc.l        $06EC89
+    dc.l        $06EC91
+    dc.l        $06EC9D
+    dc.l        $06ECA3
+    dc.l        $06ECAE
+    dc.l        $06ECB9
+    dc.l        $06ECC1
+    dc.l        $06ECC8
+    dc.l        $06ECCF
+    dc.l        $06ECD6
+    dc.l        $06ECDF
+    dc.l        $06ECE7
+    dc.l        $06ECF1
+    dc.l        $06ECFB
+    dc.l        $06ED02
+    dc.l        $06ED0F
+    dc.l        $06ED14
+    dc.l        $06ED20
+    dc.l        $06ED27
+    dc.l        $06ED32
+    dc.l        $06ED3E
+    dc.l        $06ED48
+    dc.l        $06ED53
+    dc.l        $06ED5D
+    dc.l        $06ED63
+    dc.l        $06ED6A
+    dc.l        $06ED72
+    dc.l        $06ED7C
+    dc.l        $06ED84
+    dc.l        $06ED8C
+    dc.l        $06ED93
+    dc.l        $06ED9D
+    dc.l        $06EDA7
+    dc.l        $06EDAE
+    dc.l        $06EDBA
+    dc.l        $06EDC2
+    dc.l        $06EDC9
+    dc.l        $06EDD0
+    dc.l        $06EDD9
+    dc.l        $06EDE2
+    dc.l        $06EDF0
+    dc.l        $06EDF7
+    dc.l        $06EDFC
+    dc.l        $06EE02
+    dc.l        $06EE09
+    dc.l        $06EE17
+    dc.l        $06EE24
+    dc.l        $06EE2C
+    dc.l        $06EE37
+    dc.l        $06EE41
+    dc.l        $06EE49
+    dc.l        $06EE52
+    dc.l        $06EE57
+    dc.l        $06EE61
+    dc.l        $06EE65
+    dc.l        $06EE6B
+    dc.l        $06EE71
     dc.b        "Atalanta",0                                                                     
     dc.b        "Cagliari",0                                                                     
     dc.b        "Cremonese",0                                                                    
@@ -50880,4 +50844,3 @@ LONG_0007ef90:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-;End of code from the program. From here on are references to memory

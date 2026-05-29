@@ -1,4 +1,4 @@
-DAT_0007f0d4 ds.l 1 ;changed from ds.b 4, makes no difference!
+DAT_0007f0d4 ds.l 1
 DAT_0007f0d8 ds.b 4
 DAT_0007f0dc ds.b 16
 DAT_0007f0ec ds.b 8
