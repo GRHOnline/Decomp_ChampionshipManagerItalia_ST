@@ -1,107 +1,33 @@
-DWORD_0006584a:               
+;DWORD_0006584a:               
+Fixup_Address_01:
 	dc.l 		$0558BA
     dc.l        $0558CA
     dc.l        $0558D9
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$58
-	dc.b 		$0E9
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$58
-	dc.b 		$0FA
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$02
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$11
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$19
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$20
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$2E
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$3D
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$4B
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$5A
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$68
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$7B
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$88
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$95
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$AA
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$BD
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$CA
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$D9
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$E7
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$59
-	dc.b 		$F5
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$5A
-	dc.b 		$09
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$5A
-	dc.b 		$1C
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$5A
-	dc.b 		$2F
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$5A
-	dc.b 		$3C
-	dc.b  		$00
-	dc.b 		$05
-	dc.b 		$5A
-	dc.b 		$4E
+	dc.l 		$0558E9
+	dc.l		$0558FA
+	dc.l 		$055902
+	dc.l 		$055911
+	dc.l 		$055919
+	dc.l 		$055920
+	dc.l		$05592E
+	dc.l 		$05593D
+	dc.l 		$05594B
+	dc.l 		$05595A
+	dc.l 		$055968
+	dc.l 		$05597B
+	dc.l 		$055988
+	dc.l 		$055995
+	dc.l 		$0559AA
+	dc.l 		$0559BD
+	dc.l 		$0559CA
+	dc.l 		$0559D9
+	dc.l 		$0559E7
+	dc.l 		$0559F5
+	dc.l 		$055A09
+	dc.l 		$055A1C
+	dc.l 		$055A2F
+	dc.l 		$055A3C
+	dc.l 		$055A4E ;Last of this block of Fix up addresses
     dc.b        "severe bruising",0                                                               
     dc.b        "a slight knock",0                                                                
     dc.b        "a twisted ankle",0                                                              
@@ -131,7 +57,8 @@ DWORD_0006584a:
     dc.b        "multiple injuries",0                                                            
     dc.b        "suspension",0                                                                   
     dc.b        "delayed suspension",0                                                           
-DWORD_00065a6c:               
+;DWORD_00065a6c:               
+Fixup_Address_02:
     dc.l        $055AA0
     dc.l        $055AAB
     dc.l        $055AB6
@@ -159,7 +86,8 @@ DWORD_00065a6c:
     dc.b        "Anchor Man",0                                                                   
     dc.b        "Support Man",0                                                                  
     dc.b        $0
-DWORD_00065b2a:               
+;DWORD_00065b2a:               
+Fixup_Address_03:
     dc.l        $055B52
     dc.l        $055B5C
     dc.l        $055B64
@@ -180,7 +108,8 @@ DWORD_00065b2a:
     dc.b        "Confident",0                                                                    
     dc.b        "Thoughtful",0                                                                   
     dc.b        "Rash",0                                                                         
-DWORD_00065bb0:               
+;DWORD_00065bb0:               
+Fixup_Address_04:
     dc.l        $055BC4
     dc.l        $055BCE
     dc.l        $055BDB
@@ -29644,7 +29573,8 @@ BYTE_0006cd7f:
     dc.b        $2
     dc.b        $0
     dc.b        $0
-DWORD_0006cee8:               
+;DWORD_0006cee8:
+Fixup_Address_05:               
     dc.l        $05D5DC
     dc.l        $05D5E6
     dc.l        $05D5EC
@@ -30537,7 +30467,8 @@ FIRSTNAME_START:
     dc.b        "Ivanoe",0                                                                       
     dc.b        "Mattio",0                                                                       
     dc.b        "Gian",0                                                                         
-DWORD_0006e28e:               
+;DWORD_0006e28e:
+Fixup_Address_06:              
     dc.l        $05F4EA
     dc.l        $05F4F3
     dc.l        $05F4FA
@@ -36486,7 +36417,9 @@ PreMenuStrings:
     dc.b        "National Squads",0                                                              
     dc.b        "Game Options",0                                                                 
     dc.b        $0
-    dc.b        "Save Game",0                                                                    
+    dc.b        "Save Game",0
+Fixup_Address_07:
+;in Ghidra the location is 00072B78, not referenced?
     dc.l        $062AE2
     dc.l        $062AF2
     dc.l        $062AFE
@@ -36536,6 +36469,8 @@ PreMenuStrings:
     dc.b        "A",0                                                                            
     dc.b        "PT",0                                                                           
     dc.b        $0
+Fixup_Address_08:
+; Location in Ghidra 00072CE6, not referenced?
     dc.l        $062CCA
     dc.l        $062CCE
     dc.l        $062CD0
@@ -36852,7 +36787,9 @@ PreMenuStrings:
     dc.b        " L ",0                                                                          
     dc.b        " F ",0                                                                          
     dc.b        " A ",0                                                                          
-    dc.b        "PTS",0                                                                          
+    dc.b        "PTS",0
+Fixup_Address_09:
+;Location in Ghidra 00073574, not referenced?
     dc.l        $063558
     dc.l        $06355C
     dc.l        $063560
@@ -36980,24 +36917,35 @@ DRM_PAGENUMBER_MAYBE:
     dc.b        $11
     dc.b        $0
     dc.b        $22
+Fixup_Address_10:
+;not referenced?
     dc.l        $063732
     dc.l        $11003E
+Fixup_Address_11:
     dc.l        $063734
     dc.l       $B0061
+Fixup_Address_12:
     dc.l        $063736
     dc.l       $B0084
+Fixup_Address_13:
     dc.l        $06373A
     dc.l       $B0098
+Fixup_Address_14:
     dc.l        $06373E
     dc.l       $B00A7
+Fixup_Address_15:
     dc.l        $063742
     dc.l        $15001E
+Fixup_Address_16:
     dc.l        $063746
     dc.l        $0A2001E
+Fixup_Address_17:
     dc.l        $063748
     dc.l        $11A001E
+Fixup_Address_18:
     dc.l        $06374C
     dc.l        $13A001E
+Fixup_Address_19:
     dc.l        $063750
     dc.b        "League Progress",0                                                              
     dc.b        "                DONE",0,0,0,0                                                         
@@ -37017,7 +36965,8 @@ DRM_PAGENUMBER_MAYBE:
     dc.b        "GROUND MAINTENANCE",0,0                                                           
     dc.b        "LEAGUE FINES",0                                                                 
     dc.b        $0
-    dc.b        "GENERAL EXPENSES",0,0                                                             
+    dc.b        "GENERAL EXPENSES",0,0
+Fixup_Address_20:	
     dc.l        $0637CC
     dc.l        $0637DA
     dc.l        $0637EA
@@ -37330,26 +37279,37 @@ DRM_PAGENUMBER_MAYBE:
     dc.b        "AVR",0                                                                          
     dc.b        "An",0                                                                           
     dc.b        $0
+Fixup_Address_21:
     dc.l        $0641F8
     dc.l        $41880000
+Fixup_Address_22:
     dc.l        $0641FC
     dc.l        $41990000
+Fixup_Address_23:
     dc.l        $064200
     dc.l        $41AA0000
+Fixup_Address_24:
     dc.l        $064204
     dc.l        $41BB0000
+Fixup_Address_25:
     dc.l        $064208
     dc.l        $41CC0000
+Fixup_Address_26:	
     dc.l        $06420C
     dc.l        $41DD0000
+Fixup_Address_27:
     dc.l        $064210
     dc.l        $41EE0000
+Fixup_Address_28:
     dc.l        $064214
     dc.l        $41FF0000
+Fixup_Address_29:
     dc.l        $064218
     dc.l        $42098000
+Fixup_Address_30:
     dc.l        $06421C
     dc.l        $42138000
+Fixup_Address_31:
     dc.l        $064220
     dc.b        " DEFENDERS",0                                                                  
     dc.b        $0
@@ -37444,7 +37404,9 @@ DRM_SCORES_MAYBE:
     dc.b        "07 11",0                                                                        
     dc.b        "02 09",0                                                                         
     dc.b        "06 14",0                                                                         
-    dc.b        "03 13",0                                                                         
+    dc.b        "03 13",0
+Fixup_Address_32:
+;000744be	
     dc.l        $064496
     dc.l        $0644A6
     dc.l        $0644AC
@@ -37523,7 +37485,9 @@ DRM_SCORES_MAYBE:
     dc.b        "shoved the ref*",0                                                              
     dc.b        "dived deliberately*",0                                                          
     dc.b        "swore at the ref*",0                                                            
-    dc.b        "intimidated the ref*",0,0                                                         
+    dc.b        "intimidated the ref*",0,0
+Fixup_Address_33:
+;	00074768
     dc.l        $0645F4
     dc.l        $064602
     dc.l        $06460C
@@ -37612,7 +37576,9 @@ DRM_SCORES_MAYBE:
     dc.b        $0
     dc.b        "Calmly placed",0                                                                
     dc.b        "Clinical strike",0                                                              
-    dc.b        "Crashed",0                                                                      
+    dc.b        "Crashed",0  
+Fixup_Address_34:	
+;749e0
     dc.l        $064884
     dc.l        $06488C
     dc.l        $064896
@@ -37661,7 +37627,9 @@ DRM_SCORES_MAYBE:
     dc.b        $0
     dc.b        "home",0                                                                         
     dc.b        $0
-    dc.b        "into the open net",0                                                            
+    dc.b        "into the open net",0
+Fixup_Address_35:	
+;74afa
     dc.l        $064A68
     dc.l        $064A6E
     dc.l        $064A7C
@@ -38678,22 +38646,26 @@ DRM_SCORES_MAYBE:
     dc.b        "   -SCR",0                                                                      
     dc.b        "       EXIT",0                                                                  
     dc.b        "   +SCR",0                                                                      
-    dc.b        "*",0                                                                            
+    dc.b        "*",0
+Fixup_Address_36:	
     dc.l        $0664E4
     dc.b        $1
     dc.b        $9
     dc.b        $0
     dc.b        $48
+Fixup_Address_37:	
     dc.l        $0664EC
     dc.b        $1
     dc.b        $2
     dc.b        $0
     dc.b        $93
+Fixup_Address_38:	
     dc.l        $0664F8
     dc.b        $1
     dc.b        $9
     dc.b        $0
     dc.b        $48
+Fixup_Address_39:	
     dc.l        $066500
     dc.b        $0
     dc.b        $0
@@ -38702,17 +38674,20 @@ DRM_SCORES_MAYBE:
     dc.b        "   -SCR",0                                                                      
     dc.b        "            EXIT",0                                                             
     dc.b        $0
-    dc.b        "*",0                                                                            
+    dc.b        "*",0
+Fixup_Address_40:		
     dc.l        $066522
     dc.b        $1
     dc.b        $9
     dc.b        $0
     dc.b        $48
+Fixup_Address_41:	
     dc.l        $06652A
     dc.b        $1
     dc.b        $2
     dc.b        $0
     dc.b        $0E0
+Fixup_Address_42:	
     dc.l        $06653C
     dc.b        $0
     dc.b        $0
@@ -38721,29 +38696,34 @@ DRM_SCORES_MAYBE:
     dc.b        "            EXIT",0                                                             
     dc.b        $0
     dc.b        "   +SCR",0                                                                      
-    dc.b        "*",0                                                                            
+    dc.b        "*",0
+Fixup_Address_43:		
     dc.l        $066556
     dc.b        $1
     dc.b        $2
     dc.b        $0
     dc.b        $0E0
+Fixup_Address_44:	
     dc.l        $066568
     dc.b        $1
     dc.b        $9
     dc.b        $0
     dc.b        $48
+Fixup_Address_45:	
     dc.l        $066570
     dc.b        $0
     dc.b        $0
     dc.b        $0
     dc.b        $0
     dc.b        "                 EXIT",0                                                        
-    dc.b        "*",0                                                                            
+    dc.b        "*",0
+Fixup_Address_46:		
     dc.l        $06658A
     dc.b        $1
     dc.b        $2
     dc.b        $1
     dc.b        $2D
+Fixup_Address_47:	
     dc.l        $0665A0
     dc.b        $0
     dc.b        $0
@@ -38850,6 +38830,8 @@ DRM_SCORES_MAYBE:
     dc.b        "Cup Winners Cup",0                                                              
     dc.b        "European Cup",0                                                                 
     dc.b        $0
+Fixup_Address_48:
+;7697d
     dc.l        $066928
     dc.l        $06693A
     dc.l        $066946
@@ -40331,21 +40313,25 @@ DRM_SCORES_MAYBE:
     dc.b        $7
     dc.b        $0
     dc.b        $32
+Fixup_Address_49:
     dc.l        $068190
     dc.b        $1
     dc.b        $10
     dc.b        $0
     dc.b        $54
+Fixup_Address_50:
     dc.l        $068198
     dc.b        $1
     dc.b       $0D
     dc.b        $0
     dc.b        $76
+Fixup_Address_51:
     dc.l        $06819E
     dc.b        $1
     dc.b        $10
     dc.b        $0
     dc.b        $98
+Fixup_Address_52:
     dc.l        $0681A4
     dc.b        $0
     dc.b        $0
@@ -40399,7 +40385,8 @@ DRM_SCORES_MAYBE:
     dc.b        "LST",0                                                                          
     dc.b        "FOR",0                                                                          
     dc.b        "AGG",0                                                                          
-    dc.b        "PTS",0                                                                          
+    dc.b        "PTS",0
+Fixup_Address_53:	
     dc.l        $0682B6
     dc.l        $0682BA
     dc.l        $0682BE
@@ -41214,7 +41201,8 @@ DRM_SCORES_MAYBE:
     dc.b        $0
     dc.b        "View",0                                                                         
     dc.b        $0
-    dc.b        "Staff",0                                                                        
+    dc.b        "Staff",0
+Fixup_Address_54:	
     dc.l        $0692E2
     dc.l        $0692E8
     dc.l        $0692F0
@@ -41286,7 +41274,8 @@ DRM_SCORES_MAYBE:
     dc.b        "His",0                                                                          
     dc.b        "Squad",0                                                                        
     dc.b        "Our",0                                                                          
-    dc.b        "Squad",0                                                                        
+    dc.b        "Squad",0
+Fixup_Address_55:	
     dc.l        $0694C8
     dc.l        $0694CE
     dc.l        $0694D8
@@ -41421,7 +41410,8 @@ DRM_SCORES_MAYBE:
     dc.b        "Details",0                                                                      
     dc.b        "Cancel",0                                                                       
     dc.b        $0
-    dc.b        "Fixture",0                                                                      
+    dc.b        "Fixture",0
+Fixup_Address_56:	
     dc.l        $06987C
     dc.l        $069884
     dc.l        $06988E
@@ -41642,6 +41632,7 @@ DRM_SCORES_MAYBE:
     dc.b        $0
     dc.b        "Av R",0                                                                         
     dc.b        $0
+Fixup_Address_57:
     dc.l        $069E60
     dc.l        $069E66
     dc.l        $069E6A
@@ -41858,6 +41849,7 @@ string_Fullstop:
     dc.b        "Transfer",0,0                                                                     
     dc.b        "List",0                                                                         
     dc.b        $0
+Fixup_Address_58:
     dc.l        $06A844
     dc.l        $06A84E
     dc.l        $06A854
@@ -41983,6 +41975,7 @@ string_Fullstop:
     dc.b        "BONUS",0                                                                        
     dc.b        "SWAP",0                                                                         
     dc.b        $0
+Fixup_Address_59:
     dc.l        $06AEFC
     dc.l        $06AF00
     dc.l        $06AF04
@@ -42024,7 +42017,8 @@ string_Fullstop:
     dc.b        "New",0                                                                          
     dc.b        "Style",0                                                                        
     dc.b        "New",0                                                                          
-    dc.b        "Formation",0                                                                    
+    dc.b        "Formation",0
+Fixup_Address_60:	
     dc.l        $06B050
     dc.l        $06B054
     dc.l        $06B05A
@@ -42109,7 +42103,8 @@ string_Fullstop:
     dc.b        "Centre-forwards",0                                                              
     dc.b        "Sweepers",0,0                                                                     
     dc.b        "Anchor men",0,0                                                                   
-    dc.b        "Support men",0                                                                  
+    dc.b        "Support men",0
+Fixup_Address_61:
     dc.l        $06B0C4
     dc.l        $06B0D0
     dc.l        $06B0DC
@@ -42227,7 +42222,8 @@ string_Fullstop:
     dc.b        "Thirteen",0                                                                     
     dc.b        $0
     dc.b        "Fourteen",0,0                                                                     
-    dc.b        "Fifteen",0                                                                      
+    dc.b        "Fifteen",0
+Fixup_Address_62:		
     dc.l        $06B394
     dc.l        $06B398
     dc.l        $06B39C
@@ -43485,7 +43481,8 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.l        $06BB3C ;Addresses?
+Fixup_Address_63:
+    dc.l        $06BB3C
     dc.l        $06BD7C
     dc.b        $0
     dc.b        $0
@@ -43497,7 +43494,8 @@ BYTE_0007b5c8:
     dc.b        $5
     dc.b        $0
     dc.b        $1
-    dc.l        $06BFBC;Addresses?
+Fixup_Address_64:
+    dc.l        $06BFBC
     dc.l        $06C2BC
     dc.b        $0
     dc.b        $0
@@ -43509,7 +43507,8 @@ BYTE_0007b5c8:
     dc.b        $7
     dc.b        $0FF
     dc.b        $0FF
-    dc.l        $06C5BC;Addresses?
+Fixup_Address_65:
+    dc.l        $06C5BC
     dc.l        $06CB5C
     dc.b        $0
     dc.b        $0
@@ -43562,8 +43561,9 @@ BYTE_0007b5c8:
     dc.b        0                                                                              
     dc.b        "DISK1",0                                                                        
     dc.b        "DISK2",0                                                                        
-    dc.b        "DISK3",0                                                                        
-    dc.l        $06BB06;Addresses?
+    dc.b        "DISK3",0
+Fixup_Address_66:	
+    dc.l        $06BB06
     dc.l        $06BB0C
     dc.l        $06BB12
     dc.b        "Insert write-enabled %s",0                                                      
@@ -49135,6 +49135,7 @@ BYTE_0007b5c8:
     dc.b        $06
     dc.b        $7E
     dc.b        $7C
+Fixup_Address_67:
     dc.l        $06DA14
     dc.l        $06DA1D
     dc.l        $06DA26
@@ -50396,7 +50397,8 @@ BYTE_0007eea5:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.l        $06EF18  ;Addresses
+Fixup_Address_68:
+    dc.l        $06EF18
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -50417,7 +50419,8 @@ BYTE_0007eea5:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.l        $06EF30;Addresses
+Fixup_Address_69:
+    dc.l        $06EF30
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -50438,7 +50441,8 @@ BYTE_0007eea5:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.l        $06EF48;Addresses
+Fixup_Address_70:
+    dc.l        $06EF48
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -50459,7 +50463,8 @@ BYTE_0007eea5:
     dc.b        $0
     dc.b        $0
     dc.b        $0
-    dc.l        $06EF60;Addresses
+Fixup_Address_71:
+    dc.l        $06EF60
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -50703,6 +50708,7 @@ LONG_0007ef90:
     dc.b        $2
     dc.b        $2
     dc.b        $2
+Fixup_Address_72:
     dc.b        $2
     dc.b        $10
     dc.b        $10

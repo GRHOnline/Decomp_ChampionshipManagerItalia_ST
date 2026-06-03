@@ -2415,7 +2415,7 @@ FUN_00011978:
     move.w      D0,-(SP)
     pea         -$07d72(A4)
     pea         -$028(A6)
-    jsr         thunk_FUN_x00063b62(pc)
+    jsr         Relay_01_00063b62(pc)
     lea         -$028(A6),A0
     jsr         thunk_FUN_t00056198(pc)
     lea         $0a(SP),SP
@@ -2655,7 +2655,7 @@ LAB_00011c26:                 ;                 $0491a(A4),-(SP)=>local_14a
     move.w      D0,-(SP)
     pea         -$07d46(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(pc)
+    jsr         Relay_01_00063b62(pc)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_g00059f76(pc)
     lea         $010(SP),SP
@@ -3268,7 +3268,7 @@ LAB_0001220a:
     move.l      D0,-(SP)
     pea         -$07af0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(pc)
+    jsr         Relay_01_00063b62(pc)
     moveq       #$061,D0;                D0 ,(SP)=>local_16a                                                             
     move.w      D0,(SP)
     moveq       #$02,D1;                D1 ,-(SP)=>local_16c                                                            
@@ -3293,7 +3293,7 @@ LAB_00012266:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$07aec(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(pc)
+    jsr         Relay_01_00063b62(pc)
     lea         $0c(SP),SP
     move.w      $0494e(A4),D0
     move.l      D0,D1
@@ -3392,7 +3392,7 @@ LAB_00012386:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$07ae6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(pc)
+    jsr         Relay_01_00063b62(pc)
     moveq       #$061,D0;                D0 ,(SP)=>local_16a                                                             
     move.w      D0,(SP);                 $04956(A4),-(SP)=>local_16c                                                    
     move.w      $04956(A4),-(SP)
@@ -3410,7 +3410,7 @@ LAB_00012386:
     move.w      D0,(SP)
     pea         -$07ade(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(pc)
+    jsr         Relay_01_00063b62(pc)
     moveq       #$05,D0;                D0 ,(SP)=>local_17a                                                             
     move.w      D0,(SP)
     moveq       #$07d,D0
@@ -3435,7 +3435,7 @@ LAB_000123f8:
     move.w      D0,-(SP)
     pea         -$07ad8(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(pc)
+    jsr         Relay_01_00063b62(pc)
     lea         $0a(SP),SP
     move.w      $04920(A4),D0
     move.l      D0,D1
@@ -3466,7 +3466,7 @@ LAB_0001245c:
     move.w      D0,-(SP)
     pea         -$07ad2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(pc);                (SP)=>local_168                                                                 
+    jsr         Relay_01_00063b62(pc);                (SP)=>local_168                                                                 
     clr.w       (SP)
     moveq       #$02,D0;                D0 ,-(SP)=>local_16a                                                            
     move.w      D0,-(SP)
@@ -4073,7 +4073,7 @@ LAB_00012a9e:
     move.l      D0,-(SP)
     pea         -$079e4(A4)
     pea         -$075a(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     moveq       #$00,D0;                D0 ,(SP)=>local_78c                                                             
     move.w      D0,(SP)
     moveq       #$09,D1;                D1 ,-(SP)=>local_78e                                                            
@@ -4466,7 +4466,7 @@ LAB_00012ef2:
     move.l      D0,-(SP)
     pea         -$079de(A4)
     pea         (DAT_000b4c5a)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0c(SP),SP
     moveq       #$02,D0
     cmp.w       D0,D7
@@ -4477,7 +4477,7 @@ LAB_00012ef2:
     move.w      D0,-(SP)
     pea         -$079d6(A4)
     pea         (DAT_000b4caa)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_00012f90
 LAB_00012f2e:                 
@@ -4503,7 +4503,7 @@ LAB_00012f3e:
     move.l      D0,-(SP)
     pea         -$079cc(A4)
     pea         (DAT_000b4caa)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $010(SP),SP
     clr.b       (DAT_000b4cae)
     bra.b       LAB_00012f90
@@ -4581,7 +4581,7 @@ LAB_00013058:
     move.w      D0,-(SP)
     pea         -$079bc(A4)
     pea         -$075a(A6)
-    jsr         thunk_FUN_x00063b62(PC);                (SP)=>local_78a                                                                 
+    jsr         Relay_01_00063b62(PC);                (SP)=>local_78a                                                                 
     clr.w       (SP)
     moveq       #$03,D0;                D0 ,-(SP)=>local_78c                                                            
     move.w      D0,-(SP)
@@ -4622,7 +4622,7 @@ LAB_000130c6:                 ;                (A0)+,(A1)+=>DAT_000b4c5a
     move.w      D0,-(SP)
     pea         -$079aa(A4)
     pea         (DAT_000b4caa)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0a(SP),SP
 LAB_000130ea:                 
     move.l      $04dd4(A4),D0
@@ -4862,7 +4862,7 @@ LAB_00013330:
     move.l      D0,-(SP)
     pea         -$0796c(A4)
     pea         (DAT_000b4d4a)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0c(SP),SP
     moveq       #$02,D0
     cmp.w       D0,D7
@@ -4872,7 +4872,7 @@ LAB_00013330:
     pea         (DAT_000b4d4a)
     pea         -$07968(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      #$086,D0;                D0 ,(SP)=>local_1e0+$04                                                         
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_1e0+$02                                                        
@@ -4906,7 +4906,7 @@ LAB_000133e2:
     pea         (DAT_000b4d4a)
     pea         -$0794a(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      #$086,D0;                D0 ,(SP)=>local_1e0+$04                                                         
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_1e0+$02                                                        
@@ -4958,7 +4958,7 @@ LAB_0001348a:
     pea         (DAT_000b4d4a)
     pea         -$07920(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      #$086,D0;                D0 ,(SP)=>local_1e0+$04                                                         
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_1e0+$02                                                        
@@ -5129,7 +5129,7 @@ LAB_00013680:                 ;                 $0494e(A4),-(SP)=>local_1d4+$02
     move.w      $0494e(A4),-(SP)
     pea         -$07904(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -5156,7 +5156,7 @@ LAB_00013680:                 ;                 $0494e(A4),-(SP)=>local_1d4+$02
     move.l      $0(a0,d0.l),(SP)
     pea         -$078fc(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -5190,7 +5190,7 @@ LAB_00013680:                 ;                 $0494e(A4),-(SP)=>local_1d4+$02
     move.l      A0,-(SP)
     pea         -$078f4(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -5221,7 +5221,7 @@ LAB_00013680:                 ;                 $0494e(A4),-(SP)=>local_1d4+$02
     move.l      A0,(SP)
     pea         -$078f0(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -5254,7 +5254,7 @@ LAB_00013808:
     move.l      D0,-(SP)
     pea         -$078ea(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0c(SP),SP
 LAB_0001382c:                 
     move.w      $0493c(A4),D0
@@ -5299,7 +5299,7 @@ LAB_00013884:
     move.w      D1,-(SP)
     pea         -$078e2(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -5326,11 +5326,11 @@ LAB_00013884:
     move.w      D0,(SP)
     pea         -$078da(A4)
     pea         (DAT_000b4e3a)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     pea         (DAT_000b4e3a)
     pea         -$078d4(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -5367,7 +5367,7 @@ LAB_0001396e:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$078cc(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -5447,7 +5447,7 @@ LAB_00013a60:
     pea         (DAT_000b7bea)
     pea         -$0789a(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -5468,7 +5468,7 @@ LAB_00013a60:
     pea         (DAT_000b7c3a)
     pea         -$07896(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $01c(SP),SP
     move.w      $0493c(A4),D0
     ext.l       D0
@@ -5684,7 +5684,7 @@ LAB_00013cc4:
     move.l      D0,-(SP)
     pea         -$07870(A4)
     pea         -$0190(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      #$088,D0;                D0 ,(SP)=>local_1ac+$02                                                         
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_1ac                                                            
@@ -5799,7 +5799,7 @@ LAB_00013e30:                 ;                 $0494e(A4),-(SP)=>local_1a2+$02
     move.w      $0494e(A4),-(SP)
     pea         -$07854(A4)
     pea         -$0190(A6)
-    jsr         thunk_FUN_m00063b62(PC);thunk_FUN_x00063b62(PC)
+    jsr         Relay_02_00063b62(PC);Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_k0006186c(PC);thunk_FUN_f0006186c(PC)
@@ -5830,7 +5830,7 @@ LAB_00013e30:                 ;                 $0494e(A4),-(SP)=>local_1a2+$02
     move.l      D0,(SP)
     pea         -$0784c(A4)
     pea         -$0190(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -5857,7 +5857,7 @@ LAB_00013e30:                 ;                 $0494e(A4),-(SP)=>local_1a2+$02
     move.l      $0(a0,d0.l),(SP)
     pea         -$07848(A4)
     pea         -$0190(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -5881,7 +5881,7 @@ LAB_00013e30:                 ;                 $0494e(A4),-(SP)=>local_1a2+$02
     move.l      $04e78(A4),(SP)
     pea         -$07840(A4)
     pea         -$0190(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -6208,7 +6208,7 @@ LAB_000142c6:
     move.w      D0,-(SP)
     pea         -$077ee(A4)
     pea         -$046c(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_000142f0
 LAB_000142e4:                 
@@ -6242,7 +6242,7 @@ LAB_000142f0:
     move.l      D0,(SP)
     pea         -$077e0(A4)
     pea         -$046c(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -6274,7 +6274,7 @@ LAB_000142f0:
     move.l      $0(a0,d1.l),(SP)
     pea         -$077dc(A4)
     pea         -$046c(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -6304,7 +6304,7 @@ LAB_000142f0:
     move.l      D0,-(SP)
     pea         -$077d4(A4)
     pea         -$046c(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00014440
 LAB_0001441e:                 
@@ -6316,7 +6316,7 @@ LAB_0001441e:
     move.w      (A0),-(SP)
     pea         -$077d0(A4)
     pea         -$046c(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0a(SP),SP
 LAB_00014440:                 
     move.w      $0493c(A4),D0
@@ -6454,7 +6454,7 @@ LAB_00014592:                 ;                A0,-(SP)=>local_156
     move.l      A0,-(SP)
     pea         -$077a8(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      #$088,D0;                D0 ,(SP)=>local_160+$02                                                         
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_160                                                            
@@ -6497,7 +6497,7 @@ LAB_0001461c:
     move.w      D0,-(SP)
     pea         -$07786(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -6532,7 +6532,7 @@ LAB_0001461c:
     move.l      A0,(SP)
     pea         -$0777e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -6567,7 +6567,7 @@ LAB_0001461c:
     move.l      A0,(SP)
     pea         -$07776(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -6602,7 +6602,7 @@ LAB_0001461c:
     move.l      (A0),(SP)
     pea         -$0776e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -6752,14 +6752,14 @@ LAB_000148ca:
     pea         (DAT_000b4f2a)
     pea         -$07738(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     jsr         thunk_FUN_i0005b244(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_g00059f76(PC)
     pea         (DAT_000b4f2a)
     pea         -$0772c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      #$0b2,D0;                D0 ,(SP)=>local_172                                                             
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_174                                                            
@@ -6800,7 +6800,7 @@ LAB_0001495e:
     move.l      D0,-(SP)
     pea         -$0770c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0c(SP),SP
     move.w      $04974(A4),D0
     ext.l       D0
@@ -6845,7 +6845,7 @@ LAB_000149ac:
     move.l      D0,-(SP)
     pea         -$07708(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0c(SP),SP
     move.w      $04974(A4),D0
     ext.l       D0
@@ -6884,7 +6884,7 @@ LAB_00014a3c:
     pea         (DAT_000b4eda)
     pea         -$07704(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $04974(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -6918,7 +6918,7 @@ LAB_00014a3c:
     move.l      $0(a0,d1.l),(SP)
     pea         -$076fe(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $04974(A4),D0
     ext.l       D0
     jsr         thunk_FUN_f0006186c(PC)
@@ -6998,7 +6998,7 @@ LAB_00014bd2:
     pea         (DAT_000b4f2a)
     pea         -$076f0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      #$0b2,D0;                D0 ,(SP)=>local_166                                                             
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_168                                                            
@@ -7029,7 +7029,7 @@ LAB_00014bd2:
     pea         (DAT_000b4f2a)
     pea         -$076ca(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      #$0b2,D0;                D0 ,(SP)=>local_17e                                                             
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_180                                                            
@@ -7098,7 +7098,7 @@ LAB_00014ce2:
     move.l      D0,-(SP)
     pea         -$076a6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0c(SP),SP
     move.w      $04976(A4),D0
     ext.l       D0
@@ -7126,7 +7126,7 @@ LAB_00014d50:
     move.l      D0,(SP)
     pea         -$076a2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $04976(A4),D0
     ext.l       D0
     jsr         thunk_FUN_i000617ec(PC)
@@ -7171,11 +7171,11 @@ LAB_00014db8:
     move.l      D0,-(SP)
     pea         -$0769a(A4)
     pea         (DAT_000b4f98)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     pea         (DAT_000b4f98)
     pea         -$07694(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $04976(A4),D0
     ext.l       D0
     jsr         thunk_FUN_i000617ec(PC)
@@ -7219,7 +7219,7 @@ LAB_00014e78:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$07690(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $04976(A4),D0
     ext.l       D0
     jsr         thunk_FUN_i000617ec(PC)
@@ -7410,13 +7410,13 @@ LAB_00015070:
     moveq       #$00,D0
     move.b      (A0),D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
+    lea         (Fixup_Address_00),A0
     adda.l      D0,A0
-    pea         (DAT_000b4fe8);                (A0),-(SP)=>DWORD_000654d8                                                      
+    pea         (DAT_000b4fe8);                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$075ea(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $04966(A4),D0
     ext.l       D0
     moveq       #$010,D1
@@ -7568,12 +7568,12 @@ LAB_00015242:                 ;                (A0)+,(A1)+=>DAT_000b5038
     subi.w      #$08c,D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$075b4(A4)
     pea         (DAT_000b5088)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_000152ce
 LAB_00015286:                 
@@ -7621,8 +7621,8 @@ LAB_000152ec:
     subq.w      #$01,D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_00065a6c),A0
-    adda.l      D0,A0;                (A0),A1=>DWORD_00065a6c                                                         
+    lea         (Fixup_Address_02),A0
+    adda.l      D0,A0;                (A0),A1=>Fixup_Address_02                                                         
     movea.l     (A0),A1
     lea         (DAT_000b5038),A2
 LAB_00015306:                 ;                (A1)+,(A2)+=>DAT_000b5038                                                       
@@ -7637,7 +7637,7 @@ LAB_00015318:
     pea         (DAT_000b5038)
     pea         -$075a6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     moveq       #$04c,D0;                D0 ,(SP)=>local_168                                                             
     move.w      D0,(SP);                 $04966(A4),-(SP)=>local_16a                                                    
     move.w      $04966(A4),-(SP)
@@ -7651,7 +7651,7 @@ LAB_00015318:
     pea         (DAT_000b5088)
     pea         -$0759e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.l      $04dd4(A4),D0
     jsr         thunk_FUN_e00061970(PC)
     move.l      #$040238000,D2
@@ -7834,7 +7834,7 @@ LAB_0001552c:
     move.l      D0,-(SP)
     pea         -$074a4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_t00056198(PC)
     lea         $0c(SP),SP
@@ -7864,7 +7864,7 @@ LAB_00015582:
     move.l      D0,-(SP)
     pea         -$0748c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_t00056198(PC)
     lea         $0c(SP),SP
@@ -7894,7 +7894,7 @@ LAB_000155d8:
     move.l      D0,-(SP)
     pea         -$0746e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_t00056198(PC)
     lea         $0c(SP),SP
@@ -7924,7 +7924,7 @@ LAB_0001562e:
     move.l      D0,-(SP)
     pea         -$0745a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_t00056198(PC)
     lea         $0c(SP),SP
@@ -7954,7 +7954,7 @@ LAB_00015684:
     move.l      D0,-(SP)
     pea         -$0743e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_t00056198(PC)
     lea         $0c(SP),SP
@@ -8073,7 +8073,7 @@ LAB_000157a6:
     pea         (DAT_000b50d8)
     pea         -$0738a(A4)
     pea         -$035c(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $04988(A4),D0
     subq.w      #$04,D0
     ext.l       D0
@@ -8173,7 +8173,7 @@ LAB_000158c8:
     move.l      D0,-(SP)
     pea         -$07386(A4)
     pea         -$035c(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     ;clr.b       $04(A6);local_353+ L005918
 	clr.b		-$34F(a6)
     move.w      $04952(A4),D0
@@ -8223,12 +8223,12 @@ LAB_0001596c:
     moveq       #$00,D0;                (A0),D0 =>BYTE_0006664c                                                         
     move.b      (A0),D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$07376(A4)
     pea         -$035c(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0c(SP),SP
     ;clr.b       $04(A6);local_357+ L0059B2
 	clr.b		-$353(a6)
@@ -8441,7 +8441,7 @@ LAB_00015b7c:
     move.w      D0,-(SP)
     pea         -$07312(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0498c(A4),D0
     add.w       D0,D0
     add.w       $0498c(A4),D0
@@ -8460,7 +8460,7 @@ LAB_00015b7c:
     move.w      D0,(SP)
     pea         -$07308(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0498c(A4),D0
     add.w       D0,D0
     add.w       $0498c(A4),D0
@@ -8480,7 +8480,7 @@ LAB_00015b7c:
     move.w      D0,(SP)
     pea         -$072fe(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0498c(A4),D0
     add.w       D0,D0
     add.w       $0498c(A4),D0
@@ -8501,7 +8501,7 @@ LAB_00015c56:
     move.w      D0,-(SP)
     pea         -$072f4(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0498c(A4),D0
     add.w       D0,D0
     moveq       #$00,D1
@@ -8517,7 +8517,7 @@ LAB_00015c56:
     move.w      D0,(SP)
     pea         -$072e2(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0498c(A4),D0
     add.w       D0,D0
     addq.w      #$01,D0
@@ -8662,7 +8662,7 @@ LAB_00015dfa:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$07272(A4)
     pea         -$0160(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0494e(A4),D0
     ext.l       D0
     asl.l       #$02,D0
@@ -8757,7 +8757,7 @@ LAB_00015f0e:
     move.l      D0,-(SP)
     pea         -$0726c(A4)
     pea         -$0160(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0c(SP),SP
     move.l      $06+$04(A6),D0
     jsr         thunk_FUN_e00061970(PC)
@@ -8880,7 +8880,7 @@ LAB_00016062:                 ;                 $04990(A4),-(SP)=>local_190+$02
     move.w      $04990(A4),-(SP)
     pea         -$07268(A4)
     pea         -$0160(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.w      $0494e(A4),D0
     ext.l       D0
     asl.l       #$02,D0
@@ -8980,7 +8980,7 @@ LAB_0001614c:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$07256(A4)
     pea         -$02080(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         (DAT_0009e25e),A0
     movea.l     A0,A1
     adda.w      D7,A1
@@ -9074,7 +9074,7 @@ LAB_00016266:
     move.l      A0,-(SP)
     pea         -$07248(A4)
     pea         -$02080(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         -$02080(A6),A0
     jsr         thunk_FUN_xx0006417c(PC)
     move.w      D0,$04962(A4)
@@ -9086,7 +9086,7 @@ LAB_00016266:
     move.l      A1,(SP)
     pea         -$07242(A4)
     pea         -$02080(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     move.l      $04dd4(A4),D0
     move.l      #$03f800000,D1
     jsr         thunk_FUN_s00060dd4(PC)
@@ -9130,7 +9130,7 @@ LAB_00016314:
     move.l      A0,-(SP)
     pea         -$0723e(A4)
     pea         -$02080(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     ;clr.b       $04(A6);local_2079+ NOTEPAD L00634C
 	clr.b		-$2075(a6)
     move.l      $04dd4(A4),D0
@@ -9152,7 +9152,7 @@ LAB_0001635e:
     move.l      A0,-(SP)
     pea         -$07238(A4)
     pea         -$02080(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     ;clr.b       $04(A6);local_2079+
 	clr.b		-$2075(a6)
     move.l      $04dd4(A4),D0
@@ -9993,7 +9993,7 @@ LAB_00016c0e:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$0717a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_t00056198(PC)
     lea         $0c(SP),SP
@@ -10368,7 +10368,7 @@ LAB_00016f52:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$07134(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0c(SP),SP
     bra.b      LAB_0001701a 
 LAB_00016fa2:                 
@@ -10391,14 +10391,14 @@ LAB_00016fa2:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$07128(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_00017012
 LAB_00016fde:                 
     subi.w      #$08c,D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
+    lea         (Fixup_Address_00),A0
     adda.l      D0,A0
     ;move.l      A0,$016a(SP) L00700A
 	move.l		a0,$18(a7)
@@ -10407,11 +10407,11 @@ LAB_00016fde:
     move.l      D0,-(SP)
     ;movea.l     $016e(SP),A0 L007018
 	movea.l		$1C(a7),a0
-;                (A0),-(SP)=>DWORD_000654d8                                                      
+;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$07122(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $010(SP),SP
 LAB_00017012:                 
     move.l      $04e88(A4),D0
@@ -10463,7 +10463,7 @@ LAB_00017082:                 ;                A0,-(SP)=>local_16e
     move.l      A0,-(SP)
     pea         -$0711a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     moveq       #$01,D0;                D0 ,(SP)=>local_176                                                             
     move.w      D0,(SP)
     ;move.w      $04(A6),D0 L0070B0
@@ -10494,7 +10494,7 @@ LAB_000170b6:
     move.l      (A0),-(SP)
     pea         -$070fe(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_x00063b62(PC)
+    jsr         Relay_01_00063b62(PC)
     lea         $0c(SP),SP
     moveq       #$05,D0
     cmp.w       $04952(A4),D0
@@ -10977,7 +10977,7 @@ thunk_FUN_j00064468:
     jmp         FUN_00064468
 thunk_FUN_u0005bff8:
     jmp         FUN_0005bff8
-thunk_FUN_x00063b62:
+Relay_01_00063b62:
     jmp         FUN_00063b62
 thunk_FUN_00041780:
     jmp         FUN_00041780
@@ -11103,7 +11103,7 @@ LAB_0001771c:
     pea         -$0140(A6)
     pea         -$06eda(A4)
     pea         (DAT_000b4c5a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     move.w      $049a0(A4),D0
     ext.l       D0
     moveq       #$04c,D1
@@ -11118,7 +11118,7 @@ LAB_0001771c:
     move.l      (A0),(SP)
     pea         -$06ed2(A4)
     pea         (DAT_000b4caa)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $014(SP),SP
     move.w      $049a0(A4),D0
     moveq       #$07,D1
@@ -11143,7 +11143,7 @@ LAB_0001771c:
     pea         (DAT_000b4caa)
     pea         -$06eca(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     move.w      $049a0(A4),D0
     ext.l       D0
     jsr         thunk_FUN_k0006186c(PC)
@@ -11196,7 +11196,7 @@ LAB_00017810:
     pea         (DAT_000b4caa)
     pea         -$06ec4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     move.w      $049a0(A4),D0
     ext.l       D0
     jsr         thunk_FUN_k0006186c(PC)
@@ -11244,7 +11244,7 @@ LAB_000178b8:                 ;                -(SP)=>local_15c+$06
     move.l      $04e8c(A4),(SP)
     pea         -$06ea4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC);                (SP)=>local_162                                                                 
+    jsr         Relay_02_00063b62(PC);                (SP)=>local_162                                                                 
     clr.w       (SP)
     moveq       #$01,D0;                D0 ,-(SP)=>local_166+$02                                                        
     move.w      D0,-(SP)
@@ -11257,7 +11257,7 @@ LAB_000178b8:                 ;                -(SP)=>local_15c+$06
     move.l      $04e90(A4),(SP)
     pea         -$06e9a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC);                (SP)=>local_16e                                                                 
+    jsr         Relay_02_00063b62(PC);                (SP)=>local_16e                                                                 
     clr.w       (SP)
     moveq       #$01,D0;                D0 ,-(SP)=>local_170                                                            
     move.w      D0,-(SP)
@@ -11279,7 +11279,7 @@ LAB_00017940:                 ;                (A0)+,(A1)+=>DAT_000b5218
     move.l      D0,-(SP)
     pea         -$06e8e(A4)
     pea         (DAT_000b5218)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00017982
 LAB_00017964:                 
@@ -11289,7 +11289,7 @@ LAB_00017964:
     move.l      D0,-(SP)
     pea         -$06e86(A4)
     pea         (DAT_000b5218)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0c(SP),SP
 LAB_00017982:                 
     move.l      D7,D0
@@ -11310,7 +11310,7 @@ LAB_00017982:
     move.l      D0,-(SP)
     pea         -$06e7e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC);                (SP)=>local_166+$02                                                             
+    jsr         Relay_02_00063b62(PC);                (SP)=>local_166+$02                                                             
     clr.w       (SP)
     moveq       #$0c,D0;                D0 ,-(SP)=>local_166                                                            
     move.w      D0,-(SP)
@@ -11340,7 +11340,7 @@ LAB_000179fe:
     move.l      $10(SP),-(SP)
     pea         -$06e6c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC);                (SP)=>local_166+$02                                                             
+    jsr         Relay_02_00063b62(PC);                (SP)=>local_166+$02                                                             
     clr.w       (SP)
     moveq       #$08,D0;                D0 ,-(SP)=>local_166                                                            
     move.w      D0,-(SP)
@@ -11494,7 +11494,7 @@ LAB_00017bb8:
     move.w      D0,-(SP)
     pea         -$06d94(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN___00056198(PC)
     lea         $0e(SP),SP
@@ -11564,7 +11564,7 @@ LAB_00017c8a:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$06d56(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     moveq       #$00,D0
     lea         -$0144(A6),A0
     lea         -$06d4a(A4),A1
@@ -11590,7 +11590,7 @@ LAB_00017ccc:
     move.w      D0,-(SP)
     pea         -$06d2c(A4)
     pea         -$04(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     move.l      D7,D0
     ext.l       D0
     moveq       #$065,D1
@@ -11609,7 +11609,7 @@ LAB_00017ccc:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$06d26(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         -$0144(A6),A0
     jsr         thunk_FUN___00056198(PC)
     move.l      D7,D0
@@ -11675,7 +11675,7 @@ FUN_00017d92:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$06cec(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_u00059f76(PC)
     lea         (DAT_0009e25e),A0
@@ -11815,7 +11815,7 @@ LAB_00017f00:                 ;                (A1)+=>DAT_000b7762
     move.l      D0,-(SP)
     pea         -$06cba(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0c(SP),SP
     cmpi.w      #$0285,$04cfc(A4)
     ble.b       LAB_00017f58
@@ -11858,7 +11858,7 @@ LAB_00017f68:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$06cb6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00017fcc
 LAB_00017fc0:                 
@@ -12669,7 +12669,7 @@ LAB_000187c0:
     pea         (DAT_000b55ba)
     pea         -$06a4a(A4)
     pea         (DAT_000b542a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0c(SP),SP
     bra.w       LAB_00018860
 LAB_000187e2:                 
@@ -12677,7 +12677,7 @@ LAB_000187e2:
     pea         (DAT_000b55ba)
     pea         -$06a3c(A4)
     pea         (DAT_000b542a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00018860
 LAB_00018802:                 
@@ -12685,7 +12685,7 @@ LAB_00018802:
     pea         (DAT_000b55ba)
     pea         -$06a2e(A4)
     pea         (DAT_000b542a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00018860
 LAB_00018822:                 
@@ -12693,7 +12693,7 @@ LAB_00018822:
     pea         (DAT_000b55ba)
     pea         -$06a1c(A4)
     pea         (DAT_000b542a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00018860
 LAB_00018842:                 
@@ -12701,7 +12701,7 @@ LAB_00018842:
     pea         (DAT_000b55ba)
     pea         -$06a0e(A4)
     pea         (DAT_000b542a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0c(SP),SP
 LAB_00018860:                 ;                D5 ,-(SP)=>local_1c                                                             
     move.w      D5,-(SP);                 $049ce(A4),-(SP)=>local_1e                                                     
@@ -12988,7 +12988,7 @@ LAB_00018b5e:                 ;                (A0)+=>DAT_000b551a,(A1)+=>DAT_0
     pea         (DAT_000b55ba)
     pea         -$06936(A4)
     pea         (DAT_000b542a)
-    jsr         thunk_FUN_m00063b62(PC);                D5 ,(SP)=>local_26                                                              
+    jsr         Relay_02_00063b62(PC);                D5 ,(SP)=>local_26                                                              
     move.w      D5,(SP)
     moveq       #$010,D0;                D0 ,-(SP)=>local_28                                                             
     move.w      D0,-(SP)
@@ -13093,7 +13093,7 @@ LAB_00018c6a:                 ;                (A0)+=>DAT_000b551a,(A1)+=>DAT_0
     pea         (DAT_000b55ba)
     pea         -$06928(A4)
     pea         (DAT_000b542a)
-    jsr         thunk_FUN_m00063b62(PC);                D5 ,(SP)=>local_26                                                              
+    jsr         Relay_02_00063b62(PC);                D5 ,(SP)=>local_26                                                              
     move.w      D5,(SP)
     moveq       #$08,D0;                D0 ,-(SP)=>local_28                                                             
     move.w      D0,-(SP)
@@ -13206,7 +13206,7 @@ LAB_00018d9a:                 ;                (A0)+=>DAT_000b54ca,(A1)+=>DAT_0
     pea         (DAT_000b55ba)
     pea         -$068f8(A4)
     pea         (DAT_000b542a)
-    jsr         thunk_FUN_m00063b62(PC);                D5 ,(SP)=>local_2c                                                              
+    jsr         Relay_02_00063b62(PC);                D5 ,(SP)=>local_2c                                                              
     move.w      D5,(SP)
     moveq       #$0c,D0;                D0 ,-(SP)=>local_2e                                                             
     move.w      D0,-(SP)
@@ -13251,7 +13251,7 @@ LAB_00018e1c:                 ;                (A0)+=>DAT_000b556a,(A1)+=>DAT_0
     pea         (DAT_000b55ba)
     pea         -$068d6(A4)
     pea         (DAT_000b542a)
-    jsr         thunk_FUN_m00063b62(PC);                D5 ,(SP)=>local_26                                                              
+    jsr         Relay_02_00063b62(PC);                D5 ,(SP)=>local_26                                                              
     move.w      D5,(SP)
     moveq       #$02,D0;                D0 ,-(SP)=>local_28                                                             
     move.w      D0,-(SP)
@@ -13296,7 +13296,7 @@ LAB_00018e9e:                 ;                (A0)+=>DAT_000b547a,(A1)+=>DAT_0
     pea         (DAT_000b55ba)
     pea         -$068ba(A4)
     pea         (DAT_000b542a)
-    jsr         thunk_FUN_m00063b62(PC);                D5 ,(SP)=>local_2c                                                              
+    jsr         Relay_02_00063b62(PC);                D5 ,(SP)=>local_2c                                                              
     move.w      D5,(SP)
     moveq       #$08,D0;                D0 ,-(SP)=>local_2e                                                             
     move.w      D0,-(SP)
@@ -13381,7 +13381,7 @@ LAB_00018f8a:                 ;                (A0)+=>DAT_000b547a,(A1)+=>DAT_0
     pea         (DAT_000b55ba)
     pea         -$06894(A4)
     pea         (DAT_000b542a)
-    jsr         thunk_FUN_m00063b62(PC);                D5 ,(SP)=>local_2c                                                              
+    jsr         Relay_02_00063b62(PC);                D5 ,(SP)=>local_2c                                                              
     move.w      D5,(SP)
     moveq       #$06,D0;                D0 ,-(SP)=>local_2e                                                             
     move.w      D0,-(SP)
@@ -13427,7 +13427,7 @@ LAB_0001900c:                 ;                (A0)+=>DAT_000b54ca,(A1)+=>DAT_0
     pea         (DAT_000b55ba)
     pea         -$06886(A4)
     pea         (DAT_000b542a)
-    jsr         thunk_FUN_m00063b62(PC);                D5 ,(SP)=>local_26                                                              
+    jsr         Relay_02_00063b62(PC);                D5 ,(SP)=>local_26                                                              
     move.w      D5,(SP)
     moveq       #$01,D0;                D0 ,-(SP)=>local_28                                                             
     move.w      D0,-(SP);                D0 ,-(SP)=>local_2a                                                             
@@ -13614,7 +13614,7 @@ LAB_000191e4:                 ;                (A0)+=>DAT_000b560a,(A1)+
     pea         -$0140(A6)
     pea         -$0686c(A4)
     pea         (DAT_000b560a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0001926a
 LAB_0001920c:                 
@@ -13633,7 +13633,7 @@ LAB_00019222:                 ;                A0,-(SP)=>local_16a
     pea         -$0140(A6)
     pea         -$06864(A4)
     pea         (DAT_000b560a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_0001926a
 LAB_0001923c:                 
@@ -13652,7 +13652,7 @@ LAB_00019252:                 ;                A0,-(SP)=>local_16a
     pea         -$0140(A6)
     pea         -$06852(A4)
     pea         (DAT_000b560a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $010(SP),SP
 LAB_0001926a:                 
     move.l      D4,D0
@@ -13784,7 +13784,7 @@ LAB_0001928a:
     move.w      $22(SP),-(SP)
     pea         -$06842(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0c(SP),SP
     move.w      $0494e(A4),D0
     ext.l       D0
@@ -13972,7 +13972,7 @@ LAB_00019648:                 ;                 $049e4(A4),-(SP)=>local_16a+$02
     move.w      $049e4(A4),-(SP)
     pea         -$0682c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_k0006186c(PC)
@@ -13994,7 +13994,7 @@ LAB_00019648:                 ;                 $049e4(A4),-(SP)=>local_16a+$02
     move.w      $049e6(A4),(SP)
     pea         -$06828(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_k0006186c(PC)
@@ -14034,7 +14034,7 @@ LAB_00019720:                 ;                D0 ,-(SP)=>local_16a+$02
     move.w      D0,-(SP)
     pea         -$0681e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_k0006186c(PC)
@@ -14078,7 +14078,7 @@ LAB_000197a0:
     move.w      D1,-(SP)
     pea         -$0680c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_k0006186c(PC)
@@ -14363,7 +14363,7 @@ LAB_00019a5a:
     move.l      D0,-(SP)
     pea         -$06808(A4)
     pea         (DAT_000b565a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     move.l      D7,D0
     jsr         thunk_FUN_m00057faa(PC)
     lea         $0c(SP),SP
@@ -14466,12 +14466,12 @@ LAB_00019b5e:                 ;                (A0)+,(A1)+=>DAT_000b4cfa
     moveq       #$00,D0;                (A0),D0 =>BYTE_0006664c                                                         
     move.b      (A0),D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$067fe(A4)
     pea         (DAT_000b565a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00019bb4
 LAB_00019b8e:                 
@@ -14788,7 +14788,7 @@ LAB_00019e9a:                 ;                A0,-(SP)=>local_170
     pea         (DAT_000b542a)
     pea         -$067d8(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         -$0140(A6),A0
     movea.l     A0,A1
 LAB_00019eb4:                 
@@ -14832,7 +14832,7 @@ LAB_00019f26:
     pea         (DAT_000b542a)
     pea         -$067be(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     moveq       #$010,D0
     jsr         thunk_FUN_n0005c6d0(PC)
     lea         -$0140(A6),A0
@@ -15081,7 +15081,7 @@ defaultD:
     pea         (DAT_000b574a)
     pea         -$06740(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN___00056198(PC);                A6=>local_4                                                                     
     unlk        A6
@@ -16044,7 +16044,7 @@ LAB_0001ab72:
     move.w      D0,-(SP)
     pea         -$06646(A4)
     pea         -$069(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         -$069(A6),A0
     jsr         FUN_0001bdec(PC)
     move.w      $049fa(A4),D0
@@ -16774,7 +16774,7 @@ LAB_0001b30e:
     move.l      D0,(SP)
     pea         -$06558(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     move.w      $0494a(A4),D0
     ext.l       D0
     jsr         thunk_FUN_k0006186c(PC)
@@ -16881,7 +16881,7 @@ caseD_F0:
     move.w      D0,-(SP)
     pea         -$0654c(A4)
     pea         (DAT_000b588a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0a(SP),SP
     move.w      #$01,$04962(A4)
     bra.w       defaultF
@@ -16893,7 +16893,7 @@ caseD_F6:
     move.w      D0,-(SP)
     pea         -$06546(A4)
     pea         (DAT_000b588a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0a(SP),SP
     move.w      #$06,$04962(A4)
     bra.w       defaultF
@@ -16905,7 +16905,7 @@ caseD_F7:
     move.w      D0,-(SP)
     pea         -$06540(A4)
     pea         (DAT_000b588a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0a(SP),SP
     move.w      #$06,$04962(A4)
     bra.w       defaultF
@@ -16987,7 +16987,7 @@ caseD_F9:
     move.w      D0,-(SP)
     pea         -$06530(A4)
     pea         (DAT_000b588a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_0001b616
 LAB_0001b608:                 
@@ -17026,7 +17026,7 @@ caseD_Fa:
     move.l      D0,-(SP)
     pea         -$06528(A4)
     pea         (DAT_000b588a)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_0001b68e
 LAB_0001b680:                 
@@ -17402,8 +17402,8 @@ LAB_0001ba56:
     bgt.b       LAB_0001baa6
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_00065bb0),A0
-    adda.l      D0,A0;                (A0),A1=>DWORD_00065bb0                                                         
+    lea         (Fixup_Address_04),A0
+    adda.l      D0,A0;                (A0),A1=>Fixup_Address_04                                                         
     movea.l     (A0),A1
     lea         -$0140(A6),A2
 LAB_0001ba72:                 
@@ -17425,7 +17425,7 @@ LAB_0001baa6:
     pea         (DAT_000b4a7a)
     pea         -$064be(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_m00063b62(PC)
+    jsr         Relay_02_00063b62(PC)
     moveq       #$00,D0
     lea         -$064b4(A4),A0
     lea         -$0140(A6),A1
@@ -17678,7 +17678,7 @@ thunk_FUN____00064468:
     jmp         FUN_00064468
 thunk_FUN_u0006433c:
     jmp         FUN_0006433c
-thunk_FUN_m00063b62:
+Relay_02_00063b62:
     jmp         FUN_00063b62
 thunk_FUN__________0005af92:
     jmp         FUN_0005af92
@@ -17742,7 +17742,7 @@ LAB_0001be0c:
     move.w      D1,-(SP)
     pea         -$064a4(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.w      #$090,D0;                D0 ,(SP)=>local_6a                                                              
     move.w      D0,(SP)
     moveq       #$02,D1;                D1 ,-(SP)=>local_6c                                                             
@@ -18104,7 +18104,7 @@ LAB_0001c20e:
     move.l      D0,-(SP)
     pea         -$06482(A4)
     pea         (DAT_000b59ca)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         $010(SP),SP
     bra.w       LAB_0001c362
 LAB_0001c246:                 
@@ -18115,7 +18115,7 @@ LAB_0001c246:
     pea         -$054(A6)
     pea         -$0647a(A4)
     pea         (DAT_000b59ca)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         $0c(SP),SP
     bra.w       LAB_0001c362
 LAB_0001c26c:                 
@@ -18129,7 +18129,7 @@ LAB_0001c26c:
     pea         -$054(A6)
     pea         -$06472(A4)
     pea         (DAT_000b59ca)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         $0c(SP),SP
     bra.w       LAB_0001c362
 LAB_0001c29a:                 
@@ -18143,7 +18143,7 @@ LAB_0001c29a:
     pea         -$054(A6)
     pea         -$0646a(A4)
     pea         (DAT_000b59ca)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         $0c(SP),SP
     bra.w       LAB_0001c362
 LAB_0001c2c8:                 
@@ -18157,7 +18157,7 @@ LAB_0001c2c8:
     pea         -$054(A6)
     pea         -$06462(A4)
     pea         (DAT_000b59ca)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0001c362
 LAB_0001c2f4:                 
@@ -18171,7 +18171,7 @@ LAB_0001c2f4:
     pea         -$054(A6)
     pea         -$0645a(A4)
     pea         (DAT_000b59ca)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0001c362
 LAB_0001c320:                 
@@ -18182,7 +18182,7 @@ LAB_0001c320:
     pea         -$054(A6)
     pea         -$06452(A4)
     pea         (DAT_000b59ca)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0001c362
 LAB_0001c344:                 
@@ -18191,7 +18191,7 @@ LAB_0001c344:
     pea         -$054(A6)
     pea         -$0644a(A4)
     pea         (DAT_000b59ca)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         $0c(SP),SP
 LAB_0001c362:                 
     lea         (DAT_000b597a),A0
@@ -18245,7 +18245,7 @@ LAB_0001c386:
     move.w      D0,-(SP)
     pea         -$0641c(A4)
     pea         -$054(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     moveq       #$00,D0
     lea         -$054(A6),A0
     bsr.w       FUN_0001c4e6
@@ -18267,7 +18267,7 @@ LAB_0001c444:                 ;                 $04a38(A4),-(SP)=>local_68
     move.w      $04a38(A4),-(SP)
     pea         -$06408(A4)
     pea         (DAT_000b5a1a)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.b      (DAT_000b5a1a),D0
     ext.w       D0
     move.w      D0,$16(SP)
@@ -18278,7 +18278,7 @@ LAB_0001c444:                 ;                 $04a38(A4),-(SP)=>local_68
     move.w      $16(SP),-(SP)
     pea         -$06404(A4)
     pea         -$054(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     moveq       #$01,D0
     lea         -$054(A6),A0
     bsr.w       FUN_0001c4e6
@@ -18414,7 +18414,7 @@ LAB_0001c5b0:
     move.w      D0,-(SP)
     pea         -$063e0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.w      $04966(A4),D0
     subq.w      #$01,D0
     muls.w      #$06,D0
@@ -18574,7 +18574,7 @@ LAB_0001c790:                 ;                (A0)+=>DAT_000b592a,(A1)+
     pea         (DAT_000b5a6a)
     pea         -$063d8(A4)
     pea         (DAT_000b592a)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.l      -$144(A6),D2;                A6=>local_4                                                                     
     unlk        A6
     rts         
@@ -20885,7 +20885,7 @@ LAB_0001e1b4:
     move.w      D0,-(SP)
     pea         -$06336(A4)
     pea         (DAT_000b5c9a)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.w      $04a9c(A4),D0
     ext.l       D0
     divs.w      #$010,D0
@@ -20893,7 +20893,7 @@ LAB_0001e1b4:
     move.w      D0,(SP)
     pea         -$06330(A4)
     pea         (DAT_000b5cea)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         $012(SP),SP
     clr.w       $04aa0(A4)
 LAB_0001e22c:                 
@@ -21293,7 +21293,7 @@ FUN_0001e5ec:
     move.w      $04a6c(A4),(SP)
     pea         -$0632a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     moveq       #$05,D0;                D0 ,(SP)=>local_154                                                             
     move.w      D0,(SP)
     moveq       #$060,D0
@@ -21457,7 +21457,7 @@ FUN_0001e7a6:
     move.w      $04a6e(A4),(SP)
     pea         -$06326(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     moveq       #$05,D0;                D0 ,(SP)=>local_154                                                             
     move.w      D0,(SP)
     move.w      #$0f0,D0
@@ -22582,7 +22582,7 @@ LAB_0001f352:
     move.l      D0,-(SP)
     pea         -$06322(A4)
     pea         (DAT_000b5d3e)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         $0c(SP),SP
 LAB_0001f372:                 
     move.w      $049b4(A4),D0
@@ -22657,7 +22657,7 @@ LAB_0001f428:
     move.l      D0,-(SP)
     pea         -$0631c(A4)
     pea         (DAT_000b5d8e)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     moveq       #$02,D0
     jsr         thunk_FUN_z0005caec(PC)
     lea         $0c(SP),SP
@@ -22864,7 +22864,7 @@ LAB_0001f5f8:
     pea         (DAT_000b5d8e)
     pea         -$06310(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.l      D5,D0
     lea         -$0140(A6),A0
     jsr         FUN_00021580(PC)
@@ -22874,7 +22874,7 @@ LAB_0001f5f8:
     pea         (DAT_000b5dde)
     pea         -$062fe(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.l      D7,D0
     lea         -$0140(A6),A0
     jsr         FUN_00021580(PC)
@@ -22890,7 +22890,7 @@ LAB_0001f5f8:
     bne.b       LAB_0001f6f0
     pea         -$062f4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.l      D5,D0
     lea         -$0140(A6),A0
     jsr         FUN_00021580(PC)
@@ -22937,7 +22937,7 @@ LAB_0001f6f0:
     bne.b       LAB_0001f766
     pea         -$062e4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.l      D5,D0
     lea         -$0140(A6),A0
     jsr         FUN_00021580(PC)
@@ -22985,7 +22985,7 @@ LAB_0001f766:
     bne.b       LAB_0001f788
     pea         -$062d0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.l      D5,D0
     lea         -$0140(A6),A0
     jsr         FUN_00021580(PC)
@@ -22997,7 +22997,7 @@ LAB_0001f788:
     bne.b       LAB_0001f7c2
     pea         -$062c0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.l      D5,D0
     lea         -$0140(A6),A0
     jsr         FUN_00021580(PC)
@@ -23006,7 +23006,7 @@ LAB_0001f788:
 LAB_0001f7aa:                 
     pea         -$062b0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.l      D5,D0
     lea         -$0140(A6),A0
     jsr         FUN_00021580(PC)
@@ -23050,7 +23050,7 @@ LAB_0001f7e8:
     pea         (DAT_000b5e2e)
     pea         -$06298(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         -$0140(A6),A0
     lea         (DAT_000b5e2e),A1
 LAB_0001f83a:                 ;                (A0)+,(A1)+=>DAT_000b5e2e                                                       
@@ -23502,7 +23502,7 @@ LAB_0001fc66:
     pea         (DAT_000b5fbe)
     pea         -$06272(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         -$0142(A6),A0
     lea         (DAT_000b5fbe),A1
 LAB_0001fcb4:                 ;                (A0)+,(A1)+=>DAT_000b5fbe                                                       
@@ -23581,7 +23581,7 @@ LAB_0001fd36:
     pea         (DAT_000b60fe)
     pea         -$0624c(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         -$0142(A6),A0
     lea         (DAT_000b60fe),A1
 LAB_0001fd82:                 ;                (A0)+,(A1)+=>DAT_000b60fe                                                       
@@ -23742,7 +23742,7 @@ LAB_0001ff1a:
     pea         (DAT_000b5dde)
     pea         -$0621a(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.l      D7,D0
     lea         -$0142(A6),A0
     jsr         FUN_00021580(PC)
@@ -24195,7 +24195,7 @@ LAB_000203ae:
     move.l      $18(SP),-(SP)
     pea         -$05fce(A4)
     pea         (DAT_000b4caa)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     lea         $010(SP),SP
 LAB_000203e4:                 
     move.w      $049de(A4),D0
@@ -24352,7 +24352,7 @@ LAB_0002051c:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$05fae(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_a00063b62(PC)
+    jsr         Relay_03_00063b62(PC)
     move.l      D7,D0
     lea         -$0140(A6),A0
     jsr         FUN_00021580(PC)
@@ -24816,7 +24816,7 @@ thunk_FUN_h8_00026cc0:
     jmp         FUN_00026cc0
 thunk_FUN_y0006433c:
     jmp         FUN_0006433c
-thunk_FUN_a00063b62:
+Relay_03_00063b62:
     jmp         FUN_00063b62
 thunk_FUN_j0005bbc2:
     jmp         FUN_0005bbc2
@@ -25006,14 +25006,14 @@ FUN_00020c0a:
     beq.b       LAB_00020c28
     pea         -$05c8c(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     addq.w      #$08,SP
     bra.b       LAB_00020c3a
 LAB_00020c28:                 ;                D7 ,-(SP)=>local_5a                                                             
     move.w      D7,-(SP)
     pea         -$05c88(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0a(SP),SP
 LAB_00020c3a:                 
     moveq       #$010,D0
@@ -25072,7 +25072,7 @@ LAB_00020cb0:
     pea         (DAT_000b628e)
     pea         -$05c82(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.l      D7,D0
     lea         -$0140(A6),A0
     bsr.w       FUN_00021580
@@ -25082,7 +25082,7 @@ LAB_00020cb0:
     pea         (DAT_000b62de)
     pea         -$05c76(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.l      D7,D0
     lea         -$0140(A6),A0
     bsr.w       FUN_00021580
@@ -25132,7 +25132,7 @@ LAB_00020d68:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$05c70(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.l      D7,D0
     lea         -$0142(A6),A0
     bsr.w       FUN_00021580
@@ -25244,7 +25244,7 @@ LAB_00020e9c:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$05c5a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      $0a+$04(A6),D0
     lea         -$0140(A6),A0
     bsr.w       FUN_00021580
@@ -25339,7 +25339,7 @@ LAB_00020f8c:
     move.l      D0,-(SP)
     pea         -$05bfa(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      $049f6(A4),D0
     lea         -$0140(A6),A0
     bsr.w       FUN_00021580
@@ -25353,7 +25353,7 @@ LAB_00020fcc:
     move.l      D0,-(SP)
     pea         -$05bea(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      $049f6(A4),D0
     lea         -$0140(A6),A0
     bsr.w       FUN_00021580
@@ -25388,7 +25388,7 @@ LAB_00021030:
     pea         (DAT_000b628e)
     pea         -$05bd2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      $0a+$04(A6),D0
     lea         -$0140(A6),A0
     bsr.w       FUN_00021580
@@ -25398,7 +25398,7 @@ LAB_00021030:
     pea         (DAT_000b62de)
     pea         -$05bc6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      $0a+$04(A6),D0
     lea         -$0140(A6),A0
     bsr.w       FUN_00021580
@@ -25412,7 +25412,7 @@ LAB_00021030:
     move.l      D0,-(SP)
     pea         -$05bc0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      $0a+$04(A6),D0
     lea         -$0140(A6),A0
     bsr.w       FUN_00021580
@@ -25426,7 +25426,7 @@ LAB_000210c8:
     move.l      D0,-(SP)
     pea         -$05bb2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      $0a+$04(A6),D0
     lea         -$0140(A6),A0
     bsr.w       FUN_00021580
@@ -25465,7 +25465,7 @@ LAB_0002110a:
     move.w      D7,-(SP)
     pea         -$05b9c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         (DAT_000b63ce),A0
     lea         -$0140(A6),A1
     jsr         thunk_FUN_l0006433c(PC)
@@ -25490,7 +25490,7 @@ LAB_0002116a:
     move.w      D7,-(SP)
     pea         -$05b96(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         (DAT_000b63ce),A0
     lea         -$0140(A6),A1
     jsr         thunk_FUN_l0006433c(PC)
@@ -25556,14 +25556,14 @@ LAB_00021216:                 ;                (A1)+=>DAT_000b5b0a
     move.l      A0,-(SP)
     pea         -$05b8e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00021250
 LAB_0002123e:                 ;                A0=>DAT_000b5b0a,-(SP)=>local_152+$02                                           
     move.l      A0,-(SP)
     pea         -$05b80(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0c(SP),SP
 LAB_00021250:                 
     move.w      $049e0(A4),D0
@@ -25579,7 +25579,7 @@ LAB_00021250:
     pea         (DAT_000b5aba)
     pea         -$05b7c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $012(SP),SP
     lea         -$0140(A6),A0
     movea.l     A0,A1
@@ -25629,7 +25629,7 @@ LAB_000212c0:
     move.l      D0,(SP)
     pea         -$05b78(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      $049e0(A4),D0
     neg.w       D0;                (SP)=>local_15a                                                                 
     clr.w       (SP);                 $04956(A4),-(SP)=>local_15e+$02                                                
@@ -25652,7 +25652,7 @@ LAB_000212c0:
     move.l      D0,(SP)
     pea         -$05b72(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      $049e0(A4),D0
     neg.w       D0;                (SP)=>local_166                                                                 
     clr.w       (SP);                 $04956(A4),-(SP)=>local_168                                                    
@@ -25672,7 +25672,7 @@ LAB_000212c0:
     move.w      $04a6c(A4),(SP)
     pea         -$05b62(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     moveq       #$05,D0;                D0 ,(SP)=>local_172                                                             
     move.w      D0,(SP)
     moveq       #$060,D0
@@ -25688,7 +25688,7 @@ LAB_000212c0:
     move.w      $04a6e(A4),(SP)
     pea         -$05b54(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     moveq       #$05,D0;                D0 ,(SP)=>local_17a                                                             
     move.w      D0,(SP)
     move.w      #$0f0,D0
@@ -25779,7 +25779,7 @@ FUN_000214ac:
     move.w      $04a82(A4),(SP)
     pea         -$05b28(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     moveq       #$01,D0;                D0 ,(SP)=>local_152                                                             
     move.w      D0,(SP)
     move.l      #$041900000,D0
@@ -25789,7 +25789,7 @@ FUN_000214ac:
     move.w      $04a84(A4),(SP)
     pea         -$05b24(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     moveq       #$01,D0;                D0 ,(SP)=>local_15a                                                             
     move.w      D0,(SP)
     move.l      #$042100000,D0
@@ -25814,7 +25814,7 @@ FUN_000214ac:
     move.w      D0,-(SP)
     pea         -$05b20(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     moveq       #$03,D0;                D0 ,(SP)=>local_152                                                             
     move.w      D0,(SP)
     move.w      #$0e8,D0
@@ -25855,7 +25855,7 @@ LAB_000215b4:
     move.l      A5,-(SP)
     pea         -$05b16(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      $049e0(A4),D0
     neg.w       D0;                (SP)=>local_158                                                                 
     clr.w       (SP);                 $04956(A4),-(SP)=>local_15a                                                    
@@ -26209,7 +26209,7 @@ LAB_00021950:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$05ace(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      $04954(A4),D0
     lea         (DAT_000b5178),A0
     bsr.w       FUN_00021580
@@ -26428,7 +26428,7 @@ LAB_00021b46:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$05aba(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.l      D7,D0
     lea         (DAT_000b5178),A0
     bsr.w       FUN_00021580
@@ -26444,7 +26444,7 @@ LAB_00021b8c:
     move.l      D0,-(SP)
     pea         -$05aa8(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00021bca
 LAB_00021bb0:                 
@@ -26453,7 +26453,7 @@ LAB_00021bb0:
     move.w      D0,-(SP)
     pea         -$05a98(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0a(SP),SP
 LAB_00021bca:                 
     move.l      D7,D0
@@ -26578,7 +26578,7 @@ LAB_00021ce8:
     move.w      D1,-(SP)
     pea         -$05a46(A4)
     pea         (DAT_000b650e)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0c(SP),SP
 defaultI:                     
     moveq       #$026,D0
@@ -26590,14 +26590,14 @@ defaultI:
     move.l      D0,-(SP)
     pea         -$05a36(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_00021d46
 LAB_00021d2e:                 
     pea         (DAT_000b650e)
     pea         -$05a2a(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0c(SP),SP
 LAB_00021d46:                 
     move.b      #-$01,$04d62(A4)
@@ -26652,14 +26652,14 @@ LAB_00021daa:
     move.l      D0,-(SP)
     pea         -$059e4(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $010(SP),SP
     bra.w       LAB_00021e66
 LAB_00021dd6:                 
     pea         (DAT_000b655e)
     pea         -$059d8(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00021e66
 LAB_00021df0:                 
@@ -26676,7 +26676,7 @@ LAB_00021df0:
     move.l      D0,-(SP)
     pea         -$059cc(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      $04afa(A4),D0
     ext.l       D0
     asl.l       #$05,D0
@@ -30675,7 +30675,7 @@ LAB_00024c1e:                 ;                 $04a14(A4),-(SP)=>local_202+$02
     move.w      $04a14(A4),-(SP)
     pea         -$05970(A4)
     pea         -$01ea(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0a(SP),SP
 LAB_00024c32:                 
     lea         -$01ea(A6),A0
@@ -30723,7 +30723,7 @@ LAB_00024cca:
     pea         -$0a8(A6)
     pea         -$05962(A4)
     pea         -$01ea(A6)
-    jsr         thunk_FUN_z00063b62(PC);                (SP)=>local_20e+$02                                                             
+    jsr         Relay_04_00063b62(PC);                (SP)=>local_20e+$02                                                             
     clr.w       (SP);                 $04956(A4),-(SP)=>local_20e                                                    
     move.w      $04956(A4),-(SP);                 $049e0(A4),-(SP)=>local_210                                                    
     move.w      $049e0(A4),-(SP)
@@ -30734,7 +30734,7 @@ LAB_00024cca:
     move.w      $04b28(A4),(SP)
     pea         -$0595c(A4)
     pea         -$01ea(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     moveq       #$01,D0;                D0 ,(SP)=>local_218                                                             
     move.w      D0,(SP)
     move.l      #$0418c0000,D0
@@ -30757,7 +30757,7 @@ LAB_00024d40:
     pea         -$058(A6)
     pea         -$05958(A4)
     pea         -$01ea(A6)
-    jsr         thunk_FUN_z00063b62(PC);                (SP)=>local_224                                                                 
+    jsr         Relay_04_00063b62(PC);                (SP)=>local_224                                                                 
     clr.w       (SP);                 $04956(A4),-(SP)=>local_226                                                    
     move.w      $04956(A4),-(SP);                 $049e0(A4),-(SP)=>local_228                                                    
     move.w      $049e0(A4),-(SP)
@@ -30768,7 +30768,7 @@ LAB_00024d40:
     move.w      $04b2a(A4),(SP)
     pea         -$05952(A4)
     pea         -$01ea(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     moveq       #$01,D0;                D0 ,(SP)=>local_230                                                             
     move.w      D0,(SP)
     move.l      #$042130000,D0
@@ -30789,11 +30789,11 @@ LAB_00024d40:
     move.w      D0,-(SP)
     pea         -$0594e(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     pea         (DAT_000b5178)
     pea         -$05944(A4)
     pea         -$01ea(A6)
-    jsr         thunk_FUN_z00063b62(PC);                (SP)=>local_216                                                                 
+    jsr         Relay_04_00063b62(PC);                (SP)=>local_216                                                                 
     clr.w       (SP)
     moveq       #$0c,D0;                D0 ,-(SP)=>local_218                                                            
     move.w      D0,-(SP)
@@ -30828,11 +30828,11 @@ LAB_00024e32:
     pea         (DAT_000b5178)
     move.w      D0,-$6(A6)
     move.w      D1,-$8(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     pea         (DAT_000b5178)
     pea         -$05934(A4)
     pea         -$01ea(A6)
-    jsr         thunk_FUN_z00063b62(PC);                (SP)=>local_216                                                                 
+    jsr         Relay_04_00063b62(PC);                (SP)=>local_216                                                                 
     clr.w       (SP)
     moveq       #$0c,D0;                D0 ,-(SP)=>local_218                                                            
     move.w      D0,-(SP)
@@ -30865,11 +30865,11 @@ LAB_00024ebe:
     move.w      D0,-(SP)
     pea         -$0592e(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     pea         (DAT_000b5178)
     pea         -$05922(A4)
     pea         -$01ea(A6)
-    jsr         thunk_FUN_z00063b62(PC);                (SP)=>local_216                                                                 
+    jsr         Relay_04_00063b62(PC);                (SP)=>local_216                                                                 
     clr.w       (SP)
     moveq       #$0c,D0;                D0 ,-(SP)=>local_218                                                            
     move.w      D0,-(SP)
@@ -30908,12 +30908,12 @@ LAB_00024f72:                 ;                (A0)+,(A1)+=>DAT_000b4c5a
     move.l      $04e98(A4),(SP)
     pea         -$05910(A4)
     pea         (DAT_000b4caa)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     pea         (DAT_000b4caa)
     pea         (DAT_000b4c5a)
     pea         -$0590a(A4)
     pea         -$01ea(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      #$096,D0;                D0 ,(SP)=>local_226                                                             
     move.w      D0,(SP)
     moveq       #$0c,D1;                D1 ,-(SP)=>local_228                                                            
@@ -31256,7 +31256,7 @@ LAB_00025314:                 ;                (A0)+,(A1)+=>DAT_000b65b0
     move.w      D0,-(SP)
     pea         -$058e4(A4)
     pea         (DAT_000b65b0)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_00025352
 LAB_00025336:                 
@@ -31266,7 +31266,7 @@ LAB_00025336:
     move.w      D0,-(SP)
     pea         -$058e0(A4)
     pea         (DAT_000b65b0)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0a(SP),SP
 LAB_00025352:                 
     moveq       #-$01,D0
@@ -31323,7 +31323,7 @@ LAB_000253ca:
     move.w      $04a30(A4),-(SP)
     pea         -$058da(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0e(SP),SP
     bra.b       LAB_00025440
 LAB_000253e8:                 
@@ -31333,8 +31333,8 @@ LAB_000253e8:
     subi.w      #$05dd,D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_00065a6c),A0
-    adda.l      D0,A0;                (A0),A1=>DWORD_00065a6c                                                         
+    lea         (Fixup_Address_02),A0
+    adda.l      D0,A0;                (A0),A1=>Fixup_Address_02                                                         
     movea.l     (A0),A1
     lea         (DAT_000b4c5a),A2
 LAB_0002540a:                 ;                (A1)+,(A2)+=>DAT_000b4c5a                                                       
@@ -31348,7 +31348,7 @@ LAB_0002540a:                 ;                (A1)+,(A2)+=>DAT_000b4c5a
     move.w      D0,-(SP)
     pea         -$058d4(A4)
     pea         (DAT_000b4c5a)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0a(SP),SP
 LAB_00025430:                 
     lea         (DAT_000b4c5a),A0
@@ -31364,7 +31364,7 @@ LAB_00025440:
     move.l      D0,-(SP)
     pea         -$058c6(A4)
     pea         -$014b(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $0c(SP),SP
     moveq       #$0e,D0
     cmp.w       $04940(A4),D0
@@ -31391,7 +31391,7 @@ LAB_00025474:
     pea         (DAT_000b5178)
     pea         -$058c2(A4)
     pea         -$014b(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     lea         $012(SP),SP
     tst.b       -$b(A6)
     beq.b       LAB_00025504
@@ -31484,11 +31484,11 @@ LAB_0002558a:                 ;                D3 ,-(SP)=>local_174+$02
     move.w      D0,-(SP)
     pea         -$058be(A4)
     pea         (DAT_000b7d16)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     pea         (DAT_000b7d16)
     pea         -$058ba(A4)
     pea         -$014b(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.l      $0a+$04(A6),D0
     move.l      #$041700000,D1
     jsr         thunk_FUN_j00060dd4(PC)
@@ -31584,7 +31584,7 @@ LAB_000256b8:
     move.w      D6,-(SP)
     pea         -$058b2(A4)
     pea         -$014b(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      #$096,D0;                D0 ,(SP)=>local_17a                                                             
     move.w      D0,(SP)
     moveq       #$04,D1;                D1 ,-(SP)=>local_17c                                                            
@@ -31598,7 +31598,7 @@ LAB_000256b8:
     move.w      D5,(SP)
     pea         -$05898(A4)
     pea         -$014b(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      #$096,D0;                D0 ,(SP)=>local_186                                                             
     move.w      D0,(SP)
     moveq       #$04,D1;                D1 ,-(SP)=>local_188                                                            
@@ -31612,7 +31612,7 @@ LAB_000256b8:
     move.w      $06+$04(A6),(SP)
     pea         -$0587e(A4)
     pea         -$014b(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      #$096,D0;                D0 ,(SP)=>local_192                                                             
     move.w      D0,(SP)
     moveq       #$04,D1;                D1 ,-(SP)=>local_194                                                            
@@ -31626,7 +31626,7 @@ LAB_000256b8:
     move.w      $08+$04(A6),(SP)
     pea         -$05864(A4)
     pea         -$014b(A6)
-    jsr         thunk_FUN_z00063b62(PC)
+    jsr         Relay_04_00063b62(PC)
     move.w      #$096,D0;                D0 ,(SP)=>local_19e                                                             
     move.w      D0,(SP)
     moveq       #$04,D1;                D1 ,-(SP)=>local_1a0                                                            
@@ -31782,7 +31782,7 @@ thunk_FUN_r000589f0:
     dc.l        0
 thunk_FUN_l0006433c:
     jmp         FUN_0006433c
-thunk_FUN_z00063b62:
+Relay_04_00063b62:
     jmp         FUN_00063b62
 thunk_FUN_000500e4:
     jmp         FUN_000500e4
@@ -31901,7 +31901,7 @@ LAB_00025a46:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$05848(A4)
     pea         (DAT_000b59ca)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     lea         $0e(SP),SP
     cmpi.w      #$06,$04a82(A4)
     ble.b       LAB_00025aa4
@@ -31933,7 +31933,7 @@ LAB_00025aa4:
     move.w      $04a84(A4),-(SP)
     pea         -$05838(A4)
     pea         -$0148(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     lea         (DAT_000b59ca),A0
     lea         -$0148(A6),A1
     jsr         thunk_FUN_r0006433c(PC)
@@ -32077,7 +32077,7 @@ LAB_00025c8a:
     move.w      $04a82(A4),-(SP)
     pea         -$0582e(A4)
     pea         -$0148(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     lea         (DAT_000b59ca),A0
     lea         -$0148(A6),A1
     jsr         thunk_FUN_r0006433c(PC)
@@ -32121,7 +32121,7 @@ LAB_00025cfc:
     move.l      A0,-(SP)
     pea         -$05822(A4)
     pea         -$0148(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     move.w      $049dc(A4),D0
     ext.l       D0
     move.l      D0,D1
@@ -32148,7 +32148,7 @@ LAB_00025d6e:                 ;                (A0)+,(A1)+=>DAT_000b8d2e
     move.l      A0,(SP)
     pea         -$0581e(A4)
     pea         -$0148(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     move.w      $049de(A4),D0
     ext.l       D0
     move.l      D0,D1
@@ -32214,7 +32214,7 @@ LAB_00025e32:
     move.l      A0,-(SP)
     pea         -$05816(A4)
     pea         -$0148(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     move.w      $049dc(A4),D0
     ext.l       D0
     move.l      D0,D1
@@ -32242,7 +32242,7 @@ LAB_00025e80:                 ;                (A0)+,(A1)+=>DAT_000b8d2e
     move.l      A0,-(SP)
     pea         -$05810(A4)
     pea         -$0148(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     move.w      $049de(A4),D0
     ext.l       D0
     move.l      D0,D1
@@ -32300,7 +32300,7 @@ LAB_00025f12:
     move.l      A0,-(SP)
     pea         -$0580a(A4)
     pea         -$0148(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     move.w      $049dc(A4),D0
     ext.l       D0
     move.l      D0,D1
@@ -32327,7 +32327,7 @@ LAB_00025f84:                 ;                (A0)+,(A1)+=>DAT_000b8d2e
     move.l      A0,(SP)
     pea         -$05806(A4)
     pea         -$0148(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     move.w      $049de(A4),D0
     ext.l       D0
     move.l      D0,D1
@@ -35057,7 +35057,7 @@ FUN_00027b2a:
     move.w      D0,-(SP)
     pea         -$05664(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     moveq       #$02,D0;                D0 ,(SP)=>local_15c                                                             
     move.w      D0,(SP)
     move.l      #-$040800000,D0
@@ -35147,7 +35147,7 @@ LAB_00027c1e:
     move.w      D0,-(SP)
     pea         -$0563e(A4)
     pea         -$01e(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_00027c6a
 LAB_00027c4a:                 
@@ -35161,7 +35161,7 @@ LAB_00027c52:
     move.w      D0,-(SP)
     pea         -$0562a(A4)
     pea         -$01e(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     lea         $0a(SP),SP
 LAB_00027c6a:                 
     moveq       #$02,D0;                D0 ,-(SP)=>local_3c                                                             
@@ -35635,7 +35635,7 @@ caseD_K2:
     pea         -$0b7(A6)
     pea         -$055ca(A4)
     pea         -$01f7(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     moveq       #$02,D0;                D0 ,(SP)=>local_236                                                             
     move.w      D0,(SP)
     move.l      #-$040800000,D0
@@ -35655,7 +35655,7 @@ caseD_K2:
     move.l      $28(SP),-(SP)
     pea         -$055c0(A4)
     pea         -$01f7(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     moveq       #$06,D0;                D0 ,(SP)=>local_242                                                             
     move.w      D0,(SP)
     move.l      #-$040800000,D0
@@ -35675,14 +35675,14 @@ caseD_K2:
     move.w      D0,-(SP)
     pea         -$055b8(A4)
     pea         -$01f7(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_000281ae
 LAB_0002819c:                 ;                D0 ,-(SP)=>local_22c                                                            
     move.w      D0,-(SP)
     pea         -$055a8(A4)
     pea         -$01f7(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     lea         $0a(SP),SP
 LAB_000281ae:                 
     moveq       #$03,D0;                D0 ,-(SP)=>local_22c                                                            
@@ -36326,7 +36326,7 @@ LAB_00028832:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$054d0(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_o00063b62(PC)
+    jsr         Relay_05_00063b62(PC)
     lea         -$0142(A6),A0
     jsr         thunk_FUN_l00056198(PC)
     lea         $010(SP),SP
@@ -37437,7 +37437,7 @@ thunk_FUN_0003792a:
     jmp         FUN_0003792a
 thunk_FUN_r0006433c:
     jmp         FUN_0006433c
-thunk_FUN_o00063b62:
+Relay_05_00063b62:
     jmp         FUN_00063b62
     dc.l        0
     dc.w        $0
@@ -39949,7 +39949,7 @@ LAB_0002ad86:
     move.l      $14(SP),-(SP)
     pea         -$0549a(A4)
     pea         -$0141(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $014(SP),SP
     bra.b       LAB_0002ae4e
 LAB_0002adfa:                 
@@ -39977,7 +39977,7 @@ LAB_0002adfa:
     move.l      $14(SP),-(SP)
     pea         -$05466(A4)
     pea         -$0141(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $014(SP),SP
 LAB_0002ae4e:                 
     lea         (DAT_0008c69c),A0
@@ -40020,7 +40020,7 @@ LAB_0002ae6c:
     move.l      $14(SP),-(SP)
     pea         -$0542c(A4)
     pea         -$0141(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         (DAT_000912c8),A0
     adda.w      $0492e(A4),A0
     moveq       #$00,D0;                (A0),D0 =>DAT_000912c8                                                          
@@ -40128,7 +40128,7 @@ LAB_0002afae:
     move.l      D0,-(SP)
     pea         -$053e8(A4)
     pea         -$01e2(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$07,D0
     lea         -$01e2(A6),A0
     jsr         thunk_FUN______000560f4(PC)
@@ -40137,7 +40137,7 @@ LAB_0002afae:
     move.l      D0,(SP)
     pea         -$053ca(A4)
     pea         -$01e2(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$09,D0
     lea         -$01e2(A6),A0
     jsr         thunk_FUN______000560f4(PC)
@@ -40218,7 +40218,7 @@ LAB_0002b09e:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$05374(A4)
     pea         -$01e2(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$01e2(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $0c(SP),SP
@@ -40261,7 +40261,7 @@ LAB_0002b138:                 ;                A0,-(SP)=>local_264+$02
     pea         -$052(A6)
     pea         -$05362(A4)
     pea         -$01e2(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$01e2(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $010(SP),SP
@@ -40286,7 +40286,7 @@ LAB_0002b180:                 ;                A0,-(SP)=>local_264+$02
     pea         -$052(A6)
     pea         -$05340(A4)
     pea         -$01e2(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $010(SP),SP
     tst.b       $04d77(A4)
     beq.b       LAB_0002b1a2
@@ -40296,7 +40296,7 @@ LAB_0002b1a2:
     pea         -$01e2(A6)
     pea         -$05322(A4)
     pea         -$023a(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$023a(A6),A0
     lea         -$01e2(A6),A1
@@ -40325,7 +40325,7 @@ LAB_0002b1dc:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$0531a(A4)
     pea         -$01e2(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$01e2(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $0c(SP),SP
@@ -40612,7 +40612,7 @@ LAB_0002b4a4:
     move.l      D0,-(SP)
     pea         -$052de(A4)
     pea         -$01e2(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_0002b54a
 LAB_0002b532:                 
@@ -40621,7 +40621,7 @@ LAB_0002b532:
     move.l      D0,-(SP)
     pea         -$052ca(A4)
     pea         -$01e2(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
 LAB_0002b54a:                 
     moveq       #$01,D0
@@ -40661,7 +40661,7 @@ LAB_0002b56e:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$052b4(A4)
     pea         -$01e2(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$01e2(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $0c(SP),SP
@@ -40760,7 +40760,7 @@ LAB_0002b6b2:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$052a2(A4)
     pea         -$0a2(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     cmpi.w      #-$01,-$1e6(A6)
     ble.w       LAB_0002b80e
@@ -40778,7 +40778,7 @@ LAB_0002b6b2:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$05292(A4)
     pea         -$01e2(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     tst.b       -$2(A6)
     beq.b       LAB_0002b726
@@ -40821,7 +40821,7 @@ LAB_0002b762:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$0527c(A4)
     pea         -$01e2(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0002b7a4
 LAB_0002b794:                 
@@ -41175,7 +41175,7 @@ LAB_0002baf2:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$0524c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN___00059f76(PC);                D7 ,(SP)=>local_160                                                             
     move.w      D7,(SP)
@@ -41194,7 +41194,7 @@ LAB_0002baf2:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$05244(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$07,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN______000560f4(PC)
@@ -41206,7 +41206,7 @@ LAB_0002baf2:
     move.l      D0,(SP)
     pea         -$05220(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$0b,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN______000560f4(PC)
@@ -41276,7 +41276,7 @@ LAB_0002bc2a:                 ;                A0,-(SP)=>local_158
     move.w      D0,-(SP)
     pea         -$051cc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $0e(SP),SP
@@ -41445,7 +41445,7 @@ LAB_0002bdcc:
     move.l      ($00,A1,D0.l),-(SP)
     pea         -$051b0(A4)
     pea         -$0145(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$01,D0
     lea         -$0145(A6),A0
     bsr.w       FUN_0002d094
@@ -41566,7 +41566,7 @@ LAB_0002beee:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$0519a(A4)
     pea         -$0145(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$01,D0
     lea         -$0145(A6),A0
     bsr.w       FUN_0002d094
@@ -41586,7 +41586,7 @@ LAB_0002bf58:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$05184(A4)
     pea         -$0145(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$01,D0
     lea         -$0145(A6),A0
     bsr.w       FUN_0002d094
@@ -41630,7 +41630,7 @@ LAB_0002bfe6:
     move.l      $04e88(A4),-(SP)
     pea         -$05170(A4)
     pea         -$0145(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$06,D0
     lea         -$0145(A6),A0
     bsr.w       FUN_0002d094
@@ -41680,7 +41680,7 @@ LAB_0002c078:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$05156(A4)
     pea         -$0145(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$01,D0
     lea         -$0145(A6),A0
     bsr.w       FUN_0002d094
@@ -42056,7 +42056,7 @@ FUN_0002c48c:
     move.w      $04b64(A4),-(SP)
     pea         -$050d4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$01,D0
     lea         -$0140(A6),A0
     bsr.w       FUN_0002d094
@@ -42129,7 +42129,7 @@ LAB_0002c5da:                 ;                 $04b6e(A4),-(SP)=>local_15e
     move.w      $04b6e(A4),-(SP)
     pea         -$050b8(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$01,D0
     lea         -$0140(A6),A0
     bsr.w       FUN_0002d094
@@ -42159,14 +42159,14 @@ LAB_0002c62e:
     move.w      $04b6e(A4),-(SP)
     pea         -$0509e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$01,D0
     lea         -$0140(A6),A0
     bsr.w       FUN_0002d094;                 $04b66(A4),(SP)=>local_166                                                     
     move.w      $04b66(A4),(SP)
     pea         -$05084(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$01,D0
     lea         -$0140(A6),A0
     bsr.w       FUN_0002d094
@@ -42287,7 +42287,7 @@ LAB_0002c7ba:
     move.w      $04b70(A4),-(SP)
     pea         -$05046(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$01,D0
     lea         -$0140(A6),A0
     bsr.w       FUN_0002d094
@@ -42311,7 +42311,7 @@ LAB_0002c818:
     move.w      $04b70(A4),-(SP)
     pea         -$05026(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$01,D0
     lea         -$0140(A6),A0
     bsr.w       FUN_0002d094
@@ -42540,7 +42540,7 @@ FUN_0002ca94:
     move.l      D0,-(SP)
     pea         -$04ff6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$04fe4(A4),A0
     lea         (DAT_000b565a),A1
@@ -42557,7 +42557,7 @@ LAB_0002cace:
     move.l      D0,-(SP)
     pea         -$04fd2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$04fc0(A4),A0
     lea         (DAT_000b565a),A1
@@ -42574,7 +42574,7 @@ LAB_0002cafc:
     move.l      D0,-(SP)
     pea         -$04fae(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$04fa0(A4),A0
     lea         (DAT_000b565a),A1
@@ -42588,7 +42588,7 @@ LAB_0002cb2a:
     move.l      D0,-(SP)
     pea         -$04f92(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$04f7e(A4),A0
     lea         (DAT_000b565a),A1
@@ -42628,7 +42628,7 @@ LAB_0002cb50:
     pea         (DAT_000b565a)
     pea         -$04f6e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     move.w      #$0128,D0;                D0 ,(SP)=>local_164                                                             
     move.w      D0,(SP)
     moveq       #$02,D1;                D1 ,-(SP)=>local_166                                                            
@@ -42793,7 +42793,7 @@ LAB_0002ccd4:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$04f60(A4)
     pea         (DAT_000b6650)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0002cdb6
 LAB_0002cd68:                 
@@ -42807,7 +42807,7 @@ LAB_0002cd68:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$04f56(A4)
     pea         (DAT_000b6650)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0002cdb6
 LAB_0002cd92:                 
@@ -43010,7 +43010,7 @@ FUN_0002cf98:
     move.w      D7,-(SP)
     pea         -$04f20(A4)
     pea         (DAT_000b53bc)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0a(SP),SP
     move.w      #$01,$049ea(A4)
 LAB_0002cfc2:                 
@@ -44096,7 +44096,7 @@ LAB_0002daac:
     move.l      D0,-(SP)
     pea         -$04efe(A4)
     pea         -$0190(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$07,D0
     lea         -$0190(A6),A0
     jsr         thunk_FUN______000560f4(PC)
@@ -44121,7 +44121,7 @@ LAB_0002daac:
     move.l      D0,-(SP)
     pea         -$04ec8(A4)
     pea         -$0190(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0190(A6),A0
     jsr         thunk_FUN_l00056198(PC)
     lea         $0c(SP),SP
@@ -44153,7 +44153,7 @@ LAB_0002db3c:
     move.l      D0,-(SP)
     pea         -$04eb0(A4)
     pea         -$0190(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     cmpi.w      #$01,$049c8(A4)
     ble.b       LAB_0002dbbc
@@ -44164,7 +44164,7 @@ LAB_0002db3c:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$04e9c(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0190(A6),A0
     lea         -$050(A6),A1
     jsr         thunk_FUN_yt0006433c(PC)
@@ -44384,7 +44384,7 @@ LAB_0002dd94:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$04e62(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     moveq       #$09,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN______000560f4(PC)
@@ -44422,7 +44422,7 @@ LAB_0002de1c:
     move.l      (A0),-(SP)
     pea         -$04e44(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0002de82
 LAB_0002de6c:                 
@@ -44585,7 +44585,7 @@ LAB_0002e022:
     pea         (DAT_000b4a7a)
     pea         -$04d1e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     addq.b      #$01,D6
     moveq       #$0c,D0
@@ -44621,7 +44621,7 @@ LAB_0002e070:                 ;                (A0)+,(A1)+=>DAT_000bbe72
     move.l      D0,-(SP)
     pea         -$04d08(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         (DAT_000912c8),A0
@@ -44668,7 +44668,7 @@ LAB_0002e100:
     move.l      D0,-(SP)
     pea         -$04ce4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $0c(SP),SP
@@ -44700,7 +44700,7 @@ LAB_0002e15a:
     move.l      D0,-(SP)
     pea         -$04c9e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     moveq       #$00,D0;                D0 ,(SP)=>local_184                                                             
@@ -44719,7 +44719,7 @@ LAB_0002e1b0:
     move.l      D0,-(SP)
     pea         -$04c86(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     moveq       #-$01,D0;                D0 ,(SP)=>local_184                                                             
@@ -44760,13 +44760,13 @@ LAB_0002e1ee:
     move.l      D0,-(SP)
     pea         -$04c64(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     pea         (DAT_000b637e)
     pea         -$04c58(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $018(SP),SP
@@ -44788,7 +44788,7 @@ LAB_0002e278:
     move.l      D0,-(SP)
     pea         -$04c52(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         -$04c42(A4),A0
@@ -44801,7 +44801,7 @@ LAB_0002e2bc:
     move.l      D0,-(SP)
     pea         -$04c2a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $0c(SP),SP
@@ -44816,7 +44816,7 @@ LAB_0002e2ec:
     move.l      D0,-(SP)
     pea         -$04c18(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     move.l      D7,D0
@@ -44845,7 +44845,7 @@ LAB_0002e324:
     move.l      D0,-(SP)
     pea         -$04bfa(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $0c(SP),SP
@@ -44860,7 +44860,7 @@ LAB_0002e370:
     move.l      D0,-(SP)
     pea         -$04bde(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $0c(SP),SP
@@ -44896,7 +44896,7 @@ LAB_0002e3ba:
     move.w      D7,-(SP)
     pea         -$04bc2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     move.w      $049ca(A4),D0
     ext.l       D0
     moveq       #$068,D1
@@ -44922,7 +44922,7 @@ LAB_0002e442:
     move.l      D0,-(SP)
     pea         -$04ba2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     move.l      D7,D0
@@ -44939,7 +44939,7 @@ LAB_0002e442:
     move.w      D7,(SP)
     pea         -$04b8a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     move.w      $049ca(A4),D0
     ext.l       D0
     moveq       #$068,D1
@@ -45070,7 +45070,7 @@ LAB_0002e5ca:
     move.l      D0,-(SP)
     pea         -$04aea(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     jsr         thunk_FUN_kh00056232(PC)
@@ -45082,7 +45082,7 @@ LAB_0002e5ca:
     move.l      D0,-(SP)
     pea         -$04acc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $0c(SP),SP
@@ -45110,7 +45110,7 @@ LAB_0002e638:
     move.l      D0,-(SP)
     pea         -$04ab2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $0c(SP),SP
@@ -45143,7 +45143,7 @@ LAB_0002e692:
     move.w      D7,-(SP)
     pea         -$04a9a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     move.w      $049ca(A4),D0
     ext.l       D0
     moveq       #$068,D1
@@ -45175,7 +45175,7 @@ LAB_0002e716:
     move.l      D0,-(SP)
     pea         -$04a94(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         $0c(SP),SP
@@ -45184,7 +45184,7 @@ LAB_0002e716:
     pea         (DAT_000b637e)
     pea         -$04a7c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0002e7b0
 LAB_0002e754:                 
@@ -45238,7 +45238,7 @@ LAB_0002e7be:
     move.l      D0,-(SP)
     pea         -$04a18(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_jh00063b62(PC)
+    jsr         Relay_06_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0_0005615c(PC)
     lea         (DAT_0008c69c),A0
@@ -45488,7 +45488,7 @@ thunk_FUN_yt0006433c:
     jmp         FUN_0006433c
     dc.l        0
     dc.w        $0
-thunk_FUN_jh00063b62:
+Relay_06_00063b62:
     jmp         FUN_00063b62
 thunk_FUN_8_0005bbc2:
     jmp         FUN_0005bbc2
@@ -45536,7 +45536,7 @@ FUN_0002eaf8:
     move.l      D0,-(SP)
     pea         -$049f0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$06,D0
     lea         -$0140(A6),A0
     jsr         FUN_0002d094(PC)
@@ -45568,7 +45568,7 @@ LAB_0002eb90:                 ;                D7 ,-(SP)=>local_15a+$02
     move.w      D7,-(SP)
     pea         -$049da(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.l      D6,D0
     ext.l       D0
     moveq       #$068,D1
@@ -45813,7 +45813,7 @@ LAB_0002edfc:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$049c4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$07,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN_hh000560f4(PC)
@@ -45823,7 +45823,7 @@ LAB_0002edfc:
     beq.b       LAB_0002ee82
     pea         -$049b8(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$09,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN_hh000560f4(PC)
@@ -45856,7 +45856,7 @@ LAB_0002ee82:
     move.l      D0,-(SP)
     pea         -$049a2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$09,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN_hh000560f4(PC)
@@ -45938,7 +45938,7 @@ LAB_0002ef90:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$0493c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_vc0005615c(PC)
     lea         $0c(SP),SP
@@ -46117,7 +46117,7 @@ LAB_0002f160:
     move.l      D0,-(SP)
     pea         -$048e4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$07,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN_hh000560f4(PC)
@@ -46128,7 +46128,7 @@ LAB_0002f160:
     pea         (DAT_000b637e)
     pea         -$048d2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$09,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN_hh000560f4(PC)
@@ -46177,7 +46177,7 @@ LAB_0002f244:
     move.l      D0,-(SP)
     pea         -$0486e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_vc0005615c(PC)
     lea         $0c(SP),SP
@@ -46191,7 +46191,7 @@ LAB_0002f266:
     move.l      D0,-(SP)
     pea         -$0485e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_vc0005615c(PC)
     lea         $0c(SP),SP
@@ -46256,7 +46256,7 @@ LAB_0002f2f2:
     move.l      D0,-(SP)
     pea         -$04836(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$07,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN_hh000560f4(PC)
@@ -46289,7 +46289,7 @@ LAB_0002f378:
     move.l      D0,-(SP)
     pea         -$047ee(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_vc0005615c(PC)
     lea         $0c(SP),SP
@@ -46304,7 +46304,7 @@ LAB_0002f3a8:
     move.l      D0,-(SP)
     pea         -$047d8(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_vc0005615c(PC)
     lea         $0c(SP),SP
@@ -46503,7 +46503,7 @@ FUN_0002f558:
     move.l      D0,-(SP)
     pea         -$047c6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_0002f5f2
 LAB_0002f5da:                 
@@ -46512,7 +46512,7 @@ LAB_0002f5da:
     move.l      D0,-(SP)
     pea         -$047b2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $0c(SP),SP
 LAB_0002f5f2:                 
     moveq       #$01,D0
@@ -46525,7 +46525,7 @@ LAB_0002f5fe:
     move.l      D0,-(SP)
     pea         -$0479c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$01,D0
     lea         -$0140(A6),A0
     jsr         FUN_0002d094(PC)
@@ -46610,7 +46610,7 @@ LAB_0002f6f6:
     move.l      D0,-(SP)
     pea         -$0476c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$01,D0
     lea         -$0140(A6),A0
     jsr         FUN_0002d094(PC)
@@ -46628,7 +46628,7 @@ LAB_0002f72e:
     move.l      D0,-(SP)
     pea         -$04758(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_0002f774
 LAB_0002f75c:                 
@@ -46637,7 +46637,7 @@ LAB_0002f75c:
     move.l      D0,-(SP)
     pea         -$04744(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $0c(SP),SP
 LAB_0002f774:                 
     moveq       #$06,D0
@@ -46700,7 +46700,7 @@ FUN_0002f7d0:
     move.w      D0,-(SP)
     pea         -$04728(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$01,D0
     lea         -$0140(A6),A0
     jsr         FUN_0002d094(PC)
@@ -46788,7 +46788,7 @@ LAB_0002f8fe:                 ;                 $04b9e(A4),-(SP)=>local_152
     move.w      $04b9e(A4),-(SP)
     pea         -$046be(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $0a(SP),SP
 LAB_0002f912:                 
     moveq       #$06,D0
@@ -46813,7 +46813,7 @@ LAB_0002f912:
     move.w      D7,-(SP)
     pea         -$046a0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.w      $049ca(A4),D0
     ext.l       D0
     moveq       #$068,D1
@@ -46867,7 +46867,7 @@ LAB_0002f9ea:                 ;                D7 ,-(SP)=>local_152
     move.w      D7,-(SP)
     pea         -$0469a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.w      $049ca(A4),D0
     ext.l       D0
     moveq       #$068,D1
@@ -47598,7 +47598,7 @@ LAB_000300e2:
     move.l      D0,-(SP)
     pea         -$0442e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_ln00056198(PC)
     lea         $0c(SP),SP
@@ -47874,7 +47874,7 @@ FUN_0003047a:
     move.l      A5,-(SP)
     pea         -$043a4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC);                (SP)=>local_16c                                                                 
+    jsr         Relay_07_00063b62(PC);                (SP)=>local_16c                                                                 
     clr.w       (SP);                D4 ,-(SP)=>local_170+$02                                                        
     move.w      D4,-(SP);                D5 ,-(SP)=>local_170                                                            
     move.w      D5,-(SP)
@@ -47885,7 +47885,7 @@ FUN_0003047a:
     move.l      A3,(SP)
     pea         -$04398(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$07,D0
     lea         -$04384(A4),A0
     lea         -$0140(A6),A1
@@ -48569,7 +48569,7 @@ LAB_00030c30:
     pea         -$02a(A6)
     move.b      D0,-$2b(A6)
     move.b      D1,-$2c(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$024,D0;                D0 ,(SP)=>local_58                                                              
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_5a                                                             
@@ -48786,7 +48786,7 @@ FUN_00030e56:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$04356(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         (DAT_0009e25e),A0
     movea.l     A0,A1
     adda.w      D7,A1
@@ -49009,7 +49009,7 @@ LAB_000310b4:
     move.l      D0,-(SP)
     pea         -$04254(A4)
     pea         -$0141(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $0c(SP),SP
     move.l      D6,D0
     addq.w      #$05,D0
@@ -49121,7 +49121,7 @@ LAB_000311ba:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$04240(A4)
     pea         -$0141(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00031234
 LAB_0003120a:                 
@@ -49131,12 +49131,12 @@ LAB_0003120a:
     subi.w      #$08c,D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$04238(A4)
     pea         -$0141(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $0c(SP),SP
 LAB_00031234:                 
     move.l      D6,D0
@@ -49176,7 +49176,7 @@ LAB_0003128a:                 ;                A0,-(SP)=>local_16e
     move.w      D0,-(SP)
     pea         -$04230(A4)
     pea         -$0146(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $0e(SP),SP
     lea         (DAT_0008efa0),A0
     adda.w      D7,A0
@@ -49200,12 +49200,12 @@ LAB_000312cc:                 ;                A0,-(SP)=>local_16e
     move.w      D0,-(SP)
     pea         -$04226(A4)
     pea         -$014b(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     pea         -$014b(A6)
     pea         -$0146(A6)
     pea         -$0421c(A4)
     pea         -$0141(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.l      D6,D0
     addq.w      #$05,D0
     ext.l       D0
@@ -49238,7 +49238,7 @@ LAB_000312cc:                 ;                A0,-(SP)=>local_16e
     move.l      D0,(SP)
     pea         -$04214(A4)
     pea         -$0141(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.l      D6,D0
     addq.w      #$05,D0
     ext.l       D0
@@ -49298,7 +49298,7 @@ LAB_000313ea:                 ;                (A0)+,(A1)+=>DAT_000b6740
     pea         (DAT_000b6740)
     pea         -$04206(A4)
     pea         -$0141(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $0c(SP),SP
 LAB_00031404:                 
     move.l      D6,D0
@@ -49494,7 +49494,7 @@ LAB_000315d0:
     pea         (DAT_000b6790)
     pea         -$041f4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC);                (SP)=>local_164                                                                 
+    jsr         Relay_07_00063b62(PC);                (SP)=>local_164                                                                 
     clr.w       (SP)
     moveq       #$03,D0;                D0 ,-(SP)=>local_166                                                            
     move.w      D0,-(SP)
@@ -50528,7 +50528,7 @@ LAB_000320f2:                 ;                (A0)+,(A1)+=>DAT_000b67e0
     pea         (DAT_000b67e0)
     pea         -$041d8(A4)
     pea         -$0190(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.w      $0496c(A4),D0
     moveq       #$00,D1
     jsr         thunk_FUN_nb00059d30(PC)
@@ -50541,7 +50541,7 @@ LAB_000320f2:                 ;                (A0)+,(A1)+=>DAT_000b67e0
     pea         (DAT_000b67e0)
     pea         -$041cc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.w      $04bce(A4),D0
     lea         -$0190(A6),A0
     lea         -$0140(A6),A1
@@ -50834,7 +50834,7 @@ FUN_00032436:
     move.l      D0,-(SP)
     pea         -$04192(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.l      D7,D0
     lea         -$04152(A4),A0
     lea         -$0140(A6),A1
@@ -50874,7 +50874,7 @@ LAB_000324b0:
     move.l      D0,-(SP)
     pea         -$04142(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.l      D7,D0
     lea         -$04120(A4),A0
     lea         -$0140(A6),A1
@@ -50898,7 +50898,7 @@ LAB_00032502:
     move.l      D0,-(SP)
     pea         -$04110(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.l      D7,D0
     lea         -$040e4(A4),A0
     lea         -$0140(A6),A1
@@ -51088,7 +51088,7 @@ LAB_000326e6:                 ;                (A1)+=>DAT_000b7d66
     move.w      $0496c(A4),-(SP)
     pea         -$040d4(A4)
     pea         (DAT_000b7cb2)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.w      $04952(A4),D0
     ext.l       D0
     moveq       #$065,D1
@@ -51169,7 +51169,7 @@ LAB_000327f0:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$040cc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.w      $04952(A4),D0
     lea         -$04092(A4),A0
     lea         -$0140(A6),A1
@@ -51205,7 +51205,7 @@ LAB_0003289e:
     move.w      D7,-(SP)
     pea         -$04088(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.w      $04952(A4),D0
     ext.l       D0
     moveq       #$065,D1
@@ -51301,7 +51301,7 @@ LAB_0003299c:                 ;                (A1)+=>DAT_000b7762
     move.l      A0,-(SP)
     pea         -$0407e(A4)
     pea         -$03ca(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         -$03ca(A6),A0
     jsr         thunk_FUN_qz0006417c(PC)
     lea         $0c(SP),SP
@@ -51509,7 +51509,7 @@ LAB_00032bc8:                 ;                (A1)+,(A0)+=>DAT_000b7d66
     move.l      $0(a0,d1.l),-(SP)
     pea         -$04076(A4)
     pea         -$03ca(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.w      $04bd4(A4),D0
     lea         -$04032(A4),A0
     lea         -$03ca(A6),A1
@@ -51576,7 +51576,7 @@ LAB_00032cd2:
     move.l      D0,-(SP)
     pea         -$04018(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $0c(SP),SP
     lea         (DAT_0009f33e),A0
     movea.l     A0,A1
@@ -51620,14 +51620,14 @@ LAB_00032d2a:
     move.l      $0(a0,d0.l),(SP)
     pea         -$04012(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$07,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN_hh000560f4(PC);                D4,(SP)=>local_17c                                                              
     move.l      D4,(SP)
     pea         -$03ff4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     moveq       #$09,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN_hh000560f4(PC)
@@ -51652,7 +51652,7 @@ LAB_00032daa:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$03f8a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_vc0005615c(PC)
     lea         $0c(SP),SP
@@ -51696,7 +51696,7 @@ LAB_00032e36:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$03f78(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_vc0005615c(PC)
     lea         $0c(SP),SP
@@ -51760,7 +51760,7 @@ LAB_00032f1a:
     move.l      D4,-(SP)
     pea         -$03f5e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_vc0005615c(PC)
     lea         $0c(SP),SP
@@ -51770,7 +51770,7 @@ LAB_00032f42:                 ;                D4,-(SP)=>local_174+$02
     move.l      D4,-(SP)
     pea         -$03f3e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_vc0005615c(PC)
     lea         $0c(SP),SP
@@ -52268,7 +52268,7 @@ LAB_000334b0:
     move.l      D0,-(SP)
     pea         -$03f24(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0003350a
 LAB_000334d6:                 
@@ -52284,7 +52284,7 @@ LAB_000334d6:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$03f1a(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     lea         $010(SP),SP
 LAB_0003350a:                 
     move.l      D6,D0
@@ -52305,7 +52305,7 @@ LAB_0003350a:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$03f12(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_88_00063b62(PC)
+    jsr         Relay_07_00063b62(PC)
     move.l      D6,D0
     lea         -$03eea(A4),A0
     lea         -$0144(A6),A1
@@ -52672,7 +52672,7 @@ thunk_FUN_hn0005bff8:
     jmp         FUN_0005bff8
 thunk_FUN_dd0006433c:
     jmp         FUN_0006433c
-thunk_FUN_88_00063b62:
+Relay_07_00063b62:
     jmp         FUN_00063b62
 thunk_FUN_m_0005bbc2:
     jmp         FUN_0005bbc2
@@ -52726,7 +52726,7 @@ LAB_000339a4:
     pea         (DAT_000b67e0)
     pea         -$03e6a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_yy00059f76(PC);                D7 ,(SP)=>local_158                                                             
     move.w      D7,(SP)
@@ -53034,7 +53034,7 @@ LAB_00033cb8:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$03dbc(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     jsr         thunk_FUN_i_0005b244(PC)
     lea         -$0144(A6),A0
     jsr         thunk_FUN_yy00059f76(PC)
@@ -53148,7 +53148,7 @@ LAB_00033e0e:
     move.l      D0,-(SP)
     pea         -$03d90(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04990(A4),D0
     addq.w      #$05,D0
     ext.l       D0
@@ -53207,7 +53207,7 @@ LAB_00033ec6:
     pea         (DAT_000b4cfa)
     pea         -$03d7c(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04990(A4),D0
     addq.w      #$05,D0
     ext.l       D0
@@ -53228,7 +53228,7 @@ LAB_00033ec6:
     move.w      D0,(SP)
     pea         -$03d74(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04990(A4),D0
     addq.w      #$05,D0
     ext.l       D0
@@ -53248,12 +53248,12 @@ LAB_00033ec6:
     moveq       #$00,D0;                (A0),D0 =>DAT_0009fadc                                                          
     move.b      (A0),D0
     asl.l       #$02,D0
-    lea         (DWORD_00065b2a),A0
-    adda.l      D0,A0;                (A0),(SP)=>DWORD_00065b2a                                                       
+    lea         (Fixup_Address_03),A0
+    adda.l      D0,A0;                (A0),(SP)=>Fixup_Address_03                                                       
     move.l      (A0),(SP)
     pea         -$03d70(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04990(A4),D0
     addq.w      #$05,D0
     ext.l       D0
@@ -53274,7 +53274,7 @@ LAB_00033ec6:
     move.l      D0,(SP)
     pea         -$03d6c(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04990(A4),D0
     addq.w      #$05,D0
     ext.l       D0
@@ -53346,7 +53346,7 @@ LAB_0003403c:
     move.l      D0,-(SP)
     pea         -$03d68(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     moveq       #$00,D0
     lea         -$0144(A6),A0
     lea         -$03d5c(A4),A1
@@ -53373,7 +53373,7 @@ LAB_0003409e:                 ;                (A0)+,(A1)+=>DAT_000b4f7a
     pea         (DAT_000b4f7a)
     pea         -$03d48(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         -$0144(A6),A0
     jsr         thunk_FUN_ol0005615c(PC)
     lea         $0c(SP),SP
@@ -53383,7 +53383,7 @@ LAB_000340da:
     pea         (DAT_000b4f7a)
     pea         -$03d32(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         -$0144(A6),A0
     jsr         thunk_FUN_ol0005615c(PC)
     lea         $0c(SP),SP
@@ -53685,7 +53685,7 @@ LAB_00034404:                 ;                (A0)+,(A1)+=>DAT_000b4f7a
     pea         (DAT_000b4f7a)
     pea         -$03c92(A4)
     pea         -$0168(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         -$0168(A6),A0
     jsr         thunk_FUN_yy00059f76(PC)
     lea         $0c(SP),SP
@@ -53723,7 +53723,7 @@ LAB_00034456:
     pea         (DAT_000b4f7a)
     pea         -$03c60(A4)
     pea         -$0168(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         -$0168(A6),A0
     jsr         thunk_FUN_9_00056198(PC)
     move.l      D7,D0
@@ -53889,7 +53889,7 @@ LAB_000345c8:                 ;                (A2)+=>DAT_000b68a8
     move.w      D1,-(SP)
     pea         -$03c4e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.l      -$144(A6),D0
     move.l      #$03f800000,D1
     jsr         thunk_FUN_h_00061730(PC)
@@ -53944,7 +53944,7 @@ LAB_00034658:                 ;                (A2)+=>DAT_000b4f7a
     move.w      D1,-(SP)
     pea         -$03c4a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0e(SP),SP
     move.w      $08+$04(A6),D0
     moveq       #$02,D1
@@ -54011,7 +54011,7 @@ LAB_000346b0:
     move.w      D0,(SP)
     pea         -$03c40(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.l      -$148(A6),D0
     jsr         thunk_FUN_yo00061970(PC)
     move.l      #$040224000,D2
@@ -54062,12 +54062,12 @@ LAB_000346b0:
     moveq       #$00,D0;                (A0),D0 =>DAT_0009fadc                                                          
     move.b      (A0),D0
     asl.l       #$02,D0
-    lea         (DWORD_00065b2a),A0
-    adda.l      D0,A0;                (A0),(SP)=>DWORD_00065b2a                                                       
+    lea         (Fixup_Address_03),A0
+    adda.l      D0,A0;                (A0),(SP)=>Fixup_Address_03                                                       
     move.l      (A0),(SP)
     pea         -$03c2c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.l      -$148(A6),D0
     jsr         thunk_FUN_yo00061970(PC)
     move.l      #$040224000,D2
@@ -54126,7 +54126,7 @@ LAB_0003485a:
     move.l      D0,(SP)
     pea         -$03c12(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.l      -$148(A6),D0
     jsr         thunk_FUN_yo00061970(PC)
     move.l      #$040224000,D2
@@ -54182,7 +54182,7 @@ LAB_0003485a:
     move.w      D0,(SP)
     pea         -$03c06(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.l      -$148(A6),D0
     jsr         thunk_FUN_yo00061970(PC)
     move.l      #$040224000,D2
@@ -54315,7 +54315,7 @@ LAB_00034a68:
     move.w      D0,(SP)
     pea         -$03bca(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.l      -$148(A6),D0
     jsr         thunk_FUN_yo00061970(PC)
     move.l      #$040224000,D2
@@ -54593,48 +54593,48 @@ LAB_00034cc2:
     move.l      D0,$04ed4(A4)
     move.l      $04ed0(A4),D0
     moveq       #$020,D1
-    ;jsr         thunk_FUN_h00063b9c ;(PC)causing issues! 
-	dc.w 		$4EBA
-	dc.w		$4DF2
+    jsr         thunk_FUN_oo00063b9c(PC);thunk_FUN_h00063b9c ;(PC)causing issues! 
+	;dc.w 		$4EBA
+	;dc.w		$4DF2
     move.w      $04954(A4),D1
     ext.l       D1
     cmp.l       D0,D1
     bne.b       LAB_00034da0
     move.l      $04ed0(A4),D0
     moveq       #$020,D1
-    ;jsr         thunk_FUN_h00063b9c;(PC)
-	dc.w 		$4EBA
-	dc.w		$4DDE
+    jsr         thunk_FUN_oo00063b9c(PC);thunk_FUN_h00063b9c;(PC)
+	;dc.w 		$4EBA
+	;dc.w		$4DDE
     move.l      $04ed4(A4),D0
     move.l      D1,$018(SP)
     moveq       #$020,D1
-    ;jsr         thunk_FUN_h00063b9c;(PC)
-	dc.w 		$4EBA
-	dc.w		$4DD0
+    jsr         thunk_FUN_oo00063b9c(PC);thunk_FUN_h00063b9c;(PC)
+	;dc.w 		$4EBA
+	;dc.w		$4DD0
     move.l      $18(SP),D0
     cmp.l       D1,D0
     bgt.b       LAB_00034dd8
 LAB_00034da0:                 
     move.l      $04ed4(A4),D0
     moveq       #$020,D1
-    ;jsr         thunk_FUN_h00063b9c;(PC)
-	dc.w 		$4EBA
-	dc.w		$4DBE
+    jsr         thunk_FUN_oo00063b9c(PC);thunk_FUN_h00063b9c;(PC)
+	;dc.w 		$4EBA
+	;dc.w		$4DBE
     move.w      $04954(A4),D1
     ext.l       D1
     cmp.l       D0,D1
     bne.b       LAB_00034dd4
     move.l      $04ed4(A4),D0
     moveq       #$020,D1
-    ;jsr         thunk_FUN_h00063b9c;(PC)
-	dc.w 		$4EBA
-	dc.w		$4DAA
+    jsr         thunk_FUN_oo00063b9c(PC);thunk_FUN_h00063b9c;(PC)
+	;dc.w 		$4EBA
+	;dc.w		$4DAA
     move.l      $04ed0(A4),D0
     move.l      D1,$18(SP)
     moveq       #$020,D1
-    ;jsr         thunk_FUN_h00063b9c;(PC) causing location errors
-	dc.w 		$4EBA
-	dc.w		$4D9C
+    jsr         thunk_FUN_oo00063b9c(PC);thunk_FUN_h00063b9c;(PC) causing location errors
+	;dc.w 		$4EBA
+	;dc.w		$4D9C
     move.l      $18(SP),D0
     cmp.l       D1,D0
     bgt.b       LAB_00034dd8
@@ -54775,7 +54775,7 @@ LAB_00034f16:
     pea         (DAT_000b68f8)
     pea         -$03a8e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.l      D7,D0
     lea         -$0140(A6),A0
     bsr.w       FUN_00034f3c;                 -$014a=>local_14a(A6),   D6/D7                                                 
@@ -54797,7 +54797,7 @@ FUN_00034f3c:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$03a88(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.l      D7,D0
     lea         -$0140(A6),A0
     movea.l     A5,A1
@@ -57013,7 +57013,7 @@ LAB_00036676:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$03a22(A4)
     pea         -$0191(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     tst.b       $04da7(A4)
     beq.b       LAB_000366d6
@@ -57022,7 +57022,7 @@ LAB_00036676:
     move.l      D0,-(SP)
     pea         -$03a14(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     bra.w       LAB_0003677c
 LAB_000366d6:                 
@@ -57033,7 +57033,7 @@ LAB_000366d6:
     move.l      D0,-(SP)
     pea         -$039e8(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04bce(A4),D0
     ext.l       D0
     asl.l       #$02,D0
@@ -57071,7 +57071,7 @@ LAB_00036762:
     move.l      D0,-(SP)
     pea         -$039bc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
 LAB_0003677c:                 
     lea         (DAT_0008c0c0),A0
@@ -57082,7 +57082,7 @@ LAB_0003677c:
     pea         -$0140(A6)
     pea         -$03998(A4)
     pea         -$01e1(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04bce(A4),D0
     lea         -$0191(A6),A0
     lea         -$01e1(A6),A1
@@ -57117,14 +57117,14 @@ LAB_000367b6:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$03982(A4)
     pea         -$0191(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $0492e(A4),D0
     jsr         thunk_FUN_3_00059cea(PC);                D0,(SP)=>local_20e                                                              
     move.l      D0,(SP);                 $04ed8(A4),-(SP)=>local_212                                                    
     move.l      $04ed8(A4),-(SP)
     pea         -$03974(A4)
     pea         -$01e1(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04bce(A4),D0
     lea         -$0191(A6),A0
     lea         -$01e1(A6),A1
@@ -57432,11 +57432,11 @@ LAB_00036afa:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$03928(A4)
     pea         -$054(A6)
-    jsr         thunk_FUN_q_00063b62(PC);                 $04edc(A4),(SP)=>local_146                                                     
+    jsr         Relay_08_00063b62(PC);                 $04edc(A4),(SP)=>local_146                                                     
     move.l      $04edc(A4),(SP)
     pea         -$0391a(A4)
     pea         -$0a4(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04952(A4),D0
     lea         -$054(A6),A0
     lea         -$0a4(A6),A1
@@ -57549,7 +57549,7 @@ LAB_00036c8a:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$038ea(A4)
     pea         -$05a(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     move.b      -$a(A6),D0
     moveq       #$00,D1
@@ -57581,7 +57581,7 @@ LAB_00036c8a:
     move.l      $28(SP),-(SP)
     pea         -$038da(A4)
     pea         -$010e(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
     bra.b       LAB_00036d96
 LAB_00036d54:                 
@@ -57601,7 +57601,7 @@ LAB_00036d54:
     move.l      $24(SP),-(SP)
     pea         -$03842(A4)
     pea         -$010e(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $014(SP),SP
 LAB_00036d96:                 
     move.w      $04952(A4),D0
@@ -57739,7 +57739,7 @@ LAB_00036f1c:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$037c6(A4)
     pea         -$059(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     lea         (DAT_0009e236),A0
     move.w      $04952(A4),D0
@@ -57759,7 +57759,7 @@ LAB_00036f1c:
     move.l      D0,-(SP)
     pea         -$037b6(A4)
     pea         -$010d(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_00036fda
 LAB_00036f8e:                 
@@ -57781,7 +57781,7 @@ LAB_00036f8e:
     move.l      $24(SP),-(SP)
     pea         -$03724(A4)
     pea         -$010d(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $014(SP),SP
 LAB_00036fda:                 
     move.w      $04952(A4),D0
@@ -57918,11 +57918,11 @@ LAB_000370aa:
     move.l      D0,-(SP)
     pea         -$03672(A4)
     pea         (DAT_000b4cfa)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     pea         (DAT_000b4cfa)
     pea         -$0366c(A4)
     pea         (DAT_000b6b78)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
     moveq       #$063,D0
     add.w       $0491a(A4),D0
@@ -57945,11 +57945,11 @@ LAB_0003714e:
     move.l      D0,-(SP)
     pea         -$03666(A4)
     pea         (DAT_000b4cfa)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     pea         (DAT_000b4cfa)
     pea         -$03660(A4)
     pea         (DAT_000b6b85)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
     moveq       #$063,D0
     add.w       $0491a(A4),D0
@@ -57972,11 +57972,11 @@ LAB_000371aa:
     move.l      D0,-(SP)
     pea         -$0365a(A4)
     pea         (DAT_000b4cfa)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     pea         (DAT_000b4cfa)
     pea         -$03654(A4)
     pea         (DAT_000b6b92)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
     moveq       #$063,D0
     add.w       $0491a(A4),D0
@@ -57999,11 +57999,11 @@ LAB_00037206:
     move.l      D0,-(SP)
     pea         -$0364e(A4)
     pea         (DAT_000b4cfa)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     pea         (DAT_000b4cfa)
     pea         -$03648(A4)
     pea         (DAT_000b6b9f)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
     moveq       #$063,D0
     add.w       $0491a(A4),D0
@@ -58026,11 +58026,11 @@ LAB_00037262:
     move.l      D0,-(SP)
     pea         -$03642(A4)
     pea         (DAT_000b6c18)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     pea         (DAT_000b6c18)
     pea         -$0363c(A4)
     pea         (DAT_000b6bfd)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04952(A4),D0
     ext.l       D0
     add.l       D0,D0
@@ -58041,11 +58041,11 @@ LAB_00037262:
     move.l      D0,(SP)
     pea         -$03636(A4)
     pea         (DAT_000b4cfa)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     pea         (DAT_000b4cfa)
     pea         -$03630(A4)
     pea         (DAT_000b6c0a)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $02c(SP),SP
     moveq       #$063,D0
     add.w       $0491a(A4),D0
@@ -58068,11 +58068,11 @@ LAB_000372fe:
     move.l      D0,-(SP)
     pea         -$0362a(A4)
     pea         (DAT_000b6c18)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     pea         (DAT_000b6c18)
     pea         -$03624(A4)
     pea         (DAT_000b6bc8)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
     move.w      $04952(A4),D0
     ext.l       D0
@@ -58105,18 +58105,18 @@ LAB_0003738c:
     add.w       (A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$0361e(A4)
     pea         (DAT_000b4cfa)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
 LAB_000373bc:                 
     pea         (DAT_000b4cfa)
     pea         -$03618(A4)
     pea         (DAT_000b6bd5)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     moveq       #$063,D0
     add.w       $0491a(A4),D0
@@ -58139,11 +58139,11 @@ LAB_000373e0:
     move.l      D0,-(SP)
     pea         -$03612(A4)
     pea         (DAT_000b6c18)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     pea         (DAT_000b6c18)
     pea         -$0360c(A4)
     pea         (DAT_000b6be2)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
     move.w      $04952(A4),D0
     ext.l       D0
@@ -58164,7 +58164,7 @@ LAB_000373e0:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$03606(A4)
     pea         (DAT_000b4cfa)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_000374a6
 LAB_00037476:                 
@@ -58176,18 +58176,18 @@ LAB_00037476:
     add.w       (A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$03600(A4)
     pea         (DAT_000b4cfa)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
 LAB_000374a6:                 
     pea         (DAT_000b4cfa)
     pea         -$035f8(A4)
     pea         (DAT_000b6bef)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     moveq       #$063,D0
     add.w       $0491a(A4),D0
@@ -58227,11 +58227,11 @@ LAB_000374ca:
     move.l      D0,-(SP)
     pea         -$035f2(A4)
     pea         (DAT_000b6c18)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     pea         (DAT_000b6c18)
     pea         -$035ec(A4)
     pea         (DAT_000b6bac)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
     moveq       #$063,D0
     add.w       $0491a(A4),D0
@@ -58272,11 +58272,11 @@ LAB_00037552:
     move.l      D0,-(SP)
     pea         -$035e6(A4)
     pea         (DAT_000b6c18)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     pea         (DAT_000b6c18)
     pea         -$035e0(A4)
     pea         (DAT_000b6bba)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
     moveq       #$063,D0
     add.w       $0491a(A4),D0
@@ -58309,7 +58309,7 @@ LAB_00037618:
     move.w      D0,-(SP)
     pea         -$035da(A4)
     pea         (DAT_000b6c68)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     move.w      $04952(A4),D0
     moveq       #$026,D1
@@ -58371,7 +58371,7 @@ LAB_0003767e:
     move.w      $26(SP),-(SP)
     pea         -$035d4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         (DAT_000b6c68),A0
     lea         -$0140(A6),A1
     jsr         thunk_FUN_p_0006433c(PC)
@@ -58401,7 +58401,7 @@ LAB_0003772a:                 ;                (A1)+=>DAT_000b6c68
     move.w      D0,-(SP)
     pea         -$035be(A4);                A0=>DAT_000b6c68,-(SP)=>local_17c                                               
     move.l      A0,-(SP)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     lea         (DAT_000a6a34),A0
     adda.w      $04952(A4),A0;                #$00,(A0)=>DAT_000a6a34                                                         
@@ -58426,7 +58426,7 @@ LAB_00037774:                 ;                (A1)+=>DAT_000b6c68
     move.w      D1,-(SP)
     pea         -$035b8(A4);                A0=>DAT_000b6c68,-(SP)=>local_17c                                               
     move.l      A0,-(SP)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     bra.w       LAB_0003789e
 LAB_000377aa:                 
@@ -58453,7 +58453,7 @@ LAB_000377c2:                 ;                (A1)+=>DAT_000b6c68
     move.w      D1,-(SP)
     pea         -$035b2(A4);                A0=>DAT_000b6c68,-(SP)=>local_17c                                               
     move.l      A0,-(SP)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     bra.w       LAB_0003789e
 LAB_000377f8:                 
@@ -58480,7 +58480,7 @@ LAB_00037810:                 ;                (A1)+=>DAT_000b6c68
     move.w      D1,-(SP)
     pea         -$035ac(A4);                A0=>DAT_000b6c68,-(SP)=>local_17c                                               
     move.l      A0,-(SP)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0003789e
 LAB_00037844:                 
@@ -58507,7 +58507,7 @@ LAB_0003785c:                 ;                (A1)+=>DAT_000b6c68
     move.w      D1,-(SP)
     pea         -$035a6(A4);                A0=>DAT_000b6c68,-(SP)=>local_17c                                               
     move.l      A0,-(SP)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0003789e
 LAB_00037890:                 
@@ -59070,7 +59070,7 @@ LAB_00037d4c:
     move.w      D0,-(SP)
     pea         -$03472(A4)
     pea         (DAT_000b6cb8)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      #$0130,D0;                D0 ,(SP)=>local_8ee                                                             
     move.w      D0,(SP)
     moveq       #$08,D1;                D1 ,-(SP)=>local_8f0                                                            
@@ -59227,14 +59227,14 @@ LAB_00037f36:
     move.l      $18(SP),-(SP)
     pea         -$033d6(A4)
     pea         -$0640(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.b      (DAT_000b6bfc),D0
     ext.w       D0
     addi.w      #$0766,D0;                D0 ,(SP)=>local_8f4                                                             
     move.w      D0,(SP)
     pea         -$033cc(A4)
     pea         -$05f0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
 LAB_00037fd0:                 
     moveq       #$07e,D0;                D0 ,-(SP)=>local_8e8+$02                                                        
@@ -59259,7 +59259,7 @@ LAB_00037fd0:
     move.w      D0,-(SP)
     pea         -$033b6(A4)
     pea         (DAT_000b650e)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $010(SP),SP
     lea         (DAT_000b650e),A0
     lea         -$033b0(A4),A1
@@ -59274,7 +59274,7 @@ LAB_00038036:
     pea         (DAT_000b650e)
     pea         -$033ac(A4)
     pea         -$05a0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     move.l      D7,D0
     ext.l       D0
@@ -59300,7 +59300,7 @@ LAB_00038036:
     move.w      D0,-(SP)
     pea         -$033a4(A4)
     pea         -$0550(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_000380ea
 LAB_000380a6:                 
@@ -59314,14 +59314,14 @@ LAB_000380a6:
     move.l      D0,-(SP)
     pea         -$033a0(A4)
     pea         -$0780(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         -$05a0(A6),A0
     lea         -$0780(A6),A1
     jsr         thunk_FUN_p_0006433c(PC)
     pea         (DAT_000b6cb8)
     pea         -$0339a(A4)
     pea         -$0550(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
 LAB_000380ea:                 
     moveq       #$07e,D0;                D0 ,-(SP)=>local_8e8+$02                                                        
@@ -59346,7 +59346,7 @@ LAB_000380ea:
     move.w      D0,-(SP)
     pea         -$03384(A4)
     pea         (DAT_000b650e)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $010(SP),SP
     lea         (DAT_000b650e),A0
     lea         -$0337e(A4),A1
@@ -59361,7 +59361,7 @@ LAB_00038150:
     pea         (DAT_000b650e)
     pea         -$0337a(A4)
     pea         -$0500(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     move.l      D7,D0
     ext.l       D0
@@ -59387,7 +59387,7 @@ LAB_00038150:
     move.w      D0,-(SP)
     pea         -$03372(A4)
     pea         -$04b0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_00038204
 LAB_000381c0:                 
@@ -59401,14 +59401,14 @@ LAB_000381c0:
     move.l      D0,-(SP)
     pea         -$0336e(A4)
     pea         -$0780(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         -$0500(A6),A0
     lea         -$0780(A6),A1
     jsr         thunk_FUN_p_0006433c(PC)
     pea         (DAT_000b6cb8)
     pea         -$03368(A4)
     pea         -$04b0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
 LAB_00038204:                 
     moveq       #$07e,D0;                D0 ,-(SP)=>local_8e8+$02                                                        
@@ -59429,7 +59429,7 @@ LAB_00038204:
     move.l      (A0),(SP)
     pea         -$03350(A4)
     pea         (DAT_000b6cc2)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0e(SP),SP
     lea         (DAT_000b6cc2),A0
     lea         -$0334c(A4),A1
@@ -59444,7 +59444,7 @@ LAB_0003825e:
     pea         (DAT_000b6cc2)
     pea         -$0334a(A4)
     pea         -$0460(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     move.l      D7,D0
     ext.l       D0
@@ -59470,7 +59470,7 @@ LAB_0003825e:
     move.w      D0,-(SP)
     pea         -$03342(A4)
     pea         -$0410(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_00038312
 LAB_000382ce:                 
@@ -59484,14 +59484,14 @@ LAB_000382ce:
     move.l      D0,-(SP)
     pea         -$0333e(A4)
     pea         -$0780(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         -$0460(A6),A0
     lea         -$0780(A6),A1
     jsr         thunk_FUN_p_0006433c(PC)
     pea         (DAT_000b6cb8)
     pea         -$03338(A4)
     pea         -$0410(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
 LAB_00038312:                 
     moveq       #$07e,D0;                D0 ,-(SP)=>local_8e8+$02                                                        
@@ -59512,7 +59512,7 @@ LAB_00038312:
     move.l      (A0),(SP)
     pea         -$03320(A4)
     pea         (DAT_000b6cc2)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0e(SP),SP
     lea         (DAT_000b6cc2),A0
     lea         -$0331c(A4),A1
@@ -59527,7 +59527,7 @@ LAB_0003836c:
     pea         (DAT_000b6cc2)
     pea         -$0331a(A4)
     pea         -$03c0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     move.l      D7,D0
     ext.l       D0
@@ -59553,7 +59553,7 @@ LAB_0003836c:
     move.w      D0,-(SP)
     pea         -$03312(A4)
     pea         -$0370(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_00038420
 LAB_000383dc:                 
@@ -59567,14 +59567,14 @@ LAB_000383dc:
     move.l      D0,-(SP)
     pea         -$0330e(A4)
     pea         -$0780(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         -$03c0(A6),A0
     lea         -$0780(A6),A1
     jsr         thunk_FUN_p_0006433c(PC)
     pea         (DAT_000b6cb8)
     pea         -$03308(A4)
     pea         -$0370(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
 LAB_00038420:                 
     moveq       #$07e,D0;                D0 ,-(SP)=>local_8e8+$02                                                        
@@ -59594,7 +59594,7 @@ LAB_00038420:
     move.w      D0,(SP)
     pea         -$032f0(A4)
     pea         (DAT_000b6d12)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0e(SP),SP
     lea         (DAT_000b6d12),A0
     lea         -$032ec(A4),A1
@@ -59617,14 +59617,14 @@ LAB_00038476:
     move.l      D0,-(SP)
     pea         -$032ea(A4)
     pea         -$0320(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.b      (DAT_000b6bb9),D0
     ext.w       D0
     addi.w      #$0766,D0;                D0 ,(SP)=>local_8f4                                                             
     move.w      D0,(SP)
     pea         -$032e0(A4)
     pea         -$02d0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
 LAB_000384ca:                 
     moveq       #$07e,D0;                D0 ,-(SP)=>local_8e8+$02                                                        
@@ -59660,7 +59660,7 @@ LAB_000384ca:
     move.l      D0,-(SP)
     pea         -$032c8(A4)
     pea         (DAT_000b4f98)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     moveq       #$0d,D0
     lea         (DAT_000b5038),A0
     lea         (DAT_000b6bba),A1
@@ -59672,14 +59672,14 @@ LAB_000384ca:
     move.l      D0,-(SP)
     pea         -$032c2(A4)
     pea         -$0280(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.b      (DAT_000b6bc7),D0
     ext.w       D0
     addi.w      #$0766,D0;                D0 ,(SP)=>local_904                                                             
     move.w      D0,(SP)
     pea         -$032b8(A4)
     pea         -$0230(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $028(SP),SP
 LAB_00038580:                 
     move.w      #$097,D0;                D0 ,-(SP)=>local_8e8+$02                                                        
@@ -59700,7 +59700,7 @@ LAB_00038580:
     move.l      (A0),(SP)
     pea         -$032a2(A4)
     pea         (DAT_000b6740)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0e(SP),SP
     lea         (DAT_000b6740),A0
     lea         -$0329e(A4),A1
@@ -59715,7 +59715,7 @@ LAB_000385dc:
     pea         (DAT_000b6740)
     pea         -$0329c(A4)
     pea         -$01e0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$03292(A4),A0
     lea         -$0190(A6),A1
@@ -59758,7 +59758,7 @@ LAB_00038636:
     move.w      D0,-(SP)
     pea         -$0328a(A4)
     pea         -$0780(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         -$0190(A6),A0
     lea         -$0780(A6),A1
     jsr         thunk_FUN_p_0006433c(PC)
@@ -59795,7 +59795,7 @@ LAB_000386a8:
     move.l      D0,-(SP)
     pea         -$03286(A4)
     pea         -$0780(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_0003871c
 LAB_000386ea:                 
@@ -59807,13 +59807,13 @@ LAB_000386ea:
     add.w       (A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
+    lea         (Fixup_Address_00),A0
     adda.l      D0,A0
-    pea         (DAT_000b6cb8);                (A0),-(SP)=>DWORD_000654d8                                                      
+    pea         (DAT_000b6cb8);                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$0327c(A4)
     pea         -$0780(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $010(SP),SP
 LAB_0003871c:                 
     lea         -$0190(A6),A0
@@ -59859,7 +59859,7 @@ LAB_00038756:
     move.l      (A0),(SP)
     pea         -$0325a(A4)
     pea         (DAT_000b6740)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0e(SP),SP
     lea         (DAT_000b6740),A0
     lea         -$03256(A4),A1
@@ -59874,7 +59874,7 @@ LAB_000387b2:
     pea         (DAT_000b6740)
     pea         -$03254(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$0324a(A4),A0
     lea         -$0f0(A6),A1
@@ -59916,7 +59916,7 @@ LAB_0003880a:
     move.w      D0,-(SP)
     pea         -$03244(A4)
     pea         -$0780(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         -$0f0(A6),A0
     lea         -$0780(A6),A1
     jsr         thunk_FUN_p_0006433c(PC)
@@ -59953,7 +59953,7 @@ LAB_0003887c:
     move.l      D0,-(SP)
     pea         -$03240(A4)
     pea         -$0780(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_000388f0
 LAB_000388be:                 
@@ -59965,13 +59965,13 @@ LAB_000388be:
     add.w       (A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
+    lea         (Fixup_Address_00),A0
     adda.l      D0,A0
-    pea         (DAT_000b6cb8);                (A0),-(SP)=>DWORD_000654d8                                                      
+    pea         (DAT_000b6cb8);                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$03236(A4)
     pea         -$0780(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $010(SP),SP
 LAB_000388f0:                 
     lea         -$0f0(A6),A0
@@ -60016,7 +60016,7 @@ LAB_0003892a:
     move.w      D0,(SP)
     pea         -$03218(A4)
     pea         (DAT_000b6d12)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0e(SP),SP
     lea         (DAT_000b6d12),A0
     lea         -$03214(A4),A1
@@ -60066,7 +60066,7 @@ LAB_000389e2:                 ;                (A0)+,(A1)+=>DAT_000b6d62
     move.w      D0,-(SP)
     pea         -$03212(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_00038a60
 LAB_00038a06:                 
@@ -60092,18 +60092,18 @@ LAB_00038a22:                 ;                (A0)+,(A1)+=>DAT_000b5038
     move.l      D0,-(SP)
     pea         -$0320e(A4)
     pea         (DAT_000b6d62)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     pea         (DAT_000b6cb8)
     pea         -$03208(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $018(SP),SP
 LAB_00038a60:                 
     pea         (DAT_000b6d12)
     pea         (DAT_000b5038)
     pea         -$03204(A4)
     pea         -$0a0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $010(SP),SP
 LAB_00038a7c:                 
     lea         -$08c0(A6),A5
@@ -60448,7 +60448,7 @@ LAB_00038e1e:
     move.w      D0,-(SP)
     pea         -$0315c(A4)
     pea         -$03c0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0a(SP),SP
     move.b      (DAT_000b6c69),D0
     moveq       #$00,D1
@@ -60470,7 +60470,7 @@ LAB_00038e1e:
     move.l      D0,-(SP)
     pea         -$03158(A4)
     pea         -$0370(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     move.w      $04972(A4),D0
     moveq       #$012,D1
@@ -60483,7 +60483,7 @@ LAB_00038ea4:
     move.w      D0,-(SP)
     pea         -$03154(A4)
     pea         -$0320(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0a(SP),SP
     move.w      #$03,$04c4e(A4)
 LAB_00038ec0:                 
@@ -60503,7 +60503,7 @@ LAB_00038ec0:
     move.w      D1,-(SP)
     pea         -$03150(A4);                A0,-(SP)=>local_3e6                                                             
     move.l      A0,-(SP)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0a(SP),SP
     addq.w      #$01,$04c4e(A4)
     bra.b       LAB_00038ec0
@@ -60524,7 +60524,7 @@ LAB_00038f0a:
     pea         (DAT_000b6db2)
     pea         -$03146(A4)
     pea         -$0f0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
 LAB_00038f3a:                 
     move.b      (DAT_000b6c73),D0
@@ -60544,7 +60544,7 @@ LAB_00038f3a:
     move.l      D0,-(SP)
     pea         -$03142(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
 LAB_00038f7c:                 
     moveq       #$022,D0;                D0 ,-(SP)=>local_3e0+$02                                                        
@@ -60863,7 +60863,7 @@ LAB_000392a4:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$030f2(A4)
     pea         -$0a0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $0c(SP),SP
     tst.w       D7
     ble.b       LAB_000392da
@@ -60925,7 +60925,7 @@ LAB_00039324:
     move.w      D0,-(SP)
     pea         -$030de(A4)
     pea         -$0a0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04946(A4),D0
     ext.l       D0
     jsr         thunk_FUN_jh0006186c(PC)
@@ -60957,7 +60957,7 @@ LAB_00039324:
     move.l      D0,(SP)
     pea         -$030da(A4)
     pea         -$0a0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04946(A4),D0
     ext.l       D0
     jsr         thunk_FUN_jh0006186c(PC)
@@ -60988,7 +60988,7 @@ LAB_00039324:
     move.l      D0,(SP)
     pea         -$030d6(A4)
     pea         -$0a0(A6)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     move.w      $04946(A4),D0
     ext.l       D0
     jsr         thunk_FUN_jh0006186c(PC)
@@ -61582,7 +61582,7 @@ LAB_00039a06:
     pea         (DAT_000b6e02)
     pea         -$03000(A4);                A5,-(SP)=>local_1c                                                              
     move.l      A5,-(SP)
-    jsr         thunk_FUN_q_00063b62(PC)
+    jsr         Relay_08_00063b62(PC)
     lea         $010(SP),SP
     move.l      A5,D0;                (SP=>local_c)+,   D6/D7/A5                                                      
     movem.l     (SP)+,D6/D7/A5
@@ -61869,7 +61869,7 @@ thunk_FUN_p_00064468:
     dc.b        $0
 thunk_FUN_p_0006433c:
     jmp         FUN_0006433c
-thunk_FUN_q_00063b62:
+Relay_08_00063b62:
     jmp         FUN_00063b62
 thunk_FUN_0004c6b0:
     jmp         FUN_0004c6b0
@@ -61922,7 +61922,7 @@ FUN_00039c8c:
     move.l      D0,-(SP)
     pea         -$02fa8(A4)
     pea         -$02080(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         -$02080(A6),A0
     jsr         thunk_FUN_000489f6(PC)
     moveq       #$03,D0
@@ -61966,7 +61966,7 @@ LAB_00039d26:
     move.l      D0,-(SP)
     pea         -$02f5e(A4)
     pea         -$022ce(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         -$022ce(A6),A0
     jsr         thunk_FUN_000489f6(PC)
     lea         $014(SP),SP
@@ -62078,12 +62078,12 @@ LAB_00039eac:                 ;                 $04b2a(A4),-(SP)=>local_22f0
     move.w      $04b28(A4),-(SP)
     pea         -$02f44(A4)
     pea         -$02080(A6)
-    jsr         thunk_FUN_77_00063b62(PC);                (DAT_000b0456)  ,(SP)=>local_22fa                                               
+    jsr         Relay_09_00063b62(PC);                (DAT_000b0456)  ,(SP)=>local_22fa                                               
     move.l      (DAT_000b0456),(SP)
     pea         -$02080(A6)
     pea         -$02f3e(A4)
     pea         -$022ce(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         -$022ce(A6),A0
     jsr         thunk_FUN_000489f6(PC)
     lea         $018(SP),SP
@@ -62165,7 +62165,7 @@ LAB_00039f94:
     move.w      D0,-(SP)
     pea         -$02f2e(A4)
     pea         -$02080(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         -$020da(A6),A0
     lea         -$02080(A6),A1
     jsr         thunk_FUN_wm0006433c(PC)
@@ -62634,13 +62634,13 @@ LAB_0003a48c:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$02e96(A4)
     pea         -$076c(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.w      $0492e(A4),D0
     jsr         thunk_FUN_04_00059b9a(PC);                D0,(SP)=>local_840                                                              
     move.l      D0,(SP)
     pea         -$02e88(A4)
     pea         -$0820(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.w      $04954(A4),D0
     lea         -$076c(A6),A0
     lea         -$0820(A6),A1
@@ -62727,7 +62727,7 @@ LAB_0003a5cc:                 ;                (DAT_000a260c)  ,-(SP)=>local_19
     move.w      D0,-(SP)
     pea         -$02e36(A4)
     pea         (DAT_000b6790)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0e(SP),SP
     move.w      (DAT_000a260a),D0
     tst.w       D0
@@ -62757,7 +62757,7 @@ LAB_0003a608:                 ;                (A0)+=>DAT_000b7c8a,(A1)+
     move.l      $c(SP),-(SP)
     pea         -$02e2a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     moveq       #$06,D0;                D0 ,(SP)=>local_1b0                                                             
     move.w      D0,(SP)
     move.l      #-$040800000,D0
@@ -62850,7 +62850,7 @@ LAB_0003a738:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$02e18(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.w      $04954(A4),D0
     lea         -$02de8(A4),A0
     lea         -$0140(A6),A1
@@ -63460,14 +63460,14 @@ LAB_0003adce:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$02d86(A4)
     pea         -$078(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.l      D7,D0
     jsr         thunk_FUN_04_00059b9a(PC);                D5 ,(SP)=>local_118                                                             
     move.w      D5,(SP);                D0,-(SP)=>local_11c                                                             
     move.l      D0,-(SP)
     pea         -$02d78(A4)
     pea         -$0f0(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.w      $04954(A4),D0
     lea         -$078(A6),A0
     lea         -$0f0(A6),A1
@@ -63484,13 +63484,13 @@ LAB_0003ae2c:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$02d46(A4)
     pea         -$078(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.l      D7,D0
     jsr         thunk_FUN_04_00059b9a(PC);                D0,(SP)=>local_118                                                              
     move.l      D0,(SP)
     pea         -$02d38(A4)
     pea         -$0f0(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.w      $04954(A4),D0
     lea         -$078(A6),A0
     lea         -$0f0(A6),A1
@@ -63514,7 +63514,7 @@ LAB_0003ae98:                 ;                D5 ,-(SP)=>local_110+$02
     move.w      D5,-(SP)
     pea         -$02cf8(A4)
     pea         (DAT_000b6ef2)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0a(SP),SP
 LAB_0003aeac:                 
     move.w      $04954(A4),D0
@@ -63536,22 +63536,22 @@ LAB_0003aecc:                 ;                A0,-(SP)=>local_110
     move.l      ($00,A1,D0.l),-(SP)
     pea         -$02ce8(A4)
     pea         -$078(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.l      D7,D0
     jsr         thunk_FUN_04_00059b9a(PC)
     move.l      D6,D1
     ext.l       D1
     asl.l       #$02,D1
-    ;lea         (DWORD_0006584a).l,A0;L02AF0E  come back and fix the address
-	lea			$5584A,a0
+    lea         (Fixup_Address_01),A0;L02AF0E  come back and fix the address
+	;lea			$5584A,a0
     adda.l      D1,A0
-    pea         (DAT_000b6ea2);                (A0),-(SP)=>DWORD_0006584a                                                      
+    pea         (DAT_000b6ea2);                (A0),-(SP)=>Fixup_Address_01                                                      
     move.l      (A0),-(SP)
     pea         (DAT_000b6ef2);                D0,-(SP)=>local_12c                                                             
     move.l      D0,-(SP)
     pea         -$02ccc(A4)
     pea         -$0f0(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.w      $04954(A4),D0
     lea         -$078(A6),A0
     lea         -$0f0(A6),A1
@@ -63712,7 +63712,7 @@ LAB_0003b0b4:
     move.w      D0,-(SP)
     pea         -$02c8e(A4)
     pea         -$0b4(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_0003b0f0
 LAB_0003b0de:                 
@@ -63743,14 +63743,14 @@ LAB_0003b110:                 ;                A0,-(SP)=>local_1c8
     move.l      ($00,A1,D0.l),-(SP)
     pea         -$02c54(A4)
     pea         -$0104(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.l      D7,D0
     jsr         thunk_FUN_04_00059b9a(PC)
     pea         -$0b4(A6);                D0,-(SP)=>local_1dc                                                             
     move.l      D0,-(SP)
     pea         -$02c38(A4)
     pea         -$01b8(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.w      $04954(A4),D0
     lea         -$0104(A6),A0
     lea         -$01b8(A6),A1
@@ -63886,7 +63886,7 @@ defaultR:
     move.l      D0,-(SP)
     pea         -$02be8(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         (DAT_0009e25e),A0
     move.w      $04c9a(A4),D0
     movea.l     A0,A1
@@ -63913,7 +63913,7 @@ defaultR:
     pea         (DAT_000b6f42)
     pea         -$02bdc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     moveq       #$07,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN_jy000560f4(PC)
@@ -63939,7 +63939,7 @@ LAB_0003b32a:                 ;                 $04eb4(A4),-(SP)=>local_166
     move.l      $04eb4(A4),-(SP)
     pea         -$02b9e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0c(SP),SP
 LAB_0003b33e:                 
     moveq       #$09,D0
@@ -64009,7 +64009,7 @@ LAB_0003b40a:
     move.l      D0,-(SP)
     pea         -$02b40(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_gh_0005615c(PC)
     moveq       #-$01,D6
@@ -64710,9 +64710,9 @@ LAB_0003bc0e:
     add.l       D0,$04ef8(A4)
     move.l      $04ef8(A4),D0
     move.l      #$02710,D1
-    ;jsr         thunk_FUN_h00063b9c(PC)
-	dc.w 		$4EBA
-	dc.w 		$1B72
+    jsr         thunk_FUN_SEVEN_00063b9c(PC);thunk_FUN_h00063b9c(PC)
+	;dc.w 		$4EBA
+	;dc.w 		$1B72
     move.l      #$02710,D1
     jsr         Relay_Eleventh_00063c44(PC)
     move.l      D0,$04ef8(A4)
@@ -64723,7 +64723,7 @@ LAB_0003bc0e:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$02aea(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.w      $04954(A4),D0
     ext.l       D0
     asl.l       #$02,D0;                 $04ef8(A4),(SP)=>local_16c                                                     
@@ -64732,7 +64732,7 @@ LAB_0003bc0e:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$02adc(A4)
     pea         -$0104(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.w      $04954(A4),D0
     lea         -$050(A6),A0
     lea         -$0104(A6),A1
@@ -65084,7 +65084,7 @@ LAB_0003c046:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$029fa(A4)
     pea         -$05b(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$029ec(A4),A0
     lea         -$0123(A6),A1
@@ -65107,14 +65107,14 @@ LAB_0003c0a2:
     move.l      A0,D2
     move.b      (-$0b,A6,D2.w),D1
     asl.l       #$02,D1
-    lea         (DWORD_000654d8),A0
+    lea         (Fixup_Address_00),A0
     adda.l      D1,A0
-    pea         -$0123(A6);                (A0),-(SP)=>DWORD_000654d8                                                      
+    pea         -$0123(A6);                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP);                D0,-(SP)=>local_144                                                             
     move.l      D0,-(SP)
     pea         -$029e0(A4)
     pea         -$010f(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.w      $04954(A4),D0
     lea         -$05b(A6),A0
     lea         -$010f(A6),A1
@@ -68731,7 +68731,7 @@ LAB_0003e80c:                 ;                (A1)+=>DAT_000b7032
     move.l      A0,-(SP)
     pea         -$027dc(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         -$0142(A6),A0
     jsr         thunk_FUN_0006417c(PC)
     move.w      D0,$0496c(A4)
@@ -68751,11 +68751,11 @@ LAB_0003e860:                 ;                (A0)+,(A1)+=>DAT_000b4cfa
     pea         (DAT_000b4cfa)
     pea         -$027d6(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     pea         -$0142(A6)
     pea         -$027d0(A4)
     pea         -$0192(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         (DAT_000b4a7a),A0
     lea         -$0192(A6),A1
     jsr         thunk_FUN_wm0006433c(PC)
@@ -68766,7 +68766,7 @@ LAB_0003e89e:
     pea         (DAT_000b4a7a)
     pea         -$027cc(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     moveq       #$00,D0
     lea         -$027b6(A4),A0
     lea         -$0142(A6),A1
@@ -68792,7 +68792,7 @@ LAB_0003e8d0:
     move.l      A0,-(SP)
     pea         -$027aa(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         -$0142(A6),A0
     jsr         thunk_FUN_0006417c(PC)
     lea         $0c(SP),SP
@@ -68816,7 +68816,7 @@ LAB_0003e920:
     move.l      D0,-(SP)
     pea         -$027a4(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0003e95c
 LAB_0003e94e:                 
@@ -68892,7 +68892,7 @@ LAB_0003ea1a:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$02774(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.w      $0494e(A4),D0
     jsr         thunk_FUN_p99_00057faa(PC)
     move.b      D0,D1
@@ -69032,7 +69032,7 @@ LAB_0003eb88:                 ;                (A1)+=>DAT_000b7032
     move.l      A0,-(SP)
     pea         -$02764(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         -$0142(A6),A0
     jsr         thunk_FUN_0006417c(PC)
     move.w      D0,$0496c(A4)
@@ -69041,7 +69041,7 @@ LAB_0003eb88:                 ;                (A1)+=>DAT_000b7032
     move.l      D0,(SP)
     pea         -$0275e(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         (DAT_000b4a7a),A0
     lea         -$0142(A6),A1
     jsr         thunk_FUN_wm0006433c(PC)
@@ -69065,7 +69065,7 @@ LAB_0003ebe4:
     move.l      A0,-(SP)
     pea         -$0274a(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         -$0142(A6),A0
     jsr         thunk_FUN_0006417c(PC)
     lea         $0c(SP),SP
@@ -69109,7 +69109,7 @@ LAB_0003ec7c:                 ;                D1 ,-(SP)=>local_14e
     move.w      D1,-(SP)
     pea         -$02742(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         (DAT_000b7032),A0
     lea         -$0140(A6),A1
     jsr         thunk_FUN_wm0006433c(PC)
@@ -69247,8 +69247,8 @@ LAB_0003ed9a:
     move.w      $020(A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_0006e28e),A0
-    adda.l      D0,A0;                (A0),A1=>DWORD_0006e28e                                                         
+    lea         (Fixup_Address_06),A0
+    adda.l      D0,A0;                (A0),A1=>Fixup_Address_06                                                         
     movea.l     (A0),A1
     lea         -$07a(A6),A2
 LAB_0003edc8:                 
@@ -69266,8 +69266,8 @@ LAB_0003edc8:
     move.w      $020(A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_0006e28e),A0
-    adda.l      D0,A0;                (A0),A1=>DWORD_0006e28e                                                         
+    lea         (Fixup_Address_06),A0
+    adda.l      D0,A0;                (A0),A1=>Fixup_Address_06                                                         
     movea.l     (A0),A1
     lea         -$0a2(A6),A2
 LAB_0003edfa:                 
@@ -69445,7 +69445,7 @@ LAB_0003efe8:
     pea         (DAT_000b68a8)
     pea         -$02728(A4)
     pea         (DAT_000b565a)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $010(SP),SP
     lea         (DAT_0008d254),A0
     move.w      $0492e(A4),D0
@@ -69529,7 +69529,7 @@ LAB_0003f0b0:
     move.l      $1a(SP),-(SP)
     pea         -$02714(A4)
     pea         (DAT_000b579a)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0e(SP),SP
     bra.b       LAB_0003f110
 LAB_0003f0fc:                 
@@ -69553,7 +69553,7 @@ LAB_0003f110:
     pea         (DAT_000b579a)
     pea         -$0270e(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$050(A6),A0
     lea         (DAT_000b579a),A1
@@ -69574,7 +69574,7 @@ LAB_0003f158:
     pea         (DAT_000b579a)
     pea         -$02708(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$050(A6),A0
     lea         (DAT_000b579a),A1
@@ -69593,7 +69593,7 @@ LAB_0003f1a0:
     pea         (DAT_000b579a)
     pea         -$02702(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$050(A6),A0
     lea         (DAT_000b579a),A1
@@ -69617,7 +69617,7 @@ LAB_0003f202:
     pea         (DAT_000b579a)
     pea         -$026fc(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$050(A6),A0
     lea         (DAT_000b579a),A1
@@ -69629,7 +69629,7 @@ LAB_0003f228:
     pea         (DAT_000b579a)
     pea         -$026f6(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$050(A6),A0
     lea         (DAT_000b579a),A1
@@ -69641,7 +69641,7 @@ LAB_0003f24e:
     pea         (DAT_000b579a)
     pea         -$026f0(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     lea         $0c(SP),SP
     lea         -$050(A6),A0
     lea         (DAT_000b579a),A1
@@ -69873,8 +69873,8 @@ LAB_0003f488:
     move.w      (A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_0006cee8),A0
-    adda.l      D0,A0;                (A0),A1=>DWORD_0006cee8                                                         
+    lea         (Fixup_Address_05),A0
+    adda.l      D0,A0;                (A0),A1=>Fixup_Address_05                                                         
     movea.l     (A0),A1
     lea         -$050(A6),A2
 LAB_0003f4e4:                 
@@ -69892,15 +69892,15 @@ LAB_0003f4e4:
     move.w      $020(A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_0006e28e),A0
+    lea         (Fixup_Address_06),A0
     adda.l      D0,A0
     move.b      -$50(A6),D0
     ext.w       D0;                D0 ,(SP)=>local_c8                                                              
-    move.w      D0,(SP);                (A0),-(SP)=>DWORD_0006e28e                                                      
+    move.w      D0,(SP);                (A0),-(SP)=>Fixup_Address_06                                                      
     move.l      (A0),-(SP)
     pea         -$026ce(A4)
     pea         (DAT_000b579a)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     moveq       #$05a,D0;                D0 ,(SP)=>local_d4                                                              
     move.w      D0,(SP);                 $04962(A4),-(SP)=>local_d6                                                     
     move.w      $04962(A4),-(SP)
@@ -70514,13 +70514,13 @@ LAB_0003fba6:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$026c0(A4)
     pea         -$054(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     move.w      $0492e(A4),D0
     jsr         thunk_FUN_04_00059b9a(PC);                D0,(SP)=>local_138                                                              
     move.l      D0,(SP)
     pea         -$026b2(A4)
     pea         -$0108(A6)
-    jsr         thunk_FUN_77_00063b62(PC)
+    jsr         Relay_09_00063b62(PC)
     moveq       #$00,D0
     move.b      -$4(A6),D0
     lea         -$054(A6),A0
@@ -70672,7 +70672,7 @@ thunk_FUN_ii_00064468:
     jmp         FUN_00064468
 thunk_FUN_wm0006433c:
     jmp         FUN_0006433c
-thunk_FUN_77_00063b62:
+Relay_09_00063b62:
     jmp         FUN_00063b62
 thunk_FUN_na0005bbc2:
     jmp         FUN_0005bbc2
@@ -70718,13 +70718,13 @@ FUN_0003fda0:
     move.l      D1,D6
     jsr         thunk_FUN_po_0005b244(PC)
     lea         -$0263e(A4),A0
-    ;jsr         thunk_FUN_yy_00059f76(PC) 
-	dc.w 		$4EBA
-	dc.w 		$FFAC
+    jsr         thunk_FUN_bq00059f76(PC);thunk_FUN_yy_00059f76(PC) 
+	;dc.w 		$4EBA
+	;dc.w 		$FFAC
     move.l      D7,D0
-    ;jsr         thunk_FUN_vv_00059b9a(PC); Displacement out of range
-	dc.w 		$4EBA
-	dc.w 		$FF4C
+    jsr         thunk_FUN_04_00059b9a(PC);thunk_FUN_vv_00059b9a(PC); Displacement out of range
+	;dc.w 		$4EBA
+	;dc.w 		$FF4C
     lea         (DAT_0008c0c0),A0
     adda.w      D7,A0
     moveq       #$00,D1;                (A0)=>DAT_0008c121,D1 =>DAT_0008c0c0                                            
@@ -70733,9 +70733,9 @@ FUN_0003fda0:
     move.l      D0,-(SP)
     pea         -$0263c(A4)
     pea         -$0144(A6)
-    ;jsr         thunk_FUN_f4_00063b62(PC); Displacement out of range
-	dc.w 		$4EBA
-	dc.w 		$FFB4
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62(PC); Displacement out of range
+	;dc.w 		$4EBA
+	;dc.w 		$FFB4
     move.l      D7,D0
     jsr         thunk_FUN_ue0005bff8(PC)
     lea         $0e(SP),SP
@@ -70921,9 +70921,9 @@ LAB_0003ffca:
     move.w      D0,-(SP)
     pea         -$025f2(A4)
     pea         -$0144(A6)
-    ;jsr         thunk_FUN_f4_00063b62(PC) ;NOTEPAD L03000C	displacement error! 
-	dc.w $4EBA
-	dc.w $FD9A
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62(PC) ;NOTEPAD L03000C	displacement error! 
+	;dc.w $4EBA
+	;dc.w $FD9A
     move.w      #$0130,D0;                D0 ,(SP)=>local_172                                                             
     move.w      D0,(SP)
     moveq       #$06,D1;                D1 ,-(SP)=>local_174                                                            
@@ -71010,20 +71010,20 @@ LAB_000400fa:                 ;                 $04c4c(A4),-(SP)=>local_16a
     move.w      $04c4c(A4),-(SP)
     pea         -$025d0(A4)
     pea         -$0144(A6)
-    ;jsr         thunk_FUN_f4_00063b62(PC)
-	dc.w		$4EBA
-	dc.w		$FC84
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62(PC)
+	;dc.w		$4EBA
+	;dc.w		$FC84
     move.w      $0493c(A4),D0
     ext.l       D0
 
-    ;jsr         thunk_FUN_jg_0006186c(PC)
-	dc.w		$4EBA
-	dc.w		$FC44
+    jsr         thunk_FUN_kj_0006186c(PC);thunk_FUN_jg_0006186c(PC)
+	;dc.w		$4EBA
+	;dc.w		$FC44
     move.l      #$03fd00000,D2
     moveq       #$00,D3
-    ;jsr         thunk_FUN_ff_00060df8(PC)
-	dc.w		$4EBA
-	dc.w		$FC2C
+    jsr         thunk_FUN_hr00060df8(PC);thunk_FUN_ff_00060df8(PC)
+	;dc.w		$4EBA
+	;dc.w		$FC2C
     jsr         thunk_FUN_jn00061a74(PC);                (SP)=>local_172                                                                 
     clr.w       (SP)
     moveq       #$03,D1;                D1 ,-(SP)=>local_174                                                            
@@ -71049,9 +71049,9 @@ LAB_000400fa:                 ;                 $04c4c(A4),-(SP)=>local_16a
     move.l      $0(a0,d1.l),-(SP)
     pea         -$025ca(A4)
     pea         -$0144(A6)
-    ;jsr         thunk_FUN_f4_00063b62(PC)	
-	dc.w	$4EBA
-	dc.w	$FC20
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62(PC)	
+	;dc.w	$4EBA
+	;dc.w	$FC20
     lea         $0c(SP),SP
     bra.b       LAB_000401bc
 LAB_00040174:                 
@@ -71064,21 +71064,21 @@ LAB_00040174:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$025c2(A4)
     pea         -$0144(A6)
-    ;jsr         thunk_FUN_f4_00063b62(PC); NOTEPAD L0301AC
-	dc.w	$4EBA
-	dc.w	$FBFA
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62(PC); NOTEPAD L0301AC
+	;dc.w	$4EBA
+	;dc.w	$FBFA
     lea         $0c(SP),SP
     bra.b       LAB_000401bc
 LAB_0004019a:                 
     subi.w      #$08c,D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$025ba(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC);thunk_FUN_f4_00063b62(PC); NOTEPAD L0301D0
+    jsr         Relay_08_00063b62(PC);Relay_10_00063b62(PC); NOTEPAD L0301D0
 	;dc.w	$4EBA
 	;dc.w	$FBD6
     lea         $0c(SP),SP
@@ -71113,7 +71113,7 @@ LAB_000401ce:
     move.w      $04bb6(A4),(SP)
     pea         -$025ae(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC);thunk_FUN_f4_00063b62(PC); NOTEPAD L03022C
+    jsr         Relay_08_00063b62(PC);Relay_10_00063b62(PC); NOTEPAD L03022C
 	;dc.w		$4EBA
 	;dc.w		$FB7A
     move.w      $0493c(A4),D0
@@ -71139,7 +71139,7 @@ LAB_000401ce:
     move.w      $04b26(A4),(SP)
     pea         -$025a6(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC) 
+    jsr         Relay_08_00063b62(PC) 
     move.w      $0493c(A4),D0
     ext.l       D0
     jsr         thunk_FUN_kj_0006186c(PC)
@@ -71162,7 +71162,7 @@ LAB_000401ce:
     move.l      D0,(SP)
     pea         -$0259e(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_q_00063b62(PC);thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_08_00063b62(PC);Relay_10_00063b62(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     move.w      $0493c(A4),D0
@@ -71365,7 +71365,7 @@ LAB_000404b8:                 ;                 $04cd4(A4),-(SP)=>local_16a
     move.w      $04cd4(A4),-(SP)
     pea         -$02572(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_172                                                             
@@ -71380,7 +71380,7 @@ LAB_000404b8:                 ;                 $04cd4(A4),-(SP)=>local_16a
     move.w      $04cd6(A4),(SP)
     pea         -$0256a(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_17e                                                             
@@ -71395,7 +71395,7 @@ LAB_000404b8:                 ;                 $04cd4(A4),-(SP)=>local_16a
     move.w      $04cd8(A4),(SP)
     pea         -$02562(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_18a                                                             
@@ -71414,7 +71414,7 @@ LAB_000404b8:                 ;                 $04cd4(A4),-(SP)=>local_16a
     move.l      D0,(SP)
     pea         -$0255a(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62
     moveq       #$047,D0;                D0 ,(SP)=>local_196                                                             
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_198                                                            
@@ -71603,7 +71603,7 @@ LAB_000405a6:
     move.l      D0,(SP)
     pea         -$024fa(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_1b4                                                             
@@ -71633,7 +71633,7 @@ LAB_000405a6:
     move.w      D0,(SP)
     pea         -$024ea(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62
     moveq       #$047,D0;                D0 ,(SP)=>local_1c4                                                             
     move.w      D0,(SP)
     moveq       #$0c,D1;                D1 ,-(SP)=>local_1c6                                                            
@@ -71670,7 +71670,7 @@ LAB_000405a6:
     move.l      D0,-(SP)
     pea         -$024da(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $046(SP),SP
@@ -71721,7 +71721,7 @@ LAB_00040800:
     move.l      D0,-(SP)
     pea         -$024ca(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62(PC) 
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62(PC) 
     lea         $0c(SP),SP
     bra.b       LAB_0004084a
 LAB_0004083c:                 
@@ -71900,7 +71900,7 @@ LAB_00040a38:                 ;                 $04ce0(A4),-(SP)=>local_196+$02
     move.w      $04ce0(A4),-(SP)
     pea         -$024b4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62(PC) 
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62(PC) 
     moveq       #$047,D0;                D0 ,(SP)=>local_1a0+$04                                                         
     move.w      D0,(SP)
     moveq       #$0c,D1;                D1 ,-(SP)=>local_1a0+$02                                                        
@@ -71924,7 +71924,7 @@ LAB_00040a38:                 ;                 $04ce0(A4),-(SP)=>local_196+$02
     move.w      $04ce2(A4),(SP)
     pea         -$024a8(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62
     moveq       #$047,D0;                D0 ,(SP)=>local_1ac                                                             
     move.w      D0,(SP)
     moveq       #$0c,D1;                D1 ,-(SP)=>local_1b0+$02                                                        
@@ -72007,7 +72007,7 @@ LAB_00040b66:
     move.w      D0,-(SP)
     pea         -$02472(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     move.w      #$090,D0;                D0 ,(SP)=>local_1a0                                                             
@@ -72076,7 +72076,7 @@ LAB_00040c38:                 ;                (A0)+,(A1)+=>DAT_000b7b36
     pea         (DAT_000b6e02)
     pea         -$0246e(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         (DAT_000b5178),A0
@@ -72106,7 +72106,7 @@ LAB_00040c74:
     move.w      D0,-(SP)
     pea         -$02466(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     move.w      #$090,D0;                D0 ,(SP)=>local_1a8                                                             
@@ -72170,7 +72170,7 @@ LAB_00040d16:
     move.w      D0,-(SP)
     pea         -$02454(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     move.w      #$090,D0;                D0 ,(SP)=>local_1a0                                                             
@@ -72266,7 +72266,7 @@ LAB_00040da2:
     move.l      D0,(SP)
     pea         -$02422(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$022,D0;                D0 ,(SP)=>local_1ac                                                             
@@ -72305,7 +72305,7 @@ LAB_00040eb2:
     move.l      D0,-(SP)
     pea         -$02418(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$021,D0;                D0 ,(SP)=>local_1a0+$02                                                         
@@ -72347,7 +72347,7 @@ LAB_00040eee:
     move.l      (A0),-(SP)
     pea         -$02414(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$01f,D0;                D0 ,(SP)=>local_1a0+$02                                                         
@@ -72435,7 +72435,7 @@ LAB_0004100a:                 ;                 $04990(A4),-(SP)=>local_196+$02
     move.w      $04990(A4),-(SP)
     pea         -$02410(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$01f,D0;                D0 ,(SP)=>local_1a0+$04                                                         
@@ -72492,13 +72492,13 @@ LAB_00041092:                 ;                (A0)+,(A1)+=>DAT_000b5178
     move.l      D0,$18(SP);                (A1),D0=>DAT_0009f2a6                                                           
     move.l      (A1),D0
     move.l      $18(SP),D1
-    ;jsr         thunk_FUN_h00063b9c(PC);                D0,-(SP)=>local_196                                                             
-	dc.w		$4EBA
-	dc.w		$3BE8
+    jsr         thunk_FUN_SEVEN_00063b9c(PC);thunk_FUN_h00063b9c(PC);                D0,-(SP)=>local_196                                                             
+	;dc.w		$4EBA
+	;dc.w		$3BE8
     move.l      D0,-(SP)
     pea         -$023d6(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0c(SP),SP
@@ -72547,7 +72547,7 @@ LAB_0004114a:
     pea         -$0140(A6)
     pea         -$023be(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_q_00063b62(PC);thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_08_00063b62(PC);Relay_10_00063b62(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0e(SP),SP
@@ -72586,7 +72586,7 @@ LAB_000411c2:                 ;                (A0)+,(A1)+=>DAT_000b5178
     move.l      D0,-(SP)
     pea         -$0239c(A4)
     pea         (DAT_000b4f98)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     move.w      -$160(A6),D0
@@ -72601,7 +72601,7 @@ LAB_000411fa:
     pea         -$0140(A6)
     pea         -$02396(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $020(SP),SP
@@ -72650,7 +72650,7 @@ LAB_0004128c:
     pea         -$0140(A6)
     pea         -$02378(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0e(SP),SP
@@ -73101,7 +73101,7 @@ LAB_000416fc:
     move.l      D0,-(SP)
     pea         -$02340(A4);                A5,-(SP)=>local_24                                                              
     move.l      A5,-(SP)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $010(SP),SP
@@ -73129,7 +73129,7 @@ LAB_0004174a:
     move.l      D0,-(SP)
     pea         -$0233a(A4);                A5,-(SP)=>local_24                                                              
     move.l      A5,-(SP)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $010(SP),SP
@@ -73314,7 +73314,7 @@ FUN_0004193e:
     move.w      D0,-(SP)
     pea         -$022f4(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$0c,D0
@@ -73373,12 +73373,12 @@ LAB_000419dc:
     subi.w      #$08c,D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$022ea(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0c(SP),SP
@@ -73396,8 +73396,8 @@ LAB_00041a1c:                 ;                (A0)+,(A1)+=>DAT_000b5088
     moveq       #$00,D0;                (A0),D0 =>DAT_000abe78                                                          
     move.b      (A0),D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),A1=>DWORD_000654d8                                                         
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),A1=>Fixup_Address_00                                                         
     movea.l     (A0),A1
     lea         -$0142(A6),A2
 LAB_00041a3c:                 
@@ -73463,7 +73463,7 @@ LAB_00041a8a:                 ;                (A0)+,(A1)+=>DAT_000b70d2
     move.w      D0,-(SP)
     pea         -$022dc(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0c(SP),SP
@@ -73502,7 +73502,7 @@ LAB_00041b14:                 ;                (A0)+,(A1)+=>DAT_000b7122
     move.w      (A0),-(SP)
     pea         -$022be(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0a(SP),SP
@@ -73624,7 +73624,7 @@ LAB_00041c52:                 ;                (A0)+,(A1)+=>DAT_000b71c2
     move.l      D0,-(SP)
     pea         -$02292(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0c(SP),SP
@@ -73768,7 +73768,7 @@ LAB_00041dd8:
     move.w      D0,-(SP)
     pea         -$0225e(A4)
     pea         (DAT_000b7082)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0a(SP),SP
@@ -73800,7 +73800,7 @@ LAB_00041e36:                 ;                (A0)+,(A1)+=>DAT_000b7082
     move.w      D0,-(SP)
     pea         -$02250(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$08,D0
@@ -73818,7 +73818,7 @@ LAB_00041e66:                 ;                (A0)+,(A1)+=>DAT_000b75d2
     move.w      D0,(SP)
     pea         -$0224c(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$08,D0
@@ -73842,7 +73842,7 @@ LAB_00041e96:                 ;                (A0)+,(A1)+=>DAT_000b65b0
     move.w      D2,(SP)
     pea         -$02248(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$08,D0
@@ -73880,7 +73880,7 @@ LAB_00041ed6:                 ;                (A0)+,(A1)+=>DAT_000b5f6e
     move.l      D0,-(SP)
     pea         -$02244(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $010(SP),SP
@@ -73910,7 +73910,7 @@ LAB_00041f50:                 ;                (A0)+,(A1)+=>DAT_000b4f98
     move.w      D0,-(SP)
     pea         -$02238(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$08,D0
@@ -73928,7 +73928,7 @@ LAB_00041f8e:                 ;                (A0)+,(A1)+=>DAT_000b7622
     move.w      D0,(SP)
     pea         -$02234(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$08,D0
@@ -73960,7 +73960,7 @@ LAB_00041fe6:
     move.w      D0,-(SP)
     pea         -$02226(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$08,D0
@@ -73978,7 +73978,7 @@ LAB_00042012:                 ;                (A0)+,(A1)+=>DAT_000b76c2
     move.w      D0,(SP)
     pea         -$02222(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$08,D0
@@ -73996,7 +73996,7 @@ LAB_00042042:                 ;                (A0)+,(A1)+=>DAT_000b7712
     move.w      D0,(SP)
     pea         -$0221e(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$07,D0
@@ -74014,7 +74014,7 @@ LAB_00042072:                 ;                (A0)+,(A1)+=>DAT_000b7762
     move.w      D0,(SP)
     pea         -$0221a(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$07,D0
@@ -74032,7 +74032,7 @@ LAB_000420a2:                 ;                (A0)+,(A1)+=>DAT_000b77c6
     move.w      D0,(SP)
     pea         -$02216(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$07,D0
@@ -74070,7 +74070,7 @@ LAB_000420d6:                 ;                (A0)+,(A1)+=>DAT_000b7816
     move.l      D0,-(SP)
     pea         -$02212(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $010(SP),SP
@@ -74100,7 +74100,7 @@ LAB_00042150:                 ;                (A0)+,(A1)+=>DAT_000b7866
     move.w      D0,-(SP)
     pea         -$02206(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$07,D0
@@ -74118,7 +74118,7 @@ LAB_0004218e:                 ;                (A0)+,(A1)+=>DAT_000b78b6
     move.w      D0,(SP)
     pea         -$02202(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$07,D0
@@ -74179,7 +74179,7 @@ LAB_00042238:
     move.w      D0,-(SP)
     pea         -$021d0(A4)
     pea         (DAT_000b7a46)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0a(SP),SP
@@ -74189,14 +74189,14 @@ LAB_00042258:
     moveq       #$00,D0;                (A0),D0 =>DAT_0008cc78                                                          
     move.b      (A0),D0
     asl.l       #$02,D0
-    ;lea         (DWORD_0006584a).l,A0 ; L032282 fix the link
-	lea			$5584A,a0
+    lea         (Fixup_Address_01),A0 ; L032282 fix the link
+	;lea			$5584A,a0
     adda.l      D0,A0
-    pea         (DAT_000b7a46);                (A0),-(SP)=>DWORD_0006584a                                                      
+    pea         (DAT_000b7a46);                (A0),-(SP)=>Fixup_Address_01                                                      
     move.l      (A0),-(SP)
     pea         -$021be(A4)
     pea         (DAT_000b7582)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $010(SP),SP
@@ -74226,7 +74226,7 @@ LAB_000422b8:
     move.w      D0,-(SP)
     pea         -$021a6(A4)
     pea         (DAT_000b7a46)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0a(SP),SP
@@ -74234,7 +74234,7 @@ LAB_000422d8:
     pea         (DAT_000b7a46)
     pea         -$0219a(A4)
     pea         (DAT_000b7582)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0c(SP),SP
@@ -74259,7 +74259,7 @@ LAB_00042312:
     move.w      D0,-(SP)
     pea         -$0216c(A4)
     pea         (DAT_000b7582)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0a(SP),SP
@@ -74280,7 +74280,7 @@ LAB_00042312:
     move.l      D0,-(SP)
     pea         -$0215c(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         (DAT_000b7582),A0
@@ -74295,8 +74295,8 @@ LAB_00042378:
     moveq       #$00,D0;                (A0),D0 =>DAT_00094d60                                                          
     move.b      (A0),D0
     asl.l       #$02,D0
-    lea         (DWORD_00065b2a),A0
-    adda.l      D0,A0;                (A0),A1=>DWORD_00065b2a                                                         
+    lea         (Fixup_Address_03),A0
+    adda.l      D0,A0;                (A0),A1=>Fixup_Address_03                                                         
     movea.l     (A0),A1
     lea         (DAT_000b7262),A2
 LAB_00042396:                 ;                (A1)+,(A2)+=>DAT_000b7262                                                       
@@ -74315,7 +74315,7 @@ LAB_00042396:                 ;                (A1)+,(A2)+=>DAT_000b7262
     move.w      D0,-(SP)
     pea         -$0214c(A4)
     pea         (DAT_000b72b2)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         (DAT_000868dc),A0
@@ -74325,7 +74325,7 @@ LAB_00042396:                 ;                (A1)+,(A2)+=>DAT_000b7262
     move.w      D0,(SP)
     pea         -$02148(A4)
     pea         (DAT_000b7302)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         (DAT_00086eb8),A0
@@ -74335,7 +74335,7 @@ LAB_00042396:                 ;                (A1)+,(A2)+=>DAT_000b7262
     move.w      D0,(SP)
     pea         -$02144(A4)
     pea         (DAT_000b7352)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         (DAT_00087494),A0
@@ -74345,7 +74345,7 @@ LAB_00042396:                 ;                (A1)+,(A2)+=>DAT_000b7262
     move.w      D0,(SP)
     pea         -$02140(A4)
     pea         (DAT_000b73a2)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         (DAT_00087a70),A0
@@ -74355,7 +74355,7 @@ LAB_00042396:                 ;                (A1)+,(A2)+=>DAT_000b7262
     move.w      D0,(SP)
     pea         -$0213c(A4)
     pea         (DAT_000b73f2)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         (DAT_0008804c),A0
@@ -74365,7 +74365,7 @@ LAB_00042396:                 ;                (A1)+,(A2)+=>DAT_000b7262
     move.w      D0,(SP)
     pea         -$02138(A4)
     pea         (DAT_000b7442)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         (DAT_0008de0c),A0
@@ -74375,7 +74375,7 @@ LAB_00042396:                 ;                (A1)+,(A2)+=>DAT_000b7262
     move.w      D0,(SP)
     pea         -$02134(A4)
     pea         (DAT_000b7492)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $03a(SP),SP
@@ -74424,7 +74424,7 @@ LAB_000424da:
     move.w      D0,-(SP)
     pea         -$02122(A4)
     pea         (DAT_000b74e2)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0a(SP),SP
@@ -74523,7 +74523,7 @@ LAB_000425dc:
     pea         (DAT_000b637e)
     pea         -$020e2(A4)
     pea         (DAT_000b7a96)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0c(SP),SP
@@ -74550,7 +74550,7 @@ LAB_00042628:
     move.l      A0,-(SP)
     pea         -$020ce(A4)
     pea         (DAT_000b7a96)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $010(SP),SP
@@ -74559,7 +74559,7 @@ LAB_00042646:
     pea         (DAT_000b637e)
     pea         -$020ae(A4)
     pea         (DAT_000b7a96)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0c(SP),SP
@@ -74601,7 +74601,7 @@ LAB_000426b2:                 ;                A0,-(SP)=>local_164
     move.l      A0,-(SP)
     pea         -$02048(A4)
     pea         (DAT_000b7a96)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         $0c(SP),SP
@@ -75197,7 +75197,7 @@ LAB_00042d10:
     move.l      D0,-(SP)
     pea         -$01f52(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     move.w      #$0130,D0;                D0 ,(SP)=>local_1c6                                                             
@@ -75287,7 +75287,7 @@ LAB_00042d8e:
     move.l      D0,-(SP)
     pea         -$01f24(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     move.w      $04952(A4),D0
@@ -75400,7 +75400,7 @@ FUN_00042f10:
     move.l      D0,-(SP)
     pea         -$01f1c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     lea         -$0140(A6),A0
@@ -75428,11 +75428,11 @@ LAB_00042f68:
     bgt.b       LAB_00042fa2
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_00065b2a),A0
+    lea         (Fixup_Address_03),A0
     adda.l      D0,A0
     move.l      A0,$4(SP)
     lea         -$0140(A6),A0
-    movea.l     $4(SP),A1;                (A1),A1=>DWORD_00065b2a                                                         
+    movea.l     $4(SP),A1;                (A1),A1=>Fixup_Address_03                                                         
     movea.l     (A1),A1
     jsr         thunk_FUN_wm0006433c(PC);thunk_FUN_n7_0006433c;(PC)
 	;dc.w		$4EBA
@@ -75768,7 +75768,7 @@ LAB_00043220:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$01ef2(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     move.l      D7,D0
@@ -75780,7 +75780,7 @@ LAB_00043220:
     move.l      D0,(SP)
     pea         -$01ee0(A4)
     pea         -$0282(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     move.w      $0494e(A4),D0
@@ -76593,7 +76593,7 @@ LAB_00043a44:
     move.l      D0,-(SP)
     pea         -$01eae(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     move.l      D7,D0
@@ -76943,7 +76943,7 @@ LAB_00043e74:                 ;                -(SP)=>local_1c2+$02
     pea         (DAT_000b7262)
     pea         -$01e10(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_1d4                                                             
@@ -76969,7 +76969,7 @@ LAB_00043e74:                 ;                -(SP)=>local_1c2+$02
     pea         (DAT_000b72b2)
     pea         -$01e02(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_1e8                                                             
@@ -76995,7 +76995,7 @@ LAB_00043e74:                 ;                -(SP)=>local_1c2+$02
     pea         (DAT_000b7302)
     pea         -$01df4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_1fc                                                             
@@ -77022,7 +77022,7 @@ LAB_00043e74:                 ;                -(SP)=>local_1c2+$02
     pea         (DAT_000b7352)
     pea         -$01dea(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_1d0                                                             
@@ -77048,7 +77048,7 @@ LAB_00043e74:                 ;                -(SP)=>local_1c2+$02
     pea         (DAT_000b73a2)
     pea         -$01ddc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_1e4                                                             
@@ -77074,7 +77074,7 @@ LAB_00043e74:                 ;                -(SP)=>local_1c2+$02
     pea         (DAT_000b73f2)
     pea         -$01dcc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_1f8                                                             
@@ -77101,7 +77101,7 @@ LAB_00043e74:                 ;                -(SP)=>local_1c2+$02
     pea         (DAT_000b7442)
     pea         -$01dbc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_1ca                                                             
@@ -77127,7 +77127,7 @@ LAB_00043e74:                 ;                -(SP)=>local_1c2+$02
     pea         (DAT_000b7492)
     pea         -$01dac(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_1de                                                             
@@ -77153,7 +77153,7 @@ LAB_00043e74:                 ;                -(SP)=>local_1c2+$02
     pea         (DAT_000b74e2)
     pea         -$01d9c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_77_00063b62(PC);thunk_FUN_f4_00063b62;(PC)
+    jsr         Relay_09_00063b62(PC);Relay_10_00063b62;(PC)
 	;dc.w		$4EBA
 	;dc.w		$0
     moveq       #$047,D0;                D0 ,(SP)=>local_1f2                                                             
@@ -77478,7 +77478,7 @@ LAB_00043e74:                 ;                -(SP)=>local_1c2+$02
     pea         (DAT_000b7906)
     pea         -$01cdc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $04a(SP),SP
     moveq       #$062,D0;                D0 ,-(SP)=>local_1c2+$02                                                        
     move.w      D0,-(SP)
@@ -77631,7 +77631,7 @@ LAB_00044762:
     pea         (DAT_000b7032)
     pea         -$01cc8(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_0006417c(PC)
     move.w      D0,$04a3e(A4)
@@ -77695,7 +77695,7 @@ LAB_00044810:
     move.l      D0,-(SP)
     pea         -$01cc2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_cc00056198(PC)
     lea         $0c(SP),SP
@@ -77762,7 +77762,7 @@ LAB_000448da:                 ;                A0,-(SP)=>local_1c2
     move.l      A0,-(SP)
     pea         -$01c6c(A4)
     pea         -$01a6(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$01a6(A6),A0
     jsr         thunk_FUN_cc00056198(PC)
     lea         $0c(SP),SP
@@ -77796,7 +77796,7 @@ LAB_00044940:
     move.l      D0,-(SP)
     pea         -$01c2a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_cc00056198(PC)
     lea         $0c(SP),SP
@@ -77849,7 +77849,7 @@ LAB_000449d6:                 ;                A0,-(SP)=>local_1c2
     move.w      D1,-(SP)
     pea         -$01c00(A4)
     pea         -$0192(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$0140(A6),A0
     lea         -$0192(A6),A1
     jsr         thunk_FUN_n7_0006433c(PC)
@@ -77881,7 +77881,7 @@ LAB_00044a02:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$01be2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         thunk_FUN_cc00056198(PC)
     lea         $0c(SP),SP
@@ -83225,7 +83225,7 @@ FUN_00048092:
     move.w      (A1),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_0006cee8),A1
+    lea         (Fixup_Address_05),A1
     adda.l      D0,A1
     moveq       #$00,D0
     move.b      D7,D0
@@ -83240,13 +83240,13 @@ FUN_00048092:
     move.w      $020(A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_0006e28e),A0
-    adda.l      D0,A0;                (A0),(SP)=>DWORD_0006e28e                                                       
-    move.l      (A0),(SP);                (A1),-(SP)=>DWORD_0006cee8                                                      
+    lea         (Fixup_Address_06),A0
+    adda.l      D0,A0;                (A0),(SP)=>Fixup_Address_06                                                       
+    move.l      (A0),(SP);                (A1),-(SP)=>Fixup_Address_05                                                      
     move.l      (A1),-(SP)
     pea         -$01b42(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$050(A6),A0
     movea.l     A0,A1
 LAB_00048136:                 
@@ -83270,7 +83270,7 @@ LAB_00048148:
     move.w      D1,-(SP)
     pea         -$01b34(A4)
     pea         -$0a0(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     move.w      #$0ca,D0;                D0 ,(SP)=>local_ce                                                              
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_d0                                                             
@@ -83304,7 +83304,7 @@ LAB_00048148:
     move.w      D0,(SP)
     pea         -$01b2a(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$064,D0;                D0 ,(SP)=>local_de                                                              
     move.w      D0,(SP)
     moveq       #$0f,D1;                D1 ,-(SP)=>local_e0                                                             
@@ -83534,7 +83534,7 @@ LAB_00048436:                 ;                A0,-(SP)=>local_b6
     move.w      $10(SP),-(SP)
     pea         -$01abc(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0e(SP),SP
 LAB_0004844c:                 
     moveq       #$064,D0;                D0 ,-(SP)=>local_b6+$02                                                         
@@ -83766,7 +83766,7 @@ LAB_00048654:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$01aa8(A4)
     pea         -$0148(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         -$01a64(A4),A0
@@ -83827,7 +83827,7 @@ FUN_000486c2:
     move.w      D0,-(SP)
     pea         -$01a00(A4)
     pea         -$050(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$050(A6),A0
     bsr.w       FUN_000489f6
     moveq       #$02,D0
@@ -84723,12 +84723,12 @@ LAB_0004902c:
     subi.w      #$08c,D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$01974(A4)
     pea         -$028(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
 LAB_00049052:                 
     clr.b       -$1a(A6)
@@ -84999,7 +84999,7 @@ FUN_00049344:
     move.w      D0,-(SP)
     pea         -$0196e(A4)
     pea         -$02c(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$02c(A6),A0
     lea         -$01964(A4),A1
     jsr         thunk_FUN_0_00064714(PC)
@@ -85046,7 +85046,7 @@ FUN_000493b6:
     move.w      D0,-(SP)
     pea         -$01960(A4)
     pea         -$02c(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$02c(A6),A0
     jsr         thunk_FUN_0005cb04(PC)
     lea         $0e(SP),SP
@@ -85154,7 +85154,7 @@ LAB_000494d6:
     move.w      D0,-(SP)
     pea         -$0194e(A4)
     pea         -$0143(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$00,D0;                D0 ,(SP)=>local_16a                                                             
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_16e+$02                                                        
@@ -85485,7 +85485,7 @@ FUN_00049780:
     move.l      D0,(SP)
     pea         -$018d0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$01f,D0;                D0 ,(SP)=>local_15e                                                             
     move.w      D0,(SP)
     moveq       #$08,D1;                D1 ,-(SP)=>local_160                                                            
@@ -85524,7 +85524,7 @@ LAB_0004987a:
     move.l      D0,-(SP)
     pea         -$018c6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$01f,D0;                D0 ,(SP)=>local_156+$02                                                         
     move.w      D0,(SP)
     moveq       #$08,D1;                D1 ,-(SP)=>local_156                                                            
@@ -85549,7 +85549,7 @@ LAB_0004987a:
     move.w      D0,(SP)
     pea         -$018bc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$01f,D0;                D0 ,(SP)=>local_164                                                             
     move.w      D0,(SP)
     moveq       #$08,D1;                D1 ,-(SP)=>local_166                                                            
@@ -85574,7 +85574,7 @@ LAB_0004987a:
     move.w      D0,(SP)
     pea         -$018b0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$020,D0;                D0 ,(SP)=>local_174                                                             
     move.w      D0,(SP)
     moveq       #$08,D1;                D1 ,-(SP)=>local_176                                                            
@@ -85599,7 +85599,7 @@ LAB_0004987a:
     move.w      D0,(SP)
     pea         -$018a4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$020,D0;                D0 ,(SP)=>local_184                                                             
     move.w      D0,(SP)
     moveq       #$08,D1;                D1 ,-(SP)=>local_186                                                            
@@ -85625,7 +85625,7 @@ LAB_0004987a:
     move.w      D0,-(SP)
     pea         -$01898(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$020,D0;                D0 ,(SP)=>local_152                                                             
     move.w      D0,(SP)
     moveq       #$08,D1;                D1 ,-(SP)=>local_156+$02                                                        
@@ -85650,7 +85650,7 @@ LAB_0004987a:
     move.w      D0,(SP)
     pea         -$0188c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$020,D0;                D0 ,(SP)=>local_162                                                             
     move.w      D0,(SP)
     moveq       #$08,D1;                D1 ,-(SP)=>local_164                                                            
@@ -85675,7 +85675,7 @@ LAB_0004987a:
     move.w      D0,(SP)
     pea         -$01880(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$020,D0;                D0 ,(SP)=>local_172                                                             
     move.w      D0,(SP)
     moveq       #$08,D1;                D1 ,-(SP)=>local_174                                                            
@@ -85700,7 +85700,7 @@ LAB_0004987a:
     move.w      D0,(SP)
     pea         -$01874(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$01f,D0;                D0 ,(SP)=>local_182                                                             
     move.w      D0,(SP)
     moveq       #$08,D1;                D1 ,-(SP)=>local_184                                                            
@@ -85789,7 +85789,7 @@ LAB_00049ba8:
     pea         (DAT_000b6db2)
     pea         -$01852(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00049bd6
 LAB_00049bc4:                 
@@ -85837,7 +85837,7 @@ LAB_00049c34:
     pea         (DAT_000b6e02)
     pea         -$0183a(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
     move.b      (DAT_000aff1d),D0
     moveq       #$00,D1
@@ -85846,7 +85846,7 @@ LAB_00049c34:
     pea         (DAT_000b6db2)
     pea         -$01836(A4)
     pea         -$0280(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00049c84
 LAB_00049c72:                 
@@ -85968,7 +85968,7 @@ FUN_00049d14:
     move.w      D0,(SP)
     pea         -$017fe(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     move.w      #$095,D0;                D0 ,(SP)=>local_166                                                             
     move.w      D0,(SP)
     moveq       #$03,D1;                D1 ,-(SP)=>local_168                                                            
@@ -85994,7 +85994,7 @@ FUN_00049d14:
     move.w      D0,(SP)
     pea         -$017ec(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     move.w      #$095,D0;                D0 ,(SP)=>local_176                                                             
     move.w      D0,(SP)
     moveq       #$03,D1;                D1 ,-(SP)=>local_178                                                            
@@ -86031,7 +86031,7 @@ FUN_00049d14:
     move.l      D7,-(SP)
     pea         -$017d8(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
 LAB_00049e82:                 
     move.w      #$095,D0;                D0 ,-(SP)=>local_154+$02                                                        
@@ -86059,7 +86059,7 @@ LAB_00049e82:
     move.w      D0,(SP)
     pea         -$017c0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     move.w      #$095,D0;                D0 ,(SP)=>local_162                                                             
     move.w      D0,(SP)
     moveq       #$03,D1;                D1 ,-(SP)=>local_164                                                            
@@ -86083,7 +86083,7 @@ LAB_00049e82:
     pea         (DAT_000aff09)
     pea         -$017aa(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     move.w      #$095,D0;                D0 ,(SP)=>local_176                                                             
     move.w      D0,(SP)
     moveq       #$03,D1;                D1 ,-(SP)=>local_178                                                            
@@ -86139,7 +86139,7 @@ LAB_00049f9c:
     moveq       #$00,D0;                (A0),D0 =>DAT_000aff1e                                                          
     move.w      (A0),D0
     asl.l       #$02,D0
-    lea         (DWORD_0006cee8),A0
+    lea         (Fixup_Address_05),A0
     adda.l      D0,A0
     moveq       #$00,D0
     move.b      D6,D0
@@ -86149,13 +86149,13 @@ LAB_00049f9c:
     moveq       #$00,D0;                (A1),D0 =>DAT_000aff3c                                                          
     move.w      (A1),D0
     asl.l       #$02,D0
-    lea         (DWORD_0006e28e),A1
-    adda.l      D0,A1;                (A1),-(SP)=>DWORD_0006e28e                                                      
-    move.l      (A1),-(SP);                (A0),-(SP)=>DWORD_0006cee8                                                      
+    lea         (Fixup_Address_06),A1
+    adda.l      D0,A1;                (A1),-(SP)=>Fixup_Address_06                                                      
+    move.l      (A1),-(SP);                (A0),-(SP)=>Fixup_Address_05                                                      
     move.l      (A0),-(SP)
     pea         -$0178c(A4)
     pea         -$034(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $010(SP),SP
     moveq       #$00,D0
     move.b      D6,D0
@@ -86174,7 +86174,7 @@ LAB_00049f9c:
     move.l      A0,-(SP)
     pea         -$01786(A4)
     pea         -$066(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
     bra.w       LAB_0004a0c0
 LAB_0004a036:                 
@@ -86196,7 +86196,7 @@ LAB_0004a036:
     move.l      A0,-(SP)
     pea         -$01774(A4)
     pea         -$066(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0004a0c0
 LAB_0004a070:                 
@@ -86228,7 +86228,7 @@ LAB_0004a0aa:                 ;                A2,-(SP)=>local_7e
     move.l      A0,-(SP)
     pea         -$01768(A4)
     pea         -$066(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $014(SP),SP
 LAB_0004a0c0:                 
     moveq       #$00,D0
@@ -86336,7 +86336,7 @@ LAB_0004a194:
     moveq       #$00,D0;                (A0),D0 =>DAT_000b0088                                                          
     move.w      (A0),D0
     asl.l       #$02,D0
-    lea         (DWORD_0006cee8),A0
+    lea         (Fixup_Address_05),A0
     adda.l      D0,A0
     moveq       #$00,D0
     move.b      D6,D0
@@ -86346,13 +86346,13 @@ LAB_0004a194:
     moveq       #$00,D0;                (A1),D0 =>DAT_000b00a6                                                          
     move.w      (A1),D0
     asl.l       #$02,D0
-    lea         (DWORD_0006e28e),A1
-    adda.l      D0,A1;                (A1),-(SP)=>DWORD_0006e28e                                                      
-    move.l      (A1),-(SP);                (A0),-(SP)=>DWORD_0006cee8                                                      
+    lea         (Fixup_Address_06),A1
+    adda.l      D0,A1;                (A1),-(SP)=>Fixup_Address_06                                                      
+    move.l      (A1),-(SP);                (A0),-(SP)=>Fixup_Address_05                                                      
     move.l      (A0),-(SP)
     pea         -$01736(A4)
     pea         -$034(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $010(SP),SP
     moveq       #$00,D0
     move.b      D6,D0
@@ -86371,7 +86371,7 @@ LAB_0004a194:
     move.l      A0,-(SP)
     pea         -$01730(A4)
     pea         -$066(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
     bra.w       LAB_0004a2b8
 LAB_0004a22e:                 
@@ -86393,7 +86393,7 @@ LAB_0004a22e:
     move.l      A0,-(SP)
     pea         -$0171e(A4)
     pea         -$066(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0004a2b8
 LAB_0004a268:                 
@@ -86425,7 +86425,7 @@ LAB_0004a2a2:                 ;                A2,-(SP)=>local_7e
     move.l      A0,-(SP)
     pea         -$01712(A4)
     pea         -$066(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $014(SP),SP
 LAB_0004a2b8:                 
     moveq       #$00,D0
@@ -86709,11 +86709,11 @@ LAB_0004a510:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$016f6(A4)
     pea         -$014a(A6)
-    jsr         thunk_FUN_f4_00063b62(PC);                D4,(SP)=>local_2ae                                                              
+    jsr         Relay_10_00063b62(PC);                D4,(SP)=>local_2ae                                                              
     move.l      D4,(SP)
     pea         -$016e4(A4)
     pea         -$028a(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     move.w      $04954(A4),D0
     lea         -$014a(A6),A0
     lea         -$028a(A6),A1
@@ -86939,7 +86939,7 @@ FUN_0004a694:
     move.l      D0,(SP)
     pea         -$01650(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$07,D0
     lea         -$0142(A6),A0
     jsr         thunk_FUN_qz_000560f4(PC)
@@ -86959,7 +86959,7 @@ FUN_0004a694:
     move.l      D0,(SP)
     pea         -$01636(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$09,D0
     lea         -$0142(A6),A0
     jsr         thunk_FUN_qz_000560f4(PC)
@@ -86999,7 +86999,7 @@ LAB_0004a81e:
     move.l     $1c(SP),-(SP)
     pea         -$01618(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$0142(A6),A0
     jsr         thunk_FUN_cc00056198(PC)
     lea         $010(SP),SP
@@ -87033,7 +87033,7 @@ LAB_0004a876:
     move.l      $1c(SP),-(SP)
     pea         -$015fe(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$0142(A6),A0
     jsr         thunk_FUN_cc00056198(PC)
     lea         $010(SP),SP
@@ -87133,7 +87133,7 @@ LAB_0004a974:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$015dc(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$00,D0
     move.b      D6,D0
     lea         (DAT_0009e25e),A0
@@ -87252,7 +87252,7 @@ LAB_0004aaaa:
     move.l      D0,-(SP)
     pea         -$015a0(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
     moveq       #$00,D0
     move.b      D4,D0
@@ -87306,7 +87306,7 @@ LAB_0004ab1c:
     move.l      D0,(SP)
     pea         -$0159c(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$00,D0
     move.b      D4,D0
     jsr         thunk_FUN_n2_00061884(PC)
@@ -87345,7 +87345,7 @@ LAB_0004ab1c:
     move.l      D0,-(SP)
     pea         -$01598(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0004ac00
 LAB_0004abf4:                 
@@ -87394,7 +87394,7 @@ LAB_0004ac68:                 ;                A0,-(SP)=>local_168+$02
     move.l      A0,-(SP)
     pea         -$01590(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0004ac88
 LAB_0004ac7c:                 
@@ -87590,7 +87590,7 @@ LAB_0004ad96:
     move.l      D0,(SP)
     pea         -$0156e(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$07,D0
     lea         -$0142(A6),A0
     jsr         thunk_FUN_qz_000560f4(PC)
@@ -87620,7 +87620,7 @@ LAB_0004ad96:
     move.l      D0,-(SP)
     pea         -$01540(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$0142(A6),A0
     jsr         thunk_FUN_v5_0005615c(PC)
     lea         $0c(SP),SP
@@ -87988,7 +87988,7 @@ LAB_0004b17a:
     move.l      D0,-(SP)
     pea         -$014bc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     move.w      #$0130,D0;                D0 ,(SP)=>local_184                                                             
     move.w      D0,(SP)
     moveq       #$01,D1;                D1 ,-(SP)=>local_188+$02                                                        
@@ -88060,7 +88060,7 @@ LAB_0004b268:
     move.l      D0,(SP)
     pea         -$01496(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$06e,D0;                D0 ,(SP)=>local_180                                                             
     move.w      D0,(SP)
     moveq       #$06,D1;                D1 ,-(SP)=>local_182                                                            
@@ -88095,7 +88095,7 @@ LAB_0004b268:
     move.l      D0,(SP)
     pea         -$01486(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     moveq       #$06e,D0;                D0 ,(SP)=>local_190                                                             
     move.w      D0,(SP)
     moveq       #$0f,D1;                D1 ,-(SP)=>local_192                                                            
@@ -88145,7 +88145,7 @@ LAB_0004b268:
     move.w      D0,-(SP)
     pea         -$01470(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_0004b41c
 LAB_0004b3c6:                 
@@ -88179,7 +88179,7 @@ LAB_0004b3c6:
     move.w      $22(SP),-(SP)
     pea         -$0145e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
 LAB_0004b41c:                 
     moveq       #$06e,D0;                D0 ,-(SP)=>local_174                                                            
@@ -88256,7 +88256,7 @@ LAB_0004b488:
     move.w      D0,-(SP)
     pea         -$01444(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0a(SP),SP
 LAB_0004b4f4:                 
     moveq       #$06e,D0;                D0 ,-(SP)=>local_174                                                            
@@ -88314,7 +88314,7 @@ LAB_0004b4f4:
     move.w      D0,-(SP)
     pea         -$0142e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0a(SP),SP
 LAB_0004b59e:                 
     moveq       #$06e,D0;                D0 ,-(SP)=>local_174                                                            
@@ -88359,7 +88359,7 @@ LAB_0004b59e:
     move.w      D0,-(SP)
     pea         -$0141e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0a(SP),SP
 LAB_0004b628:                 
     moveq       #$06e,D0;                D0 ,-(SP)=>local_174                                                            
@@ -88417,7 +88417,7 @@ LAB_0004b628:
     move.w      D0,-(SP)
     pea         -$0140e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0a(SP),SP
 LAB_0004b6d2:                 
     moveq       #$06e,D0;                D0 ,-(SP)=>local_174                                                            
@@ -88475,7 +88475,7 @@ LAB_0004b6d2:
     move.w      D0,-(SP)
     pea         -$013f6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0a(SP),SP
 LAB_0004b77c:                 
     moveq       #$06e,D0;                D0 ,-(SP)=>local_174                                                            
@@ -88533,7 +88533,7 @@ LAB_0004b77c:
     move.w      D0,-(SP)
     pea         -$013de(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0a(SP),SP
 LAB_0004b826:                 
     moveq       #$06e,D0;                D0 ,-(SP)=>local_174                                                            
@@ -88601,7 +88601,7 @@ LAB_0004b87a:
     move.w      D0,-(SP)
     pea         -$013c4(A4)
     pea         -$014c(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         -$0140(A6),A0
     lea         -$014c(A6),A1
     jsr         thunk_FUN_n7_0006433c(PC)
@@ -88668,7 +88668,7 @@ LAB_0004b90e:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$013a2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_f4_00063b62(PC)
+    jsr         Relay_10_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0004b9ca
 LAB_0004b9b6:                 
@@ -89837,7 +89837,7 @@ thunk_FUN_0005bff8:
     jmp         FUN_0005bff8
 thunk_FUN_n7_0006433c:
     jmp         FUN_0006433c
-thunk_FUN_f4_00063b62:
+Relay_10_00063b62:
     jmp         FUN_00063b62
 thunk_FUN_c2_0005bbc2:
     jmp         FUN_0005bbc2
@@ -90806,7 +90806,7 @@ FUN_0004cf16:
     move.l      A0,-(SP)
     pea         -$01238(A4)
     pea         -$02a(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         $010(SP),SP
     moveq       #$01,D6
 LAB_0004cf5c:                 
@@ -90871,7 +90871,7 @@ LAB_0004cfb8:
     move.l      D0,-(SP)
     pea         -$01222(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D6,D0
     lea         (DAT_0009e25e),A0
@@ -90947,7 +90947,7 @@ LAB_0004d08c:
     pea         -$0169(A6)
     pea         -$011f4(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #-$07,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN_m8_000560f4(PC)
@@ -91229,13 +91229,13 @@ LAB_0004d37c:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$01094(A4)
     pea         -$052(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     move.l      D4,D0
     jsr         thunk_FUN_00059b9a(PC);                D0,(SP)=>local_1be                                                              
     move.l      D0,(SP)
     pea         -$01086(A4)
     pea         -$0192(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         -$052(A6),A0
@@ -91308,7 +91308,7 @@ LAB_0004d41a:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$01028(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         (DAT_0009e25e),A0
@@ -91419,7 +91419,7 @@ LAB_0004d566:
     move.l      D0,-(SP)
     pea         -$0ff2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D6,D0
     jsr         thunk_FUN_bj_00061884(PC)
@@ -91469,7 +91469,7 @@ LAB_0004d5cc:
     move.l      D0,-(SP)
     pea         -$0fee(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D6,D0
     jsr         thunk_FUN_bj_00061884(PC)
@@ -91505,7 +91505,7 @@ LAB_0004d5cc:
     move.l      D0,-(SP)
     pea         -$0fea(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0004d6a0
 LAB_0004d678:                 
@@ -91514,12 +91514,12 @@ LAB_0004d678:
     moveq       #$00,D0;                (A0),D0 =>BYTE_0006664c                                                         
     move.b      (A0),D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$0fe6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         $0c(SP),SP
 LAB_0004d6a0:                 
     moveq       #$00,D0
@@ -92050,7 +92050,7 @@ LAB_0004db5a:
     jsr         thunk_FUN_c4_00059f76(PC)
     pea         -$0f18(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     move.w      #$0130,D0;                D0 ,(SP)=>local_170+$02                                                         
     move.w      D0,(SP)
     moveq       #$02,D1;                D1 ,-(SP)=>local_170                                                            
@@ -92137,7 +92137,7 @@ LAB_0004dc00:
     move.l      D0,-(SP)
     pea         -$0edc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     move.w      -$146(A6),D0
     jsr         thunk_FUN_yx0_00057faa(PC)
     lea         $0c(SP),SP
@@ -92243,7 +92243,7 @@ LAB_0004dd3a:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$0ebc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         (DAT_0009e25e),A0
@@ -92275,7 +92275,7 @@ LAB_0004dd3a:
     move.l      D0,(SP)
     pea         -$0eb6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #-$07,D0
     lea         -$0140(A6),A0
     jsr         thunk_FUN_m8_000560f4(PC)
@@ -92372,7 +92372,7 @@ LAB_0004dea6:
     move.l      $0(a0,d0.l),-(SP)
     pea         -$0e36(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         (DAT_0009e25e),A0
     movea.l     A0,A1
     adda.w      D7,A1
@@ -92400,7 +92400,7 @@ LAB_0004dea6:
     move.l      D0,(SP)
     pea         -$0e30(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #-$07,D0
     lea         -$0144(A6),A0
     jsr         thunk_FUN_m8_000560f4(PC)
@@ -92483,7 +92483,7 @@ FUN_0004dfa4:
     move.l      $0(a0,d1.l),(SP)
     pea         -$0df4(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         (DAT_0009e25e),A0
@@ -92515,7 +92515,7 @@ FUN_0004dfa4:
     move.l      D0,(SP)
     pea         -$0dee(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #-$07,D0
     lea         -$0142(A6),A0
     jsr         thunk_FUN_m8_000560f4(PC)
@@ -92619,7 +92619,7 @@ FUN_0004e11c:
     move.l      $0(a0,d1.l),(SP)
     pea         -$0d9e(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         (DAT_0009e25e),A0
@@ -92651,7 +92651,7 @@ FUN_0004e11c:
     move.l      D0,(SP)
     pea         -$0d98(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #-$07,D0
     lea         -$0142(A6),A0
     jsr         FUN_000560f4(PC)
@@ -92948,7 +92948,7 @@ LAB_0004e44c:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$0d6c(A4)
     pea         -$0147(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D6,D0
     lea         -$0147(A6),A0
@@ -92976,7 +92976,7 @@ LAB_0004e4ac:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$0d1e(A4)
     pea         -$0147(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D6,D0
     lea         -$0147(A6),A0
@@ -93004,7 +93004,7 @@ LAB_0004e4fa:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$0cc6(A4)
     pea         -$0147(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D6,D0
     lea         -$0147(A6),A0
@@ -93032,7 +93032,7 @@ LAB_0004e548:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$0c6c(A4)
     pea         -$0147(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D6,D0
     lea         -$0147(A6),A0
@@ -93089,7 +93089,7 @@ LAB_0004e5dc:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$0c02(A4)
     pea         -$0147(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D6,D0
     lea         -$0147(A6),A0
@@ -93125,7 +93125,7 @@ LAB_0004e64c:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$0bac(A4)
     pea         -$0147(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D6,D0
     lea         -$0147(A6),A0
@@ -93161,7 +93161,7 @@ LAB_0004e6b2:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$0b50(A4)
     pea         -$0147(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D6,D0
     lea         -$0147(A6),A0
@@ -93206,7 +93206,7 @@ FUN_0004e724:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$0adc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         (DAT_0009e25e),A0
@@ -93238,7 +93238,7 @@ FUN_0004e724:
     move.l      D0,(SP)
     pea         -$0ad6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #-$07,D0
     lea         -$0140(A6),A0
     jsr         FUN_000560f4(PC)
@@ -93304,7 +93304,7 @@ LAB_0004e858:
     move.l      (A0),-(SP)
     pea         -$0a86(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         -$0140(A6),A0
     jsr         FUN_0005615c(PC)
     lea         $0c(SP),SP
@@ -93755,7 +93755,7 @@ LAB_0004ec8e:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$0a04(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         (DAT_0009e25e),A0
@@ -94245,7 +94245,7 @@ LAB_0004f122:
     move.w      D1,-(SP)
     pea         -$09d2(A4)
     pea         -$0142(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         $0e(SP),SP
     move.w      $04cf0(A4),D0
     ext.l       D0
@@ -94445,7 +94445,7 @@ LAB_0004f2fe:
     move.w      D0,-(SP)
     pea         -$09be(A4)
     pea         -$028(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_0004f40c
 LAB_0004f390:                 
@@ -94479,7 +94479,7 @@ LAB_0004f390:
     move.l      D0,-(SP)
     pea         -$09b8(A4)
     pea         -$028(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_0004f40c
 LAB_0004f3f4:                 
@@ -94890,7 +94890,7 @@ LAB_0004f7a4:
     move.w      D0,-(SP)
     pea         -$0942(A4)
     pea         -$0168(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         $0a(SP),SP
 LAB_0004f7ba:                 
     moveq       #$00,D0
@@ -94899,7 +94899,7 @@ LAB_0004f7ba:
     pea         -$0168(A6)
     pea         -$093c(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         -$0140(A6),A0
@@ -95014,7 +95014,7 @@ LAB_0004f8d8:
     move.w      D0,-(SP)
     pea         -$08b2(A4)
     pea         -$0168(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         $0a(SP),SP
 LAB_0004f8ee:                 
     moveq       #$01,D0
@@ -95023,7 +95023,7 @@ LAB_0004f8ee:
     pea         -$0168(A6)
     pea         -$08ac(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         -$0140(A6),A0
@@ -95264,7 +95264,7 @@ LAB_0004fb08:
     move.w      D0,-(SP)
     pea         -$0794(A4)
     pea         -$0168(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         $0a(SP),SP
 LAB_0004fb1e:                 
     bsr.w       FUN_0004ffc4;                D0,-(SP)=>local_182                                                             
@@ -95272,7 +95272,7 @@ LAB_0004fb1e:
     pea         -$0168(A6)
     pea         -$078e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         -$0140(A6),A0
@@ -95561,7 +95561,7 @@ LAB_0004fdec:
     move.w      D0,-(SP)
     pea         -$0588(A4)
     pea         -$0168(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         $0a(SP),SP
 LAB_0004fe02:                 
     bsr.w       FUN_0004ffc4;                D0,-(SP)=>local_184                                                             
@@ -95569,7 +95569,7 @@ LAB_0004fe02:
     pea         -$0168(A6)
     pea         -$0582(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         -$0140(A6),A0
@@ -95662,7 +95662,7 @@ LAB_0004fefc:
     move.l      D0,-(SP)
     pea         -$0502(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         -$0140(A6),A0
@@ -95845,7 +95845,7 @@ FUN_00050056:
     move.l      D0,-(SP)
     pea         -$03f6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_000500ca
 LAB_000500a4:                 
@@ -95864,7 +95864,7 @@ LAB_000500b4:
     move.w      D0,-(SP)
     pea         -$03e2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         $0a(SP),SP
 LAB_000500ca:                 
     moveq       #$00,D0
@@ -96353,7 +96353,7 @@ LAB_000504d6:
     move.l      D5,-(SP)
     pea         -$027c(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$07,D0
     lea         -$0144(A6),A0
     jsr         FUN_000560f4(PC);NOTEPAD L040534	4EBA 5BDA				jsr	L046110(PC)
@@ -96362,7 +96362,7 @@ LAB_000504d6:
     move.l      D0,(SP)
     pea         -$0266(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$09,D0
     lea         -$0144(A6),A0
     jsr         FUN_000560f4(PC); NOTEPAD L040552	4EBA 5BBC				jsr	L046110(PC)
@@ -96426,7 +96426,7 @@ LAB_000505cc:
     move.l      D5,-(SP)
     pea         -$01dc(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         -$0144(A6),A0
     jsr         FUN_0005615c(PC)
     moveq       #$00,D0
@@ -96451,12 +96451,12 @@ LAB_0005061a:
     moveq       #$00,D0
     move.b      -$146(A6),D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         -$01cc(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     moveq       #$06,D0
     lea         -$0144(A6),A0
     jsr         thunk_FUN_0002d094(PC)
@@ -96981,9 +96981,9 @@ LAB_00050b06:
     moveq       #$00,D1
     move.b      D4,D1
     asl.l       #$02,D1
-    lea         (DWORD_000654d8),A0
+    lea         (Fixup_Address_00),A0
     adda.l      D1,A0;                 local_154+$04(A6),-(SP)=>local_16c                                             
-    move.l      -$150(A6),-(SP);                (A0),-(SP)=>DWORD_000654d8                                                      
+    move.l      -$150(A6),-(SP);                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP);                D0,-(SP)=>local_174                                                             
     move.l      D0,-(SP)
     lea         $028f4(A4),A1
@@ -96991,7 +96991,7 @@ LAB_00050b06:
     move.l      ($00,A1,d1.l),-(SP)
     pea         -$01bc(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         (DAT_0008c69c),A0
     moveq       #$00,D0
     move.w      D7,D0
@@ -97023,9 +97023,9 @@ LAB_00050bce:
     moveq       #$00,D1
     move.b      D4,D1
     asl.l       #$02,D1
-    lea         (DWORD_000654d8),A0
+    lea         (Fixup_Address_00),A0
     adda.l      D1,A0;                 local_154+$04(A6),-(SP)=>local_16c                                             
-    move.l      -$150(A6),-(SP);                (A0),-(SP)=>DWORD_000654d8                                                      
+    move.l      -$150(A6),-(SP);                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP);                D0,-(SP)=>local_174                                                             
     move.l      D0,-(SP)
     lea         $028f4(A4),A1
@@ -97033,7 +97033,7 @@ LAB_00050bce:
     move.l      ($00,A1,d1.l),-(SP)
     pea         -$0166(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_11_00063b62(PC)
     lea         (DAT_0008c69c),A0
     moveq       #$00,D0
     move.w      D7,D0
@@ -97205,7 +97205,7 @@ FUN_00050d92:
     jsr         FUN_000580d6(PC)
     subq.w      #$04,D0
     ext.l       D0
-    jsr         thunk_FUN_0m_000617ec(PC)
+    jsr         thunk_FUN_hg_000617ec(PC);thunk_FUN_0m_000617ec(PC)
     move.l      $c(SP),D1
     jsr         thunk_FUN_jy_000610b4(PC)
     bgt.b       LAB_00050dc6
@@ -97772,7 +97772,7 @@ LAB_00051528:
     moveq       #$00,D0
     move.b      D5,D0
     move.l      #$05dc,D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     lea         (DAT_00085d24),A0
     movea.l     A0,A1
     adda.l      D0,A1
@@ -97782,7 +97782,7 @@ LAB_00051528:
     moveq       #$00,D0
     move.b      D5,D0
     move.l      #$05dc,D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     adda.l      D0,A0
     moveq       #$00,D0
     move.w      D7,D0
@@ -97799,7 +97799,7 @@ LAB_0005156a:
     moveq       #$00,D0
     move.b      D5,D0
     move.l      #$05dc,D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     lea         (DAT_0008e9c4),A0
     movea.l     A0,A1
     adda.l      D0,A1
@@ -97809,7 +97809,7 @@ LAB_0005156a:
     moveq       #$00,D0
     move.b      D5,D0
     move.l      #$05dc,D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     adda.l      D0,A0
     moveq       #$00,D0
     move.w      D7,D0
@@ -97826,7 +97826,7 @@ LAB_000515ac:
     moveq       #$00,D0
     move.b      D5,D0
     move.l      #$05dc,D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     lea         (DAT_000a89bc),A0
     movea.l     A0,A1
     adda.l      D0,A1
@@ -97836,7 +97836,7 @@ LAB_000515ac:
     moveq       #$00,D0
     move.b      D5,D0
     move.l      #$05dc,D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     adda.l      D0,A0
     moveq       #$00,D0
     move.w      D7,D0
@@ -97853,7 +97853,7 @@ LAB_000515ee:
     moveq       #$00,D0
     move.b      D5,D0
     move.l      #$0bb8,D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     lea         (DAT_00097664),A0
     movea.l     A0,A1
     adda.l      D0,A1
@@ -97864,7 +97864,7 @@ LAB_000515ee:
     moveq       #$00,D0
     move.b      D5,D0
     move.l      #$0bb8,D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     adda.l      D0,A0
     moveq       #$00,D0
     move.w      D7,D0
@@ -97882,7 +97882,7 @@ LAB_00051634:
     moveq       #$00,D0
     move.b      D5,D0
     move.l      #$0bb8,D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     lea         (DAT_0009a544),A0
     movea.l     A0,A1
     adda.l      D0,A1
@@ -97893,7 +97893,7 @@ LAB_00051634:
     moveq       #$00,D0
     move.b      D5,D0
     move.l      #$0bb8,D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     adda.l      D0,A0
     moveq       #$00,D0
     move.w      D7,D0
@@ -97915,7 +97915,7 @@ LAB_00051678:
     adda.l      D0,A0;                (A0),(A1)=>DAT_000830b8                                                         
     move.l      (A0),(A1)
     moveq       #$02,D0
-    jsr         Relay_XBIOS_Floprd00G(PC)
+    jsr         Relay_XBIOS_Floprd00H(PC);Relay_XBIOS_Floprd00G(PC)
     lea         (DAT_000bcc82),A0
     lea         -$0126(A4),A1
     jsr         thunk_FUN_pl_00064714(PC)
@@ -97924,7 +97924,7 @@ LAB_00051678:
     move.w      D7,D0
     moveq       #$07a,D1
     not.b       D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     moveq       #$00,D1
     movea.l     A5,A0
     jsr         thunk_FUN_00063a28(PC)
@@ -97938,7 +97938,7 @@ LAB_00051678:
     move.w      D6,D0
     moveq       #$07a,D1
     not.b       D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     moveq       #$00,D1
     movea.l     A5,A0
     jsr         thunk_FUN_00063a28(PC)
@@ -98198,7 +98198,7 @@ LAB_0005190a:
     moveq       #$00,D0
     move.w      D7,D0
     moveq       #$034,D1
-    jsr         Relay_Fifteenth_00063c44(PC)
+    jsr         Relay_Sixteenth_00063c44(PC)
     lea         (DAT_00081984),A0
     adda.l      D0,A0
     moveq       #$00,D0
@@ -98259,7 +98259,7 @@ FUN_00051966:
 LAB_00051970:                 
     jsr         thunk_FUN_0005b244(PC)
     lea         -$0122(A4),A0
-    jsr         thunk_FUN_c4_00059f76(PC)
+    jsr         thunk_FUN_00059f76(PC);thunk_FUN_c4_00059f76(PC)
     moveq       #$00,D0
     move.b      D7,D0
     moveq       #$00,D1
@@ -98269,7 +98269,7 @@ LAB_00051970:
     move.l      $0(a0,d1.l),-(SP)
     pea         -$010e(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D7,D0
     lea         (DAT_0009e25e),A0
@@ -98367,7 +98367,7 @@ LAB_00051970:
     moveq       #$02,D0
     move.l      #$03fa00000,D1
     lea         -$0e0(A4),A0
-    jsr         thunk_FUN_lp_0005a3d8(PC)
+    jsr         thunk_FUN_0005a3d8(PC);thunk_FUN_lp_0005a3d8(PC)
     jsr         thunk_FUN_0005b244(PC)
     lea         $030(SP),SP
     moveq       #$00,D5
@@ -98389,15 +98389,15 @@ LAB_00051ad2:
     move.l      D0,-(SP)
     pea         -$0ca(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     lea         $0c(SP),SP
     moveq       #$00,D0
     move.b      D5,D0
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040218000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+	jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$00,D1
     move.b      D5,D1
     ext.l       D1
@@ -98419,7 +98419,7 @@ LAB_00051b38:
     moveq       #$00,D0
     move.l      #$03f900000,D1
     lea         -$0140(A6),A0
-    jsr         thunk_FUN_lp_0005a3d8(PC)
+    jsr         thunk_FUN_0005a3d8(PC);thunk_FUN_lp_0005a3d8(PC)
     lea         (DAT_0008c69c),A0
     moveq       #$00,D0
     move.w      D4,D0
@@ -98433,14 +98433,14 @@ LAB_00051b38:
     move.l      $0(a0,d1.l),(SP)
     pea         -$0c6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D5,D0
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040218000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+	jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$048,D1;                D1 ,(SP)=>local_19c                                                             
     move.w      D1,(SP)
     moveq       #$04,D2;                D2 ,-(SP)=>local_19e                                                            
@@ -98460,14 +98460,14 @@ LAB_00051b38:
     move.w      D0,(SP)
     pea         -$0c2(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D5,D0
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040218000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$018,D1;                D1 ,(SP)=>local_1a8                                                             
     move.w      D1,(SP)
     moveq       #$0c,D2;                D2 ,-(SP)=>local_1aa                                                            
@@ -98487,14 +98487,14 @@ LAB_00051b38:
     move.w      D0,(SP)
     pea         -$0be(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     moveq       #$00,D0
     move.b      D5,D0
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040218000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$018,D1;                D1 ,(SP)=>local_1b4                                                             
     move.w      D1,(SP)
     moveq       #$0c,D2;                D2 ,-(SP)=>local_1b6                                                            
@@ -98527,7 +98527,7 @@ LAB_00051b38:
     move.l      D0,$1c(SP)
     move.w      (A1),D0
     ext.l       D0
-    jsr         thunk_FUN_0m_000617ec(PC)
+    jsr         thunk_FUN_hg_000617ec(PC);thunk_FUN_0m_000617ec(PC)
     move.l      $1c(SP),D1
     jsr         thunk_FUN_ph_00061128(PC)
     move.l      D0,-$166(A6)
@@ -98536,7 +98536,7 @@ LAB_00051b38:
     move.l      D0,-(SP)
     pea         -$0ba(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_00051cc8
 LAB_00051cbc:                 
@@ -98550,8 +98550,8 @@ LAB_00051cc8:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040218000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$024,D1;                D1 ,-(SP)=>local_18e+$02                                                        
     move.w      D1,-(SP)
     moveq       #$0c,D2;                D2 ,-(SP)=>local_18e                                                            
@@ -98572,8 +98572,8 @@ LAB_00051cc8:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040218000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$036,D1;                D1 ,(SP)=>local_190                                                             
     move.w      D1,(SP)
     moveq       #$0c,D2;                D2 ,-(SP)=>local_194+$02                                                        
@@ -98611,8 +98611,8 @@ LAB_00051d68:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040218000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$00,D1
     move.b      D5,D1
     ext.l       D1
@@ -98639,8 +98639,8 @@ LAB_00051d9e:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040218000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$048,D1;                D1 ,(SP)=>local_190                                                             
     move.w      D1,(SP)
     moveq       #$04,D2;                D2 ,-(SP)=>local_194+$02                                                        
@@ -98656,8 +98656,8 @@ LAB_00051d9e:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040218000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$018,D1;                D1 ,(SP)=>local_194                                                             
     move.w      D1,(SP)
     moveq       #$0c,D2;                D2 ,-(SP)=>local_196                                                            
@@ -98673,8 +98673,8 @@ LAB_00051d9e:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040218000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$018,D1;                D1 ,(SP)=>local_198                                                             
     move.w      D1,(SP)
     moveq       #$0c,D2;                D2 ,-(SP)=>local_19a                                                            
@@ -98690,8 +98690,8 @@ LAB_00051d9e:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040218000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$024,D1;                D1 ,(SP)=>local_19c                                                             
     move.w      D1,(SP)
     moveq       #$0c,D2;                D2 ,-(SP)=>local_19e                                                            
@@ -98707,8 +98707,8 @@ LAB_00051d9e:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040218000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$036,D1;                D1 ,(SP)=>local_1a0                                                             
     move.w      D1,(SP)
     moveq       #$0c,D2;                D2 ,-(SP)=>local_1a2                                                            
@@ -98726,7 +98726,7 @@ LAB_00051ec6:
     jsr         thunk_FUN_0005b24e(PC)
 LAB_00051eca:                 
     moveq       #-$01,D0
-    jsr         thunk_FUN_s1_0005a902(PC)
+    jsr         thunk_FUN_0005a902(PC);thunk_FUN_s1_0005a902(PC)
     move.l      D0,D6
     moveq       #$02,D0
     cmp.b       D0,D6
@@ -98744,10 +98744,10 @@ LAB_00051eec:
     move.w      D0,-(SP)
     move.w      -$164(A6),D1
     exg         D1,D0
-    jsr         thunk_FUN_v3_00043a0c(PC)
+    jsr         thunk_FUN_00043a0c(PC);thunk_FUN_v3_00043a0c(PC);
     move.w      -$164(A6),D0
     move.w      $04964(A4),D1
-    jsr         thunk_FUN_j0_0002da4a(PC)
+    jsr         thunk_FUN_0002da4a(PC);thunk_FUN_j0_0002da4a(PC)
     addq.w      #$02,SP
     tst.b       $04d40(A4)
     beq.b       LAB_00051eec
@@ -98921,7 +98921,7 @@ LAB_00052078:                 ;                A0,-(SP)=>local_38
     move.l      A0,-(SP)
     pea         -$096(A4);                A5,-(SP)=>local_40                                                              
     move.l      A5,-(SP)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     lea         $0c(SP),SP
     bra.w       LAB_0005214a
 LAB_0005208c:                 
@@ -98942,7 +98942,7 @@ LAB_0005208c:
     move.l      D0,-$c(A6)
     move.l      D1,D0
     ext.l       D0
-    jsr         thunk_FUN_0m_000617ec(PC)
+    jsr         thunk_FUN_hg_000617ec(PC);thunk_FUN_0m_000617ec(PC)
     move.l      #$03f800000,D1
     move.l      D0,-$10(A6)
     jsr         thunk_FUN_g6_00060dd4(PC)
@@ -99010,23 +99010,23 @@ FUN_00052154:
     lea         $02(A4),A0
     jsr         FUN_00059f76(PC)
     moveq       #$010,D0
-    jsr         thunk_FUN_k0_0005c6d0(PC)
+    jsr         thunk_FUN_0005c6d0(PC);thunk_FUN_k0_0005c6d0(PC)
     move.w      #$0bd,D0;                D0 ,-(SP)=>local_146                                                            
     move.w      D0,-(SP)
     move.w      #$0130,D1;                D1 ,-(SP)=>local_148                                                            
     move.w      D1,-(SP)
     moveq       #$018,D0
     moveq       #$013,D1
-    jsr         thunk_FUN_e5_0005c71c(PC)
+    jsr         thunk_FUN_0005c71c(PC);thunk_FUN_e5_0005c71c(PC);
     moveq       #$01e,D0
-    jsr         thunk_FUN_k0_0005c6d0(PC)
+    jsr         thunk_FUN_0005c6d0(PC);thunk_FUN_k0_0005c6d0(PC);
     move.w      #$0b9,D0;                D0 ,(SP)=>local_148                                                             
     move.w      D0,(SP)
     move.w      #$012c,D1;                D1 ,-(SP)=>local_14a                                                            
     move.w      D1,-(SP)
     moveq       #$014,D0
     moveq       #$0f,D1
-    jsr         thunk_FUN_e5_0005c71c(PC)
+    jsr         thunk_FUN_0005c71c(PC);thunk_FUN_e5_0005c71c(PC);
     move.w      #$0f,$049da(A4)
     moveq       #$02b,D0;                D0 ,(SP)=>local_14a                                                             
     move.w      D0,(SP)
@@ -99100,14 +99100,14 @@ LAB_00052204:
     move.w      #$0a1,D1
     jsr         FUN_000555ba(PC)
     moveq       #$010,D0
-    jsr         thunk_FUN_b6_0005c6ec(PC)
+    jsr         thunk_FUN_0005c6ec(PC);thunk_FUN_b6_0005c6ec(PC)
     move.w      #$0b3,D0;                D0 ,(SP)=>local_14e                                                             
     move.w      D0,(SP)
     move.w      #$0126,D1;                D1 ,-(SP)=>local_150                                                            
     move.w      D1,-(SP)
     moveq       #$01a,D0
     move.w      #$0ac,D1
-    jsr         thunk_FUN_u1_0005c786(PC)
+    jsr         thunk_FUN_0005c786(PC);thunk_FUN_u1_0005c786(PC)
     lea         $032(A4),A0
     lea         -$0140(A6),A1
     move.l      (A0)+,(A1)+
@@ -99332,7 +99332,7 @@ FUN_0005241e:
     move.l      #$04070a000,D2
     moveq       #$00,D3
     jsr         thunk_FUN_mr_00061448(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     move.l      D0,-$4(A6)
     moveq       #$00,D0
     move.w      D6,D0
@@ -99344,7 +99344,7 @@ FUN_0005241e:
     jsr         thunk_FUN_z4_000618b8(PC)
     move.l      D0,D5
     moveq       #$011,D0
-    jsr         thunk_FUN_k0_0005c6d0(PC)
+    jsr         thunk_FUN_0005c6d0(PC);thunk_FUN_k0_0005c6d0(PC)
     move.l      D5,D0
     addi.w      #$01b,D0
     move.w      #$0b2,D1;                D1 ,-(SP)=>local_24                                                             
@@ -99352,19 +99352,19 @@ FUN_0005241e:
     move.w      D0,-(SP)
     moveq       #$01b,D0
     move.w      #$0ad,D1
-    jsr         thunk_FUN_e5_0005c71c(PC)
+    jsr         thunk_FUN_0005c71c(PC);thunk_FUN_e5_0005c71c(PC)
     addq.w      #$04,SP
     bra.b       LAB_000524b2
 LAB_00052494:                 
     moveq       #$018,D0
-    jsr         thunk_FUN_k0_0005c6d0(PC)
+    jsr         thunk_FUN_0005c6d0(PC);thunk_FUN_k0_0005c6d0(PC)
     move.w      #$0b2,D0;                D0 ,-(SP)=>local_24                                                             
     move.w      D0,-(SP)
     move.w      #$0125,D1;                D1 ,-(SP)=>local_26                                                             
     move.w      D1,-(SP)
     moveq       #$01b,D0
     move.w      #$0ad,D1
-    jsr         thunk_FUN_e5_0005c71c(PC)
+    jsr         thunk_FUN_0005c71c(PC);thunk_FUN_e5_0005c71c(PC)
     addq.w      #$04,SP
 LAB_000524b2:                 ;                (SP=>local_22)+,   D2/D3/D5/D6/D7                                               
     movem.l     (SP)+,D2/D3/D5/D6/D7;                A6=>local_4                                                                     
@@ -99608,7 +99608,7 @@ LAB_000526cc:
     move.w      D0,-(SP)
     pea         $0466(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC);                (SP)=>local_16e                                                                 
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC);                (SP)=>local_16e                                                                 
     clr.w       (SP)
     moveq       #$08,D0;                D0 ,-(SP)=>local_170                                                            
     move.w      D0,-(SP)
@@ -99743,7 +99743,7 @@ LAB_00052838:
     move.l      D0,-(SP)
     pea         $04a8(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     lea         $0c(SP),SP
     tst.b       $04d39(A4)
     beq.b       LAB_000528ce
@@ -99752,8 +99752,8 @@ LAB_00052838:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040188000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$00,D1
     move.b      D4,D1
     ext.l       D1
@@ -99784,8 +99784,8 @@ LAB_000528ce:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040188000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$00,D1
     move.b      D4,D1
     ext.l       D1
@@ -99830,7 +99830,7 @@ LAB_00052918:
     move.l      $0(a0,d1.l),-(SP)
     pea         $04ac(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_0005298e
 LAB_0005295e:                 
@@ -99843,12 +99843,12 @@ LAB_0005295e:
     subi.w      #$08c,D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         $04b0(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     lea         $0c(SP),SP
 LAB_0005298e:                 
     moveq       #$00,D0
@@ -99856,8 +99856,8 @@ LAB_0005298e:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040188000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$051,D1;                D1 ,-(SP)=>local_168+$02                                                        
     move.w      D1,-(SP)
     moveq       #$04,D2;                D2 ,-(SP)=>local_168                                                            
@@ -99890,7 +99890,7 @@ LAB_0005298e:
     move.l      $0(a0,d1.l),-(SP)
     pea         $04b6(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_00052a3a
 LAB_00052a0a:                 
@@ -99903,12 +99903,12 @@ LAB_00052a0a:
     subi.w      #$08c,D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_000654d8),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_000654d8                                                      
+    lea         (Fixup_Address_00),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_00                                                      
     move.l      (A0),-(SP)
     pea         $04ba(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     lea         $0c(SP),SP
 LAB_00052a3a:                 
     moveq       #$00,D0
@@ -99916,8 +99916,8 @@ LAB_00052a3a:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040188000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$051,D1;                D1 ,-(SP)=>local_168+$02                                                        
     move.w      D1,-(SP)
     moveq       #$0b,D2;                D2 ,-(SP)=>local_168                                                            
@@ -99964,12 +99964,10 @@ LAB_00052ab6:
     move.l      $04(A0),D0
     move.l      #$03e8,D1
     jsr         thunk_FUN_TEN_00063b9c(PC);thunk_FUN_h00063b9c;(PC);                D0 ,-(SP)=>local_168+$02                                                        
-	;dc.w		$4EBA
-	;dc.w		$0
     move.w      D0,-(SP)
     pea         $04cc(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_kk_00063b62(PC)
+    jsr         Relay_12_00063b62(PC);Relay_11_00063b62(PC)
     lea         $0a(SP),SP
 LAB_00052ae4:                 
     moveq       #$00,D0
@@ -99977,8 +99975,8 @@ LAB_00052ae4:
     jsr         thunk_FUN_bj_00061884(PC)
     move.l      #$040188000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_g0_00060df8(PC)
-    jsr         thunk_FUN_jm_00061a74(PC)
+    jsr         thunk_FUN_ft_00060df8(PC);thunk_FUN_g0_00060df8(PC)
+    jsr         thunk_FUN_fr_00061a74(PC);thunk_FUN_jm_00061a74(PC)
     moveq       #$02a,D1;                D1 ,-(SP)=>local_168+$02                                                        
     move.w      D1,-(SP)
     moveq       #$0f,D2;                D2 ,-(SP)=>local_168                                                            
@@ -100062,10 +100060,10 @@ LAB_00052bae:
     move.w      D0,-(SP)
     move.w      -$148(A6),D1
     exg         D1,D0
-    jsr         thunk_FUN_v3_00043a0c(PC)
+    jsr         thunk_FUN_00043a0c(PC);thunk_FUN_v3_00043a0c(PC)
     move.w      -$148(A6),D0
     move.w      $04964(A4),D1
-    jsr         thunk_FUN_j0_0002da4a(PC)
+    jsr         thunk_FUN_0002da4a(PC);thunk_FUN_j0_0002da4a(PC)
     addq.w      #$02,SP
     tst.b       $04d40(A4)
     beq.b       LAB_00052bae
@@ -100199,23 +100197,23 @@ FUN_00052d08:
     lea         $06d4(A4),A0
     jsr         FUN_00059f76(PC)
     moveq       #$010,D0
-    jsr         thunk_FUN_k0_0005c6d0(PC)
+    jsr         thunk_FUN_0005c6d0(PC);thunk_FUN_k0_0005c6d0(PC)
     move.w      #$0bd,D0;                D0 ,-(SP)=>local_14a                                                            
     move.w      D0,-(SP)
     move.w      #$0130,D1;                D1 ,-(SP)=>local_14c                                                            
     move.w      D1,-(SP)
     moveq       #$018,D0
     moveq       #$013,D1
-    jsr         thunk_FUN_e5_0005c71c(PC)
+    jsr         thunk_FUN_0005c71c(PC);thunk_FUN_e5_0005c71c(PC)
     moveq       #$01a,D0
-    jsr         thunk_FUN_k0_0005c6d0(PC)
+    jsr         thunk_FUN_0005c6d0(PC);thunk_FUN_k0_0005c6d0(PC)
     move.w      #$0b9,D0;                D0 ,(SP)=>local_14c                                                             
     move.w      D0,(SP)
     move.w      #$012c,D1;                D1 ,-(SP)=>local_14e                                                            
     move.w      D1,-(SP)
     moveq       #$014,D0
     moveq       #$0f,D1
-    jsr         thunk_FUN_e5_0005c71c(PC)
+    jsr         thunk_FUN_0005c71c(PC);thunk_FUN_e5_0005c71c(PC)
     move.w      #$0c,$049da(A4)
     moveq       #$02b,D0;                D0 ,(SP)=>local_14e                                                             
     move.w      D0,(SP)
@@ -100699,7 +100697,7 @@ thunk_FUN_000268ec:
     jmp         FUN_000268ec
 thunk_FUN_vv_0006433c:
     jmp         FUN_0006433c
-thunk_FUN_kk_00063b62:
+Relay_11_00063b62:
     jmp         FUN_00063b62
 thunk_FUN_00021b20:
     jmp         FUN_00021b20
@@ -101015,7 +101013,7 @@ LAB_000533e2:
     move.l      D0,-(SP)
     pea         $0794(A4)
     pea         -$0180(A6)
-    jsr         thunk_FUN_gv_00063b62(PC)
+    jsr         Relay_12_00063b62(PC)
     moveq       #$018,D0;                D0 ,(SP)=>local_300                                                             
     move.w      D0,(SP)
     moveq       #$04,D1;                D1 ,-(SP)=>local_302                                                            
@@ -101065,7 +101063,7 @@ LAB_00053462:
     move.l      D0,-(SP)
     pea         $079a(A4)
     pea         -$0180(A6)
-    jsr         thunk_FUN_gv_00063b62(PC)
+    jsr         Relay_12_00063b62(PC)
     move.w      -$2ce(A6),D0
     jsr         FUN_0005af5c(PC)
     lea         $0c(SP),SP
@@ -101088,12 +101086,12 @@ LAB_000534ce:
     subq.w      #$01,D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_00065a6c),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_00065a6c                                                      
+    lea         (Fixup_Address_02),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_02                                                      
     move.l      (A0),-(SP)
     pea         $079e(A4)
     pea         -$0180(A6)
-    jsr         thunk_FUN_gv_00063b62(PC)
+    jsr         Relay_12_00063b62(PC)
     lea         $0c(SP),SP
 LAB_0005350c:                 
     moveq       #$00,D0
@@ -101139,7 +101137,7 @@ LAB_00053556:
 	move.l		$FFFFFFBC(a6,d1.l),-(SP)
     pea         $07a2(A4)
     pea         -$0180(A6)
-    jsr         thunk_FUN_gv_00063b62(PC)
+    jsr         Relay_12_00063b62(PC)
     lea         $0c(SP),SP
     moveq       #$0a,D0
     cmp.b       D0,D5
@@ -101313,8 +101311,8 @@ LAB_00053712:
     divs.w      #$010,D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_00065bb0),A0
-    adda.l      D0,A0;                (A0),A1=>DWORD_00065bb0                                                         
+    lea         (Fixup_Address_04),A0
+    adda.l      D0,A0;                (A0),A1=>Fixup_Address_04                                                         
     movea.l     (A0),A1
     lea         -$02c0(A6),A2
 LAB_0005374a:                 
@@ -102525,7 +102523,7 @@ LAB_00054270:
     moveq       #$00,D0
     move.b      D7,D0
     moveq       #$030,D1
-    jsr         Relay_Sixteenth_00063c44(PC)
+    jsr         Relay_Seventeenth_00063c44(PC)
     lea         (DAT_000a2610),A0
     adda.l      D0,A0
     moveq       #$00,D0
@@ -102914,7 +102912,7 @@ LAB_00054662:
     moveq       #$00,D0
     move.b      D5,D0
     moveq       #$030,D1
-    jsr         Relay_Sixteenth_00063c44(PC)
+    jsr         Relay_Seventeenth_00063c44(PC)
     lea         (DAT_000a2610),A0
     movea.l     A0,A1
     adda.l      D0,A1
@@ -102926,7 +102924,7 @@ LAB_00054662:
     moveq       #$00,D0
     move.b      D5,D0
     moveq       #$030,D1
-    jsr         Relay_Sixteenth_00063c44(PC)
+    jsr         Relay_Seventeenth_00063c44(PC)
     adda.l      D0,A0
     moveq       #$00,D0
     move.b      D4,D0
@@ -102939,7 +102937,7 @@ LAB_00054662:
     moveq       #$00,D0
     move.b      D5,D0
     moveq       #$030,D1
-    jsr         Relay_Sixteenth_00063c44(PC)
+    jsr         Relay_Seventeenth_00063c44(PC)
     lea         (DAT_000a2610),A0
     movea.l     A0,A1
     adda.l      D0,A1
@@ -102950,7 +102948,7 @@ LAB_00054662:
     moveq       #$00,D0
     move.b      D5,D0
     moveq       #$030,D1
-    jsr         Relay_Sixteenth_00063c44(PC)
+    jsr         Relay_Seventeenth_00063c44(PC)
     adda.l      D0,A0
     moveq       #$00,D0
     move.b      D4,D0
@@ -102964,7 +102962,7 @@ LAB_000546e6:
     moveq       #$00,D0
     move.b      D5,D0
     moveq       #$030,D1
-    jsr         Relay_Sixteenth_00063c44(PC)
+    jsr         Relay_Seventeenth_00063c44(PC)
     lea         (DAT_000a2610),A0
     adda.l      D0,A0
     moveq       #$00,D0
@@ -103275,7 +103273,7 @@ LAB_00054932:
     moveq       #$00,D0
     move.b      D7,D0
     moveq       #$030,D1
-    jsr         Relay_Sixteenth_00063c44(PC)
+    jsr         Relay_Seventeenth_00063c44(PC)
     lea         (DAT_000a2610),A0
     adda.l      D0,A0
     moveq       #$00,D0
@@ -103341,7 +103339,7 @@ LAB_000549ca:
     moveq       #$00,D0
     move.b      D7,D0
     moveq       #$030,D1
-    jsr         Relay_Sixteenth_00063c44(PC)
+    jsr         Relay_Seventeenth_00063c44(PC)
     lea         (DAT_000a2610),A0
     adda.l      D0,A0
     moveq       #$00,D0
@@ -103515,7 +103513,7 @@ LAB_00054b78:
     sub.w       D0,D1
     move.l      D1,D0
     ext.l       D0
-    jsr         thunk_FUN_ne_0006186c(PC)
+    jsr         thunk_FUN_0006186c(PC);thunk_FUN_ne_0006186c(PC)
     jsr         thunk_FUN_00060b44(PC)
     jsr         thunk_FUN_00061a00(PC)
     move.w     -$6(A6),D1
@@ -103590,7 +103588,7 @@ LAB_00054c3c:
     muls.w      D1,D1
     sub.w       D1,D0
     ext.l       D0
-    jsr         thunk_FUN_ne_0006186c(PC)
+    jsr         thunk_FUN_0006186c(PC);thunk_FUN_ne_0006186c(PC)
     jsr         thunk_FUN_00060b44(PC)
     jsr         thunk_FUN_00061a00(PC)
     move.w      $08+$04(A6),D1
@@ -103732,14 +103730,14 @@ LAB_00054d98:
     add.l       D1,D1
     sub.l       D0,D1
     move.l      D1,D0
-    jsr         thunk_FUN_bj_00061884(PC)
+    jsr         thunk_FUN_00061884(PC);thunk_FUN_bj_00061884(PC)
     move.l      #$040200000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_nb_0006114c(PC)
+    jsr         thunk_FUN_0006114c(PC);thunk_FUN_nb_0006114c(PC);
     move.l      #$03ff00000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_ft_00060df8(PC)
-    jsr         thunk_FUN_fr_00061a74(PC)
+    jsr         thunk_FUN_00060df8(PC);thunk_FUN_ft_00060df8(PC);
+    jsr         thunk_FUN_00061a74(PC);thunk_FUN_fr_00061a74(PC);
     moveq       #$01,D1;                D1 ,(SP)=>local_1e                                                              
     move.w      D1,(SP)
     move.l      D0,-$4(A6)
@@ -103841,11 +103839,11 @@ LAB_00054e9e:
 LAB_00054eaa:                 
     moveq       #$00,D0
     move.b      D6,D0
-    jsr         thunk_FUN_bj_00061884(PC)
+    jsr         thunk_FUN_00061884(PC);thunk_FUN_bj_00061884(PC)
     move.l      #$040178000,D2
     moveq       #$00,D3
-    jsr         thunk_FUN_ft_00060df8(PC)
-    jsr         thunk_FUN_fr_00061a74(PC)
+    jsr         thunk_FUN_00060df8(PC);thunk_FUN_ft_00060df8(PC)
+    jsr         thunk_FUN_00061a74(PC);thunk_FUN_fr_00061a74(PC)
     moveq       #$00,D1
     move.b      D5,D1
     moveq       #$00,D2
@@ -103921,7 +103919,7 @@ LAB_00054f42:
     moveq       #$00,D0
     move.b      D7,D0
     moveq       #$030,D1
-    jsr         Relay_Sixteenth_00063c44(PC)
+    jsr         Relay_Seventeenth_00063c44(PC)
     lea         (DAT_000a2610),A0
     adda.l      D0,A0
     moveq       #$00,D0
@@ -103961,7 +103959,7 @@ LAB_00054f84:
     move.w      D1,-(SP)
     pea         $09a8(A4)
     pea         -$015d(A6)
-    jsr         thunk_FUN_gv_00063b62(PC)
+    jsr         Relay_13_00063b62(PC);Relay_12_00063b62(PC)
     lea         -$015d(A6),A0
     bsr.w       FUN_00054d30
     lea         $0e(SP),SP
@@ -104017,7 +104015,7 @@ FUN_00055038:
     movem.l     D7/D6/D5,-(SP)
     moveq       #$01,D7
     moveq       #$01,D0
-    jsr         Relay_XBIOS_Floprd00H(PC)
+    jsr         XBIOS_Floprd00(PC);Relay_XBIOS_Floprd00H(PC)
     lea         $09ec(A4),A0
     jsr         FUN_0005cb04(PC)
     tst.w       D0
@@ -104091,10 +104089,10 @@ LAB_000550e0:
     move.w      D0,-(SP)
     pea         $0a62(A4)
     pea         -$016b(A6)
-    jsr         thunk_FUN_gv_00063b62(PC)
+    jsr         Relay_13_00063b62(PC);Relay_12_00063b62(PC)
     lea         -$02ab(A6),A0
     lea         -$016b(A6),A1
-    jsr         thunk_FUN_um_0006433c(PC)
+    jsr         thunk_FUN_0006433c(PC);thunk_FUN_um_0006433c(PC);
     lea         $0a(SP),SP
     addq.b      #$01,D5
     bra.b       LAB_000550e0
@@ -104119,7 +104117,7 @@ LAB_0005512a:
     move.w      D0,-(SP)
     pea         $0a6e(A4)
     pea         -$029(A6)
-    jsr         thunk_FUN_gv_00063b62(PC)
+    jsr         Relay_13_00063b62(PC);Relay_12_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_00055154
 LAB_00055148:                 
@@ -104132,23 +104130,23 @@ LAB_00055154:
     pea         -$029(A6)
     pea         $0a74(A4)
     pea         (DAT_000bcc32)
-    jsr         thunk_FUN_gv_00063b62(PC)
+    jsr         Relay_13_00063b62(PC);Relay_12_00063b62(PC)
     pea         -$029(A6)
     pea         $0a7e(A4)
     pea         (DAT_000bcc5a)
-    jsr         thunk_FUN_gv_00063b62(PC)
+    jsr         Relay_13_00063b62(PC);Relay_12_00063b62(PC)
     pea         -$029(A6)
     pea         $0a88(A4)
     pea         (DAT_000bcc82)
-    jsr         thunk_FUN_gv_00063b62(PC)
+    jsr         Relay_13_00063b62(PC);Relay_12_00063b62(PC)
     pea         -$029(A6)
     pea         $0a92(A4)
     pea         (DAT_000bccaa)
-    jsr         thunk_FUN_gv_00063b62(PC)
+    jsr         Relay_13_00063b62(PC);Relay_12_00063b62(PC)
     pea         -$029(A6)
     pea         $0a9c(A4)
     pea         (DAT_000bccd2)
-    jsr         thunk_FUN_gv_00063b62(PC);                 -$02b8=>local_2b8(A6),   D5/D6/D7                                              
+    jsr         Relay_13_00063b62(PC);Relay_12_00063b62(PC);                 -$02b8=>local_2b8(A6),   D5/D6/D7                                              
     movem.l     -$02b8(A6),D5/D6/D7;                A6=>local_4                                                                     
     unlk        A6
     rts         
@@ -104199,7 +104197,7 @@ LAB_000551c4:
     move.w      D0,-(SP)
     pea         $0ae4(A4)
     pea         -$0143(A6)
-    jsr         thunk_FUN_gv_00063b62(PC)
+    jsr         Relay_13_00063b62(PC);Relay_12_00063b62(PC)
     moveq       #$06,D0;                D0 ,(SP)=>local_172                                                             
     move.w      D0,(SP)
     move.l      #$040a00000,D0
@@ -104241,7 +104239,7 @@ PRE_DRM_CHECK00:
     add.w       D0,D0
     addi.w      #$0e,D0
     ext.l       D0
-    jsr         thunk_FUN_hg_000617ec(PC) 
+    jsr         thunk_FUN_000617ec(PC);thunk_FUN_hg_000617ec(PC)
     moveq       #$05,D1;                D1 ,-(SP)=>local_164                                                            
     move.w      D1,-(SP)
     move.l      #$041a00000,D1
@@ -104367,7 +104365,7 @@ thunk_FUN_ft_00060df8:
     dc.b        $0
 thunk_FUN_0002da4a:
     jmp         FUN_0002da4a
-;thunk_FUN_7y_000586bc:
+thunk_FUN_missing_000586bc:
     jmp         FUN_000586bc
 thunk_FUN_0005af5c:
     jmp         FUN_0005af5c
@@ -104404,7 +104402,7 @@ thunk_FUN_0005c71c:
     jmp         FUN_0005c71c
 thunk_FUN_0005caec:
     jmp         FUN_0005caec
-;thunk_FUN_y0_00057faa:
+thunk_FUN_orphan_00057faa:
     jmp         FUN_00057faa
 thunk_FUN_0005aad8:
     jmp         FUN_0005aad8
@@ -104436,7 +104434,7 @@ thunk_FUN_uw_00064468:
     jmp         FUN_00064468
 thunk_FUN_um_0006433c:
     jmp         FUN_0006433c
-thunk_FUN_gv_00063b62:
+Relay_12_00063b62:
     jmp         FUN_00063b62
     dc.b        $0
     dc.b        $0
@@ -104492,7 +104490,7 @@ FUN_00055484:
     move.l      $0(a0,d0.l),-(SP)
     pea         $0b12(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $010(SP),SP
     move.l      -$144(A6),D0
     move.l      #-$040800000,D1
@@ -104550,7 +104548,7 @@ LAB_00055522:                 ;                (A1)+=>DAT_000b5178
     pea         (DAT_000b5178)
     pea         $0b18(A4)
     pea         -$0140(A6)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         (DAT_0009e25e),A0
     movea.l     A0,A1
     adda.w      D7,A1
@@ -105694,9 +105692,7 @@ LAB_00056328:
 LAB_0005632a:                 
     move.l      D7,D0
     move.l      D5,D1
-    jsr         thunk_FUN_TEN_00063b9c(PC);thunk_FUN_h00063b9c;(PC)
-	;dc.w		$4EBA
-	;dc.w		$0
+    jsr         thunk_FUN_ELEVEN_00063b9c(PC);thunk_FUN_h00063b9c;(PC)
     move.l      D5,D1
     jsr         Relay_Seventeenth_00063c44(PC);                (SP=>local_c)+,   D5/D6/D7                                                      
     movem.l     (SP)+,D5/D6/D7
@@ -105724,9 +105720,7 @@ LAB_00056374:
 LAB_0005637a:                 
     move.l      D7,D0
     move.l      D6,D1
-    jsr         thunk_FUN_TEN_00063b9c(PC);thunk_FUN_h00063b9c;(PC)
-	;dc.w		$4EBA
-	;dc.w		$0
+	jsr         thunk_FUN_ELEVEN_00063b9c(PC);thunk_FUN_h00063b9c;(PC)
     move.l      D6,D1
     jsr         Relay_Seventeenth_00063c44(PC)
     tst.l       D7
@@ -105752,7 +105746,7 @@ FUN_000563a0:
     move.l      D7,-(SP)
     pea         $0b32(A4);                A5,-(SP)=>local_14                                                              
     move.l      A5,-(SP)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $0c(SP),SP
     bra.b       LAB_000563cc
 LAB_000563c2:                 
@@ -108910,7 +108904,7 @@ FUN_00058242:
     move.w      D7,-(SP)
     pea         $0b3c(A4);                A5,-(SP)=>local_16                                                              
     move.l      A5,-(SP)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $0a(SP),SP
     bra.b       LAB_0005827c
 LAB_00058268:                 
@@ -109050,7 +109044,7 @@ LAB_00058398:
     pea         -$0140(A6)
     pea         $0b4c(A4)
     pea         (DAT_000b5178)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $0c(SP),SP
     lea         (DAT_000b4a7b),A0
     adda.w      D6,A0
@@ -109657,7 +109651,7 @@ LAB_00058a2a:
     move.l      A0,D2
     move.l      D2,D0
     moveq       #$06,D1
-    jsr         Relay_Seventeenth_00063c44(PC)
+    jsr         Relay_Eighteenth_00063c44(PC)
     move.w      D0,$04cee(A4)
 LAB_00058a40:                 
     move.l      -$8(A6),D0
@@ -110851,7 +110845,7 @@ FUN_000599ce:
     move.l      D0,-(SP)
     pea         $0b54(A4)
     pea         -$0a0(A6)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         (DAT_0009e25e),A0
     movea.l     A0,A1
     adda.w      D7,A1
@@ -110898,7 +110892,7 @@ FUN_00059a44:
     pea         -$0a0(A6)
     move.l      D0,-$a8(A6)
     move.l      D1,-$a4(A6)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         (DAT_0009e25e),A0
     movea.l     A0,A1
     adda.w      D7,A1
@@ -110954,11 +110948,11 @@ LAB_00059ac8:
     move.w      $14(SP),-(SP)
     pea         $0b60(A4)
     pea         -$0144(A6)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     pea         -$0144(A6)
     pea         $0b66(A4);                A3,-(SP)=>local_174                                                             
     move.l      A3,-(SP)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $01a(SP),SP
     bra.b       LAB_00059b1a
 LAB_00059b04:                 
@@ -110968,7 +110962,7 @@ LAB_00059b04:
     move.w      D0,-(SP)
     pea         $0b6a(A4);                A3,-(SP)=>local_168                                                             
     move.l      A3,-(SP)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $0e(SP),SP
 LAB_00059b1a:                 
     move.l      A3,D0;                (SP=>local_15a)+,   D7/A3/A5                                                    
@@ -111050,7 +111044,7 @@ LAB_00059bba:
     move.w      (A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_0006cee8),A0
+    lea         (Fixup_Address_05),A0
     adda.l      D0,A0
     move.l      D7,D0
     ext.l       D0
@@ -111060,13 +111054,13 @@ LAB_00059bba:
     move.w      (A1),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_0006e28e),A1
-    adda.l      D0,A1;                (A1),-(SP)=>DWORD_0006e28e                                                      
-    move.l      (A1),-(SP);                (A0),-(SP)=>DWORD_0006cee8                                                      
+    lea         (Fixup_Address_06),A1
+    adda.l      D0,A1;                (A1),-(SP)=>Fixup_Address_06                                                      
+    move.l      (A1),-(SP);                (A0),-(SP)=>Fixup_Address_05                                                      
     move.l      (A0),-(SP)
     pea         $0b70(A4);                A5,-(SP)=>local_20                                                              
     move.l      A5,-(SP)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $010(SP),SP
     bra.w       LAB_00059c8e
 LAB_00059c08:                 
@@ -111095,7 +111089,7 @@ LAB_00059c08:
     move.w      (A1),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_0006cee8),A1
+    lea         (Fixup_Address_05),A1
     adda.l      D0,A1
     moveq       #$00,D0
     move.b      D6,D0
@@ -111110,13 +111104,13 @@ LAB_00059c08:
     move.w      $020(A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_0006e28e),A0
-    adda.l      D0,A0;                (A0),-(SP)=>DWORD_0006e28e                                                      
-    move.l      (A0),-(SP);                (A1),-(SP)=>DWORD_0006cee8                                                      
+    lea         (Fixup_Address_06),A0
+    adda.l      D0,A0;                (A0),-(SP)=>Fixup_Address_06                                                      
+    move.l      (A0),-(SP);                (A1),-(SP)=>Fixup_Address_05                                                      
     move.l      (A1),-(SP)
     pea         $0b76(A4);                A5,-(SP)=>local_20                                                              
     move.l      A5,-(SP)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_00059c8e
 LAB_00059c84:                 
@@ -111153,7 +111147,7 @@ FUN_00059c96:
     move.w      D1,-(SP)
     pea         $0b80(A4);                A5,-(SP)=>local_16                                                              
     move.l      A5,-(SP)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $0a(SP),SP
 LAB_00059cd4:                 
     move.l      D7,D0
@@ -111214,8 +111208,8 @@ FUN_00059d30:
     move.w      (A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_0006cee8),A0
-    adda.l      D0,A0;                (A0),A1=>DWORD_0006cee8                                                         
+    lea         (Fixup_Address_05),A0
+    adda.l      D0,A0;                (A0),A1=>Fixup_Address_05                                                         
     movea.l     (A0),A1
     lea         -$050(A6),A2
 LAB_00059d6a:                 
@@ -111229,8 +111223,8 @@ LAB_00059d6a:
     move.w      (A0),D0
     ext.l       D0
     asl.l       #$02,D0
-    lea         (DWORD_0006e28e),A0
-    adda.l      D0,A0;                (A0),A1=>DWORD_0006e28e                                                         
+    lea         (Fixup_Address_06),A0
+    adda.l      D0,A0;                (A0),A1=>Fixup_Address_06                                                         
     movea.l     (A0),A1
     lea         (DAT_000b6600),A2
 LAB_00059d92:                 ;                (A1)+,(A2)+=>DAT_000b6600                                                       
@@ -111267,7 +111261,7 @@ LAB_00059dd6:
     pea         -$050(A6)
     pea         $0b86(A4);                A5,-(SP)=>local_78                                                              
     move.l      A5,-(SP)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $010(SP),SP
     bra.b       LAB_00059e00
 LAB_00059df4:                 
@@ -111314,7 +111308,7 @@ LAB_00059e42:                 ;                D7 ,-(SP)=>local_a
     move.w      D7,-(SP)
     pea         $0c2a(A4);                A5,-(SP)=>local_12                                                              
     move.l      A5,-(SP)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $0a(SP),SP
 LAB_00059e52:                 
     move.l      A5,D0;                (SP=>local_8)+,   D7/A5                                                         
@@ -111331,7 +111325,7 @@ FUN_00059e5a:
     move.w      D7,-(SP)
     pea         $0c2e(A4);                A5,-(SP)=>local_12                                                              
     move.l      A5,-(SP)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $0a(SP),SP
     move.l      D7,D0
     ext.l       D0
@@ -111547,7 +111541,7 @@ LAB_0005a01a:
     pea         -$0a0(A6)
     pea         $0c66(A4)
     pea         -$01e0(A6)
-    jsr         thunk_FUN_00063b62(PC);                (SP)=>local_202                                                                 
+    jsr         Relay_13_00063b62(PC);                (SP)=>local_202                                                                 
     clr.w       (SP)
     moveq       #$04,D0;                D0 ,-(SP)=>local_204                                                            
     move.w      D0,-(SP)
@@ -112023,7 +112017,7 @@ LAB_0005a54c:
     sub.w       D0,D1
     ext.l       D1
     move.l      A1,D0
-    jsr         Relay_Seventeenth_00063c44(PC)
+    jsr         Relay_Eighteenth_00063c44(PC)
     move.w      D0,$04cee(A4)
 LAB_0005a55c:                 
     tst.w       $049a0(A4)
@@ -112795,7 +112789,7 @@ LAB_0005ae1e:
     move.l      A3,(SP)
     pea         $0ca4(A4)
     pea         -$0b8(A6)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $0e(SP),SP
     moveq       #$00,D6
     moveq       #$064,D5
@@ -112827,7 +112821,7 @@ LAB_0005ae9e:                 ;                (A1)+=>DAT_000b6fe2
     suba.l      A0,A1
     move.l      A1,D0
     moveq       #$06,D1
-    jsr         Relay_Seventeenth_00063c44(PC)
+    jsr         Relay_Eighteenth_00063c44(PC)
     moveq       #$00,D1
     move.w      D6,D1
     add.l       D0,D1
@@ -112855,7 +112849,7 @@ LAB_0005aeda:                 ;                (A1)+=>DAT_000b6fe2
     move.l      A1,D0
     addq.l      #$01,D0
     moveq       #$06,D1
-    jsr         Relay_Seventeenth_00063c44(PC)
+    jsr         Relay_Eighteenth_00063c44(PC)
     moveq       #$00,D1
     move.w      D6,D1
     add.l       D0,D1
@@ -113524,13 +113518,13 @@ LAB_0005b386:
     move.w      D0,-(SP)
     pea         $0cae(A4)
     pea         -$05(A6)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     moveq       #$00,D0
     move.b      -$5(A6),D0;                D0 ,(SP)=>local_38                                                              
     move.w      D0,(SP)
     pea         $0cb2(A4)
     pea         -$0a(A6)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $012(SP),SP
     move.l      D5,D0
     addi.w      #$0d,D0
@@ -113571,7 +113565,7 @@ LAB_0005b57a:
     move.w      D0,-(SP)
     pea         $0cb6(A4)
     pea         -$0f(A6)
-    jsr         thunk_FUN_00063b62(PC)
+    jsr         Relay_13_00063b62(PC)
     lea         $0a(SP),SP
     move.l      D5,D0
     addi.w      #$014,D0
@@ -114939,7 +114933,7 @@ thunk_FUN_00064468:
     jmp         FUN_00064468
 thunk_FUN_0006433c:
     jmp         FUN_0006433c
-thunk_FUN_00063b62:
+Relay_13_00063b62:
     jmp         FUN_00063b62
 thunk_FUN_000619d4:
     jmp         FUN_000619d4
@@ -116582,8 +116576,8 @@ FUN_0005d0b0:
     jsr         FUN_0005f83e(PC)
     rts         
 FUN_0005d0b6:
-    ;jsr         Post_MusicFile(PC) ; value wrong! I need to fix the SNDH file two bytes too big!
-	dc.w 		$4EBA, $276E
+    jsr         Post_MusicFile(PC) ; value wrong! I need to fix the SNDH file two bytes too big! FIXED
+	;dc.w 		$4EBA, $276E
     rts         
 FUN_0005d0bc:
     move.w      $0468c(A4),($01276,A4)
@@ -116922,7 +116916,7 @@ FUN_0005d3c2:
     dbf         D0,FUN_0005d3c2
     rts         
     bsr.w       FUN_0005d330
-    bsr.w       Post_MusicFile-2 
+    bsr.w       Post_MusicFile 
     bsr.w       XBIOS_CursConf00
     bsr.w       KeyboardRead
     rts         
@@ -116979,7 +116973,7 @@ MUSICFILE:
 	INCBIN	sndh.bin
 Post_MusicFile:;(void)
           ;local_4undefined4-4
-    ;move.l      D1,-(SP) ; Accidentally copied this line of code into sndh.bin, need to fix!
+    move.l      D1,-(SP) ; Accidentally copied this line of code into sndh.bin, need to fix!
     tst.b       (BYTE_0007ee98)
     beq.b       LAB_0005f83a
     clr.b       (BYTE_0007ee98)
@@ -125397,12 +125391,12 @@ FUN_00064156:
 LAB_0006416a:                 
     move.l      D7,D0
 LAB_0006416c:                 
-    ;jsr         FunctionQuit(PC)
-	dc.w		$4EBA
-	dc.w		$06
+    jsr         Relay_FunctionQuit(PC)
+	;dc.w		$4EBA
+	;dc.w		$06
     move.l      (SP)+,D7
     rts         
-;FunctionQuit(word unknown, word trap_type, word num, pointer newvec)
+Relay_FunctionQuit:;(word unknown, word trap_type, word num, pointer newvec)
           ;unknownword0;0001025e
           ;trap_typeword-8;0001026c
           ;num  word-6;00010268
@@ -127910,8 +127904,10 @@ BYTE_000654c6:
     dc.b        $4
     dc.b        $0
     dc.b        $0
-DWORD_000654d8:               
-    dc.l        $55608
+
+;DWORD_000654d8:
+Fixup_Address_00:
+    dc.l		$55608 ; Need to all these to be included in the relocation table /fix up
     dc.l        $5560E
     dc.l        $55617
     dc.l        $5561D
@@ -127986,7 +127982,7 @@ DWORD_000654d8:
     dc.l        $55829
     dc.l        $5582A
     dc.l        $55834
-    dc.l        $5583E
+    dc.l       $5583E ;All these should be added to the Fixup information/table
     dc.b        "Italy"
 	dc.b        $0	
     dc.b        "Portugal"                                                                      
