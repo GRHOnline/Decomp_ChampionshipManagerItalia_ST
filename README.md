@@ -11,16 +11,18 @@ Completion ratio
 --------------------
 100% DRI / GST File header 
 
- 98% .TEXT section / code
+ 99% .TEXT section / code
  
 100% .DATA section
 
 100% .BSS section / undefined variables
 
-  0% Relocation Table / Unknown data at the end of the file
+  60% Fix up Information / Relocation Table
   
 
-If you have any information on how to identify or generate the Relocation table please get in touch!
+The Fix up Information / Relocation table has entries from the .TEXT section but also needs to have the entries from the .DATA section referenced as well.
+I have marked these as "Fixup_Address_" for future reference whilst looking for the best way to enable this.
+I have commented out the code which will enable you to skip the Copy Protection / Manual check you just need to re-enable them in the PRE_DRM_CHECK00 section.
 
 Asset information
 ---------------------
