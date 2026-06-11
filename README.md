@@ -7,8 +7,8 @@ This is my first full decompilation and was done using a combination of Ghidra a
 The code is assembled using VASM\VBCC ( http://www.compilers.de/vasm.html ) with the following commands :-
 C:\STFM\VCC\vbcc\bin\vasmm68k_mot decomp.asm -m68000 -Ftos -devpac -o C:\STFM\HD\ITALIA\recomp.prg
 
-The program can be compiled and run but it is not 100% accurate to the original. I have tested it in the Hatari emulator and found no problems.
-I have also cleaned up the code so it can be assembled with RMAC, just comment out lines ending with <VASM> and re-instate the lines ending with <RMAC>
+The program can be compiled and run but it is not 100% accurate to the original. I have tested it with the Hatari emulator and found no problems.
+The code has been cleaned up so it can be assembled with RMAC, just comment out lines ending with VASM and re-instate the lines ending with RMAC
 
 Completion ratio
 --------------------
