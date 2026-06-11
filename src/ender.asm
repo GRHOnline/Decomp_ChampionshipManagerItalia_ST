@@ -30416,7 +30416,7 @@ FIRSTNAME_START165:
     dc.b        "Michele",0                                                                      
 FIRSTNAME_START166:
     dc.b        " ",0                                                                            
-FIRSTNAME_START167: ;Blank?! <GRH>
+FIRSTNAME_START167: ;Blank?!
     dc.b        "Silvano",0       
 FIRSTNAME_START168:	
     dc.b        "Claudio",0      ; Claudio appears 3 times! Are the early entries only for the managers and the rest for players?                                                                
@@ -32568,9 +32568,9 @@ LASTNAME_START0176:
     dc.b        "Peruzzi",0                                                                      
 LASTNAME_START0177:
     dc.b        "Rampulla",0                                                                     
-LASTNAME_START0176x: ;<GRH> FIXME
+LASTNAME_START0176x: 
     dc.b        "Ravanelli",0                                                                    
-LASTNAME_START0177x: ;<GRH> FIXME
+LASTNAME_START0177x: 
     dc.b        "Toricelli",0                                                                    
 LASTNAME_START0178:
     dc.b        "Vialli",0                                                                       
@@ -34050,9 +34050,9 @@ LASTNAME_START0964:
     dc.b        "Sheringham",0                                                                   
 LASTNAME_START0965:
     dc.b        "Ince",0                                                                         
-LASTNAME_START0964x: ;<GRH> FIXME
+LASTNAME_START0964x: 
     dc.b        "Sinton",0                                                                       
-LASTNAME_START0965x: ; <GRH> FIXME
+LASTNAME_START0965x: 
     dc.b        "Southall",0                                                                     
 LASTNAME_START0966:
     dc.b        "Speed",0                                                                        

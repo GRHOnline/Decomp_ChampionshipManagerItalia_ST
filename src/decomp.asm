@@ -70043,7 +70043,7 @@ FUN_0003f6b2:
     moveq       #$011,D0
     cmp.w       D0,D7
     bgt.b       LAB_0003f6c4
-    ;move.l      #string_Matchdesc+$10000,D0;<GRH> temporarily changed as this is not relocatable in the original program!
+    ;move.l      #string_Matchdesc+$10000,D0; temporarily changed as this is not relocatable in the original program!
 	move.l 		Tempswap,D0
     bra.b       LAB_0003f6ca
 LAB_0003f6c4:                 
@@ -93064,7 +93064,7 @@ LAB_0004e5c0:
     subq.b      #$01,D0
     bne.b       LAB_0004e5dc
     move.l      #$0124f8,-$14c(A6)
-    ;move.l      #string_Matchdesc+$10000,-$150(A6) ; wrong location string! added 10000 <GRH> temp removed
+    ;move.l      #string_Matchdesc+$10000,-$150(A6) ; wrong location string! added 10000, temp removed
 	move.l 		Tempswap,$150(A6)
 LAB_0004e5dc:                 
     move.l      #$02dc6c0,-$154(A6)
@@ -118003,7 +118003,7 @@ LONG_00060086:
     dc.w        $FFFC
     dc.w        $FFFE
     dc.w        $FFFF
-;Addresses that need to be included in the fixup / relocation table <GRH>
+;Addresses that need to be included in the fixup / relocation table
     ;ori.b       #-$016,D6
 	dc.l        RandomData00;$000500EA
     ;ori.b       #-$06,D6
@@ -125765,7 +125765,7 @@ FUN_00064474:
     move.l      (hdv_bpb).w,$0693e(A4)
     move.l      (hdv_mediach).w,$06942(A4)
     move.l      (hdv_rw).w,$06946(A4)
-    move.l      #Data_HDV00,(hdv_bpb).w ;#$05450c <GRH> this seems wrong!
+    move.l      #Data_HDV00,(hdv_bpb).w ;#$05450c
     move.l      #Data_HDV01,(hdv_mediach).w;#$054538
     move.l      #Data_HDV02,(hdv_rw).w;#$054550
 ;param = mode S_READ 0 0 0;                -(SP)=>local_14                                                                 
@@ -125786,7 +125786,7 @@ FUN_00064474:
     addq.w      #$04,SP
 LAB_000644da:                 
     moveq       #$00,D7
-    ;cmpi.l      Data_HDV00,(hdv_bpb).w;#$05450c <GRH> ???
+    ;cmpi.l      Data_HDV00,(hdv_bpb).w;#$05450c
 	dc.w 		$0cb8
 	dc.l 		Data_HDV00
 	dc.w 		$0472
