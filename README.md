@@ -7,6 +7,9 @@ This is my first full decompilation and was done using a combination of Ghidra a
 The code is assembled using VASM\VBCC ( http://www.compilers.de/vasm.html ) with the following commands :-
 C:\STFM\VCC\vbcc\bin\vasmm68k_mot decomp.asm -m68000 -Ftos -devpac -o C:\STFM\HD\ITALIA\recomp.prg
 
+The program can be compiled and run but it is not 100% accurate to the original. I have tested it in the Hatari emulator and found no problems.
+I have also cleaned up the code so it can be assembled with RMAC, just comment out lines ending with <VASM> and re-instate the lines ending with <RMAC>
+
 Completion ratio
 --------------------
 100% DRI / GST File header 
@@ -17,11 +20,9 @@ Completion ratio
 
 100% .BSS section / undefined variables
 
-  60% Fix up Information / Relocation Table
+100% Fix up Information / Relocation Table
   
 
-The Fix up Information / Relocation table has entries from the .TEXT section but also needs to have the entries from the .DATA section referenced as well.
-I have marked these as "Fixup_Address_" for future reference whilst looking for the best way to enable this.
 I have commented out the code which will enable you to skip the Copy Protection / Manual check you just need to re-enable them in the PRE_DRM_CHECK00 section.
 
 Asset information
