@@ -1,124 +1,181 @@
 ;DWORD_0006584a:               
 Fixup_Address_01:
-	dc.l 		$0558BA
-    dc.l        $0558CA
-    dc.l        $0558D9
-	dc.l 		$0558E9
-	dc.l		$0558FA
-	dc.l 		$055902
-	dc.l 		$055911
-	dc.l 		$055919
-	dc.l 		$055920
-	dc.l		$05592E
-	dc.l 		$05593D
-	dc.l 		$05594B
-	dc.l 		$05595A
-	dc.l 		$055968
-	dc.l 		$05597B
-	dc.l 		$055988
-	dc.l 		$055995
-	dc.l 		$0559AA
-	dc.l 		$0559BD
-	dc.l 		$0559CA
-	dc.l 		$0559D9
-	dc.l 		$0559E7
-	dc.l 		$0559F5
-	dc.l 		$055A09
-	dc.l 		$055A1C
-	dc.l 		$055A2F
-	dc.l 		$055A3C
-	dc.l 		$055A4E ;Last of this block of Fix up addresses
+	dc.l 		String_Injuries00;Fixup_Address_01 + Additions_01;was $0558BA added this to add the entry to the fixup relocation table.
+	dc.l 		String_Injuries01;Fixup_Address_01 + Additions_01 + $10
+	dc.l 		String_Injuries02;Fixup_Address_01 + Additions_01 + $20
+	dc.l 		String_Injuries03;Fixup_Address_01 + Additions_01 + $30
+	dc.l 		String_Injuries04;Fixup_Address_01 + Additions_01 + $40
+	dc.l 		String_Injuries05;Fixup_Address_01 + Additions_01 + $50
+	dc.l 		String_Injuries06;Fixup_Address_01 + Additions_01 + $60
+	dc.l 		String_Injuries07;Fixup_Address_01 + Additions_01 + $70
+	dc.l 		String_Injuries08;Fixup_Address_01 + Additions_01 + $80
+	dc.l 		String_Injuries09;Fixup_Address_01 + Additions_01 + $90
+	dc.l 		String_Injuries10;Fixup_Address_01 + Additions_01 + $A0
+	dc.l 		String_Injuries11;Fixup_Address_01 + Additions_01 + $B0
+	dc.l 		String_Injuries12;Fixup_Address_01 + Additions_01 + $C0
+	dc.l 		String_Injuries13;Fixup_Address_01 + Additions_01 + $D0
+	dc.l 		String_Injuries14;Fixup_Address_01 + Additions_01 + $E0
+	dc.l 		String_Injuries15;Fixup_Address_01 + Additions_01 + $F0
+	dc.l 		String_Injuries16;Fixup_Address_01 + Additions_01 + $100
+	dc.l 		String_Injuries17;Fixup_Address_01 + Additions_01 + $110
+	dc.l 		String_Injuries18;Fixup_Address_01 + Additions_01 + $120
+	dc.l 		String_Injuries19;Fixup_Address_01 + Additions_01 + $130
+	dc.l 		String_Injuries20;Fixup_Address_01 + Additions_01 + $140
+	dc.l 		String_Injuries21;Fixup_Address_01 + Additions_01 + $150
+	dc.l 		String_Injuries22;Fixup_Address_01 + Additions_01 + $160
+	dc.l 		String_Injuries23;Fixup_Address_01 + Additions_01 + $170
+	dc.l 		String_Injuries24;Fixup_Address_01 + Additions_01 + $180
+	dc.l 		String_Injuries25;Fixup_Address_01 + Additions_01 + $190
+	dc.l 		String_Injuries26;Fixup_Address_01 + Additions_01 + $1A0
+	dc.l 		String_Injuries27;Fixup_Address_01 + Additions_01 + $1B0
+String_Injuries00:
     dc.b        "severe bruising",0                                                               
+String_Injuries01:
     dc.b        "a slight knock",0                                                                
+String_Injuries02:
     dc.b        "a twisted ankle",0                                                              
+String_Injuries03:
     dc.b        "a stubbed finger",0                                                             
+String_Injuries04:
     dc.b        "a virus",0                                                                      
+String_Injuries05:
     dc.b        "food poisoning",0                                                               
+String_Injuries06:
     dc.b        "the flu",0                                                                      
+String_Injuries07:
     dc.b        "a gash",0                                                                       
+String_Injuries08:
     dc.b        "a calf strain",0                                                                
+String_Injuries09:
     dc.b        "a thigh strain",0                                                               
+String_Injuries10:
     dc.b        "a back strain",0                                                                
+String_Injuries11:
     dc.b        "a groin strain",0                                                               
+String_Injuries12:
     dc.b        "a broken hand",0                                                                
+String_Injuries13:
     dc.b        "a pulled hamstring",0                                                           
+String_Injuries14:
     dc.b        "a broken rib",0                                                                 
+String_Injuries15:
     dc.b        "a broken arm",0                                                                 
+String_Injuries16:
     dc.b        "torn ankle ligaments",0                                                         
-    dc.b        "a damaged shoulder",0                                                           
+String_Injuries17:
+    dc.b        "a damaged shoulder",0   
+String_Injuries18:	
     dc.b        "a broken jaw",0                                                                 
+String_Injuries19:
     dc.b        "a broken ankle",0                                                               
+String_Injuries20:
     dc.b        "a broken foot",0                                                                
+String_Injuries21:
     dc.b        "a knee injury",0                                                                
+String_Injuries22:
     dc.b        "a broken collarbone",0                                                          
+String_Injuries23:
     dc.b        "a damaged achilles",0                                                           
+String_Injuries24:
     dc.b        "a cartilage injury",0                                                           
+String_Injuries25:
     dc.b        "a broken leg",0                                                                 
+String_Injuries26:
     dc.b        "multiple injuries",0                                                            
+String_Injuries27:
     dc.b        "suspension",0                                                                   
+String_Injuries28:
     dc.b        "delayed suspension",0                                                           
 ;DWORD_00065a6c:               
 Fixup_Address_02:
-    dc.l        $055AA0
-    dc.l        $055AAB
-    dc.l        $055AB6
-    dc.l        $055AC0
-    dc.l        $055ACC
-    dc.l        $055AD6
-    dc.l        $055ADF
-    dc.l        $055AEA
-    dc.l        $055AF5
-    dc.l        $055AFF
-    dc.l        $055B0A
-    dc.l        $055B12
-    dc.l        $055B1D
+	dc.l 		String_PlayerPosition00;Fixup_Address_02 + Additions_02
+	dc.l 		String_PlayerPosition01;Fixup_Address_02 + Additions_02 + $10
+	dc.l 		String_PlayerPosition02;Fixup_Address_02 + Additions_02 + $20
+	dc.l 		String_PlayerPosition03;Fixup_Address_02 + Additions_02 + $30
+	dc.l 		String_PlayerPosition04;Fixup_Address_02 + Additions_02 + $40
+	dc.l 		String_PlayerPosition05;Fixup_Address_02 + Additions_02 + $50
+	dc.l 		String_PlayerPosition06;Fixup_Address_02 + Additions_02 + $60
+	dc.l 		String_PlayerPosition07;Fixup_Address_02 + Additions_02 + $70
+	dc.l 		String_PlayerPosition08;Fixup_Address_02 + Additions_02 + $80
+	dc.l 		String_PlayerPosition09;Fixup_Address_02 + Additions_02 + $90
+	dc.l 		String_PlayerPosition10;Fixup_Address_02 + Additions_02 + $A0
+	dc.l 		String_PlayerPosition11;Fixup_Address_02 + Additions_02 + $B0
+	dc.l 		String_PlayerPosition12;Fixup_Address_02 + Additions_02 + $C0
+String_PlayerPosition00:
     dc.b        "Goalkeeper",0                                                                   
+String_PlayerPosition01:
     dc.b        "Right Back",0                                                                   
+String_PlayerPosition02:
     dc.b        "Left Back",0                                                                    
+String_PlayerPosition03:
     dc.b        "Centre Back",0                                                                  
+String_PlayerPosition04:
     dc.b        "Right Mid",0                                                                    
+String_PlayerPosition05:
     dc.b        "Left Mid",0                                                                     
+String_PlayerPosition06:
     dc.b        "Centre Mid",0                                                                   
+String_PlayerPosition07:
     dc.b        "Right Wing",0                                                                   
+String_PlayerPosition08:
     dc.b        "Left Wing",0                                                                    
+String_PlayerPosition09:
     dc.b        "Centre Att",0                                                                   
+String_PlayerPosition10:
     dc.b        "Sweeper",0                                                                      
+String_PlayerPosition11:
     dc.b        "Anchor Man",0                                                                   
+String_PlayerPosition12:
     dc.b        "Support Man",0                                                                  
     dc.b        $0
 ;DWORD_00065b2a:               
 Fixup_Address_03:
-    dc.l        $055B52
-    dc.l        $055B5C
-    dc.l        $055B64
-    dc.l        $055B6C
-    dc.l        $055B76
-    dc.l        $055B81
-    dc.l        $055B8D
-    dc.l        $055B96
-    dc.l        $055BA0
-    dc.l        $055BAB
+	dc.l 		String_PlayerAttitude00;Fixup_Address_03 + Additions_03
+	dc.l 		String_PlayerAttitude01;Fixup_Address_03 + Additions_03 + $10
+	dc.l 		String_PlayerAttitude02;Fixup_Address_03 + Additions_03 + $20
+	dc.l 		String_PlayerAttitude03;Fixup_Address_03 + Additions_03 + $30
+	dc.l 		String_PlayerAttitude04;Fixup_Address_03 + Additions_03 + $40
+	dc.l 		String_PlayerAttitude05;Fixup_Address_03 + Additions_03 + $50
+	dc.l 		String_PlayerAttitude06;Fixup_Address_03 + Additions_03 + $60
+	dc.l 		String_PlayerAttitude07;Fixup_Address_03 + Additions_03 + $70
+	dc.l 		String_PlayerAttitude08;Fixup_Address_03 + Additions_03 + $80
+	dc.l 		String_PlayerAttitude09;Fixup_Address_03 + Additions_03 + $90
+String_PlayerAttitude00:
     dc.b        "Withdrawn",0                                                                    
+String_PlayerAttitude01:
     dc.b        "Passive",0                                                                      
+String_PlayerAttitude02:
     dc.b        "Selfish",0                                                                      
+String_PlayerAttitude03:
     dc.b        "Unselfish",0                                                                    
+String_PlayerAttitude04:
     dc.b        "Rebellious",0                                                                   
+String_PlayerAttitude05:
     dc.b        "Responsible",0                                                                  
+String_PlayerAttitude06:
     dc.b        "Arrogant",0                                                                     
+String_PlayerAttitude07:
     dc.b        "Confident",0                                                                    
+String_PlayerAttitude08:
     dc.b        "Thoughtful",0                                                                   
+String_PlayerAttitude09:
     dc.b        "Rash",0                                                                         
 ;DWORD_00065bb0:               
 Fixup_Address_04:
-    dc.l        $055BC4
-    dc.l        $055BCE
-    dc.l        $055BDB
-    dc.l        $055BEA
-    dc.l        $055BF6
+	dc.l 		String_FootballStyle00;Fixup_Address_04 + Additions_04
+	dc.l 		String_FootballStyle01;Fixup_Address_04 + Additions_04 + $10
+	dc.l 		String_FootballStyle02;Fixup_Address_04 + Additions_04 + $20
+	dc.l 		String_FootballStyle03;Fixup_Address_04 + Additions_04 + $30
+	dc.l 		String_FootballStyle04;Fixup_Address_04 + Additions_04 + $40
+String_FootballStyle00:
     dc.b        "Long ball",0                                                                    
+String_FootballStyle01:
     dc.b        "Pass to feet",0                                                                 
+String_FootballStyle02:
     dc.b        "Counter-attack",0                                                               
+String_FootballStyle03:
     dc.b        "Continental",0                                                                  
+String_FootballStyle04:
     dc.b        "Direct Ball",0                                                                  
     dc.b        $5
     dc.b        $5
@@ -29575,3250 +29632,4935 @@ BYTE_0006cd7f:
     dc.b        $0
 ;DWORD_0006cee8:
 Fixup_Address_05:               
-    dc.l        $05D5DC
-    dc.l        $05D5E6
-    dc.l        $05D5EC
-    dc.l        $05D5F2
-    dc.l        $05D5F9
-    dc.l        $05D601
-    dc.l        $05D609
-    dc.l        $05D612
-    dc.l        $05D617
-    dc.l        $05D61C
-    dc.l        $05D622
-    dc.l        $05D62A
-    dc.l        $05D630
-    dc.l        $05D636
-    dc.l        $05D63C
-    dc.l        $05D647
-    dc.l        $05D64E
-    dc.l        $05D656
-    dc.l        $05D65F
-    dc.l        $05D666
-    dc.l        $05D66D
-    dc.l        $05D675
-    dc.l        $05D67D
-    dc.l        $05D682
-    dc.l        $05D689
-    dc.l        $05D692
-    dc.l        $05D69A
-    dc.l        $05D6A4
-    dc.l        $05D6AC
-    dc.l        $05D6B2
-    dc.l        $05D6BA
-    dc.l        $05D6C2
-    dc.l        $05D6CB
-    dc.l        $05D6D3
-    dc.l        $05D6DC
-    dc.l        $05D6E2
-    dc.l        $05D6E8
-    dc.l        $05D6EF
-    dc.l        $05D6F6
-    dc.l        $05D6FF
-    dc.l        $05D707
-    dc.l        $05D70B
-    dc.l        $05D713
-    dc.l        $05D71C
-    dc.l        $05D722
-    dc.l        $05D729
-    dc.l        $05D733
-    dc.l        $05D73D
-    dc.l        $05D74A
-    dc.l        $05D752
-    dc.l        $05D759
-    dc.l        $05D75E
-    dc.l        $05D763
-    dc.l        $05D76E
-    dc.l        $05D77A
-    dc.l        $05D783
-    dc.l        $05D789
-    dc.l        $05D791
-    dc.l        $05D798
-    dc.l        $05D7A0
-    dc.l        $05D7A6
-    dc.l        $05D7B0
-    dc.l        $05D7BB
-    dc.l        $05D7C6
-    dc.l        $05D7CE
-    dc.l        $05D7D6
-    dc.l        $05D7DC
-    dc.l        $05D7E4
-    dc.l        $05D7EB
-    dc.l        $05D7F2
-    dc.l        $05D7FB
-    dc.l        $05D802
-    dc.l        $05D80A
-    dc.l        $05D811
-    dc.l        $05D818
-    dc.l        $05D81E
-    dc.l        $05D827
-    dc.l        $05D830
-    dc.l        $05D83A
-    dc.l        $05D844
-    dc.l        $05D84D
-    dc.l        $05D852
-    dc.l        $05D85C
-    dc.l        $05D862
-    dc.l        $05D869
-    dc.l        $05D870
-    dc.l        $05D878
-    dc.l        $05D881
-    dc.l        $05D889
-    dc.l        $05D88E
-    dc.l        $05D893
-    dc.l        $05D89D
-    dc.l        $05D8A5
-    dc.l        $05D8AA
-    dc.l        $05D8B0
-    dc.l        $05D8B5
-    dc.l        $05D8B9
-    dc.l        $05D8C0
-    dc.l        $05D8C4
-    dc.l        $05D8CE
-    dc.l        $05D8D5
-    dc.l        $05D8DF
-    dc.l        $05D8E4
-    dc.l        $05D8EA
-    dc.l        $05D8F1
-    dc.l        $05D8F7
-    dc.l        $05D8FE
-    dc.l        $05D908
-    dc.l        $05D910
-    dc.l        $05D91D
-    dc.l        $05D925
-    dc.l        $05D92C
-    dc.l        $05D933
-    dc.l        $05D939
-    dc.l        $05D93E
-    dc.l        $05D944
-    dc.l        $05D94D
-    dc.l        $05D952
-    dc.l        $05D95A
-    dc.l        $05D964
-    dc.l        $05D969
-    dc.l        $05D971
-    dc.l        $05D979
-    dc.l        $05D981
-    dc.l        $05D989
-    dc.l        $05D990
-    dc.l        $05D997
-    dc.l        $05D9A1
-    dc.l        $05D9AA
-    dc.l        $05D9B3
-    dc.l        $05D9B9
-    dc.l        $05D9BE
-    dc.l        $05D9C5
-    dc.l        $05D9CB
-    dc.l        $05D9D2
-    dc.l        $05D9DE
-    dc.l        $05D9E8
-    dc.l        $05D9EE
-    dc.l        $05D9F6
-    dc.l        $05D9FF
-    dc.l        $05DA08
-    dc.l        $05DA10
-    dc.l        $05DA15
-    dc.l        $05DA1C
-    dc.l        $05DA23
-    dc.l        $05DA29
-    dc.l        $05DA30
-    dc.l        $05DA36
-    dc.l        $05DA3E
-    dc.l        $05DA46
-    dc.l        $05DA4F
-    dc.l        $05DA57
-    dc.l        $05DA5F
-    dc.l        $05DA68
-    dc.l        $05DA6D
-    dc.l        $05DA76
-    dc.l        $05DA7C
-    dc.l        $05DA85
-    dc.l        $05DA8C
-    dc.l        $05DA95
-    dc.l        $05DA9C
-    dc.l        $05DAA7
-    dc.l        $05DAB3
-    dc.l        $05DABC
-    dc.l        $05DAC3
-    dc.l        $05DACA
-    dc.l        $05DAD2
-    dc.l        $05DAD4	
-    dc.l        $05DADC
-    dc.l        $05DAE4
-    dc.l        $05DAEB
-    dc.l        $05DAF3
-    dc.l        $05DAFA
-    dc.l        $05DB03
-    dc.l        $05DB08
-    dc.l        $05DB11
-    dc.l        $05DB16
-    dc.l        $05DB1D
-    dc.l        $05DB24
-    dc.l        $05DB2D
-    dc.l        $05DB33
-    dc.l        $05DB39
-    dc.l        $05DB41
-    dc.l        $05DB48	
-    dc.l        $05DB4F
-    dc.l        $05DB56
-    dc.l        $05DB5D
-    dc.l        $05DB66
-    dc.l        $05DB6F
-    dc.l        $05DB78
-    dc.l        $05DB7F
-    dc.l        $05DB86
-    dc.l        $05DB8B
-    dc.l        $05DB91
-    dc.l        $05DB9A
-    dc.l        $05DBA0
-    dc.l        $05DBA8
-    dc.l        $05DBB0
-    dc.l        $05DBBD
-    dc.l        $05DBC4
-    dc.l        $05DBCC
-    dc.l        $05DBD4
-    dc.l        $05DBE2
-    dc.l        $05DBE9
-    dc.l        $05DBF2
-    dc.l        $05DBF9
-    dc.l        $05DC02
-    dc.l        $05DC09
-    dc.l        $05DC0F
-    dc.l        $05DC15
-    dc.l        $05DC1A
-    dc.l        $05DC21
-    dc.l        $05DC2A
-    dc.l        $05DC34
-    dc.l        $05DC3C
-    dc.l        $05DC42
-    dc.l        $05DC4B
-    dc.l        $05DC53
-    dc.l        $05DC5C
-    dc.l        $05DC66
-    dc.l        $05DC6E
-    dc.l        $05DC78
-    dc.l        $05DC81
-    dc.l        $05DC8B
-    dc.l        $05DC90
-    dc.l        $05DC98
-    dc.l        $05DC9D
-    dc.l        $05DCA5
-    dc.l        $05DCAD
-    dc.l        $05DCB8
-    dc.l        $05DCC1
-    dc.l        $05DCC7
-    dc.l        $05DCCF
-    dc.l        $05DCD8
-    dc.l        $05DCDF
-    dc.l        $05DCE8
-    dc.l        $05DCEE
-    dc.l        $05DCF8
-    dc.l        $05DCFC
-    dc.l        $05DD07
-    dc.l        $05DD10
-    dc.l        $05DD18
-    dc.l        $05DD1F
-    dc.l        $05DD26
-    dc.l        $05DD32
-    dc.l        $05DD3A
-    dc.l        $05DD42
-    dc.l        $05DD50
-    dc.l        $05DD58
-    dc.l        $05DD61
-    dc.l        $05DD68
-    dc.l        $05DD6E
-    dc.l        $05DD79
-    dc.l        $05DD80
-    dc.l        $05DD85
-    dc.l        $05DD8B
-    dc.l        $05DD91
-    dc.l        $05DD96
-    dc.l        $05DDA1
-    dc.l        $05DDA9
-    dc.l        $05DDB0
-    dc.l        $05DDB7
-    dc.l        $05DDBD
-    dc.l        $05DDC5
-    dc.l        $05DDCB
-    dc.l        $05DDD3
-    dc.l        $05DDDC
-    dc.l        $05DDE4
-    dc.l        $05DDEC
-    dc.l        $05DDF5
-    dc.l        $05DDFE
-    dc.l        $05DE06
-    dc.l        $05DE0D
-    dc.l        $05DE12
-    dc.l        $05DE17
-    dc.l        $05DE20
-    dc.l        $05DE24
-    dc.l        $05DE2D
-    dc.l        $05DE35
-    dc.l        $05DE3F
-    dc.l        $05DE4C
-Warnings_start:               
-    dc.l        $05DE55
-    dc.l        $05DE5C
-    dc.l        $05DE63
-    dc.l        $05DE6B
-    dc.l        $05DE74
-    dc.l        $05DE7D
-    dc.l        $05DE85
-    dc.l        $05DE8E
-    dc.l        $05DE96
-    dc.l        $05DE9B
-    dc.l        $05DEA2
-    dc.l        $05DEAA
-    dc.l        $05DEB1
-    dc.l        $05DEBA
-    dc.l        $05DEBE
-    dc.l        $05DEC6
-    dc.l        $05DECC
-    dc.l        $05DED4
-    dc.l        $05DED6
-    dc.l        $05DEDD
-    dc.l        $05DEE4
-    dc.l        $05DEE8
-    dc.l        $05DEEF
-    dc.l        $05DEF5
-    dc.l        $05DF02
-    dc.l        $05DF07
-    dc.l        $05DF0E
-    dc.l        $05DF15
-    dc.l        $05DF20
-    dc.l        $05DF27
-    dc.l        $05DF2D
-    dc.l        $05DF37
-    dc.l        $05DF3F
-    dc.l        $05DF46
-    dc.l        $05DF4D
-    dc.l        $05DF5A
-    dc.l        $05DF60
-    dc.l        $05DF66
-    dc.l        $05DF6C
-    dc.l        $05DF74
-    dc.l        $05DF7A
-    dc.l        $05DF7F
-    dc.l        $05DF86
-    dc.l        $05DF8D
-    dc.l        $05DF93
-    dc.l        $05DF99
-    dc.l        $05DFA3
-    dc.l        $05DFAC
-    dc.l        $05DFBA
-    dc.l        $05DFC1
-    dc.l        $05DFC6
-    dc.l        $05DFCE
-    dc.l        $05DFD6
-    dc.l        $05DFDD
-    dc.l        $05DFE6
-    dc.l        $05DFEB
-    dc.l        $05DFF1
-    dc.l        $05DFF9
-    dc.l        $05DFFF
-    dc.l        $05E004
-    dc.l        $05E00C
-    dc.l        $05E013
-    dc.l        $05E018
-    dc.l        $05E01D
-    dc.l        $05E022
-    dc.l        $05E028
-    dc.l        $05E02C
-    dc.l        $05E030
-    dc.l        $05E035
-    dc.l        $05E03A
-    dc.l        $05E040
-    dc.l        $05E045
-    dc.l        $05E04B
-    dc.l        $05E050
-    dc.l        $05E056
-    dc.l        $05E05C
-    dc.l        $05E060
-    dc.l        $05E065
-    dc.l        $05E06B
-    dc.l        $05E070
-    dc.l        $05E078
-    dc.l        $05E07F
-    dc.l        $05E084
-    dc.l        $05E088
-    dc.l        $05E08C
-    dc.l        $05E092
-    dc.l        $05E096
-    dc.l        $05E09A
-    dc.l        $05E09E
-    dc.l        $05E0A5
-    dc.l        $05E0AB
-    dc.l        $05E0B2
-    dc.l        $05E0B9
-    dc.l        $05E0BD
-    dc.l        $05E0C2
-    dc.l        $05E0C8
-    dc.l        $05E0CF
-    dc.l        $05E0D5
-    dc.l        $05E0DB
-    dc.l        $05E0E0
-    dc.l        $05E0E6
-    dc.l        $05E0EC
-    dc.l        $05E0F1
-    dc.l        $05E0F5
-    dc.l        $05E0FA
-    dc.l        $05E102
-    dc.l        $05E109
-    dc.l        $05E10C
-    dc.l        $05E111
-    dc.l        $05E116
-    dc.l        $05E11C
-    dc.l        $05E124
-    dc.l        $05E128
-    dc.l        $05E131
-    dc.l        $05E138
-    dc.l        $05E13C
-    dc.l        $05E147
-    dc.l        $05E14E
-    dc.l        $05E156
-    dc.l        $05E15C
-    dc.l        $05E164
-    dc.l        $05E16E
-    dc.l        $05E177
-    dc.l        $05E17C
-    dc.l        $05E184
-    dc.l        $05E18A
-    dc.l        $05E193
-    dc.l        $05E19A
-    dc.l        $05E19F
-    dc.l        $05E1A4
-    dc.l        $05E1AB
-    dc.l        $05E1B2
-    dc.l        $05E1B7
-    dc.l        $05E1BE
-    dc.l        $05E1C3
-    dc.l        $05E1CA
-    dc.l        $05E1D1
-    dc.l        $05E1D5
-    dc.l        $05E1DA
-    dc.l        $05E1E1
-    dc.l        $05E1E7
-    dc.l        $05E1EE
-    dc.l        $05E1F6
-    dc.l        $05E1FB
-    dc.l        $05E201
-    dc.l        $05E20E
-    dc.l        $05E210
-    dc.l        $05E217
-    dc.l        $05E220
-    dc.l        $05E228
-    dc.l        $05E230
-    dc.l        $05E238
-    dc.l        $05E23E
-    dc.l        $05E243
-    dc.l        $05E24A
-    dc.l        $05E253
-    dc.l        $05E25A
-    dc.l        $05E261
-    dc.l        $05E268
-    dc.l        $05E26D
-    dc.l        $05E275
-    dc.l        $05E27B
-    dc.l        $05E282
-    dc.l        $05E289
-FIRSTNAME_START:              
+    dc.l        FIRSTNAME_START000
+    dc.l        FIRSTNAME_START001
+    dc.l        FIRSTNAME_START002
+    dc.l        FIRSTNAME_START003
+    dc.l        FIRSTNAME_START004
+    dc.l        FIRSTNAME_START005
+    dc.l        FIRSTNAME_START006
+    dc.l        FIRSTNAME_START007
+    dc.l        FIRSTNAME_START008
+    dc.l        FIRSTNAME_START009
+    dc.l        FIRSTNAME_START010
+    dc.l        FIRSTNAME_START011
+    dc.l        FIRSTNAME_START012
+    dc.l        FIRSTNAME_START013
+    dc.l        FIRSTNAME_START014
+    dc.l        FIRSTNAME_START015
+    dc.l        FIRSTNAME_START016
+    dc.l        FIRSTNAME_START017
+    dc.l        FIRSTNAME_START018
+    dc.l        FIRSTNAME_START019
+    dc.l        FIRSTNAME_START020
+    dc.l        FIRSTNAME_START021
+    dc.l        FIRSTNAME_START022
+    dc.l        FIRSTNAME_START023
+    dc.l        FIRSTNAME_START024
+    dc.l        FIRSTNAME_START025
+    dc.l        FIRSTNAME_START026
+    dc.l        FIRSTNAME_START027
+    dc.l        FIRSTNAME_START028
+    dc.l        FIRSTNAME_START029
+    dc.l        FIRSTNAME_START030
+    dc.l        FIRSTNAME_START031
+    dc.l        FIRSTNAME_START032
+    dc.l        FIRSTNAME_START033
+    dc.l        FIRSTNAME_START034
+    dc.l        FIRSTNAME_START035
+    dc.l        FIRSTNAME_START036
+    dc.l        FIRSTNAME_START037
+    dc.l        FIRSTNAME_START038
+    dc.l        FIRSTNAME_START039
+    dc.l        FIRSTNAME_START040
+    dc.l        FIRSTNAME_START041
+    dc.l        FIRSTNAME_START042
+    dc.l        FIRSTNAME_START043
+    dc.l        FIRSTNAME_START044
+    dc.l        FIRSTNAME_START045
+    dc.l        FIRSTNAME_START046
+    dc.l        FIRSTNAME_START047
+    dc.l        FIRSTNAME_START048
+    dc.l        FIRSTNAME_START049
+    dc.l        FIRSTNAME_START050
+    dc.l        FIRSTNAME_START051
+    dc.l        FIRSTNAME_START052
+    dc.l        FIRSTNAME_START053
+    dc.l        FIRSTNAME_START054
+    dc.l        FIRSTNAME_START055
+    dc.l        FIRSTNAME_START056
+    dc.l        FIRSTNAME_START057
+    dc.l        FIRSTNAME_START058
+    dc.l        FIRSTNAME_START059
+    dc.l        FIRSTNAME_START060
+    dc.l        FIRSTNAME_START061
+    dc.l        FIRSTNAME_START062
+    dc.l        FIRSTNAME_START063
+    dc.l        FIRSTNAME_START064
+    dc.l        FIRSTNAME_START065
+    dc.l        FIRSTNAME_START066
+    dc.l        FIRSTNAME_START067
+    dc.l        FIRSTNAME_START068
+    dc.l        FIRSTNAME_START069
+    dc.l        FIRSTNAME_START070
+    dc.l        FIRSTNAME_START071
+    dc.l        FIRSTNAME_START072
+    dc.l        FIRSTNAME_START073
+    dc.l        FIRSTNAME_START074
+    dc.l        FIRSTNAME_START075
+    dc.l        FIRSTNAME_START076
+    dc.l        FIRSTNAME_START077
+    dc.l        FIRSTNAME_START078
+    dc.l        FIRSTNAME_START079
+    dc.l        FIRSTNAME_START080
+    dc.l        FIRSTNAME_START081
+    dc.l        FIRSTNAME_START082
+    dc.l        FIRSTNAME_START083
+    dc.l        FIRSTNAME_START084
+    dc.l        FIRSTNAME_START085
+    dc.l        FIRSTNAME_START086
+    dc.l        FIRSTNAME_START087
+    dc.l        FIRSTNAME_START088
+    dc.l        FIRSTNAME_START089
+    dc.l        FIRSTNAME_START090
+    dc.l        FIRSTNAME_START091
+	dc.l        FIRSTNAME_START092
+	dc.l        FIRSTNAME_START093
+	dc.l        FIRSTNAME_START094
+	dc.l        FIRSTNAME_START095
+	dc.l        FIRSTNAME_START096
+	dc.l        FIRSTNAME_START097
+	dc.l        FIRSTNAME_START098
+	dc.l        FIRSTNAME_START099
+	
+	dc.l        FIRSTNAME_START100
+    dc.l        FIRSTNAME_START101
+    dc.l        FIRSTNAME_START102
+    dc.l        FIRSTNAME_START103
+    dc.l        FIRSTNAME_START104
+    dc.l        FIRSTNAME_START105
+    dc.l        FIRSTNAME_START106
+    dc.l        FIRSTNAME_START107
+    dc.l        FIRSTNAME_START108
+    dc.l        FIRSTNAME_START109
+    dc.l        FIRSTNAME_START110
+    dc.l        FIRSTNAME_START111
+    dc.l        FIRSTNAME_START112
+    dc.l        FIRSTNAME_START113
+    dc.l        FIRSTNAME_START114
+    dc.l        FIRSTNAME_START115
+    dc.l        FIRSTNAME_START116
+    dc.l        FIRSTNAME_START117
+    dc.l        FIRSTNAME_START118
+    dc.l        FIRSTNAME_START119
+    dc.l        FIRSTNAME_START120
+    dc.l        FIRSTNAME_START121
+    dc.l        FIRSTNAME_START122
+    dc.l        FIRSTNAME_START123
+    dc.l        FIRSTNAME_START124
+    dc.l        FIRSTNAME_START125
+    dc.l        FIRSTNAME_START126
+    dc.l        FIRSTNAME_START127
+    dc.l        FIRSTNAME_START128
+    dc.l        FIRSTNAME_START129
+    dc.l        FIRSTNAME_START130
+    dc.l        FIRSTNAME_START131
+    dc.l        FIRSTNAME_START132
+    dc.l        FIRSTNAME_START133
+    dc.l        FIRSTNAME_START134
+    dc.l        FIRSTNAME_START135
+    dc.l        FIRSTNAME_START136
+    dc.l        FIRSTNAME_START137
+    dc.l        FIRSTNAME_START138
+    dc.l        FIRSTNAME_START139
+    dc.l        FIRSTNAME_START140
+    dc.l        FIRSTNAME_START141
+    dc.l        FIRSTNAME_START142
+    dc.l        FIRSTNAME_START143
+    dc.l        FIRSTNAME_START144
+    dc.l        FIRSTNAME_START145
+    dc.l        FIRSTNAME_START146
+    dc.l        FIRSTNAME_START147
+    dc.l        FIRSTNAME_START148
+    dc.l        FIRSTNAME_START149
+    dc.l        FIRSTNAME_START150
+    dc.l        FIRSTNAME_START151
+    dc.l        FIRSTNAME_START152
+    dc.l        FIRSTNAME_START153
+    dc.l        FIRSTNAME_START154
+    dc.l        FIRSTNAME_START155
+    dc.l        FIRSTNAME_START156
+    dc.l        FIRSTNAME_START157
+    dc.l        FIRSTNAME_START158
+    dc.l        FIRSTNAME_START159
+    dc.l        FIRSTNAME_START160
+    dc.l        FIRSTNAME_START161
+    dc.l        FIRSTNAME_START162
+    dc.l        FIRSTNAME_START163
+    dc.l        FIRSTNAME_START164
+    dc.l        FIRSTNAME_START165
+    dc.l        FIRSTNAME_START166
+    dc.l        FIRSTNAME_START167
+    dc.l        FIRSTNAME_START168
+    dc.l        FIRSTNAME_START169
+    dc.l        FIRSTNAME_START170
+    dc.l        FIRSTNAME_START171
+    dc.l        FIRSTNAME_START172
+    dc.l        FIRSTNAME_START173
+    dc.l        FIRSTNAME_START174
+    dc.l        FIRSTNAME_START175
+    dc.l        FIRSTNAME_START176
+    dc.l        FIRSTNAME_START177
+    dc.l        FIRSTNAME_START178
+    dc.l        FIRSTNAME_START179
+    dc.l        FIRSTNAME_START180
+    dc.l        FIRSTNAME_START181
+    dc.l        FIRSTNAME_START182
+    dc.l        FIRSTNAME_START183
+    dc.l        FIRSTNAME_START184
+    dc.l        FIRSTNAME_START185
+    dc.l        FIRSTNAME_START186
+    dc.l        FIRSTNAME_START187
+    dc.l        FIRSTNAME_START188
+    dc.l        FIRSTNAME_START189
+    dc.l        FIRSTNAME_START190
+    dc.l        FIRSTNAME_START191
+	dc.l        FIRSTNAME_START192
+	dc.l        FIRSTNAME_START193
+	dc.l        FIRSTNAME_START194
+	dc.l        FIRSTNAME_START195
+	dc.l        FIRSTNAME_START196
+	dc.l        FIRSTNAME_START197
+	dc.l        FIRSTNAME_START198
+	dc.l        FIRSTNAME_START199
+	
+	dc.l        FIRSTNAME_START200
+    dc.l        FIRSTNAME_START201
+    dc.l        FIRSTNAME_START202
+    dc.l        FIRSTNAME_START203
+    dc.l        FIRSTNAME_START204
+    dc.l        FIRSTNAME_START205
+    dc.l        FIRSTNAME_START206
+    dc.l        FIRSTNAME_START207
+    dc.l        FIRSTNAME_START208
+    dc.l        FIRSTNAME_START209
+    dc.l        FIRSTNAME_START210
+    dc.l        FIRSTNAME_START211
+    dc.l        FIRSTNAME_START212
+    dc.l        FIRSTNAME_START213
+    dc.l        FIRSTNAME_START214
+    dc.l        FIRSTNAME_START215
+    dc.l        FIRSTNAME_START216
+    dc.l        FIRSTNAME_START217
+    dc.l        FIRSTNAME_START218
+    dc.l        FIRSTNAME_START219
+    dc.l        FIRSTNAME_START220
+    dc.l        FIRSTNAME_START221
+    dc.l        FIRSTNAME_START222
+    dc.l        FIRSTNAME_START223
+    dc.l        FIRSTNAME_START224
+    dc.l        FIRSTNAME_START225
+    dc.l        FIRSTNAME_START226
+    dc.l        FIRSTNAME_START227
+    dc.l        FIRSTNAME_START228
+    dc.l        FIRSTNAME_START229
+    dc.l        FIRSTNAME_START230
+    dc.l        FIRSTNAME_START231
+    dc.l        FIRSTNAME_START232
+    dc.l        FIRSTNAME_START233
+    dc.l        FIRSTNAME_START234
+    dc.l        FIRSTNAME_START235
+    dc.l        FIRSTNAME_START236
+    dc.l        FIRSTNAME_START237
+    dc.l        FIRSTNAME_START238
+    dc.l        FIRSTNAME_START239
+    dc.l        FIRSTNAME_START240
+    dc.l        FIRSTNAME_START241
+    dc.l        FIRSTNAME_START242
+    dc.l        FIRSTNAME_START243
+    dc.l        FIRSTNAME_START244
+    dc.l        FIRSTNAME_START245
+    dc.l        FIRSTNAME_START246
+    dc.l        FIRSTNAME_START247
+    dc.l        FIRSTNAME_START248
+    dc.l        FIRSTNAME_START249
+    dc.l        FIRSTNAME_START250
+    dc.l        FIRSTNAME_START251
+    dc.l        FIRSTNAME_START252
+    dc.l        FIRSTNAME_START253
+    dc.l        FIRSTNAME_START254
+    dc.l        FIRSTNAME_START255
+    dc.l        FIRSTNAME_START256
+    dc.l        FIRSTNAME_START257
+    dc.l        FIRSTNAME_START258
+    dc.l        FIRSTNAME_START259
+    dc.l        FIRSTNAME_START260
+    dc.l        FIRSTNAME_START261
+    dc.l        FIRSTNAME_START262
+    dc.l        FIRSTNAME_START263
+    dc.l        FIRSTNAME_START264
+    dc.l        FIRSTNAME_START265
+    dc.l        FIRSTNAME_START266
+    dc.l        FIRSTNAME_START267
+    dc.l        FIRSTNAME_START268
+    dc.l        FIRSTNAME_START269
+    dc.l        FIRSTNAME_START270
+    dc.l        FIRSTNAME_START271
+    dc.l        FIRSTNAME_START272
+    dc.l        FIRSTNAME_START273
+    dc.l        FIRSTNAME_START274
+    dc.l        FIRSTNAME_START275
+    dc.l        FIRSTNAME_START276
+    dc.l        FIRSTNAME_START277
+    dc.l        FIRSTNAME_START278
+    dc.l        FIRSTNAME_START279
+    dc.l        FIRSTNAME_START280
+    dc.l        FIRSTNAME_START281
+    dc.l        FIRSTNAME_START282
+    dc.l        FIRSTNAME_START283
+    dc.l        FIRSTNAME_START284
+    dc.l        FIRSTNAME_START285
+    dc.l        FIRSTNAME_START286
+    dc.l        FIRSTNAME_START287
+    dc.l        FIRSTNAME_START288
+    dc.l        FIRSTNAME_START289
+    dc.l        FIRSTNAME_START290
+    dc.l        FIRSTNAME_START291
+	dc.l        FIRSTNAME_START292
+	dc.l        FIRSTNAME_START293
+	dc.l        FIRSTNAME_START294
+	dc.l        FIRSTNAME_START295
+	dc.l        FIRSTNAME_START296
+	dc.l        FIRSTNAME_START297
+	dc.l        FIRSTNAME_START298
+	dc.l        FIRSTNAME_START299
+	
+	dc.l        FIRSTNAME_START300
+    dc.l        FIRSTNAME_START301
+    dc.l        FIRSTNAME_START302
+    dc.l        FIRSTNAME_START303
+    dc.l        FIRSTNAME_START304
+    dc.l        FIRSTNAME_START305
+    dc.l        FIRSTNAME_START306
+    dc.l        FIRSTNAME_START307
+    dc.l        FIRSTNAME_START308
+    dc.l        FIRSTNAME_START309
+    dc.l        FIRSTNAME_START310
+    dc.l        FIRSTNAME_START311
+    dc.l        FIRSTNAME_START312
+    dc.l        FIRSTNAME_START313
+    dc.l        FIRSTNAME_START314
+    dc.l        FIRSTNAME_START315
+    dc.l        FIRSTNAME_START316
+    dc.l        FIRSTNAME_START317
+    dc.l        FIRSTNAME_START318
+    dc.l        FIRSTNAME_START319
+    dc.l        FIRSTNAME_START320
+    dc.l        FIRSTNAME_START321
+    dc.l        FIRSTNAME_START322
+    dc.l        FIRSTNAME_START323
+    dc.l        FIRSTNAME_START324
+    dc.l        FIRSTNAME_START325
+    dc.l        FIRSTNAME_START326
+    dc.l        FIRSTNAME_START327
+    dc.l        FIRSTNAME_START328
+    dc.l        FIRSTNAME_START329
+    dc.l        FIRSTNAME_START330
+    dc.l        FIRSTNAME_START331
+    dc.l        FIRSTNAME_START332
+    dc.l        FIRSTNAME_START333
+    dc.l        FIRSTNAME_START334
+    dc.l        FIRSTNAME_START335
+    dc.l        FIRSTNAME_START336
+    dc.l        FIRSTNAME_START337
+    dc.l        FIRSTNAME_START338
+    dc.l        FIRSTNAME_START339
+    dc.l        FIRSTNAME_START340
+    dc.l        FIRSTNAME_START341
+    dc.l        FIRSTNAME_START342
+    dc.l        FIRSTNAME_START343
+    dc.l        FIRSTNAME_START344
+    dc.l        FIRSTNAME_START345
+    dc.l        FIRSTNAME_START346
+    dc.l        FIRSTNAME_START347
+    dc.l        FIRSTNAME_START348
+    dc.l        FIRSTNAME_START349
+    dc.l        FIRSTNAME_START350
+    dc.l        FIRSTNAME_START351
+    dc.l        FIRSTNAME_START352
+    dc.l        FIRSTNAME_START353
+    dc.l        FIRSTNAME_START354
+    dc.l        FIRSTNAME_START355
+    dc.l        FIRSTNAME_START356
+    dc.l        FIRSTNAME_START357
+    dc.l        FIRSTNAME_START358
+    dc.l        FIRSTNAME_START359
+    dc.l        FIRSTNAME_START360
+    dc.l        FIRSTNAME_START361
+    dc.l        FIRSTNAME_START362
+    dc.l        FIRSTNAME_START363
+    dc.l        FIRSTNAME_START364
+    dc.l        FIRSTNAME_START365
+    dc.l        FIRSTNAME_START366
+    dc.l        FIRSTNAME_START367
+    dc.l        FIRSTNAME_START368
+    dc.l        FIRSTNAME_START369
+    dc.l        FIRSTNAME_START370
+    dc.l        FIRSTNAME_START371
+    dc.l        FIRSTNAME_START372
+    dc.l        FIRSTNAME_START373
+    dc.l        FIRSTNAME_START374
+    dc.l        FIRSTNAME_START375
+    dc.l        FIRSTNAME_START376
+    dc.l        FIRSTNAME_START377
+    dc.l        FIRSTNAME_START378
+    dc.l        FIRSTNAME_START379
+    dc.l        FIRSTNAME_START380
+    dc.l        FIRSTNAME_START381
+    dc.l        FIRSTNAME_START382
+    dc.l        FIRSTNAME_START383
+    dc.l        FIRSTNAME_START384
+    dc.l        FIRSTNAME_START385
+    dc.l        FIRSTNAME_START386
+    dc.l        FIRSTNAME_START387
+    dc.l        FIRSTNAME_START388
+    dc.l        FIRSTNAME_START389
+    dc.l        FIRSTNAME_START390
+    dc.l        FIRSTNAME_START391
+	dc.l        FIRSTNAME_START392
+	dc.l        FIRSTNAME_START393
+	dc.l        FIRSTNAME_START394
+	dc.l        FIRSTNAME_START395
+	dc.l        FIRSTNAME_START396
+	dc.l        FIRSTNAME_START397
+	dc.l        FIRSTNAME_START398
+	dc.l        FIRSTNAME_START399
+	
+	dc.l        FIRSTNAME_START400
+    dc.l        FIRSTNAME_START401
+    dc.l        FIRSTNAME_START402
+    dc.l        FIRSTNAME_START403
+    dc.l        FIRSTNAME_START404
+    dc.l        FIRSTNAME_START405
+    dc.l        FIRSTNAME_START406
+    dc.l        FIRSTNAME_START407
+    dc.l        FIRSTNAME_START408
+    dc.l        FIRSTNAME_START409
+    dc.l        FIRSTNAME_START410
+    dc.l        FIRSTNAME_START411
+    dc.l        FIRSTNAME_START412
+    dc.l        FIRSTNAME_START413
+    dc.l        FIRSTNAME_START414
+    dc.l        FIRSTNAME_START415
+    dc.l        FIRSTNAME_START416
+    dc.l        FIRSTNAME_START417
+    dc.l        FIRSTNAME_START418
+    dc.l        FIRSTNAME_START419
+    dc.l        FIRSTNAME_START420
+    dc.l        FIRSTNAME_START421
+    dc.l        FIRSTNAME_START422
+    dc.l        FIRSTNAME_START423
+    dc.l        FIRSTNAME_START424
+    dc.l        FIRSTNAME_START425
+    dc.l        FIRSTNAME_START426
+    dc.l        FIRSTNAME_START427
+    dc.l        FIRSTNAME_START428
+    dc.l        FIRSTNAME_START429
+    dc.l        FIRSTNAME_START430
+    dc.l        FIRSTNAME_START431
+    dc.l        FIRSTNAME_START432
+    dc.l        FIRSTNAME_START433
+    dc.l        FIRSTNAME_START434
+    dc.l        FIRSTNAME_START435
+    dc.l        FIRSTNAME_START436
+    dc.l        FIRSTNAME_START437
+    dc.l        FIRSTNAME_START438
+    dc.l        FIRSTNAME_START439
+    dc.l        FIRSTNAME_START440
+    dc.l        FIRSTNAME_START441
+    dc.l        FIRSTNAME_START442
+    dc.l        FIRSTNAME_START443
+    dc.l        FIRSTNAME_START444
+
+FIRSTNAME_START000:              
     dc.b        "Francesco",0                                                                    
+FIRSTNAME_START001:
     dc.b        "Bruno",0                                                                        
+FIRSTNAME_START002:
     dc.b        "Luigi",0                                                                        
+FIRSTNAME_START003:
     dc.b        "Zdenek",0                                                                       
+FIRSTNAME_START004:
     dc.b        "Claudio",0                                                                      
+FIRSTNAME_START005:
     dc.b        "Osvaldo",0                                                                      
+FIRSTNAME_START006:
     dc.b        "Giovanni",0                                                                     
+FIRSTNAME_START007:
     dc.b        "Dino",0                                                                         
+FIRSTNAME_START008:
     dc.b        "Nedo",0                                                                         
+FIRSTNAME_START009:
     dc.b        "Fabio",0                                                                        
+FIRSTNAME_START010:
     dc.b        "Marcelo",0                                                                      
+FIRSTNAME_START011:
     dc.b        "Nevio",0                                                                        
-    dc.b        "Pippo",0                                                                        
-    dc.b        "Carlo",0                                                                        
+FIRSTNAME_START012:
+    dc.b        "Pippo",0   
+FIRSTNAME_START013:	
+    dc.b        "Carlo",0   
+FIRSTNAME_START014:	
     dc.b        "Sven-Goran",0                                                                   
+FIRSTNAME_START015:
     dc.b        "Emilio",0                                                                       
+FIRSTNAME_START016:
     dc.b        "Azeglio",0                                                                      
+FIRSTNAME_START017:
     dc.b        "Giuseppe",0                                                                     
+FIRSTNAME_START018:
     dc.b        "Angelo",0                                                                       
+FIRSTNAME_START019:
     dc.b        "Mircea",0                                                                       
+FIRSTNAME_START020:
     dc.b        "Attilio",0                                                                      
+FIRSTNAME_START021:
     dc.b        "Eugenio",0                                                                      
+FIRSTNAME_START022:
     dc.b        "Gino",0                                                                         
+FIRSTNAME_START023:
     dc.b        "Enrico",0                                                                       
+FIRSTNAME_START024:
     dc.b        "Vincenzo",0                                                                     
+FIRSTNAME_START025:
     dc.b        "Giorgio",0                                                                      
+FIRSTNAME_START026:
     dc.b        "Giampiero",0                                                                    
-    dc.b        "Bortolo",0                                                                      
+FIRSTNAME_START027:
+    dc.b        "Bortolo",0   
+FIRSTNAME_START028:	
     dc.b        "Renzo",0                                                                        
+FIRSTNAME_START029:
     dc.b        "Tebaldo",0                                                                      
+FIRSTNAME_START030:
     dc.b        "Maurizo",0                                                                      
+FIRSTNAME_START031:
     dc.b        "Fabrizio",0                                                                     
+FIRSTNAME_START032:
     dc.b        "Ricardo",0                                                                      
+FIRSTNAME_START033:
     dc.b        "Maurizio",0                                                                     
+FIRSTNAME_START034:
     dc.b        "Oscar",0                                                                        
+FIRSTNAME_START035:
     dc.b        "Paolo",0                                                                        
+FIRSTNAME_START036:
     dc.b        "Simone",0                                                                       
-    dc.b        "Davide",0                                                                       
+FIRSTNAME_START037:
+    dc.b        "Davide",0     
+FIRSTNAME_START038:	
     dc.b        "Federico",0                                                                     
+FIRSTNAME_START039:
     dc.b        "Roberto",0                                                                      
+FIRSTNAME_START040:
     dc.b        "Leo",0                                                                          
+FIRSTNAME_START041:
     dc.b        "Alessio",0                                                                      
+FIRSTNAME_START042:
     dc.b        "Emanuele",0                                                                     
+FIRSTNAME_START043:
     dc.b        "Mauro",0                                                                        
+FIRSTNAME_START044:
     dc.b        "Franck",0                                                                       
+FIRSTNAME_START045:
     dc.b        "Pierluigi",0                                                                    
+FIRSTNAME_START046:
     dc.b        "Cristiano",0                                                                    
+FIRSTNAME_START047:
     dc.b        "Massimiliano",0                                                                 
+FIRSTNAME_START048:
     dc.b        "Antonio",0                                                                      
+FIRSTNAME_START049:
     dc.b        "Nicola",0                                                                       
+FIRSTNAME_START050:
     dc.b        "Aldo",0                                                                         
+FIRSTNAME_START051:
     dc.b        "Jose",0                                                                         
-    dc.b        "Gianfranco",0                                                                   
+FIRSTNAME_START052:
+    dc.b        "Gianfranco",0   
+FIRSTNAME_START053:	
     dc.b        "Luis Airton",0                                                                  
+FIRSTNAME_START054:
     dc.b        "Vittorio",0                                                                     
+FIRSTNAME_START055:
     dc.b        "Marco",0                                                                        
+FIRSTNAME_START056:
     dc.b        "Marcelo",0                                                                      
+FIRSTNAME_START057:
     dc.b        "Matteo",0                                                                       
+FIRSTNAME_START058:
     dc.b        "Valerio",0                                                                      
+FIRSTNAME_START059:
     dc.b        "Julio",0                                                                        
+FIRSTNAME_START060:
     dc.b        "Pierpaolo",0                                                                    
+FIRSTNAME_START061:
     dc.b        "Sebastiano",0                                                                   
+FIRSTNAME_START062:
     dc.b        "Alessandro",0                                                                   
+FIRSTNAME_START063:
     dc.b        "Stefano",0                                                                      
+FIRSTNAME_START064:
     dc.b        "Alfredo",0                                                                      
+FIRSTNAME_START065:
     dc.b        "Mario",0                                                                        
+FIRSTNAME_START066:
     dc.b        "Corrado",0                                                                      
+FIRSTNAME_START067:
     dc.b        "Gianni",0                                                                       
+FIRSTNAME_START068:
     dc.b        "Ettore",0                                                                       
+FIRSTNAME_START069:
     dc.b        "Riccardo",0                                                                     
+FIRSTNAME_START070:
     dc.b        "Eligio",0                                                                       
+FIRSTNAME_START071:
     dc.b        "Gustavo",0                                                                      
+FIRSTNAME_START072:
     dc.b        "Matjax",0                                                                       
+FIRSTNAME_START073:
     dc.b        "Andrea",0                                                                       
+FIRSTNAME_START074:
     dc.b        "David",0                                                                        
+FIRSTNAME_START075:
     dc.b        "Giordano",0                                                                     
+FIRSTNAME_START076:
     dc.b        "Pasquale",0                                                                     
+FIRSTNAME_START077:
     dc.b        "Donatello",0                                                                    
+FIRSTNAME_START078:
     dc.b        "Gualtiero",0                                                                    
+FIRSTNAME_START079:
     dc.b        "Gianluca",0                                                                     
+FIRSTNAME_START080:
     dc.b        "Igor",0                                                                         
+FIRSTNAME_START081:
     dc.b        "Pierluigi",0                                                                    
+FIRSTNAME_START082:
     dc.b        "Bryan",0                                                                        
+FIRSTNAME_START083:
     dc.b        "Nicolo",0                                                                       
+FIRSTNAME_START084:
     dc.b        "Jose A",0                                                                       
+FIRSTNAME_START085:
     dc.b        "Massimo",0                                                                      
+FIRSTNAME_START086:
     dc.b        "Marciano",0                                                                     
-    dc.b        "Claudio",0                                                                      
+FIRSTNAME_START087:
+    dc.b        "Claudio",0      ;2nd Claudio                                                                
+FIRSTNAME_START088:
     dc.b        "Luca",0                                                                         
+FIRSTNAME_START089:
     dc.b        "Igor",0                                                                         
+FIRSTNAME_START090:
     dc.b        "Valeriano",0                                                                    
+FIRSTNAME_START091:
     dc.b        "Gennaro",0                                                                      
+FIRSTNAME_START092:
     dc.b        "Elio",0                                                                         
+FIRSTNAME_START093:
     dc.b        "Tomas",0                                                                        
+FIRSTNAME_START094:
     dc.b        "John",0                                                                         
+FIRSTNAME_START095:
     dc.b        "Dan",0                                                                          
+FIRSTNAME_START096:
     dc.b        "Dennis",0                                                                       
+FIRSTNAME_START097:
     dc.b        "Wim",0                                                                          
+FIRSTNAME_START098:
     dc.b        "Beniamino",0                                                                    
-    dc.b        "Sergio",0                                                                       
+FIRSTNAME_START099:
+    dc.b        "Sergio",0     
+FIRSTNAME_START100:	
     dc.b        "Salvatore",0                                                                    
+FIRSTNAME_START101:
     dc.b        "Igor",0                                                                         
+FIRSTNAME_START102:
     dc.b        "Ruben",0                                                                        
+FIRSTNAME_START103:
     dc.b        "Walter",0                                                                       
+FIRSTNAME_START104:
     dc.b        "Silva",0                                                                        
+FIRSTNAME_START105:
     dc.b        "Jurgen",0                                                                       
+FIRSTNAME_START106:
     dc.b        "Giancarlo",0                                                                    
+FIRSTNAME_START107:
     dc.b        "Andreas",0                                                                      
-    dc.b        "Michelangelo",0                                                                 
+FIRSTNAME_START108:
+    dc.b        "Michelangelo",0
+FIRSTNAME_START109:	
     dc.b        "Fabrizo",0                                                                      
+FIRSTNAME_START110:
     dc.b        "Moreno",0                                                                       
+FIRSTNAME_START111:
     dc.b        "Thomas",0                                                                       
+FIRSTNAME_START112:
     dc.b        "Diego",0                                                                        
+FIRSTNAME_START113:
     dc.b        "Paul",0                                                                         
+FIRSTNAME_START114:
     dc.b        "Dario",0                                                                        
+FIRSTNAME_START115:
     dc.b        "Fernando",0                                                                     
+FIRSTNAME_START116:
     dc.b        "Aron",0                                                                         
+FIRSTNAME_START117:
     dc.b        "Luciano",0                                                                      
+FIRSTNAME_START118:
     dc.b        "Giampaolo",0                                                                    
+FIRSTNAME_START119:
     dc.b        "Alen",0                                                                         
+FIRSTNAME_START120:
     dc.b        "Rosario",0                                                                      
+FIRSTNAME_START121:
     dc.b        "Umberto",0                                                                      
+FIRSTNAME_START122:
     dc.b        "Valerio",0                                                                      
+FIRSTNAME_START123:
     dc.b        "Candido",0                                                                      
+FIRSTNAME_START124:
     dc.b        "Egidio",0                                                                       
+FIRSTNAME_START125:
     dc.b        "Renato",0                                                                       
-    dc.b        "Christian",0                                                                    
+FIRSTNAME_START126:
+    dc.b        "Christian",0  
+FIRSTNAME_START127:	
     dc.b        "Demetrio",0                                                                     
+FIRSTNAME_START128:
     dc.b        "Zvonimir",0                                                                     
+FIRSTNAME_START129:
     dc.b        "Dejan",0                                                                        
+FIRSTNAME_START130:
     dc.b        "Enzo",0                                                                         
+FIRSTNAME_START131:
     dc.b        "Florin",0                                                                       
+FIRSTNAME_START132:
     dc.b        "Brian",0                                                                        
+FIRSTNAME_START133:
     dc.b        "Franco",0                                                                       
+FIRSTNAME_START134:
     dc.b        "Jean-Pierre",0                                                                  
+FIRSTNAME_START135:
     dc.b        "Gianluigi",0                                                                    
+FIRSTNAME_START136:
     dc.b        "Marco",0                                                                        
+FIRSTNAME_START137:
     dc.b        "Daniele",0                                                                      
+FIRSTNAME_START138:
     dc.b        "Giavanni",0                                                                     
-    dc.b        "Raffaele",0                                                                     
+FIRSTNAME_START139:
+    dc.b        "Raffaele",0  
+FIRSTNAME_START140:	
     dc.b        "Roberto",0                                                                      
+FIRSTNAME_START141:
     dc.b        "Ciro",0                                                                         
+FIRSTNAME_START142:
     dc.b        "Daniel",0                                                                       
+FIRSTNAME_START143:
     dc.b        "Fausto",0                                                                       
+FIRSTNAME_START144:
     dc.b        "Jonas",0                                                                        
+FIRSTNAME_START145:
     dc.b        "Sergio",0                                                                       
+FIRSTNAME_START146:
     dc.b        "Tomas",0                                                                        
+FIRSTNAME_START147:
     dc.b        "Alberto",0                                                                      
+FIRSTNAME_START148:
     dc.b        "Georges",0                                                                      
+FIRSTNAME_START149:
     dc.b        "Gabriele",0                                                                     
-    dc.b        "Lorenzo",0                                                                      
+FIRSTNAME_START150:
+    dc.b        "Lorenzo",0  
+FIRSTNAME_START151:	
     dc.b        "Daniele",0                                                                      
+FIRSTNAME_START152:
     dc.b        "Faustino",0                                                                     
+FIRSTNAME_START153:
     dc.b        "Rino",0                                                                         
+FIRSTNAME_START154:
     dc.b        "Settimio",0                                                                     
+FIRSTNAME_START155:
     dc.b        "Cieto",0                                                                        
+FIRSTNAME_START156:
     dc.b        "Agostini",0                                                                     
+FIRSTNAME_START157:
     dc.b        "Giogio",0                                                                       
+FIRSTNAME_START158:
     dc.b        "Pasquele",0                                                                     
+FIRSTNAME_START159:
     dc.b        "Manolo",0                                                                       
+FIRSTNAME_START160:
     dc.b        "Gianpietro",0                                                                   
+FIRSTNAME_START161:
     dc.b        "Gian Franco",0                                                                  
+FIRSTNAME_START162:
     dc.b        "Tarcisio",0                                                                     
+FIRSTNAME_START163:
     dc.b        "Manuel",0                                                                       
+FIRSTNAME_START164:
     dc.b        "Johnny",0                                                                       
+FIRSTNAME_START165:
     dc.b        "Michele",0                                                                      
+FIRSTNAME_START166:
     dc.b        " ",0                                                                            
-    dc.b        "Silvano",0                                                                      
-    dc.b        "Claudio",0                                                                      
+FIRSTNAME_START167: ;Blank?! <GRH>
+    dc.b        "Silvano",0       
+FIRSTNAME_START168:	
+    dc.b        "Claudio",0      ; Claudio appears 3 times! Are the early entries only for the managers and the rest for players?                                                                
+FIRSTNAME_START169:
     dc.b        "Amedeo",0                                                                       
+FIRSTNAME_START170:
     dc.b        "Patrizo",0                                                                      
+FIRSTNAME_START171:
     dc.b        "Sinisa",0                                                                       
+FIRSTNAME_START172:
     dc.b        "Ruggiero",0                                                                     
+FIRSTNAME_START173:
     dc.b        "Abel",0                                                                         
+FIRSTNAME_START174:
     dc.b        "Alberigo",0                                                                     
-    dc.b        "Ruud",0                                                                         
+FIRSTNAME_START175:
+    dc.b        "Ruud",0     
+FIRSTNAME_START176:	
     dc.b        "Giulio",0                                                                       
+FIRSTNAME_START177:
     dc.b        "Pietro",0                                                                       
+FIRSTNAME_START178:
     dc.b        "Vladimir",0                                                                     
+FIRSTNAME_START179:
     dc.b        "David",0                                                                        
+FIRSTNAME_START180:
     dc.b        "Ivano",0                                                                        
+FIRSTNAME_START181:
     dc.b        "Roberto",0                                                                      
+FIRSTNAME_START182:
     dc.b        "Srecko",0                                                                       
+FIRSTNAME_START183:
     dc.b        "Robert",0                                                                       
+FIRSTNAME_START184:
     dc.b        "Carlos",0                                                                       
+FIRSTNAME_START185:
     dc.b        "Sandro",0                                                                       
+FIRSTNAME_START186:
     dc.b        "Marcello",0                                                                     
+FIRSTNAME_START187:
     dc.b        "Rafaelle",0                                                                     
-    dc.b        "Gianlucu",0                                                                     
+FIRSTNAME_START188:
+    dc.b        "Gianlucu",0     
+FIRSTNAME_START189:	
     dc.b        "Alvise",0                                                                       
+FIRSTNAME_START190:
     dc.b        "Benito",0                                                                       
+FIRSTNAME_START191:
     dc.b        "Enzo",0                                                                         
+FIRSTNAME_START192:
     dc.b        "Piotr",0                                                                        
-    dc.b        "Giuliano",0                                                                     
+FIRSTNAME_START193:
+    dc.b        "Giuliano",0      
+FIRSTNAME_START194:	
     dc.b        "Marek",0                                                                        
+FIRSTNAME_START195:
     dc.b        "Roberto",0                                                                      
+FIRSTNAME_START196:
     dc.b        "Oberdan",0                                                                      
+FIRSTNAME_START197:
     dc.b        "Nunzio Dario",0                                                                 
+FIRSTNAME_START198:
     dc.b        "Arturo",0                                                                       
+FIRSTNAME_START199:
     dc.b        "Santino",0                                                                      
+FIRSTNAME_START200:
     dc.b        "Gaetano",0                                                                      
+FIRSTNAME_START201:
     dc.b        "Morris Manolo",0                                                                
+FIRSTNAME_START202:
     dc.b        "Orazio",0                                                                       
+FIRSTNAME_START203:
     dc.b        "Calogero",0                                                                     
+FIRSTNAME_START204:
     dc.b        "Donato",0                                                                       
+FIRSTNAME_START205:
     dc.b        "Eupremio",0                                                                     
-    dc.b        "Felice",0                                                                       
+FIRSTNAME_START206:
+    dc.b        "Felice",0  
+FIRSTNAME_START207:	
     dc.b        "Lajos",0                                                                        
+FIRSTNAME_START208:
     dc.b        "Milos",0                                                                        
+FIRSTNAME_START209:
     dc.b        "Sean",0                                                                         
+FIRSTNAME_START210:
     dc.b        "Oliver",0                                                                       
+FIRSTNAME_START211:
     dc.b        "Fiorenzo",0                                                                     
+FIRSTNAME_START212:
     dc.b        "Gianpiero",0                                                                    
+FIRSTNAME_START213:
     dc.b        "Carmelo",0                                                                      
+FIRSTNAME_START214:
     dc.b        "Pedro",0                                                                        
+FIRSTNAME_START215:
     dc.b        "Guiseppe",0                                                                     
+FIRSTNAME_START216:
     dc.b        "Onofrio",0                                                                      
+FIRSTNAME_START217:
     dc.b        "Emiliano",0                                                                     
+FIRSTNAME_START218:
     dc.b        "Berardino",0                                                                    
+FIRSTNAME_START219:
     dc.b        "Carmine",0                                                                      
+FIRSTNAME_START220:
     dc.b        "Donizetti",0                                                                    
-    dc.b        "Domenico",0                                                                     
+FIRSTNAME_START221:
+    dc.b        "Domenico",0     
+FIRSTNAME_START222:	
     dc.b        "Gian Luca",0                                                                    
+FIRSTNAME_START223:
     dc.b        "Ivan",0                                                                         
+FIRSTNAME_START224:
     dc.b        "Tommaso",0                                                                      
+FIRSTNAME_START225:
     dc.b        "Ioan",0                                                                         
+FIRSTNAME_START226:
     dc.b        "Augusto",0                                                                      
+FIRSTNAME_START227:
     dc.b        "Edoardo",0                                                                      
+FIRSTNAME_START228:
     dc.b        "Nello Aldo",0                                                                   
+FIRSTNAME_START229:
     dc.b        "Gheorghe",0                                                                     
+FIRSTNAME_START230:
     dc.b        "Dorin",0                                                                        
-    dc.b        "Filippo",0                                                                      
+FIRSTNAME_START231:
+    dc.b        "Filippo",0  
+FIRSTNAME_START232:	
     dc.b        "Andriano",0                                                                     
+FIRSTNAME_START233:
     dc.b        "Gian B",0                                                                       
+FIRSTNAME_START234:
     dc.b        "Costanzo",0                                                                     
+FIRSTNAME_START235:
     dc.b        "Piero",0                                                                        
+FIRSTNAME_START236:
     dc.b        "Vladimiro",0                                                                    
+FIRSTNAME_START237:
     dc.b        "Ugo",0                                                                          
+FIRSTNAME_START238:
     dc.b        "Ferdinando",0                                                                   
+FIRSTNAME_START239:
     dc.b        "Richiard",0                                                                     
+FIRSTNAME_START240:
     dc.b        "Giacomo",0                                                                      
+FIRSTNAME_START241:
     dc.b        "Onelio",0                                                                       
+FIRSTNAME_START242:
     dc.b        "Stefan",0                                                                       
+FIRSTNAME_START243:
     dc.b        "Gian Matteo",0                                                                  
+FIRSTNAME_START244:
     dc.b        "Anselmo",0                                                                      
+FIRSTNAME_START245:
     dc.b        "Gabriel",0                                                                      
+FIRSTNAME_START246:
     dc.b        "Gian Domenico",0                                                                
-    dc.b        "Eusebio",0                                                                      
+FIRSTNAME_START247:
+    dc.b        "Eusebio",0    
+FIRSTNAME_START248:	
     dc.b        "Oliviero",0                                                                     
+FIRSTNAME_START249:
     dc.b        "Silvio",0                                                                       
+FIRSTNAME_START250:
     dc.b        "Mirko",0                                                                        
+FIRSTNAME_START251:
     dc.b        "Gian Mario",0                                                                   
+FIRSTNAME_START252:
     dc.b        "Marino",0                                                                       
+FIRSTNAME_START253:
     dc.b        "Luis",0                                                                         
+FIRSTNAME_START254:
     dc.b        "Livio",0                                                                        
+FIRSTNAME_START255:
     dc.b        "Ferro",0                                                                        
+FIRSTNAME_START256:
     dc.b        "Mark",0                                                                         
+FIRSTNAME_START257:
     dc.b        "Gian Paolo",0                                                                   
+FIRSTNAME_START258:
     dc.b        "Ruggero",0                                                                      
+FIRSTNAME_START259:
     dc.b        "Fulvio",0                                                                       
+FIRSTNAME_START260:
     dc.b        "Fabian",0                                                                       
+FIRSTNAME_START261:
     dc.b        "Rocco",0                                                                        
-    dc.b        "Adriano",0                                                                      
+FIRSTNAME_START262:
+    dc.b        "Adriano",0    
+FIRSTNAME_START263:	
     dc.b        "Ennio",0                                                                        
+FIRSTNAME_START264:
     dc.b        "Damiano",0                                                                      
+FIRSTNAME_START265:
     dc.b        "Agostino",0                                                                     
+FIRSTNAME_START266:
     dc.b        "Gaetano",0                                                                      
+FIRSTNAME_START267:
     dc.b        "Patrick",0                                                                      
+FIRSTNAME_START268:
     dc.b        "Graziano",0                                                                     
+FIRSTNAME_START269:
     dc.b        "Frederic",0                                                                     
+FIRSTNAME_START270:
     dc.b        "Ottavio",0                                                                      
+FIRSTNAME_START271:
     dc.b        "Ubaldo",0                                                                       
-    dc.b        "John",0                                                                         
+FIRSTNAME_START272:
+    dc.b        "John",0    
+FIRSTNAME_START273:	
     dc.b        "Blaz",0                                                                         
+FIRSTNAME_START274:
     dc.b        "Nicolino",0                                                                     
+FIRSTNAME_START275:
     dc.b        "Edi",0                                                                          
+FIRSTNAME_START276:
     dc.b        "Cristian",0                                                                     
+FIRSTNAME_START277:
     dc.b        "Emanuel",0                                                                      
+FIRSTNAME_START278:
     dc.b        "Gianpaolo",0                                                                    
+FIRSTNAME_START279:
     dc.b        "Giangerolamo",0                                                                 
+FIRSTNAME_START280:
     dc.b        "Patrizio",0                                                                     
+FIRSTNAME_START281:
     dc.b        "Flavio",0                                                                       
+FIRSTNAME_START282:
     dc.b        "Cosimo",0                                                                       
+FIRSTNAME_START283:
     dc.b        "Rodolfo",0                                                                      
+FIRSTNAME_START284:
     dc.b        "Marcello",0                                                                     
+FIRSTNAME_START285:
     dc.b        "Leonardo",0                                                                     
-    dc.b        "Mariano",0                                                                      
+FIRSTNAME_START286:
+    dc.b        "Mariano",0   
+FIRSTNAME_START287:	
     dc.b        "Lamberto",0                                                                     
+FIRSTNAME_START288:
     dc.b        "Ignazio",0                                                                      
+FIRSTNAME_START289:
     dc.b        "Enio",0                                                                         
+FIRSTNAME_START290:
     dc.b        "Attilo",0                                                                       
+FIRSTNAME_START291:
     dc.b        "Celeste",0                                                                      
+FIRSTNAME_START292:
     dc.b        "Walter",0                                                                       
+FIRSTNAME_START293:
     dc.b        "Gilberto",0                                                                     
-    dc.b        "Ivo",0                                                                          
+FIRSTNAME_START294:
+    dc.b        "Ivo",0      
+FIRSTNAME_START295:	
     dc.b        "Aladino",0                                                                      
+FIRSTNAME_START296:
     dc.b        "Vitor",0                                                                        
+FIRSTNAME_START297:
     dc.b        "Rui Gil",0                                                                      
-    dc.b        " ",0                                                                            
+FIRSTNAME_START298:
+    dc.b        " ",0   ; another blank?                                                                         
+FIRSTNAME_START299:
     dc.b        "Vasily",0                                                                       
+FIRSTNAME_START300:
     dc.b        "Carlos",0                                                                       
+FIRSTNAME_START301:
     dc.b        "Ion",0                                                                          
+FIRSTNAME_START302:
     dc.b        "Emilio",0                                                                       
+FIRSTNAME_START303:
     dc.b        "Peter",0                                                                        
+FIRSTNAME_START304:
     dc.b        "Juan Eduardo",0                                                                 
+FIRSTNAME_START305:
     dc.b        "Luis",0                                                                         
+FIRSTNAME_START306:
     dc.b        "Juan A",0                                                                       
+FIRSTNAME_START307:
     dc.b        "Adolfo",0                                                                       
+FIRSTNAME_START308:
     dc.b        "Jose Maria",0                                                                   
+FIRSTNAME_START309:
     dc.b        "Ronald",0                                                                       
-    dc.b        "Roman",0                                                                        
+FIRSTNAME_START310:
+    dc.b        "Roman",0   
+FIRSTNAME_START311:	
     dc.b        "Guillermo",0                                                                    
+FIRSTNAME_START312:
     dc.b        "Michael",0                                                                      
+FIRSTNAME_START313:
     dc.b        "Rafael",0                                                                       
+FIRSTNAME_START314:
     dc.b        "Miguel",0                                                                       
+FIRSTNAME_START315:
     dc.b        "Juan Antonio",0                                                                 
+FIRSTNAME_START316:
     dc.b        "Julio",0                                                                        
+FIRSTNAME_START317:
     dc.b        "Bernd",0                                                                        
+FIRSTNAME_START318:
     dc.b        "Mauro",0                                                                        
+FIRSTNAME_START319:
     dc.b        "Christo",0                                                                      
+FIRSTNAME_START320:
     dc.b        "Aitor",0                                                                        
+FIRSTNAME_START321:
     dc.b        "Ivan",0                                                                         
+FIRSTNAME_START322:
     dc.b        "Andoni",0                                                                       
-    dc.b        "Didier",0                                                                       
+FIRSTNAME_START323:
+    dc.b        "Didier",0    
+FIRSTNAME_START324:	
     dc.b        "Darko",0                                                                        
+FIRSTNAME_START325:
     dc.b        "Abedi",0                                                                        
-    dc.b        "Christian",0                                                                    
+FIRSTNAME_START326:
+    dc.b        "Christian",0      
+FIRSTNAME_START327:	
     dc.b        "Raymundo",0                                                                     
+FIRSTNAME_START328:
     dc.b        "Jean-Philippe",0                                                                
+FIRSTNAME_START329:
     dc.b        "Manuel",0                                                                       
+FIRSTNAME_START330:
     dc.b        "Enzo",0                                                                         
+FIRSTNAME_START331:
     dc.b        "Bernard",0                                                                      
+FIRSTNAME_START332:
     dc.b        "Laurent",0                                                                      
+FIRSTNAME_START333:
     dc.b        "Basile",0                                                                       
+FIRSTNAME_START334:
     dc.b        "Phillipe",0                                                                     
+FIRSTNAME_START335:
     dc.b        "Rudi",0                                                                         
+FIRSTNAME_START336:
     dc.b        "Jacek",0                                                                        
-    dc.b        "Jocelyn",0                                                                      
+FIRSTNAME_START337:
+    dc.b        "Jocelyn",0    
+FIRSTNAME_START338:	
     dc.b        "Jason",0                                                                        
+FIRSTNAME_START339:
     dc.b        "Nick",0                                                                         
+FIRSTNAME_START340:
     dc.b        "Matthew",0                                                                      
+FIRSTNAME_START341:
     dc.b        "Darren",0                                                                       
+FIRSTNAME_START342:
     dc.b        "Gary",0                                                                         
+FIRSTNAME_START343:
     dc.b        "John",0                                                                         
+FIRSTNAME_START344:
     dc.b        "Efan",0                                                                         
+FIRSTNAME_START345:
     dc.b        "Peter",0                                                                        
+FIRSTNAME_START346:
     dc.b        "Les",0                                                                          
+FIRSTNAME_START347:
     dc.b        "Tim",0                                                                          
+FIRSTNAME_START348:
     dc.b        "Mark",0                                                                         
+FIRSTNAME_START349:
     dc.b        "Ryan",0                                                                         
-    dc.b        "Peter",0                                                                        
+FIRSTNAME_START350:
+    dc.b        "Peter",0    
+FIRSTNAME_START351:	
     dc.b        "Eric",0                                                                         
+FIRSTNAME_START352:
     dc.b        "Vinny",0                                                                        
+FIRSTNAME_START353:
     dc.b        "Dean",0                                                                         
+FIRSTNAME_START354:
     dc.b        "Peter",0                                                                        
+FIRSTNAME_START355:
     dc.b        "Glenn",0                                                                        
+FIRSTNAME_START356:
     dc.b        "Lee",0                                                                          
+FIRSTNAME_START357:
     dc.b        "Alan",0                                                                         
+FIRSTNAME_START358:
     dc.b        "Teddy",0                                                                        
+FIRSTNAME_START359:
     dc.b        "Andy",0                                                                         
+FIRSTNAME_START360:
     dc.b        "Neville",0                                                                      
+FIRSTNAME_START361:
     dc.b        "Julian",0                                                                       
+FIRSTNAME_START362:
     dc.b        "Tony",0                                                                         
+FIRSTNAME_START363:
     dc.b        "Rob",0                                                                          
-    dc.b        "Roy",0                                                                          
+FIRSTNAME_START364:
+    dc.b        "Roy",0     
+FIRSTNAME_START365:	
     dc.b        "Chris",0                                                                        
+FIRSTNAME_START366:
     dc.b        "Des",0                                                                          
+FIRSTNAME_START367:
     dc.b        "Ray",0                                                                          
+FIRSTNAME_START368:
     dc.b        "Ian",0                                                                          
+FIRSTNAME_START369:
     dc.b        "Dalian",0                                                                       
+FIRSTNAME_START370:
     dc.b        "Edson",0                                                                        
+FIRSTNAME_START371:
     dc.b        "Johnny",0                                                                       
+FIRSTNAME_START372:
     dc.b        "Michel",0                                                                       
+FIRSTNAME_START373:
     dc.b        "Par",0                                                                          
+FIRSTNAME_START374:
     dc.b        "Marc",0                                                                         
+FIRSTNAME_START375:
     dc.b        "Berry",0                                                                        
-    dc.b        "Gerald",0                                                                       
+FIRSTNAME_START376:
+    dc.b        "Gerald",0    
+FIRSTNAME_START377:	
     dc.b        "Peter",0                                                                        
+FIRSTNAME_START378:
     dc.b        "Frank",0                                                                        
+FIRSTNAME_START379:
     dc.b        "Marc",0                                                                         
+FIRSTNAME_START380:
     dc.b        "Erwin",0                                                                        
+FIRSTNAME_START381:
     dc.b        "Danny",0                                                                        
+FIRSTNAME_START382:
     dc.b        "Erik",0                                                                         
+FIRSTNAME_START383:
     dc.b        "Rob",0                                                                          
+FIRSTNAME_START384:
     dc.b        "Klas",0                                                                         
+FIRSTNAME_START385:
     dc.b        "Gheorge",0                                                                      
+FIRSTNAME_START386:
     dc.b        "Jozsef",0                                                                       
+FIRSTNAME_START387:
     dc.b        "Ed",0                                                                           
+FIRSTNAME_START388:
     dc.b        "Bodo",0                                                                         
+FIRSTNAME_START389:
     dc.b        "Olaf",0                                                                         
+FIRSTNAME_START390:
     dc.b        "Guido",0                                                                        
+FIRSTNAME_START391:
     dc.b        "Michael",0                                                                      
-    dc.b        "Ulf",0                                                                          
+FIRSTNAME_START392:
+    dc.b        "Ulf",0   
+FIRSTNAME_START393:	
     dc.b        "Matthias",0                                                                     
+FIRSTNAME_START394:
     dc.b        "Lothar",0                                                                       
+FIRSTNAME_START395:
     dc.b        "Uwe",0                                                                          
+FIRSTNAME_START396:
     dc.b        "Karl-Heinz",0                                                                   
+FIRSTNAME_START397:
     dc.b        "Mehmet",0                                                                       
+FIRSTNAME_START398:
     dc.b        "Andreas",0                                                                      
+FIRSTNAME_START399:
     dc.b        "Paulo",0                                                                        
+FIRSTNAME_START400:
     dc.b        "Fleming",0                                                                      
+FIRSTNAME_START401:
     dc.b        "Christian",0                                                                    
+FIRSTNAME_START402:
     dc.b        "Stephane",0                                                                     
+FIRSTNAME_START403:
     dc.b        "Andy",0                                                                         
+FIRSTNAME_START404:
     dc.b        "Gerhard",0                                                                      
+FIRSTNAME_START405:
     dc.b        "Ralph",0                                                                        
+FIRSTNAME_START406:
     dc.b        "Krzystof",0                                                                     
+FIRSTNAME_START407:
     dc.b        "Tsanko",0                                                                       
-    dc.b        "Emil",0                                                                         
+FIRSTNAME_START408:
+    dc.b        "Emil",0   
+FIRSTNAME_START409:	
     dc.b        "Ilie",0                                                                         
+FIRSTNAME_START410:
     dc.b        "Marius",0                                                                       
+FIRSTNAME_START411:
     dc.b        "Istvan",0                                                                       
+FIRSTNAME_START412:
     dc.b        "Jiri",0                                                                         
+FIRSTNAME_START413:
     dc.b        "Thomas",0                                                                       
+FIRSTNAME_START414:
     dc.b        "Eoin",0                                                                         
+FIRSTNAME_START415:
     dc.b        "Trevor",0                                                                       
+FIRSTNAME_START416:
     dc.b        "Duncan",0                                                                       
-    dc.b        "Kim",0                                                                          
+FIRSTNAME_START417:
+    dc.b        "Kim",0   
+FIRSTNAME_START418:	
     dc.b        "Oleg",0                                                                         
+FIRSTNAME_START419:
     dc.b        "Javier",0                                                                       
+FIRSTNAME_START420:
     dc.b        "Diego",0                                                                        
+FIRSTNAME_START421:
     dc.b        "Carlos",0                                                                       
+FIRSTNAME_START422:
     dc.b        "Antonio",0                                                                      
+FIRSTNAME_START423:
     dc.b        "Hugo",0                                                                         
+FIRSTNAME_START424:
     dc.b        "Oscar",0                                                                        
+FIRSTNAME_START425:
     dc.b        "Jorge Campos",0                                                                 
-    dc.b        " ",0                                                                            
-    dc.b        "Sergio",0                                                                       
+FIRSTNAME_START426:
+    dc.b        " ",0 ; 3rd blank!                                                                           
+FIRSTNAME_START427:
+    dc.b        "Sergio",0   
+FIRSTNAME_START428:	
     dc.b        "Antonino",0                                                                     
+FIRSTNAME_START429:
     dc.b        "Edmondo",0                                                                      
+FIRSTNAME_START430:
     dc.b        "Teodoro",0                                                                      
+FIRSTNAME_START431:
     dc.b        "Tiziano",0                                                                      
+FIRSTNAME_START432:
     dc.b        "Mirco",0                                                                        
+FIRSTNAME_START433:
     dc.b        "Riki",0                                                                         
+FIRSTNAME_START434:
     dc.b        "Ulisse",0                                                                       
+FIRSTNAME_START435:
     dc.b        "Nicolini",0                                                                     
+FIRSTNAME_START436:
     dc.b        "Emidio",0                                                                       
+FIRSTNAME_START437:
     dc.b        "Nunzio",0                                                                       
+FIRSTNAME_START438:
     dc.b        "Oriano",0                                                                       
+FIRSTNAME_START439:
     dc.b        "Nico",0                                                                         
-    dc.b        "Liborio",0                                                                      
-    dc.b        "Nadir",0                                                                        
+FIRSTNAME_START440:
+    dc.b        "Liborio",0   
+FIRSTNAME_START441:	
+    dc.b        "Nadir",0     
+FIRSTNAME_START442:	
     dc.b        "Ivanoe",0                                                                       
+FIRSTNAME_START443:
     dc.b        "Mattio",0                                                                       
+FIRSTNAME_START444:
     dc.b        "Gian",0                                                                         
 ;DWORD_0006e28e:
 Fixup_Address_06:              
-    dc.l        $05F4EA
-    dc.l        $05F4F3
-    dc.l        $05F4FA
-    dc.l        $05F501
-    dc.l        $05F507
-    dc.l        $05F50F
-    dc.l        $05F517
-    dc.l        $05F522
-    dc.l        $05F527
-    dc.l        $05F52F
-    dc.l        $05F537
-    dc.l        $05F53D
-    dc.l        $05F543
-    dc.l        $05F549
-    dc.l        $05F553
-    dc.l        $05F55B
-    dc.l        $05F564
-    dc.l        $05F56E
-    dc.l        $05F575
-    dc.l        $05F580
-    dc.l        $05F586
-    dc.l        $05F58E
-    dc.l        $05F595
-    dc.l        $05F59D
-    dc.l        $05F5A5
-    dc.l        $05F5AE
-    dc.l        $05F5B3
-    dc.l        $05F5BC
-    dc.l        $05F5C6
-    dc.l        $05F5CF
-    dc.l        $05F5D8
-    dc.l        $05F5E2
-    dc.l        $05F5E9
-    dc.l        $05F5F1
-    dc.l        $05F5F7
-    dc.l        $05F600
-    dc.l        $05F60A
-    dc.l        $05F614
-    dc.l        $05F61B
-    dc.l        $05F622
-    dc.l        $05F627
-    dc.l        $05F62E
-    dc.l        $05F63A
-    dc.l        $05F642
-    dc.l        $05F64A
-    dc.l        $05F650
-    dc.l        $05F658
-    dc.l        $05F65F
-    dc.l        $05F666
-    dc.l        $05F66F
-    dc.l        $05F679
-    dc.l        $05F685
-    dc.l        $05F68E
-    dc.l        $05F698
-    dc.l        $05F69F
-    dc.l        $05F6A9
-    dc.l        $05F6B1
-    dc.l        $05F6B9
-    dc.l        $05F6C2
-    dc.l        $05F6CA
-    dc.l        $05F6D5
-    dc.l        $05F6DE
-    dc.l        $05F6E6
-    dc.l        $05F6EF
-    dc.l        $05F6F7
-    dc.l        $05F6FE
-    dc.l        $05F707
-    dc.l        $05F70F
-    dc.l        $05F718
-    dc.l        $05F71E
-    dc.l        $05F725
-    dc.l        $05F72B
-    dc.l        $05F731
-    dc.l        $05F73A
-    dc.l        $05F741
-    dc.l        $05F749
-    dc.l        $05F755
-    dc.l        $05F75E
-    dc.l        $05F765
-    dc.l        $05F76B
-    dc.l        $05F773
-    dc.l        $05F77C
-    dc.l        $05F782
-    dc.l        $05F78A
-    dc.l        $05F794
-    dc.l        $05F79B
-    dc.l        $05F7A5
-    dc.l        $05F7B0
-    dc.l        $05F7B9
-    dc.l        $05F7C2
-    dc.l        $05F7CC
-    dc.l        $05F7D8
-    dc.l        $05F7E2
-    dc.l        $05F7EF
-    dc.l        $05F7F7
-    dc.l        $05F7FF
-    dc.l        $05F807
-    dc.l        $05F813
-    dc.l        $05F81B
-    dc.l        $05F823
-    dc.l        $05F82D
-    dc.l        $05F837
-    dc.l        $05F83D
-    dc.l        $05F849
-    dc.l        $05F851
-    dc.l        $05F85B
-    dc.l        $05F866
-    dc.l        $05F870
-    dc.l        $05F879
-    dc.l        $05F885
-    dc.l        $05F88F
-    dc.l        $05F897
-    dc.l        $05F8A0
-    dc.l        $05F8A7
-    dc.l        $05F8AE
-    dc.l        $05F8B2
-    dc.l        $05F8BA
-    dc.l        $05F8BF
-    dc.l        $05F8C6
-    dc.l        $05F8D1
-    dc.l        $05F8D8
-    dc.l        $05F8DE
-    dc.l        $05F8E5
-    dc.l        $05F8EA
-    dc.l        $05F8F5
-    dc.l        $05F8FC
-    dc.l        $05F905
-    dc.l        $05F90D
-    dc.l        $05F919
-    dc.l        $05F920
-    dc.l        $05F928
-    dc.l        $05F930
-    dc.l        $05F93B
-    dc.l        $05F945
-    dc.l        $05F94E
-    dc.l        $05F956
-    dc.l        $05F95F
-    dc.l        $05F96A
-    dc.l        $05F972
-    dc.l        $05F97C
-    dc.l        $05F984
-    dc.l        $05F98D
-    dc.l        $05F993
-    dc.l        $05F99B
-    dc.l        $05F9A4
-    dc.l        $05F9A9
-    dc.l        $05F9B2
-    dc.l        $05F9BA
-    dc.l        $05F9C0
-    dc.l        $05F9C6
-    dc.l        $05F9D1
-    dc.l        $05F9D9
-    dc.l        $05F9E2
-    dc.l        $05F9E8
-    dc.l        $05F9F1
-    dc.l        $05F9FA
-    dc.l        $05FA02
-    dc.l        $05FA0C
-    dc.l        $05FA15
-    dc.l        $05FA1A
-    dc.l        $05FA25
-    dc.l        $05FA2B
-    dc.l        $05FA35
-    dc.l        $05FA3F
-    dc.l        $05FA47
-    dc.l        $05FA51
-    dc.l        $05FA5D
-    dc.l        $05FA64
-    dc.l        $05FA6C
-    dc.l        $05FA72
-    dc.l        $05FA7C
-    dc.l        $05FA82
-    dc.l        $05FA8B
-    dc.l        $05FA97
-    dc.l        $05FA9E
-    dc.l        $05FAA7
-    dc.l        $05FAAE
-    dc.l        $05FAB6
-    dc.l        $05FABF
-    dc.l        $05FAC9
-    dc.l        $05FAD3
-    dc.l        $05FADA
-    dc.l        $05FAE2
-    dc.l        $05FAEA
-    dc.l        $05FAEF
-    dc.l        $05FAF7
-    dc.l        $05FAFD
-    dc.l        $05FB07
-    dc.l        $05FB0F
-    dc.l        $05FB18
-    dc.l        $05FB1D
-    dc.l        $05FB24
-    dc.l        $05FB2C
-    dc.l        $05FB34
-    dc.l        $05FB3B
-    dc.l        $05FB44
-    dc.l        $05FB4A
-    dc.l        $05FB56
-    dc.l        $05FB5E
-    dc.l        $05FB67
-    dc.l        $05FB6D
-    dc.l        $05FB75
-    dc.l        $05FB7C
-    dc.l        $05FB83
-    dc.l        $05FB8A
-    dc.l        $05FB92
-    dc.l        $05FB9C
-    dc.l        $05FBA3
-    dc.l        $05FBAE
-    dc.l        $05FBB6
-    dc.l        $05FBBF
-    dc.l        $05FBC6
-    dc.l        $05FBCF
-    dc.l        $05FBD9
-    dc.l        $05FBE1
-    dc.l        $05FBE9
-    dc.l        $05FBF3
-    dc.l        $05FBFB
-    dc.l        $05FC02
-    dc.l        $05FC0C
-    dc.l        $05FC1A
-    dc.l        $05FC20
-    dc.l        $05FC2A
-    dc.l        $05FC31
-    dc.l        $05FC3A
-    dc.l        $05FC42
-    dc.l        $05FC48
-    dc.l        $05FC50
-    dc.l        $05FC5A
-    dc.l        $05FC65
-    dc.l        $05FC6B
-    dc.l        $05FC75
-    dc.l        $05FC7C
-    dc.l        $05FC84
-    dc.l        $05FC8D
-    dc.l        $05FC95
-    dc.l        $05FC9B
-    dc.l        $05FCA5
-    dc.l        $05FCAC
-    dc.l        $05FCB1
-    dc.l        $05FCBB
-    dc.l        $05FCC3
-    dc.l        $05FCCA
-    dc.l        $05FCD2
-    dc.l        $05FCD8
-    dc.l        $05FCE0
-    dc.l        $05FCEB
-    dc.l        $05FCF1
-    dc.l        $05FCFA
-    dc.l        $05FD02
-    dc.l        $05FD06
-    dc.l        $05FD0F
-    dc.l        $05FD16
-    dc.l        $05FD1B
-    dc.l        $05FD22
-    dc.l        $05FD2B
-    dc.l        $05FD38
-    dc.l        $05FD41
-    dc.l        $05FD4C
-    dc.l        $05FD56
-    dc.l        $05FD5E
-    dc.l        $05FD66
-    dc.l        $05FD6F
-    dc.l        $05FD75
-    dc.l        $05FD7A
-    dc.l        $05FD7F
-    dc.l        $05FD88
-    dc.l        $05FD93
-    dc.l        $05FD9D
-    dc.l        $05FDA3
-    dc.l        $05FDA9
-    dc.l        $05FDB0
-    dc.l        $05FDB7
-    dc.l        $05FDC1
-    dc.l        $05FDC6
-    dc.l        $05FDCF
-    dc.l        $05FDD9
-    dc.l        $05FDDF
-    dc.l        $05FDE4
-    dc.l        $05FDE8
-    dc.l        $05FDEE
-    dc.l        $05FDF6
-    dc.l        $05FDFE
-    dc.l        $05FE05
-    dc.l        $05FE0B
-    dc.l        $05FE13
-    dc.l        $05FE18
-    dc.l        $05FE21
-    dc.l        $05FE27
-    dc.l        $05FE30
-    dc.l        $05FE39
-    dc.l        $05FE43
-    dc.l        $05FE4B
-    dc.l        $05FE51
-    dc.l        $05FE5A
-    dc.l        $05FE65
-    dc.l        $05FE6B
-    dc.l        $05FE75
-    dc.l        $05FE7B
-    dc.l        $05FE84
-    dc.l        $05FE8C
-    dc.l        $05FE95
-    dc.l        $05FE9F
-    dc.l        $05FEA9
-    dc.l        $05FEB1
-    dc.l        $05FEB8
-    dc.l        $05FEBE
-    dc.l        $05FEC6
-    dc.l        $05FECF
-    dc.l        $05FED8
-    dc.l        $05FEE0
-    dc.l        $05FEE8
-    dc.l        $05FEF2
-    dc.l        $05FEFA
-    dc.l        $05FF03
-    dc.l        $05FF0A
-    dc.l        $05FF14
-    dc.l        $05FF1C
-    dc.l        $05FF24
-    dc.l        $05FF2C
-    dc.l        $05FF34
-    dc.l        $05FF3D
-    dc.l        $05FF47
-    dc.l        $05FF50
-    dc.l        $05FF5C
-    dc.l        $05FF64
-    dc.l        $05FF6E
-    dc.l        $05FF76
-    dc.l        $05FF80
-    dc.l        $05FF87
-    dc.l        $05FF8F
-    dc.l        $05FF97
-    dc.l        $05FFA0
-    dc.l        $05FFAA
-    dc.l        $05FFB5
-    dc.l        $05FFBE
-    dc.l        $05FFC4
-    dc.l        $05FFCB
-    dc.l        $05FFD5
-    dc.l        $05FFDE
-    dc.l        $05FFE5
-    dc.l        $05FFEE
-    dc.l        $05FFF6
-    dc.l        $05FFFE
-    dc.l        $060003
-    dc.l        $06000B
-    dc.l        $060012
-    dc.l        $06001B
-    dc.l        $060023
-    dc.l        $06002E
-    dc.l        $060034
-    dc.l        $06003F
-    dc.l        $06004A
-    dc.l        $060056
-    dc.l        $06005C
-    dc.l        $060062
-    dc.l        $060069
-    dc.l        $060071
-    dc.l        $060077
-    dc.l        $06007F
-    dc.l        $060085
-    dc.l        $06008C
-    dc.l        $060095
-    dc.l        $06009C
-    dc.l        $0600A4
-    dc.l        $0600B0
-    dc.l        $0600B9
-    dc.l        $0600C1
-    dc.l        $0600C7
-    dc.l        $0600D2
-    dc.l        $0600DA
-    dc.l        $0600E4
-    dc.l        $0600EF
-    dc.l        $0600F7
-    dc.l        $060100
-    dc.l        $06010B
-    dc.l        $060111
-    dc.l        $06011A
-    dc.l        $060121
-    dc.l        $060126
-    dc.l        $06012B
-    dc.l        $060131
-    dc.l        $060137
-    dc.l        $060141
-    dc.l        $060148
-    dc.l        $060150
-    dc.l        $060156
-    dc.l        $06015D
-    dc.l        $060166
-    dc.l        $06016B
-    dc.l        $060171
-    dc.l        $06017A
-    dc.l        $060186
-    dc.l        $060192
-    dc.l        $060199
-    dc.l        $0601A0
-    dc.l        $0601AA
-    dc.l        $0601B4
-    dc.l        $0601BF
-    dc.l        $0601C6
-    dc.l        $0601CF
-    dc.l        $0601D9
-    dc.l        $0601E4
-    dc.l        $0601EB
-    dc.l        $0601F4
-    dc.l        $0601FE
-    dc.l        $060209
-    dc.l        $060211
-    dc.l        $06021A
-    dc.l        $060222
-    dc.l        $06022A
-    dc.l        $060235
-    dc.l        $06023D
-    dc.l        $060245
-    dc.l        $06024E
-    dc.l        $060257
-    dc.l        $060261
-    dc.l        $060267
-    dc.l        $06026E
-    dc.l        $060278
-    dc.l        $06027D
-    dc.l        $060287
-    dc.l        $060291
-    dc.l        $060298
-    dc.l        $0602A1
-    dc.l        $0602AC
-    dc.l        $0602B3
-    dc.l        $0602BF
-    dc.l        $0602C8
-    dc.l        $0602D2
-    dc.l        $0602D7
-    dc.l        $0602E0
-    dc.l        $0602E9
-    dc.l        $0602F1
-    dc.l        $0602F7
-    dc.l        $060300
-    dc.l        $060308
-    dc.l        $060311
-    dc.l        $060319
-    dc.l        $060323
-    dc.l        $06032A
-    dc.l        $060334
-    dc.l        $06033C
-    dc.l        $060346
-    dc.l        $06034D
-    dc.l        $060354
-    dc.l        $06035F
-    dc.l        $060368
-    dc.l        $060371
-    dc.l        $060378
-    dc.l        $060383
-    dc.l        $06038A
-    dc.l        $060391
-    dc.l        $060399
-    dc.l        $06039F
-    dc.l        $0603A6
-    dc.l        $0603AB
-    dc.l        $0603B5
-    dc.l        $0603BD
-    dc.l        $0603C3
-    dc.l        $0603D3
-    dc.l        $0603DC
-    dc.l        $0603E5
-    dc.l        $0603EE
-    dc.l        $0603F3
-    dc.l        $0603FE
-    dc.l        $060408
-    dc.l        $06040F
-    dc.l        $060418
-    dc.l        $060421
-    dc.l        $060427
-    dc.l        $06042D
-    dc.l        $060435
-    dc.l        $06043D
-    dc.l        $060449
-    dc.l        $060453
-    dc.l        $06045C
-    dc.l        $060467
-    dc.l        $060473
-    dc.l        $06047C
-    dc.l        $060484
-    dc.l        $06048F
-    dc.l        $060497
-    dc.l        $06049D
-    dc.l        $0604A7
-    dc.l        $0604AF
-    dc.l        $0604B9
-    dc.l        $0604C1
-    dc.l        $0604C9
-    dc.l        $0604D1
-    dc.l        $0604D8
-    dc.l        $0604DF
-    dc.l        $0604E8
-    dc.l        $0604F3
-    dc.l        $0604FF
-    dc.l        $060509
-    dc.l        $060512
-    dc.l        $06051D
-    dc.l        $060525
-    dc.l        $06052C
-    dc.l        $060534
-    dc.l        $06053E
-    dc.l        $060545
-    dc.l        $06054C
-    dc.l        $060553
-    dc.l        $060559
-    dc.l        $060562
-    dc.l        $06056C
-    dc.l        $060575
-    dc.l        $06057B
-    dc.l        $060587
-    dc.l        $060592
-    dc.l        $060598
-    dc.l        $0605A2
-    dc.l        $0605AB
-    dc.l        $0605B1
-    dc.l        $0605BB
-    dc.l        $0605C1
-    dc.l        $0605CC
-    dc.l        $0605D7
-    dc.l        $0605DC
-    dc.l        $0605E4
-    dc.l        $0605EE
-    dc.l        $0605F9
-    dc.l        $060602
-    dc.l        $060608
-    dc.l        $06060F
-    dc.l        $060616
-    dc.l        $06061B
-    dc.l        $060624
-    dc.l        $06062D
-    dc.l        $060634
-    dc.l        $06063F
-    dc.l        $06064A
-    dc.l        $060651
-    dc.l        $06065C
-    dc.l        $060665
-    dc.l        $06066C
-    dc.l        $060672
-    dc.l        $060678
-    dc.l        $06067E
-    dc.l        $060683
-    dc.l        $06068F
-    dc.l        $060699
-    dc.l        $0606A0
-    dc.l        $0606A9
-    dc.l        $0606B3
-    dc.l        $0606BC
-    dc.l        $0606C2
-    dc.l        $0606CC
-    dc.l        $0606D3
-    dc.l        $0606DC
-    dc.l        $0606E5
-    dc.l        $0606EB
-    dc.l        $0606F2
-    dc.l        $0606FA
-    dc.l        $060701
-    dc.l        $06070A
-    dc.l        $060711
-    dc.l        $06071B
-    dc.l        $060721
-    dc.l        $060729
-    dc.l        $060731
-    dc.l        $060737
-    dc.l        $060742
-    dc.l        $060748
-    dc.l        $06074F
-    dc.l        $060759
-    dc.l        $060761
-    dc.l        $060768
-    dc.l        $060770
-    dc.l        $060778
-    dc.l        $06077E
-    dc.l        $06078A
-    dc.l        $060795
-    dc.l        $06079C
-    dc.l        $0607A3
-    dc.l        $0607AC
-    dc.l        $0607B4
-    dc.l        $0607BB
-    dc.l        $0607C3
-    dc.l        $0607CA
-    dc.l        $0607D3
-    dc.l        $0607DD
-    dc.l        $0607E7
-    dc.l        $0607F1
-    dc.l        $0607F9
-    dc.l        $0607FE
-    dc.l        $060805
-    dc.l        $060811
-    dc.l        $060819
-    dc.l        $06081F
-    dc.l        $06082A
-    dc.l        $060834
-    dc.l        $06083D
-    dc.l        $060845
-    dc.l        $06084D
-    dc.l        $060853
-    dc.l        $06085B
-    dc.l        $060865
-    dc.l        $06086B
-    dc.l        $060875
-    dc.l        $06087D
-    dc.l        $060885
-    dc.l        $06088D
-    dc.l        $060896
-    dc.l        $06089C
-    dc.l        $0608A8
-    dc.l        $0608AE
-    dc.l        $0608B4
-    dc.l        $0608BB
-    dc.l        $0608C5
-    dc.l        $0608CF
-    dc.l        $0608DB
-    dc.l        $0608E3
-    dc.l        $0608EA
-    dc.l        $0608F4
-    dc.l        $0608FC
-    dc.l        $060904
-    dc.l        $06090E
-    dc.l        $060917
-    dc.l        $06091D
-    dc.l        $06092A
-    dc.l        $060933
-    dc.l        $06093E
-    dc.l        $060948
-    dc.l        $06094F
-    dc.l        $060956
-    dc.l        $06095C
-    dc.l        $060963
-    dc.l        $06096B
-    dc.l        $060970
-    dc.l        $060979
-    dc.l        $060982
-    dc.l        $060988
-    dc.l        $060990
-    dc.l        $060998
-    dc.l        $0609A0
-    dc.l        $0609A8
-    dc.l        $0609B2
-    dc.l        $0609BC
-    dc.l        $0609C3
-    dc.l        $0609CC
-    dc.l        $0609D5
-    dc.l        $0609DC
-    dc.l        $0609E5
-    dc.l        $0609ED
-    dc.l        $0609F4
-    dc.l        $0609FE
-    dc.l        $060A04
-    dc.l        $060A0D
-    dc.l        $060A14
-    dc.l        $060A1C
-    dc.l        $060A20
-    dc.l        $060A28
-    dc.l        $060A32
-    dc.l        $060A3A
-    dc.l        $060A40
-    dc.l        $060A46
-    dc.l        $060A52
-    dc.l        $060A5C
-    dc.l        $060A63
-    dc.l        $060A6D
-    dc.l        $060A75
-    dc.l        $060A80
-    dc.l        $060A8A
-    dc.l        $060A92
-    dc.l        $060A9A
-    dc.l        $060AA2
-    dc.l        $060AAD
-    dc.l        $060AB3
-    dc.l        $060ABB
-    dc.l        $060AC4
-    dc.l        $060ACB
-    dc.l        $060AD4
-    dc.l        $060ADB
-    dc.l        $060AE1
-    dc.l        $060AEB
-    dc.l        $060AF1
-    dc.l        $060AFB
-    dc.l        $060B04
-    dc.l        $060B0D
-    dc.l        $060B15
-    dc.l        $060B1D
-    dc.l        $060B25
-    dc.l        $060B30
-    dc.l        $060B3E
-    dc.l        $060B47
-    dc.l        $060B51
-    dc.l        $060B5A
-    dc.l        $060B61
-    dc.l        $060B69
-    dc.l        $060B70
-    dc.l        $060B79
-    dc.l        $060B81
-    dc.l        $060B8A
-    dc.l        $060B91
-    dc.l        $060B9C
-    dc.l        $060BA1
-    dc.l        $060BA9
-    dc.l        $060BB3
-    dc.l        $060BBB
-    dc.l        $060BC4
-    dc.l        $060BCC
-    dc.l        $060BD5
-    dc.l        $060BDA
-    dc.l        $060BE2
-    dc.l        $060BE7
-    dc.l        $060BEF
-    dc.l        $060BF7
-    dc.l        $060C02
-    dc.l        $060C08
-    dc.l        $060C0E
-    dc.l        $060C15
-    dc.l        $060C1F
-    dc.l        $060C29
-    dc.l        $060C2F
-    dc.l        $060C3D
-    dc.l        $060C49
-    dc.l        $060C54
-    dc.l        $060C60
-    dc.l        $060C67
-    dc.l        $060C71
-    dc.l        $060C79
-    dc.l        $060C81
-    dc.l        $060C89
-    dc.l        $060C92
-    dc.l        $060C9A
-    dc.l        $060CA1
-    dc.l        $060CAB
-    dc.l        $060CB4
-    dc.l        $060CBB
-    dc.l        $060CC4
-    dc.l        $060CCD
-    dc.l        $060CD7
-    dc.l        $060CE3
-    dc.l        $060CEA
-    dc.l        $060CF2
-    dc.l        $060CF9
-    dc.l        $060CFE
-    dc.l        $060D08
-    dc.l        $060D13
-    dc.l        $060D1C
-    dc.l        $060D22
-    dc.l        $060D2A
-    dc.l        $060D32
-    dc.l        $060D38
-    dc.l        $060D41
-    dc.l        $060D49
-    dc.l        $060D53
-    dc.l        $060D5C
-    dc.l        $060D65
-    dc.l        $060D6E
-    dc.l        $060D79
-    dc.l        $060D7F
-    dc.l        $060D88
-    dc.l        $060D8F
-    dc.l        $060D9B
-    dc.l        $060DA1
-    dc.l        $060DA7
-    dc.l        $060DB1
-    dc.l        $060DBC
-    dc.l        $060DC9
-    dc.l        $060DD3
-    dc.l        $060DD9
-    dc.l        $060DE0
-    dc.l        $060DE8
-    dc.l        $060DF0
-    dc.l        $060DFA
-    dc.l        $060E05
-    dc.l        $060E0B
-    dc.l        $060E15
-    dc.l        $060E1C
-    dc.l        $060E26
-    dc.l        $060E30
-    dc.l        $060E39
-    dc.l        $060E42
-    dc.l        $060E4B
-    dc.l        $060E55
-    dc.l        $060E5C
-    dc.l        $060E63
-    dc.l        $060E69
-    dc.l        $060E6F
-    dc.l        $060E78
-    dc.l        $060E83
-    dc.l        $060E88
-    dc.l        $060E8F
-    dc.l        $060E96
-    dc.l        $060E9F
-    dc.l        $060EA5
-    dc.l        $060EAF
-    dc.l        $060EB7
-    dc.l        $060EC2
-    dc.l        $060ECA
-    dc.l        $060ED3
-    dc.l        $060EDC
-    dc.l        $060EE3
-    dc.l        $060EEC
-    dc.l        $060EF5
-    dc.l        $060EFE
-    dc.l        $060F06
-    dc.l        $060F0C
-    dc.l        $060F14
-    dc.l        $060F1B
-    dc.l        $060F26
-    dc.l        $060F2F
-    dc.l        $060F3A
-    dc.l        $060F41
-    dc.l        $060F49
-    dc.l        $060F54
-    dc.l        $060F5C
-    dc.l        $060F65
-    dc.l        $060F6C
-    dc.l        $060F74
-    dc.l        $060F7D
-    dc.l        $060F86
-    dc.l        $060F8E
-    dc.l        $060F95
-    dc.l        $060F9D
-    dc.l        $060FA5
-    dc.l        $060FAE
-    dc.l        $060FB7
-    dc.l        $060FC0
-    dc.l        $060FCA
-    dc.l        $060FD3
-    dc.l        $060FDC
-    dc.l        $060FE4
-    dc.l        $060FEE
-    dc.l        $060FF8
-    dc.l        $061003
-    dc.l        $061009
-    dc.l        $061012
-    dc.l        $06101F
-    dc.l        $061027
-    dc.l        $06102D
-    dc.l        $061037
-    dc.l        $06103E
-    dc.l        $061046
-    dc.l        $06104E
-    dc.l        $061058
-    dc.l        $061060
-    dc.l        $061065
-    dc.l        $06106C
-    dc.l        $061073
-    dc.l        $06107E
-    dc.l        $061085
-    dc.l        $06108B
-    dc.l        $061093
-    dc.l        $06109E
-    dc.l        $0610A7
-    dc.l        $0610B0
-    dc.l        $0610B7
-    dc.l        $0610C2
-    dc.l        $0610C9
-    dc.l        $0610D0
-    dc.l        $0610D7
-    dc.l        $0610DF
-    dc.l        $0610E4
-    dc.l        $0610F3
-    dc.l        $0610FA
-    dc.l        $061101
-    dc.l        $061107
-    dc.l        $06110D
-    dc.l        $061115
-    dc.l        $06111D
-    dc.l        $061126
-    dc.l        $06112C
-    dc.l        $061136
-    dc.l        $061143
-    dc.l        $06114C
-    dc.l        $061158
-    dc.l        $061162
-    dc.l        $061169
-    dc.l        $06116E
-    dc.l        $061174
-    dc.l        $06117E
-    dc.l        $061182
-    dc.l        $061190
-    dc.l        $061197
-    dc.l        $06119E
-    dc.l        $0611A4
-    dc.l        $0611A9
-    dc.l        $0611AF
-    dc.l        $0611B4
-    dc.l        $0611BC
-    dc.l        $0611C2
-    dc.l        $0611CC
-    dc.l        $0611D3
-    dc.l        $0611D9
-    dc.l        $0611E0
-    dc.l        $0611E8
-    dc.l        $0611F0
-    dc.l        $0611F7
-    dc.l        $061202
-    dc.l        $06120B
-    dc.l        $061216
-    dc.l        $06121D
-    dc.l        $061225
-    dc.l        $06122B
-    dc.l        $061233
-    dc.l        $06123A
-    dc.l        $061240
-    dc.l        $061247
-    dc.l        $061251
-    dc.l        $061259
-    dc.l        $061261
-    dc.l        $061267
-    dc.l        $061271
-    dc.l        $06127A
-    dc.l        $061282
-    dc.l        $061288
-    dc.l        $061290
-    dc.l        $061299
-    dc.l        $0612A4
-    dc.l        $0612AB
-    dc.l        $0612B2
-    dc.l        $0612B9
-    dc.l        $0612C1
-    dc.l        $0612CC
-    dc.l        $0612D1
-    dc.l        $0612D8
-    dc.l        $0612E1
-    dc.l        $0612E7
-    dc.l        $0612EC
-    dc.l        $0612F4
-    dc.l        $0612FD
-    dc.l        $061304
-    dc.l        $06130A
-    dc.l        $061310
-    dc.l        $061316
-    dc.l        $06131D
-    dc.l        $061324
-    dc.l        $06132D
-    dc.l        $061335
-    dc.l        $06133C
-    dc.l        $061345
-    dc.l        $06134B
-    dc.l        $061352
-    dc.l        $06135A
-    dc.l        $061361
-    dc.l        $061369
-    dc.l        $061374
-    dc.l        $06137C
-    dc.l        $061383
-    dc.l        $06138D
-    dc.l        $061397
-    dc.l        $06139C
-    dc.l        $0613A5
-    dc.l        $0613AE
-    dc.l        $0613B4
-    dc.l        $0613BB
-    dc.l        $0613C4
-    dc.l        $0613CD
-    dc.l        $0613D5
-    dc.l        $0613DD
-    dc.l        $0613E3
-    dc.l        $0613EB
-    dc.l        $0613F3
-    dc.l        $0613FB
-    dc.l        $061402
-    dc.l        $061407
-    dc.l        $061410
-    dc.l        $06141A
-    dc.l        $061422
-    dc.l        $061429
-    dc.l        $061432
-    dc.l        $061437
-    dc.l        $061440
-    dc.l        $061447
-    dc.l        $06144E
-    dc.l        $061455
-    dc.l        $06145C
-    dc.l        $061464
-    dc.l        $06146A
-    dc.l        $061473
-    dc.l        $061479
-    dc.l        $06147F
-    dc.l        $061486
-    dc.l        $06148D
-    dc.l        $061492
-    dc.l        $06149C
-    dc.l        $0614A3
-    dc.l        $0614A9
-    dc.l        $0614B4
-    dc.l        $0614BD
-    dc.l        $0614C6
-    dc.l        $0614D1
-    dc.l        $0614DC
-    dc.l        $0614E4
-    dc.l        $0614E9
-    dc.l        $0614F0
-    dc.l        $0614F8
-    dc.l        $061500
-    dc.l        $061505
-    dc.l        $06150C
-    dc.l        $061515
-    dc.l        $06151B
-    dc.l        $061522
-    dc.l        $06152A
-    dc.l        $061532
-    dc.l        $06153D
-    dc.l        $061546
-    dc.l        $061551
-    dc.l        $061558
-    dc.l        $061560
-    dc.l        $061568
-    dc.l        $061572
-    dc.l        $06157C
-    dc.l        $061586
-    dc.l        $06158F
-    dc.l        $061597
-    dc.l        $0615A0
-    dc.l        $0615A9
-    dc.l        $0615B1
-    dc.l        $0615BC
-    dc.l        $0615C6
-    dc.l        $0615CF
-    dc.l        $0615D8
-    dc.l        $0615E1
-    dc.l        $0615EA
-    dc.l        $0615F3
-    dc.l        $0615FF
-    dc.l        $061604
-    dc.l        $061609
-    dc.l        $061611
-    dc.l        $061617
-    dc.l        $06161F
-    dc.l        $061627
-    dc.l        $061630
-    dc.l        $061638
-    dc.l        $06163F
-    dc.l        $061649
-    dc.l        $061652
-    dc.l        $06165C
-    dc.l        $061664
-    dc.l        $06166A
-    dc.l        $061672
-    dc.l        $061679
-    dc.l        $061683
-    dc.l        $06168C
-    dc.l        $061697
-    dc.l        $0616A1
-    dc.l        $0616A9
-    dc.l        $0616B1
-    dc.l        $0616BA
-    dc.l        $0616C3
-    dc.l        $0616CC
-    dc.l        $0616D1
-    dc.l        $0616D9
-    dc.l        $0616E2
-    dc.l        $0616EB
-    dc.l        $0616F4
-    dc.l        $0616FA
-    dc.l        $061701
-    dc.l        $061707
-    dc.l        $06170D
-    dc.l        $061715
-    dc.l        $06171D
-    dc.l        $061724
-    dc.l        $06172B
-    dc.l        $061731
-    dc.l        $061738
-    dc.l        $06173D
-    dc.l        $061744
-    dc.l        $06174D
-    dc.l        $061753
-    dc.l        $06175D
-    dc.l        $061765
-    dc.l        $06176E
-    dc.l        $061776
-    dc.l        $06177B
-    dc.l        $061781
-    dc.l        $06178A
-    dc.l        $061791
-    dc.l        $06179A
-    dc.l        $0617A1
-    dc.l        $0617A7
-    dc.l        $0617AF
-    dc.l        $0617B8
-    dc.l        $0617BE
-    dc.l        $0617C5
-    dc.l        $0617CE
-    dc.l        $0617D4
-    dc.l        $0617DA
-    dc.l        $0617E0
-    dc.l        $0617E5
-    dc.l        $0617F0
-    dc.l        $0617F7
-    dc.l        $0617FD
-    dc.l        $061806
-    dc.l        $06180C
-    dc.l        $061818
-    dc.l        $06181D
-    dc.l        $061824
-    dc.l        $06182C
-    dc.l        $061834
-    dc.l        $06183B
-    dc.l        $061843
-    dc.l        $06184A
-    dc.l        $061853
-    dc.l        $061859
-    dc.l        $061860
-    dc.l        $061868
-    dc.l        $061874
-    dc.l        $06187A
-    dc.l        $061882
-    dc.l        $061889
-    dc.l        $061895
-    dc.l        $06189F
-    dc.l        $0618A7
-    dc.l        $0618AE
-    dc.l        $0618BA
-    dc.l        $0618C4
-    dc.l        $0618CF
-    dc.l        $0618D7
-    dc.l        $0618E1
-    dc.l        $0618EA
-    dc.l        $0618F3
-    dc.l        $0618FB
-    dc.l        $061902
-    dc.l        $06190C
-    dc.l        $061915
-    dc.l        $06191B
-    dc.l        $061924
-    dc.l        $06192C
-    dc.l        $061935
-    dc.l        $06193A
-    dc.l        $061942
-    dc.l        $06194C
-    dc.l        $061957
-    dc.l        $06195F
-    dc.l        $061966
-    dc.l        $06196F
-    dc.l        $061976
-    dc.l        $06197E
-    dc.l        $061988
-    dc.l        $061990
-    dc.l        $06199A
-    dc.l        $0619A4
-    dc.l        $0619AC
-    dc.l        $0619B2
-    dc.l        $0619BD
-    dc.l        $0619C3
-    dc.l        $0619CA
-    dc.l        $0619D2
-    dc.l        $0619D8
-    dc.l        $0619DF
-    dc.l        $0619E8
-    dc.l        $0619F1
-    dc.l        $0619F9
-    dc.l        $061A03
-    dc.l        $061A0C
-    dc.l        $061A14
-    dc.l        $061A1F
-    dc.l        $061A28
-    dc.l        $061A32
-    dc.l        $061A39
-    dc.l        $061A42
-    dc.l        $061A4A
-    dc.l        $061A52
-    dc.l        $061A5A
-    dc.l        $061A61
-    dc.l        $061A6A
-    dc.l        $061A72
-    dc.l        $061A7A
-    dc.l        $061A83
-    dc.l        $061A8B
-    dc.l        $061A91
-    dc.l        $061A9A
-    dc.l        $061A9F
-    dc.l        $061AA7
-    dc.l        $061AB0
-    dc.l        $061AB7
-    dc.l        $061AC2
-    dc.l        $061ACA
-LASTNAMES_START:              
+ 	dc.l        LASTNAME_START0000
+    dc.l        LASTNAME_START0001
+    dc.l        LASTNAME_START0002
+    dc.l        LASTNAME_START0003
+    dc.l        LASTNAME_START0004
+    dc.l        LASTNAME_START0005
+    dc.l        LASTNAME_START0006
+    dc.l        LASTNAME_START0007
+    dc.l        LASTNAME_START0008
+    dc.l        LASTNAME_START0009
+    dc.l        LASTNAME_START0010
+    dc.l        LASTNAME_START0011
+    dc.l        LASTNAME_START0012
+    dc.l        LASTNAME_START0013
+    dc.l        LASTNAME_START0014
+    dc.l        LASTNAME_START0015
+    dc.l        LASTNAME_START0016
+    dc.l        LASTNAME_START0017
+    dc.l        LASTNAME_START0018
+    dc.l        LASTNAME_START0019
+    dc.l        LASTNAME_START0020
+    dc.l        LASTNAME_START0021
+    dc.l        LASTNAME_START0022
+    dc.l        LASTNAME_START0023
+    dc.l        LASTNAME_START0024
+    dc.l        LASTNAME_START0025
+    dc.l        LASTNAME_START0026
+    dc.l        LASTNAME_START0027
+    dc.l        LASTNAME_START0028
+    dc.l        LASTNAME_START0029
+    dc.l        LASTNAME_START0030
+    dc.l        LASTNAME_START0031
+    dc.l        LASTNAME_START0032
+    dc.l        LASTNAME_START0033
+    dc.l        LASTNAME_START0034
+    dc.l        LASTNAME_START0035
+    dc.l        LASTNAME_START0036
+    dc.l        LASTNAME_START0037
+    dc.l        LASTNAME_START0038
+    dc.l        LASTNAME_START0039
+    dc.l        LASTNAME_START0040
+    dc.l        LASTNAME_START0041
+    dc.l        LASTNAME_START0042
+    dc.l        LASTNAME_START0043
+    dc.l        LASTNAME_START0044
+    dc.l        LASTNAME_START0045
+    dc.l        LASTNAME_START0046
+    dc.l        LASTNAME_START0047
+    dc.l        LASTNAME_START0048 ; 6F666 "Rambaudi" is the last match
+	dc.l 		TESTING00
+    ;dc.l        LASTNAME_START0049
+    dc.l        LASTNAME_START0050
+    dc.l        LASTNAME_START0051
+    dc.l        LASTNAME_START0052
+    dc.l        LASTNAME_START0053
+    dc.l        LASTNAME_START0054
+    dc.l        LASTNAME_START0055
+    dc.l        LASTNAME_START0056
+    dc.l        LASTNAME_START0057
+    dc.l        LASTNAME_START0058
+    dc.l        LASTNAME_START0059
+    dc.l        LASTNAME_START0060
+    dc.l        LASTNAME_START0061
+    dc.l        LASTNAME_START0062
+    dc.l        LASTNAME_START0063
+    dc.l        LASTNAME_START0064
+    dc.l        LASTNAME_START0065
+    dc.l        LASTNAME_START0066
+    dc.l        LASTNAME_START0067
+    dc.l        LASTNAME_START0068
+    dc.l        LASTNAME_START0069
+    dc.l        LASTNAME_START0070
+    dc.l        LASTNAME_START0071
+    dc.l        LASTNAME_START0072
+    dc.l        LASTNAME_START0073
+    dc.l        LASTNAME_START0074
+    dc.l        LASTNAME_START0075
+    dc.l        LASTNAME_START0076
+    dc.l        LASTNAME_START0077
+    dc.l        LASTNAME_START0078
+    dc.l        LASTNAME_START0079
+    dc.l        LASTNAME_START0080
+    dc.l        LASTNAME_START0081
+    dc.l        LASTNAME_START0082
+    dc.l        LASTNAME_START0083
+    dc.l        LASTNAME_START0084
+    dc.l        LASTNAME_START0085
+    dc.l        LASTNAME_START0086
+    dc.l        LASTNAME_START0087
+    dc.l        LASTNAME_START0088
+    dc.l        LASTNAME_START0089
+    dc.l        LASTNAME_START0090
+    dc.l        LASTNAME_START0091
+	dc.l        LASTNAME_START0092
+	dc.l        LASTNAME_START0093
+	dc.l        LASTNAME_START0094
+	dc.l        LASTNAME_START0095
+	dc.l        LASTNAME_START0096
+	dc.l        LASTNAME_START0097
+	dc.l        LASTNAME_START0098
+	dc.l        LASTNAME_START0099
+	dc.l        LASTNAME_START0100
+    dc.l        LASTNAME_START0101
+    dc.l        LASTNAME_START0102
+    dc.l        LASTNAME_START0103
+    dc.l        LASTNAME_START0104
+    dc.l        LASTNAME_START0105
+    dc.l        LASTNAME_START0106
+    dc.l        LASTNAME_START0107
+    dc.l        LASTNAME_START0108
+    dc.l        LASTNAME_START0109
+    dc.l        LASTNAME_START0110
+    dc.l        LASTNAME_START0111
+    dc.l        LASTNAME_START0112
+    dc.l        LASTNAME_START0113
+    dc.l        LASTNAME_START0114
+    dc.l        LASTNAME_START0115
+    dc.l        LASTNAME_START0116
+    dc.l        LASTNAME_START0117
+    dc.l        LASTNAME_START0118
+    dc.l        LASTNAME_START0119
+    dc.l        LASTNAME_START0120
+    dc.l        LASTNAME_START0121
+    dc.l        LASTNAME_START0122
+    dc.l        LASTNAME_START0123
+    dc.l        LASTNAME_START0124
+    dc.l        LASTNAME_START0125
+    dc.l        LASTNAME_START0126
+    dc.l        LASTNAME_START0127
+    dc.l        LASTNAME_START0128
+    dc.l        LASTNAME_START0129
+    dc.l        LASTNAME_START0130
+    dc.l        LASTNAME_START0131
+    dc.l        LASTNAME_START0132
+    dc.l        LASTNAME_START0133
+    dc.l        LASTNAME_START0134
+    dc.l        LASTNAME_START0135
+    dc.l        LASTNAME_START0136
+    dc.l        LASTNAME_START0137
+    dc.l        LASTNAME_START0138
+    dc.l        LASTNAME_START0139
+    dc.l        LASTNAME_START0140
+    dc.l        LASTNAME_START0141
+    dc.l        LASTNAME_START0142
+    dc.l        LASTNAME_START0143
+    dc.l        LASTNAME_START0144
+    dc.l        LASTNAME_START0145
+    dc.l        LASTNAME_START0146
+    dc.l        LASTNAME_START0147
+    dc.l        LASTNAME_START0148
+    dc.l        LASTNAME_START0149
+    dc.l        LASTNAME_START0150
+    dc.l        LASTNAME_START0151
+    dc.l        LASTNAME_START0152
+    dc.l        LASTNAME_START0153
+    dc.l        LASTNAME_START0154
+    dc.l        LASTNAME_START0155
+    dc.l        LASTNAME_START0156
+    dc.l        LASTNAME_START0157
+    dc.l        LASTNAME_START0158
+    dc.l        LASTNAME_START0159
+    dc.l        LASTNAME_START0160
+    dc.l        LASTNAME_START0161
+    dc.l        LASTNAME_START0162
+    dc.l        LASTNAME_START0163
+    dc.l        LASTNAME_START0164
+    dc.l        LASTNAME_START0165
+    dc.l        LASTNAME_START0166
+    dc.l        LASTNAME_START0167
+    dc.l        LASTNAME_START0168
+    dc.l        LASTNAME_START0169
+    dc.l        LASTNAME_START0170
+    dc.l        LASTNAME_START0171
+    dc.l        LASTNAME_START0172
+    dc.l        LASTNAME_START0173
+    dc.l        LASTNAME_START0174
+    dc.l        LASTNAME_START0175
+    dc.l        LASTNAME_START0176
+    dc.l        LASTNAME_START0177
+	dc.l        LASTNAME_START0176x
+    dc.l        LASTNAME_START0177x
+    dc.l        LASTNAME_START0178
+    dc.l        LASTNAME_START0179
+    dc.l        LASTNAME_START0180
+    dc.l        LASTNAME_START0181
+    dc.l        LASTNAME_START0182
+    dc.l        LASTNAME_START0183
+    dc.l        LASTNAME_START0184
+    dc.l        LASTNAME_START0185
+    dc.l        LASTNAME_START0186
+    dc.l        LASTNAME_START0187
+    dc.l        LASTNAME_START0188
+    dc.l        LASTNAME_START0189
+    dc.l        LASTNAME_START0190
+    dc.l        LASTNAME_START0191
+	dc.l        LASTNAME_START0192
+	dc.l        LASTNAME_START0193
+	dc.l        LASTNAME_START0194
+	dc.l        LASTNAME_START0195
+	dc.l        LASTNAME_START0196
+	dc.l        LASTNAME_START0197
+	dc.l        LASTNAME_START0198
+	dc.l        LASTNAME_START0199
+			
+	dc.l        LASTNAME_START0200
+    dc.l        LASTNAME_START0201
+    dc.l        LASTNAME_START0202
+    dc.l        LASTNAME_START0203
+    dc.l        LASTNAME_START0204
+    dc.l        LASTNAME_START0205
+    dc.l        LASTNAME_START0206
+    dc.l        LASTNAME_START0207
+    dc.l        LASTNAME_START0208
+    dc.l        LASTNAME_START0209
+    dc.l        LASTNAME_START0210
+    dc.l        LASTNAME_START0211
+    dc.l        LASTNAME_START0212
+    dc.l        LASTNAME_START0213
+    dc.l        LASTNAME_START0214
+    dc.l        LASTNAME_START0215
+    dc.l        LASTNAME_START0216
+    dc.l        LASTNAME_START0217
+    dc.l        LASTNAME_START0218
+    dc.l        LASTNAME_START0219
+    dc.l        LASTNAME_START0220
+    dc.l        LASTNAME_START0221
+    dc.l        LASTNAME_START0222
+    dc.l        LASTNAME_START0223
+    dc.l        LASTNAME_START0224
+    dc.l        LASTNAME_START0225
+    dc.l        LASTNAME_START0226
+    dc.l        LASTNAME_START0227
+    dc.l        LASTNAME_START0228
+    dc.l        LASTNAME_START0229
+    dc.l        LASTNAME_START0230
+    dc.l        LASTNAME_START0231
+    dc.l        LASTNAME_START0232
+    dc.l        LASTNAME_START0233
+    dc.l        LASTNAME_START0234
+    dc.l        LASTNAME_START0235
+    dc.l        LASTNAME_START0236
+    dc.l        LASTNAME_START0237
+    dc.l        LASTNAME_START0238
+    dc.l        LASTNAME_START0239
+    dc.l        LASTNAME_START0240
+    dc.l        LASTNAME_START0241
+    dc.l        LASTNAME_START0242
+    dc.l        LASTNAME_START0243
+    dc.l        LASTNAME_START0244
+    dc.l        LASTNAME_START0245
+    dc.l        LASTNAME_START0246
+    dc.l        LASTNAME_START0247
+    dc.l        LASTNAME_START0248
+    dc.l        LASTNAME_START0249
+    dc.l        LASTNAME_START0250
+    dc.l        LASTNAME_START0251
+    dc.l        LASTNAME_START0252
+    dc.l        LASTNAME_START0253
+    dc.l        LASTNAME_START0254
+    dc.l        LASTNAME_START0255
+    dc.l        LASTNAME_START0256
+    dc.l        LASTNAME_START0257
+    dc.l        LASTNAME_START0258
+    dc.l        LASTNAME_START0259
+    ;dc.l        LASTNAME_START0260
+    ;dc.l        LASTNAME_START0261
+    ;dc.l        LASTNAME_START0262
+    ;dc.l        LASTNAME_START0263
+    ;dc.l        LASTNAME_START0264
+    ;dc.l        LASTNAME_START0265
+    ;dc.l        LASTNAME_START0266
+    ;dc.l        LASTNAME_START0267
+    ;dc.l        LASTNAME_START0268
+    ;dc.l        LASTNAME_START0269
+    ;dc.l        LASTNAME_START0270
+    ;dc.l        LASTNAME_START0271
+    ;dc.l        LASTNAME_START0272
+    ;dc.l        LASTNAME_START0273
+    ;dc.l        LASTNAME_START0274
+    ;dc.l        LASTNAME_START0275
+    ;dc.l        LASTNAME_START0276
+    ;dc.l        LASTNAME_START0277
+    ;dc.l        LASTNAME_START0278
+    ;dc.l        LASTNAME_START0279
+    ;dc.l        LASTNAME_START0280
+    ;dc.l        LASTNAME_START0281
+    ;dc.l        LASTNAME_START0282
+    ;dc.l        LASTNAME_START0283
+    ;dc.l        LASTNAME_START0284
+    ;dc.l        LASTNAME_START0285
+    ;dc.l        LASTNAME_START0286
+    ;dc.l        LASTNAME_START0287
+    ;dc.l        LASTNAME_START0288
+    ;dc.l        LASTNAME_START0289
+    ;dc.l        LASTNAME_START0290
+    ;dc.l        LASTNAME_START0291
+	;dc.l        LASTNAME_START0292
+	;dc.l        LASTNAME_START0293
+	;dc.l        LASTNAME_START0294
+	;dc.l        LASTNAME_START0295
+	;dc.l        LASTNAME_START0296
+	;dc.l        LASTNAME_START0297
+	;dc.l        LASTNAME_START0298
+	;dc.l        LASTNAME_START0299
+
+	dc.l        LASTNAME_START0300
+    dc.l        LASTNAME_START0301
+    dc.l        LASTNAME_START0302
+    dc.l        LASTNAME_START0303
+    dc.l        LASTNAME_START0304
+    dc.l        LASTNAME_START0305
+    dc.l        LASTNAME_START0306
+    dc.l        LASTNAME_START0307
+    dc.l        LASTNAME_START0308
+    dc.l        LASTNAME_START0309
+    dc.l        LASTNAME_START0310
+    dc.l        LASTNAME_START0311
+    dc.l        LASTNAME_START0312
+    dc.l        LASTNAME_START0313
+    dc.l        LASTNAME_START0314
+    dc.l        LASTNAME_START0315
+    dc.l        LASTNAME_START0316
+    dc.l        LASTNAME_START0317
+    dc.l        LASTNAME_START0318
+    dc.l        LASTNAME_START0319
+    dc.l        LASTNAME_START0320
+    dc.l        LASTNAME_START0321
+    dc.l        LASTNAME_START0322
+    dc.l        LASTNAME_START0323
+    dc.l        LASTNAME_START0324
+    dc.l        LASTNAME_START0325
+    dc.l        LASTNAME_START0326
+    dc.l        LASTNAME_START0327
+    dc.l        LASTNAME_START0328
+    dc.l        LASTNAME_START0329
+    dc.l        LASTNAME_START0330
+    dc.l        LASTNAME_START0331
+    dc.l        LASTNAME_START0332
+    dc.l        LASTNAME_START0333
+    dc.l        LASTNAME_START0334
+    dc.l        LASTNAME_START0335
+    dc.l        LASTNAME_START0336
+    dc.l        LASTNAME_START0337
+    dc.l        LASTNAME_START0338
+    dc.l        LASTNAME_START0339
+    dc.l        LASTNAME_START0340
+    dc.l        LASTNAME_START0341
+    dc.l        LASTNAME_START0342
+    dc.l        LASTNAME_START0343
+    dc.l        LASTNAME_START0344
+    dc.l        LASTNAME_START0345
+    dc.l        LASTNAME_START0346
+    dc.l        LASTNAME_START0347
+    dc.l        LASTNAME_START0348
+    dc.l        LASTNAME_START0349
+    dc.l        LASTNAME_START0350
+    dc.l        LASTNAME_START0351
+    dc.l        LASTNAME_START0352
+    dc.l        LASTNAME_START0353
+    dc.l        LASTNAME_START0354
+    dc.l        LASTNAME_START0355
+    dc.l        LASTNAME_START0356
+    dc.l        LASTNAME_START0357
+    dc.l        LASTNAME_START0358
+    dc.l        LASTNAME_START0359
+    dc.l        LASTNAME_START0360
+    dc.l        LASTNAME_START0361
+    dc.l        LASTNAME_START0362
+    dc.l        LASTNAME_START0363
+    dc.l        LASTNAME_START0364
+    dc.l        LASTNAME_START0365
+    dc.l        LASTNAME_START0366
+    dc.l        LASTNAME_START0367
+    dc.l        LASTNAME_START0368
+    dc.l        LASTNAME_START0369
+    dc.l        LASTNAME_START0370
+    dc.l        LASTNAME_START0371
+    dc.l        LASTNAME_START0372
+    dc.l        LASTNAME_START0373
+    dc.l        LASTNAME_START0374
+    dc.l        LASTNAME_START0375
+    dc.l        LASTNAME_START0376
+    dc.l        LASTNAME_START0377
+    dc.l        LASTNAME_START0378
+    dc.l        LASTNAME_START0379
+    dc.l        LASTNAME_START0380
+    dc.l        LASTNAME_START0381
+    dc.l        LASTNAME_START0382
+    dc.l        LASTNAME_START0383
+    dc.l        LASTNAME_START0384
+    dc.l        LASTNAME_START0385
+    dc.l        LASTNAME_START0386
+    dc.l        LASTNAME_START0387
+    dc.l        LASTNAME_START0388
+    dc.l        LASTNAME_START0389
+    dc.l        LASTNAME_START0390
+    dc.l        LASTNAME_START0391
+	dc.l        LASTNAME_START0392
+	dc.l        LASTNAME_START0393
+	dc.l        LASTNAME_START0394
+	dc.l        LASTNAME_START0395
+	dc.l        LASTNAME_START0396
+	dc.l        LASTNAME_START0397
+	dc.l        LASTNAME_START0398
+	dc.l        LASTNAME_START0399
+
+	dc.l        LASTNAME_START0400
+    dc.l        LASTNAME_START0401
+    dc.l        LASTNAME_START0402
+    dc.l        LASTNAME_START0403
+    dc.l        LASTNAME_START0404
+    dc.l        LASTNAME_START0405
+    dc.l        LASTNAME_START0406
+    dc.l        LASTNAME_START0407
+    dc.l        LASTNAME_START0408
+    dc.l        LASTNAME_START0409
+    dc.l        LASTNAME_START0410
+    dc.l        LASTNAME_START0411
+    dc.l        LASTNAME_START0412
+    dc.l        LASTNAME_START0413
+    dc.l        LASTNAME_START0414
+    dc.l        LASTNAME_START0415
+    dc.l        LASTNAME_START0416
+    dc.l        LASTNAME_START0417
+    dc.l        LASTNAME_START0418
+    dc.l        LASTNAME_START0419
+    dc.l        LASTNAME_START0420
+    dc.l        LASTNAME_START0421
+    dc.l        LASTNAME_START0422
+    dc.l        LASTNAME_START0423
+    dc.l        LASTNAME_START0424
+    dc.l        LASTNAME_START0425
+    dc.l        LASTNAME_START0426
+    dc.l        LASTNAME_START0427
+    dc.l        LASTNAME_START0428
+    dc.l        LASTNAME_START0429
+    dc.l        LASTNAME_START0430
+    dc.l        LASTNAME_START0431
+    dc.l        LASTNAME_START0432
+    dc.l        LASTNAME_START0433
+    dc.l        LASTNAME_START0434
+    dc.l        LASTNAME_START0435
+    dc.l        LASTNAME_START0436
+    dc.l        LASTNAME_START0437
+    dc.l        LASTNAME_START0438
+    dc.l        LASTNAME_START0439
+    dc.l        LASTNAME_START0440
+    dc.l        LASTNAME_START0441
+    dc.l        LASTNAME_START0442
+    dc.l        LASTNAME_START0443
+    dc.l        LASTNAME_START0444
+    dc.l        LASTNAME_START0445
+    dc.l        LASTNAME_START0446
+    dc.l        LASTNAME_START0447
+    dc.l        LASTNAME_START0448
+    dc.l        LASTNAME_START0449
+    dc.l        LASTNAME_START0450
+    dc.l        LASTNAME_START0451
+    dc.l        LASTNAME_START0452
+    dc.l        LASTNAME_START0453
+    dc.l        LASTNAME_START0454
+    dc.l        LASTNAME_START0455
+    dc.l        LASTNAME_START0456
+    dc.l        LASTNAME_START0457
+    dc.l        LASTNAME_START0458
+    dc.l        LASTNAME_START0459
+    dc.l        LASTNAME_START0460
+    dc.l        LASTNAME_START0461
+    dc.l        LASTNAME_START0462
+    dc.l        LASTNAME_START0463
+    dc.l        LASTNAME_START0464
+    dc.l        LASTNAME_START0465
+    dc.l        LASTNAME_START0466
+    dc.l        LASTNAME_START0467
+    dc.l        LASTNAME_START0468
+    dc.l        LASTNAME_START0469
+    dc.l        LASTNAME_START0470
+    dc.l        LASTNAME_START0471
+    dc.l        LASTNAME_START0472
+    dc.l        LASTNAME_START0473
+    dc.l        LASTNAME_START0474
+    dc.l        LASTNAME_START0475
+    dc.l        LASTNAME_START0476
+    dc.l        LASTNAME_START0477
+    dc.l        LASTNAME_START0478
+    dc.l        LASTNAME_START0479
+    dc.l        LASTNAME_START0480
+    dc.l        LASTNAME_START0481
+    dc.l        LASTNAME_START0482
+    dc.l        LASTNAME_START0483
+    dc.l        LASTNAME_START0484
+    dc.l        LASTNAME_START0485
+    dc.l        LASTNAME_START0486
+    dc.l        LASTNAME_START0487
+    dc.l        LASTNAME_START0488
+    dc.l        LASTNAME_START0489
+    dc.l        LASTNAME_START0490
+    dc.l        LASTNAME_START0491
+	dc.l        LASTNAME_START0492
+	dc.l        LASTNAME_START0493
+	dc.l        LASTNAME_START0494
+	dc.l        LASTNAME_START0495
+	dc.l        LASTNAME_START0496
+	dc.l        LASTNAME_START0497
+	dc.l        LASTNAME_START0498
+	dc.l        LASTNAME_START0499
+
+	dc.l        LASTNAME_START0500
+    dc.l        LASTNAME_START0501
+    dc.l        LASTNAME_START0502
+    dc.l        LASTNAME_START0503
+    dc.l        LASTNAME_START0504
+    dc.l        LASTNAME_START0505
+    dc.l        LASTNAME_START0506
+    dc.l        LASTNAME_START0507
+    dc.l        LASTNAME_START0508
+    dc.l        LASTNAME_START0509
+    dc.l        LASTNAME_START0510
+    dc.l        LASTNAME_START0511
+    dc.l        LASTNAME_START0512
+    dc.l        LASTNAME_START0513
+    dc.l        LASTNAME_START0514
+    dc.l        LASTNAME_START0515
+    dc.l        LASTNAME_START0516
+    dc.l        LASTNAME_START0517
+    dc.l        LASTNAME_START0518
+    dc.l        LASTNAME_START0519
+    dc.l        LASTNAME_START0520
+    dc.l        LASTNAME_START0521
+    dc.l        LASTNAME_START0522
+    dc.l        LASTNAME_START0523
+    dc.l        LASTNAME_START0524
+    dc.l        LASTNAME_START0525
+    dc.l        LASTNAME_START0526
+    dc.l        LASTNAME_START0527
+    dc.l        LASTNAME_START0528
+    dc.l        LASTNAME_START0529
+    dc.l        LASTNAME_START0530
+    dc.l        LASTNAME_START0531
+    dc.l        LASTNAME_START0532
+    dc.l        LASTNAME_START0533
+    dc.l        LASTNAME_START0534
+    dc.l        LASTNAME_START0535
+    dc.l        LASTNAME_START0536
+    dc.l        LASTNAME_START0537
+    dc.l        LASTNAME_START0538
+    dc.l        LASTNAME_START0539
+    dc.l        LASTNAME_START0540
+    dc.l        LASTNAME_START0541
+    dc.l        LASTNAME_START0542
+    dc.l        LASTNAME_START0543
+    dc.l        LASTNAME_START0544
+    dc.l        LASTNAME_START0545
+    dc.l        LASTNAME_START0546
+    dc.l        LASTNAME_START0547
+    dc.l        LASTNAME_START0548
+    dc.l        LASTNAME_START0549
+    dc.l        LASTNAME_START0550
+    dc.l        LASTNAME_START0551
+    dc.l        LASTNAME_START0552
+    dc.l        LASTNAME_START0553
+    dc.l        LASTNAME_START0554
+    dc.l        LASTNAME_START0555
+    dc.l        LASTNAME_START0556
+    dc.l        LASTNAME_START0557
+    dc.l        LASTNAME_START0558
+    dc.l        LASTNAME_START0559
+    dc.l        LASTNAME_START0560
+    dc.l        LASTNAME_START0561
+    dc.l        LASTNAME_START0562
+    dc.l        LASTNAME_START0563
+    dc.l        LASTNAME_START0564
+    dc.l        LASTNAME_START0565
+    dc.l        LASTNAME_START0566
+    dc.l        LASTNAME_START0567
+    dc.l        LASTNAME_START0568
+    dc.l        LASTNAME_START0569
+    dc.l        LASTNAME_START0570
+    dc.l        LASTNAME_START0571
+    dc.l        LASTNAME_START0572
+    dc.l        LASTNAME_START0573
+    dc.l        LASTNAME_START0574
+    dc.l        LASTNAME_START0575
+    dc.l        LASTNAME_START0576
+    dc.l        LASTNAME_START0577
+    dc.l        LASTNAME_START0578
+    dc.l        LASTNAME_START0579
+    dc.l        LASTNAME_START0580
+    dc.l        LASTNAME_START0581
+    dc.l        LASTNAME_START0582
+    dc.l        LASTNAME_START0583
+    dc.l        LASTNAME_START0584
+    dc.l        LASTNAME_START0585
+    dc.l        LASTNAME_START0586
+    dc.l        LASTNAME_START0587
+    dc.l        LASTNAME_START0588
+    dc.l        LASTNAME_START0589
+    dc.l        LASTNAME_START0590
+    dc.l        LASTNAME_START0591
+	dc.l        LASTNAME_START0592
+	dc.l        LASTNAME_START0593
+	dc.l        LASTNAME_START0594
+	dc.l        LASTNAME_START0595
+	dc.l        LASTNAME_START0596
+	dc.l        LASTNAME_START0597
+	dc.l        LASTNAME_START0598
+	dc.l        LASTNAME_START0599
+	
+	dc.l        LASTNAME_START0600
+    dc.l        LASTNAME_START0601
+    dc.l        LASTNAME_START0602
+    dc.l        LASTNAME_START0603
+    dc.l        LASTNAME_START0604
+    dc.l        LASTNAME_START0605
+    dc.l        LASTNAME_START0606
+    dc.l        LASTNAME_START0607
+    dc.l        LASTNAME_START0608
+    dc.l        LASTNAME_START0609
+    dc.l        LASTNAME_START0610
+    dc.l        LASTNAME_START0611
+    dc.l        LASTNAME_START0612
+    dc.l        LASTNAME_START0613
+    dc.l        LASTNAME_START0614
+    dc.l        LASTNAME_START0615
+    dc.l        LASTNAME_START0616
+    dc.l        LASTNAME_START0617
+    dc.l        LASTNAME_START0618
+    dc.l        LASTNAME_START0619
+    dc.l        LASTNAME_START0620
+    dc.l        LASTNAME_START0621
+    dc.l        LASTNAME_START0622
+    dc.l        LASTNAME_START0623
+    dc.l        LASTNAME_START0624
+    dc.l        LASTNAME_START0625
+    dc.l        LASTNAME_START0626
+    dc.l        LASTNAME_START0627
+    dc.l        LASTNAME_START0628
+    dc.l        LASTNAME_START0629
+    dc.l        LASTNAME_START0630
+    dc.l        LASTNAME_START0631
+    dc.l        LASTNAME_START0632
+    dc.l        LASTNAME_START0633
+    dc.l        LASTNAME_START0634
+    dc.l        LASTNAME_START0635
+    dc.l        LASTNAME_START0636
+    dc.l        LASTNAME_START0637
+    dc.l        LASTNAME_START0638
+    dc.l        LASTNAME_START0639
+    dc.l        LASTNAME_START0640
+    dc.l        LASTNAME_START0641
+    dc.l        LASTNAME_START0642
+    dc.l        LASTNAME_START0643
+    dc.l        LASTNAME_START0644
+    dc.l        LASTNAME_START0645
+    dc.l        LASTNAME_START0646
+    dc.l        LASTNAME_START0647
+    dc.l        LASTNAME_START0648
+    dc.l        LASTNAME_START0649
+    dc.l        LASTNAME_START0650
+    dc.l        LASTNAME_START0651
+    dc.l        LASTNAME_START0652
+    dc.l        LASTNAME_START0653
+    dc.l        LASTNAME_START0654
+    dc.l        LASTNAME_START0655
+    dc.l        LASTNAME_START0656
+    dc.l        LASTNAME_START0657
+    dc.l        LASTNAME_START0658
+    dc.l        LASTNAME_START0659
+    dc.l        LASTNAME_START0660
+    dc.l        LASTNAME_START0661
+    dc.l        LASTNAME_START0662
+    dc.l        LASTNAME_START0663
+    dc.l        LASTNAME_START0664
+    dc.l        LASTNAME_START0665
+    dc.l        LASTNAME_START0666
+    dc.l        LASTNAME_START0667
+    dc.l        LASTNAME_START0668
+    dc.l        LASTNAME_START0669
+    dc.l        LASTNAME_START0670
+    ;dc.l        LASTNAME_START0671
+    ;dc.l        LASTNAME_START0672
+    ;dc.l        LASTNAME_START0673
+    ;dc.l        LASTNAME_START0674
+    ;dc.l        LASTNAME_START0675
+    ;dc.l        LASTNAME_START0676
+    ;dc.l        LASTNAME_START0677
+    ;dc.l        LASTNAME_START0678
+    ;dc.l        LASTNAME_START0679
+    dc.l        LASTNAME_START0680
+    dc.l        LASTNAME_START0681
+    dc.l        LASTNAME_START0682
+    dc.l        LASTNAME_START0683
+    dc.l        LASTNAME_START0684
+    dc.l        LASTNAME_START0685
+    dc.l        LASTNAME_START0686
+    dc.l        LASTNAME_START0687
+    dc.l        LASTNAME_START0688
+    dc.l        LASTNAME_START0689
+    dc.l        LASTNAME_START0690
+    dc.l        LASTNAME_START0691
+	dc.l        LASTNAME_START0692
+	dc.l        LASTNAME_START0693
+	dc.l        LASTNAME_START0694
+	dc.l        LASTNAME_START0695
+	dc.l        LASTNAME_START0696
+	dc.l        LASTNAME_START0697
+	dc.l        LASTNAME_START0698
+	dc.l        LASTNAME_START0699
+
+	dc.l        LASTNAME_START0700
+    dc.l        LASTNAME_START0701
+    dc.l        LASTNAME_START0702
+    dc.l        LASTNAME_START0703
+    dc.l        LASTNAME_START0704
+    dc.l        LASTNAME_START0705
+    dc.l        LASTNAME_START0706
+    dc.l        LASTNAME_START0707
+    dc.l        LASTNAME_START0708
+    dc.l        LASTNAME_START0709
+    dc.l        LASTNAME_START0710
+    dc.l        LASTNAME_START0711
+    dc.l        LASTNAME_START0712
+    dc.l        LASTNAME_START0713
+    dc.l        LASTNAME_START0714
+    dc.l        LASTNAME_START0715
+    dc.l        LASTNAME_START0716
+    dc.l        LASTNAME_START0717
+    dc.l        LASTNAME_START0718
+    dc.l        LASTNAME_START0719
+    dc.l        LASTNAME_START0720
+    dc.l        LASTNAME_START0721
+    dc.l        LASTNAME_START0722
+    dc.l        LASTNAME_START0723
+    dc.l        LASTNAME_START0724
+    dc.l        LASTNAME_START0725
+    dc.l        LASTNAME_START0726
+    dc.l        LASTNAME_START0727
+    dc.l        LASTNAME_START0728
+    dc.l        LASTNAME_START0729
+    dc.l        LASTNAME_START0730
+    dc.l        LASTNAME_START0731
+    dc.l        LASTNAME_START0732
+    dc.l        LASTNAME_START0733
+    dc.l        LASTNAME_START0734
+    dc.l        LASTNAME_START0735
+    dc.l        LASTNAME_START0736
+    dc.l        LASTNAME_START0737
+    dc.l        LASTNAME_START0738
+    dc.l        LASTNAME_START0739
+    dc.l        LASTNAME_START0740
+    dc.l        LASTNAME_START0741
+    dc.l        LASTNAME_START0742
+    dc.l        LASTNAME_START0743
+    dc.l        LASTNAME_START0744
+    dc.l        LASTNAME_START0745
+    dc.l        LASTNAME_START0746
+    dc.l        LASTNAME_START0747
+    dc.l        LASTNAME_START0748
+    dc.l        LASTNAME_START0749
+    dc.l        LASTNAME_START0750
+    dc.l        LASTNAME_START0751
+    dc.l        LASTNAME_START0752
+    dc.l        LASTNAME_START0753
+    dc.l        LASTNAME_START0754
+    dc.l        LASTNAME_START0755
+    dc.l        LASTNAME_START0756
+    dc.l        LASTNAME_START0757
+    dc.l        LASTNAME_START0758
+    dc.l        LASTNAME_START0759
+    dc.l        LASTNAME_START0760
+    dc.l        LASTNAME_START0761
+    dc.l        LASTNAME_START0762
+    dc.l        LASTNAME_START0763
+    dc.l        LASTNAME_START0764
+    dc.l        LASTNAME_START0765
+    dc.l        LASTNAME_START0766
+    dc.l        LASTNAME_START0767
+    dc.l        LASTNAME_START0768
+    dc.l        LASTNAME_START0769
+    dc.l        LASTNAME_START0770
+    dc.l        LASTNAME_START0771
+    dc.l        LASTNAME_START0772
+    dc.l        LASTNAME_START0773
+    dc.l        LASTNAME_START0774
+    dc.l        LASTNAME_START0775
+    dc.l        LASTNAME_START0776
+    dc.l        LASTNAME_START0777
+    dc.l        LASTNAME_START0778
+    dc.l        LASTNAME_START0779
+    dc.l        LASTNAME_START0780
+    dc.l        LASTNAME_START0781
+    dc.l        LASTNAME_START0782
+    dc.l        LASTNAME_START0783
+    dc.l        LASTNAME_START0784
+    dc.l        LASTNAME_START0785
+    dc.l        LASTNAME_START0786
+    dc.l        LASTNAME_START0787
+    dc.l        LASTNAME_START0788
+    dc.l        LASTNAME_START0789
+    dc.l        LASTNAME_START0790
+    dc.l        LASTNAME_START0791
+	dc.l        LASTNAME_START0792
+	dc.l        LASTNAME_START0793
+	dc.l        LASTNAME_START0794
+	dc.l        LASTNAME_START0795
+	dc.l        LASTNAME_START0796
+	dc.l        LASTNAME_START0797
+	dc.l        LASTNAME_START0798
+	dc.l        LASTNAME_START0799
+
+	dc.l        LASTNAME_START0800
+    dc.l        LASTNAME_START0801
+    dc.l        LASTNAME_START0802
+    dc.l        LASTNAME_START0803
+    dc.l        LASTNAME_START0804
+    dc.l        LASTNAME_START0805
+    dc.l        LASTNAME_START0806
+    dc.l        LASTNAME_START0807
+    dc.l        LASTNAME_START0808
+    dc.l        LASTNAME_START0809
+    dc.l        LASTNAME_START0810
+    dc.l        LASTNAME_START0811
+    dc.l        LASTNAME_START0812
+    dc.l        LASTNAME_START0813
+    dc.l        LASTNAME_START0814
+    dc.l        LASTNAME_START0815
+    dc.l        LASTNAME_START0816
+    dc.l        LASTNAME_START0817
+    dc.l        LASTNAME_START0818
+    dc.l        LASTNAME_START0819
+    dc.l        LASTNAME_START0820
+    dc.l        LASTNAME_START0821
+    dc.l        LASTNAME_START0822
+    dc.l        LASTNAME_START0823
+    dc.l        LASTNAME_START0824
+    dc.l        LASTNAME_START0825
+    dc.l        LASTNAME_START0826
+    dc.l        LASTNAME_START0827
+    dc.l        LASTNAME_START0828
+    dc.l        LASTNAME_START0829
+    dc.l        LASTNAME_START0830
+    dc.l        LASTNAME_START0831
+    dc.l        LASTNAME_START0832
+    dc.l        LASTNAME_START0833
+    dc.l        LASTNAME_START0834
+    dc.l        LASTNAME_START0835
+    dc.l        LASTNAME_START0836
+    dc.l        LASTNAME_START0837
+    dc.l        LASTNAME_START0838
+    dc.l        LASTNAME_START0839
+    dc.l        LASTNAME_START0840
+    dc.l        LASTNAME_START0841
+    dc.l        LASTNAME_START0842
+    dc.l        LASTNAME_START0843
+    dc.l        LASTNAME_START0844
+    dc.l        LASTNAME_START0845
+    dc.l        LASTNAME_START0846
+    dc.l        LASTNAME_START0847
+    dc.l        LASTNAME_START0848
+    dc.l        LASTNAME_START0849
+    dc.l        LASTNAME_START0850
+    dc.l        LASTNAME_START0851
+    dc.l        LASTNAME_START0852
+    dc.l        LASTNAME_START0853
+    dc.l        LASTNAME_START0854
+    dc.l        LASTNAME_START0855
+    dc.l        LASTNAME_START0856
+    dc.l        LASTNAME_START0857
+    dc.l        LASTNAME_START0858
+    dc.l        LASTNAME_START0859
+    dc.l        LASTNAME_START0860
+    dc.l        LASTNAME_START0861
+    dc.l        LASTNAME_START0862
+    dc.l        LASTNAME_START0863
+    dc.l        LASTNAME_START0864
+    dc.l        LASTNAME_START0865
+    dc.l        LASTNAME_START0866
+    dc.l        LASTNAME_START0867
+    dc.l        LASTNAME_START0868
+    dc.l        LASTNAME_START0869
+    dc.l        LASTNAME_START0870
+    dc.l        LASTNAME_START0871
+    dc.l        LASTNAME_START0872
+    dc.l        LASTNAME_START0873
+    dc.l        LASTNAME_START0874
+    dc.l        LASTNAME_START0875
+    dc.l        LASTNAME_START0876
+    dc.l        LASTNAME_START0877
+    dc.l        LASTNAME_START0878
+    dc.l        LASTNAME_START0879
+    dc.l        LASTNAME_START0880
+    dc.l        LASTNAME_START0881
+    dc.l        LASTNAME_START0882
+    dc.l        LASTNAME_START0883
+    dc.l        LASTNAME_START0884
+    dc.l        LASTNAME_START0885
+    dc.l        LASTNAME_START0886
+    dc.l        LASTNAME_START0887
+    dc.l        LASTNAME_START0888
+    dc.l        LASTNAME_START0889
+    dc.l        LASTNAME_START0890
+    dc.l        LASTNAME_START0891
+	dc.l        LASTNAME_START0892
+	dc.l        LASTNAME_START0893
+	dc.l        LASTNAME_START0894
+	dc.l        LASTNAME_START0895
+	dc.l        LASTNAME_START0896
+	dc.l        LASTNAME_START0897
+	dc.l        LASTNAME_START0898
+	dc.l        LASTNAME_START0899
+	
+	dc.l        LASTNAME_START0900
+    dc.l        LASTNAME_START0901
+    dc.l        LASTNAME_START0902
+    dc.l        LASTNAME_START0903
+    dc.l        LASTNAME_START0904
+    dc.l        LASTNAME_START0905
+    dc.l        LASTNAME_START0906
+    dc.l        LASTNAME_START0907
+    dc.l        LASTNAME_START0908
+    dc.l        LASTNAME_START0909
+    dc.l        LASTNAME_START0910
+    dc.l        LASTNAME_START0911
+    dc.l        LASTNAME_START0912
+    dc.l        LASTNAME_START0913
+    dc.l        LASTNAME_START0914
+    dc.l        LASTNAME_START0915
+    dc.l        LASTNAME_START0916
+    dc.l        LASTNAME_START0917
+    dc.l        LASTNAME_START0918
+    dc.l        LASTNAME_START0919
+    dc.l        LASTNAME_START0920
+    dc.l        LASTNAME_START0921
+    dc.l        LASTNAME_START0922
+    dc.l        LASTNAME_START0923
+    dc.l        LASTNAME_START0924
+    dc.l        LASTNAME_START0925
+    dc.l        LASTNAME_START0926
+    dc.l        LASTNAME_START0927
+    dc.l        LASTNAME_START0928
+    dc.l        LASTNAME_START0929
+    dc.l        LASTNAME_START0930
+    dc.l        LASTNAME_START0931
+    dc.l        LASTNAME_START0932
+    dc.l        LASTNAME_START0933
+    dc.l        LASTNAME_START0934
+    dc.l        LASTNAME_START0935
+    dc.l        LASTNAME_START0936
+    dc.l        LASTNAME_START0937
+    dc.l        LASTNAME_START0938
+    dc.l        LASTNAME_START0939
+    dc.l        LASTNAME_START0940
+    dc.l        LASTNAME_START0941
+    dc.l        LASTNAME_START0942
+    dc.l        LASTNAME_START0943
+    dc.l        LASTNAME_START0944
+    dc.l        LASTNAME_START0945
+    dc.l        LASTNAME_START0946
+    dc.l        LASTNAME_START0947
+    dc.l        LASTNAME_START0948
+    dc.l        LASTNAME_START0949
+    dc.l        LASTNAME_START0950
+    dc.l        LASTNAME_START0951
+    dc.l        LASTNAME_START0952
+    dc.l        LASTNAME_START0953
+    dc.l        LASTNAME_START0954
+    dc.l        LASTNAME_START0955
+    dc.l        LASTNAME_START0956
+    dc.l        LASTNAME_START0957
+    dc.l        LASTNAME_START0958
+    dc.l        LASTNAME_START0959
+    dc.l        LASTNAME_START0960
+    dc.l        LASTNAME_START0961
+    dc.l        LASTNAME_START0962
+    dc.l        LASTNAME_START0963
+    dc.l        LASTNAME_START0964
+    dc.l        LASTNAME_START0965
+	dc.l        LASTNAME_START0964x
+    dc.l        LASTNAME_START0965x
+    dc.l        LASTNAME_START0966
+    dc.l        LASTNAME_START0967
+    dc.l        LASTNAME_START0968
+    dc.l        LASTNAME_START0969
+    dc.l        LASTNAME_START0970
+    dc.l        LASTNAME_START0971
+    dc.l        LASTNAME_START0972
+    dc.l        LASTNAME_START0973
+    dc.l        LASTNAME_START0974
+    dc.l        LASTNAME_START0975
+    dc.l        LASTNAME_START0976
+    dc.l        LASTNAME_START0977
+    dc.l        LASTNAME_START0978
+    dc.l        LASTNAME_START0979
+    dc.l        LASTNAME_START0980
+    dc.l        LASTNAME_START0981
+    dc.l        LASTNAME_START0982
+    dc.l        LASTNAME_START0983
+    dc.l        LASTNAME_START0984
+    dc.l        LASTNAME_START0985
+    dc.l        LASTNAME_START0986
+    dc.l        LASTNAME_START0987
+    dc.l        LASTNAME_START0988
+    dc.l        LASTNAME_START0989
+    dc.l        LASTNAME_START0990
+    dc.l        LASTNAME_START0991
+	dc.l        LASTNAME_START0992
+	dc.l        LASTNAME_START0993
+	dc.l        LASTNAME_START0994
+	dc.l        LASTNAME_START0995
+	dc.l        LASTNAME_START0996
+	dc.l        LASTNAME_START0997
+	dc.l        LASTNAME_START0998
+	dc.l        LASTNAME_START0999
+	
+	dc.l        LASTNAME_START1000
+    dc.l        LASTNAME_START1001
+    dc.l        LASTNAME_START1002
+    dc.l        LASTNAME_START1003
+    dc.l        LASTNAME_START1004
+    dc.l        LASTNAME_START1005
+    dc.l        LASTNAME_START1006
+    dc.l        LASTNAME_START1007
+    dc.l        LASTNAME_START1008
+    dc.l        LASTNAME_START1009
+    dc.l        LASTNAME_START1010
+    dc.l        LASTNAME_START1011
+    dc.l        LASTNAME_START1012
+    dc.l        LASTNAME_START1013
+    dc.l        LASTNAME_START1014
+    dc.l        LASTNAME_START1015
+    dc.l        LASTNAME_START1016
+    dc.l        LASTNAME_START1017
+    dc.l        LASTNAME_START1018
+    dc.l        LASTNAME_START1019
+    dc.l        LASTNAME_START1020
+    dc.l        LASTNAME_START1021
+    dc.l        LASTNAME_START1022
+    dc.l        LASTNAME_START1023
+    dc.l        LASTNAME_START1024
+    dc.l        LASTNAME_START1025
+    dc.l        LASTNAME_START1026
+    dc.l        LASTNAME_START1027
+    dc.l        LASTNAME_START1028
+    dc.l        LASTNAME_START1029
+    dc.l        LASTNAME_START1030
+    dc.l        LASTNAME_START1031
+    dc.l        LASTNAME_START1032
+    dc.l        LASTNAME_START1033
+    dc.l        LASTNAME_START1034
+    dc.l        LASTNAME_START1035
+    dc.l        LASTNAME_START1036
+    dc.l        LASTNAME_START1037
+    dc.l        LASTNAME_START1038
+    dc.l        LASTNAME_START1039
+    dc.l        LASTNAME_START1040
+    dc.l        LASTNAME_START1041
+    dc.l        LASTNAME_START1042
+    dc.l        LASTNAME_START1043
+    dc.l        LASTNAME_START1044
+    dc.l        LASTNAME_START1045
+    dc.l        LASTNAME_START1046
+    dc.l        LASTNAME_START1047
+    dc.l        LASTNAME_START1048
+    dc.l        LASTNAME_START1049
+    dc.l        LASTNAME_START1050
+    dc.l        LASTNAME_START1051
+    dc.l        LASTNAME_START1052
+    dc.l        LASTNAME_START1053
+    dc.l        LASTNAME_START1054
+    dc.l        LASTNAME_START1055
+    dc.l        LASTNAME_START1056
+    dc.l        LASTNAME_START1057
+    dc.l        LASTNAME_START1058
+    dc.l        LASTNAME_START1059
+    dc.l        LASTNAME_START1060
+    dc.l        LASTNAME_START1061
+    dc.l        LASTNAME_START1062
+    dc.l        LASTNAME_START1063
+    dc.l        LASTNAME_START1064
+    dc.l        LASTNAME_START1065
+    dc.l        LASTNAME_START1066
+    dc.l        LASTNAME_START1067
+    dc.l        LASTNAME_START1068
+    dc.l        LASTNAME_START1069
+    dc.l        LASTNAME_START1070
+    dc.l        LASTNAME_START1071
+    dc.l        LASTNAME_START1072
+    dc.l        LASTNAME_START1073
+    dc.l        LASTNAME_START1074
+    dc.l        LASTNAME_START1075
+    dc.l        LASTNAME_START1076
+    dc.l        LASTNAME_START1077
+    dc.l        LASTNAME_START1078
+    dc.l        LASTNAME_START1079
+    dc.l        LASTNAME_START1080
+    dc.l        LASTNAME_START1081
+    dc.l        LASTNAME_START1082
+    dc.l        LASTNAME_START1083
+    dc.l        LASTNAME_START1084
+    dc.l        LASTNAME_START1085
+    dc.l        LASTNAME_START1086
+    dc.l        LASTNAME_START1087
+    dc.l        LASTNAME_START1088
+    dc.l        LASTNAME_START1089
+    dc.l        LASTNAME_START1090
+    dc.l        LASTNAME_START1091
+	dc.l        LASTNAME_START1092
+	dc.l        LASTNAME_START1093
+	dc.l        LASTNAME_START1094
+	dc.l        LASTNAME_START1095
+	dc.l        LASTNAME_START1096
+	dc.l        LASTNAME_START1097
+	dc.l        LASTNAME_START1098
+	dc.l        LASTNAME_START1099
+	
+	dc.l        LASTNAME_START1100
+    dc.l        LASTNAME_START1101
+    dc.l        LASTNAME_START1102
+    dc.l        LASTNAME_START1103
+    dc.l        LASTNAME_START1104
+    dc.l        LASTNAME_START1105
+    dc.l        LASTNAME_START1106
+    dc.l        LASTNAME_START1107
+    dc.l        LASTNAME_START1108
+    dc.l        LASTNAME_START1109
+    dc.l        LASTNAME_START1110
+    dc.l        LASTNAME_START1111
+    dc.l        LASTNAME_START1112
+    dc.l        LASTNAME_START1113
+    dc.l        LASTNAME_START1114
+    dc.l        LASTNAME_START1115
+    dc.l        LASTNAME_START1116
+    dc.l        LASTNAME_START1117
+    dc.l        LASTNAME_START1118
+    dc.l        LASTNAME_START1119
+    dc.l        LASTNAME_START1120
+    dc.l        LASTNAME_START1121
+    dc.l        LASTNAME_START1122
+    dc.l        LASTNAME_START1123
+    dc.l        LASTNAME_START1124
+    dc.l        LASTNAME_START1125
+    dc.l        LASTNAME_START1126
+    dc.l        LASTNAME_START1127
+    dc.l        LASTNAME_START1128
+    dc.l        LASTNAME_START1129
+    dc.l        LASTNAME_START1130
+    dc.l        LASTNAME_START1131
+    dc.l        LASTNAME_START1132
+    dc.l        LASTNAME_START1133
+    dc.l        LASTNAME_START1134
+	dc.l        LASTNAME_START1134x
+    dc.l        LASTNAME_START1135
+    dc.l        LASTNAME_START1136
+    dc.l        LASTNAME_START1137
+    dc.l        LASTNAME_START1138
+    dc.l        LASTNAME_START1139
+    dc.l        LASTNAME_START1140
+    dc.l        LASTNAME_START1141
+    dc.l        LASTNAME_START1142
+    dc.l        LASTNAME_START1143
+    dc.l        LASTNAME_START1144
+    dc.l        LASTNAME_START1145
+    dc.l        LASTNAME_START1146
+    dc.l        LASTNAME_START1147
+    dc.l        LASTNAME_START1148
+    dc.l        LASTNAME_START1149
+    dc.l        LASTNAME_START1150
+    dc.l        LASTNAME_START1151
+    dc.l        LASTNAME_START1152
+    dc.l        LASTNAME_START1153
+    dc.l        LASTNAME_START1154
+    dc.l        LASTNAME_START1155
+    dc.l        LASTNAME_START1156
+    dc.l        LASTNAME_START1157
+    dc.l        LASTNAME_START1158
+    dc.l        LASTNAME_START1159
+    dc.l        LASTNAME_START1160
+    dc.l        LASTNAME_START1161
+    dc.l        LASTNAME_START1162
+    dc.l        LASTNAME_START1163
+    dc.l        LASTNAME_START1164
+    dc.l        LASTNAME_START1165
+    dc.l        LASTNAME_START1166
+    dc.l        LASTNAME_START1167
+    dc.l        LASTNAME_START1168
+    dc.l        LASTNAME_START1169
+    dc.l        LASTNAME_START1170
+    dc.l        LASTNAME_START1171
+    dc.l        LASTNAME_START1172
+    dc.l        LASTNAME_START1173
+    dc.l        LASTNAME_START1174
+    dc.l        LASTNAME_START1175
+    dc.l        LASTNAME_START1176
+    dc.l        LASTNAME_START1177
+    dc.l        LASTNAME_START1178
+    dc.l        LASTNAME_START1179
+    dc.l        LASTNAME_START1180
+    dc.l        LASTNAME_START1181
+    dc.l        LASTNAME_START1182
+    dc.l        LASTNAME_START1183
+    dc.l        LASTNAME_START1184
+    dc.l        LASTNAME_START1185
+    dc.l        LASTNAME_START1186
+    dc.l        LASTNAME_START1187
+    dc.l        LASTNAME_START1188
+    dc.l        LASTNAME_START1189
+    dc.l        LASTNAME_START1190
+    dc.l        LASTNAME_START1191
+	dc.l        LASTNAME_START1192
+	dc.l        LASTNAME_START1193
+	dc.l        LASTNAME_START1194
+	dc.l        LASTNAME_START1195
+	dc.l        LASTNAME_START1196
+	dc.l        LASTNAME_START1197
+	dc.l        LASTNAME_START1198
+	dc.l        LASTNAME_START1199
+	
+	dc.l        LASTNAME_START1200
+    dc.l        LASTNAME_START1201
+    dc.l        LASTNAME_START1202
+    dc.l        LASTNAME_START1203
+    dc.l        LASTNAME_START1204
+    dc.l        LASTNAME_START1205
+    dc.l        LASTNAME_START1206
+    dc.l        LASTNAME_START1207
+    dc.l        LASTNAME_START1208
+    dc.l        LASTNAME_START1209
+    dc.l        LASTNAME_START1210
+    dc.l        LASTNAME_START1211
+    dc.l        LASTNAME_START1212
+    dc.l        LASTNAME_START1213
+    dc.l        LASTNAME_START1214
+    dc.l        LASTNAME_START1215
+    dc.l        LASTNAME_START1216
+    dc.l        LASTNAME_START1217
+    dc.l        LASTNAME_START1218
+
+LASTNAME_START0000:              
     dc.b        "Guidolin",0                                                                     
+LASTNAME_START0001:
     dc.b        "Giorgi",0                                                                       
+LASTNAME_START0002:
     dc.b        "Simoni",0                                                                       
+LASTNAME_START0003:
     dc.b        "Zeman",0                                                                        
+LASTNAME_START0004:
     dc.b        "Maselli",0                                                                      
+LASTNAME_START0005:
     dc.b        "Bagnoli",0                                                                      
+LASTNAME_START0006:
     dc.b        "Trapattoni",0                                                                   
+LASTNAME_START0007:
     dc.b        "Zoff",0                                                                         
+LASTNAME_START0008:
     dc.b        "Sonetti",0                                                                      
+LASTNAME_START0009:
     dc.b        "Capello",0                                                                      
+LASTNAME_START0010:
     dc.b        "Lippi",0                                                                        
+LASTNAME_START0011:
     dc.b        "Scala",0                                                                        
-    dc.b        "Cagni",0                                                                        
+LASTNAME_START0012:
+    dc.b        "Cagni",0  
+LASTNAME_START0013:	
     dc.b        "Marchioro",0                                                                    
+LASTNAME_START0014:
     dc.b        "Mazzone",0                                                                      
+LASTNAME_START0015:
     dc.b        "Eriksson",0                                                                     
+LASTNAME_START0016:
     dc.b        "Mondonico",0                                                                    
+LASTNAME_START0017:
     dc.b        "Vicini",0                                                                       
+LASTNAME_START0018:
     dc.b        "Papadopulo",0                                                                   
+LASTNAME_START0019:
     dc.b        "Orazi",0                                                                        
+LASTNAME_START0020:
     dc.b        "Lusescu",0                                                                      
+LASTNAME_START0021:
     dc.b        "Bolchi",0                                                                       
+LASTNAME_START0022:
     dc.b        "Perotti",0                                                                      
+LASTNAME_START0023:
     dc.b        "Ranieri",0                                                                      
+LASTNAME_START0024:
     dc.b        "Fascetti",0                                                                     
+LASTNAME_START0025:
     dc.b        "Oddo",0                                                                         
+LASTNAME_START0026:
     dc.b        "Trainini",0                                                                     
+LASTNAME_START0027:
     dc.b        "Stacchini",0                                                                    
+LASTNAME_START0028:
     dc.b        "Nicolini",0                                                                     
+LASTNAME_START0029:
     dc.b        "Zucchini",0                                                                     
+LASTNAME_START0030:
     dc.b        "Rumignani",0                                                                    
+LASTNAME_START0031:
     dc.b        "Onofri",0                                                                       
+LASTNAME_START0032:
     dc.b        "Ventura",0                                                                      
+LASTNAME_START0033:
     dc.b        "Mutti",0                                                                        
+LASTNAME_START0034:
     dc.b        "Ulivieri",0                                                                     
+LASTNAME_START0035:
     dc.b        "Bigliardi",0                                                                    
+LASTNAME_START0036:
     dc.b        "Codispoti",0                                                                    
+LASTNAME_START0037:
     dc.b        "Ferron",0                                                                       
+LASTNAME_START0038:
     dc.b        "Alemao",0                                                                       
+LASTNAME_START0039:
     dc.b        "Ganz",0                                                                         
+LASTNAME_START0040:
     dc.b        "Magoni",0                                                                       
+LASTNAME_START0041:
     dc.b        "Mascheretti",0                                                                  
+LASTNAME_START0042:
     dc.b        "Minaudo",0                                                                      
+LASTNAME_START0043:
     dc.b        "Montero",0                                                                      
+LASTNAME_START0044:
     dc.b        "Pavan",0                                                                        
+LASTNAME_START0045:
     dc.b        "Perrone",0                                                                      
+LASTNAME_START0046:
     dc.b        "Pinato",0                                                                       
+LASTNAME_START0047:
     dc.b        "Pisani",0                                                                       
+LASTNAME_START0048:
     dc.b        "Rambaudi",0                                                                     
+;LASTNAME_START0049:
+TESTING00:
     dc.b        "Rodriguez",0                                                                    
+LASTNAME_START0050:
     dc.b        "Tacchinardi",0                                                                  
+LASTNAME_START0051:
     dc.b        "Tresoldi",0                                                                     
+LASTNAME_START0052:
     dc.b        "Valentini",0                                                                    
+LASTNAME_START0053:
     dc.b        "Sauzee",0                                                                       
+LASTNAME_START0054:
     dc.b        "Orlandini",0                                                                    
+LASTNAME_START0055:
     dc.b        "Scapolo",0                                                                      
+LASTNAME_START0056:
     dc.b        "Maretti",0                                                                      
+LASTNAME_START0057:
     dc.b        "Cappioli",0                                                                     
+LASTNAME_START0058:
     dc.b        "Criniti",0                                                                      
+LASTNAME_START0059:
     dc.b        "Di Bitonto",0                                                                   
+LASTNAME_START0060:
     dc.b        "Firicano",0                                                                     
+LASTNAME_START0061:
     dc.b        "Herrera",0                                                                      
+LASTNAME_START0062:
     dc.b        "Matteoli",0                                                                     
+LASTNAME_START0063:
     dc.b        "Moriero",0                                                                      
+LASTNAME_START0064:
     dc.b        "Napoli",0                                                                       
+LASTNAME_START0065:
     dc.b        "Oliveira",0                                                                     
+LASTNAME_START0066:
     dc.b        "Pancaro",0                                                                      
+LASTNAME_START0067:
     dc.b        "Pusceddu",0                                                                     
+LASTNAME_START0068:
     dc.b        "Sanna",0                                                                        
+LASTNAME_START0069:
     dc.b        "Tejera",0                                                                       
+LASTNAME_START0070:
     dc.b        "Villa",0                                                                        
+LASTNAME_START0071:
     dc.b        "Fiori",0                                                                        
+LASTNAME_START0072:
     dc.b        "Veronese",0                                                                     
+LASTNAME_START0073:
     dc.b        "Aloisi",0                                                                       
+LASTNAME_START0074:
     dc.b        "Allegri",0                                                                      
+LASTNAME_START0075:
     dc.b        "Dely Valdes",0                                                                  
+LASTNAME_START0076:
     dc.b        "Bellucci",0                                                                     
+LASTNAME_START0077:
     dc.b        "Bisoli",0                                                                       
+LASTNAME_START0078:
     dc.b        "Pitta",0                                                                        
+LASTNAME_START0079:
     dc.b        "Mannini",0                                                                      
+LASTNAME_START0080:
     dc.b        "Razzetti",0                                                                     
+LASTNAME_START0081:
     dc.b        "Turci",0                                                                        
+LASTNAME_START0082:
     dc.b        "Bassani",0                                                                      
+LASTNAME_START0083:
     dc.b        "Colonnese",0                                                                    
+LASTNAME_START0084:
     dc.b        "Gualco",0                                                                       
+LASTNAME_START0085:
     dc.b        "Lucarelli",0                                                                    
+LASTNAME_START0086:
     dc.b        "Montorfano",0                                                                   
+LASTNAME_START0087:
     dc.b        "Verdelli",0                                                                     
+LASTNAME_START0088:
     dc.b        "Bruzzano",0                                                                     
+LASTNAME_START0089:
     dc.b        "Cristiani",0                                                                    
+LASTNAME_START0090:
     dc.b        "De Agostini",0                                                                  
+LASTNAME_START0091:
     dc.b        "Ferraroni",0                                                                    
+LASTNAME_START0092:
     dc.b        "Giandebiaggi",0                                                                 
+LASTNAME_START0093:
     dc.b        "Maspero",0                                                                      
+LASTNAME_START0094:
     dc.b        "Pedroni",0                                                                      
+LASTNAME_START0095:
     dc.b        "Dezotti",0                                                                      
+LASTNAME_START0096:
     dc.b        "Florijancic",0                                                                  
+LASTNAME_START0097:
     dc.b        "Tentoni",0                                                                      
+LASTNAME_START0098:
     dc.b        "Bacchin",0                                                                      
+LASTNAME_START0099:
     dc.b        "Bianchini",0                                                                    
+LASTNAME_START0100:
     dc.b        "Bresciani",0                                                                    
+LASTNAME_START0101:
     dc.b        "Caini",0                                                                        
+LASTNAME_START0102:
     dc.b        "De Vincenzo",0                                                                  
+LASTNAME_START0103:
     dc.b        "Di Bari",0                                                                      
+LASTNAME_START0104:
     dc.b        "Di Biagio",0                                                                    
+LASTNAME_START0105:
     dc.b        "Fornaciari",0                                                                   
+LASTNAME_START0106:
     dc.b        "Gasparini",0                                                                    
+LASTNAME_START0107:
     dc.b        "Grandini",0                                                                     
+LASTNAME_START0108:
     dc.b        "Grassadonia",0                                                                  
+LASTNAME_START0109:
     dc.b        "Kolyvanov",0                                                                    
-    dc.b        "Mancini",0                                                                      
+LASTNAME_START0110:
+    dc.b        "Mancini",0   
+LASTNAME_START0111:	
     dc.b        "Mandelli",0                                                                     
+LASTNAME_START0112:
     dc.b        "Nicoli",0                                                                       
+LASTNAME_START0113:
     dc.b        "Pisano",0                                                                       
+LASTNAME_START0114:
     dc.b        "Roy",0                                                                          
+LASTNAME_START0115:
     dc.b        "Sciacca",0                                                                      
+LASTNAME_START0116:
     dc.b        "Seno",0                                                                         
+LASTNAME_START0117:
     dc.b        "Bucaro",0                                                                       
+LASTNAME_START0118:
     dc.b        "Cappellini",0                                                                   
+LASTNAME_START0119:
     dc.b        "Chamot",0                                                                       
+LASTNAME_START0120:
     dc.b        "Nappi",0                                                                        
+LASTNAME_START0121:
     dc.b        "Ciocci",0                                                                       
+LASTNAME_START0122:
     dc.b        "Vink",0                                                                         
+LASTNAME_START0123:
     dc.b        "Bortolazzi",0                                                                   
+LASTNAME_START0124:
     dc.b        "Branco",0                                                                       
+LASTNAME_START0125:
     dc.b        "Caricola",0                                                                     
+LASTNAME_START0126:
     dc.b        "Cavallo",0                                                                      
+LASTNAME_START0127:
     dc.b        "Dobrovolsky",0                                                                  
+LASTNAME_START0128:
     dc.b        "Fiorin",0                                                                       
+LASTNAME_START0129:
     dc.b        "Onarati",0                                                                      
-    dc.b        "Ruotolo",0                                                                      
+LASTNAME_START0130:
+    dc.b        "Ruotolo",0     
+LASTNAME_START0131:
     dc.b        "Signorelli",0                                                                   
+LASTNAME_START0132:
     dc.b        "Signorini",0                                                                    
+LASTNAME_START0133:
     dc.b        "Skuhravy",0                                                                     
+LASTNAME_START0134:
     dc.b        "Tacconi",0                                                                      
+LASTNAME_START0135:
     dc.b        "Torrente",0                                                                     
+LASTNAME_START0136:
     dc.b        "Vant Schip",0                                                                   
+LASTNAME_START0137:
     dc.b        "Corrado",0                                                                      
+LASTNAME_START0138:
     dc.b        "Lorenzini",0                                                                    
+LASTNAME_START0139:
     dc.b        "Bianchi",0                                                                      
+LASTNAME_START0140:
     dc.b        "Petrescu",0                                                                     
+LASTNAME_START0141:
     dc.b        "Berti",0                                                                        
+LASTNAME_START0142:
     dc.b        "Galente",0                                                                      
+LASTNAME_START0143:
     dc.b        "Bergkamp",0                                                                     
+LASTNAME_START0144:
     dc.b        "Jonk",0                                                                         
+LASTNAME_START0145:
     dc.b        "Dellanno",0                                                                     
+LASTNAME_START0146:
     dc.b        "Paganin",0                                                                      
+LASTNAME_START0147:
     dc.b        "Festa",0                                                                        
+LASTNAME_START0148:
     dc.b        "Abate",0                                                                        
-    dc.b        "Battistini",0                                                                   
+LASTNAME_START0149:
+    dc.b        "Battistini",0   
+LASTNAME_START0150:	
     dc.b        "Bergomi",0                                                                      
+LASTNAME_START0151:
     dc.b        "Desideri",0                                                                     
+LASTNAME_START0152:
     dc.b        "Ferri",0                                                                        
+LASTNAME_START0153:
     dc.b        "Fontolan",0                                                                     
+LASTNAME_START0154:
     dc.b        "Manicone",0                                                                     
+LASTNAME_START0155:
     dc.b        "Orlando",0                                                                      
+LASTNAME_START0156:
     dc.b        "Schillaci",0                                                                    
+LASTNAME_START0157:
     dc.b        "Shalimov",0                                                                     
+LASTNAME_START0158:
     dc.b        "Sosa",0                                                                         
+LASTNAME_START0159:
     dc.b        "Tramezzani",0                                                                   
+LASTNAME_START0160:
     dc.b        "Zenga",0                                                                        
+LASTNAME_START0161:
     dc.b        "Fortunato",0                                                                    
+LASTNAME_START0162:
     dc.b        "Del Piero",0                                                                    
+LASTNAME_START0163:
     dc.b        "Baldini",0                                                                      
+LASTNAME_START0164:
     dc.b        "Giampaolo",0                                                                    
+LASTNAME_START0165:
     dc.b        "Francesconi",0                                                                  
+LASTNAME_START0166:
     dc.b        "Baggio",0                                                                       
+LASTNAME_START0167:
     dc.b        "Carrera",0                                                                      
+LASTNAME_START0168:
     dc.b        "Conte",0                                                                        
+LASTNAME_START0169:
     dc.b        "De Marchi",0                                                                    
+LASTNAME_START0170:
     dc.b        "Galia",0                                                                        
+LASTNAME_START0171:
     dc.b        "Giacobbo",0                                                                     
+LASTNAME_START0172:
     dc.b        "Julio Cesar",0                                                                  
+LASTNAME_START0173:
     dc.b        "Kohler",0                                                                       
+LASTNAME_START0174:
     dc.b        "Marocchi",0                                                                     
+LASTNAME_START0175:
     dc.b        "Moller",0                                                                       
+LASTNAME_START0176:
     dc.b        "Peruzzi",0                                                                      
+LASTNAME_START0177:
     dc.b        "Rampulla",0                                                                     
+LASTNAME_START0176x: ;<GRH> FIXME
     dc.b        "Ravanelli",0                                                                    
+LASTNAME_START0177x: ;<GRH> FIXME
     dc.b        "Toricelli",0                                                                    
+LASTNAME_START0178:
     dc.b        "Vialli",0                                                                       
+LASTNAME_START0179:
     dc.b        "Porrini",0                                                                      
+LASTNAME_START0180:
     dc.b        "Cravero",0                                                                      
+LASTNAME_START0181:
     dc.b        "Doll",0                                                                         
+LASTNAME_START0182:
     dc.b        "Favalli",0                                                                      
+LASTNAME_START0183:
     dc.b        "Fuser",0                                                                        
+LASTNAME_START0184:
     dc.b        "Gascoigne",0                                                                    
+LASTNAME_START0185:
     dc.b        "Luzardi",0                                                                      
+LASTNAME_START0186:
     dc.b        "Marcolin",0                                                                     
+LASTNAME_START0187:
     dc.b        "Orsi",0                                                                         
+LASTNAME_START0188:
     dc.b        "Sclosa",0                                                                       
+LASTNAME_START0189:
     dc.b        "Signori",0                                                                      
+LASTNAME_START0190:
     dc.b        "Stroppa",0                                                                      
+LASTNAME_START0191:
     dc.b        "Winter",0                                                                       
+LASTNAME_START0192:
     dc.b        "De Paola",0                                                                     
+LASTNAME_START0193:
     dc.b        "Negro",0                                                                        
+LASTNAME_START0194:
     dc.b        "Marchegiani",0                                                                  
+LASTNAME_START0195:
     dc.b        "Saurini",0                                                                      
+LASTNAME_START0196:
     dc.b        "Di Mauro",0                                                                     
-    dc.b        "Bacci",0                                                                        
+LASTNAME_START0197:
+    dc.b        "Bacci",0    
+LASTNAME_START0198:	
     dc.b        "Bergodi",0                                                                      
+LASTNAME_START0199:
     dc.b        "Bonomi",0                                                                       
+LASTNAME_START0200:
     dc.b        "Corini",0                                                                       
+LASTNAME_START0201:
     dc.b        "Boksic",0                                                                       
+LASTNAME_START0202:
     dc.b        "Torchia",0                                                                      
+LASTNAME_START0203:
     dc.b        "Altobelli",0                                                                    
+LASTNAME_START0204:
     dc.b        "Biondo",0                                                                       
+LASTNAME_START0205:
     dc.b        "Ceramicola",0                                                                   
+LASTNAME_START0206:
     dc.b        "Fatizzo",0                                                                      
+LASTNAME_START0207:
     dc.b        "Frisullo",0                                                                     
+LASTNAME_START0208:
     dc.b        "Mattei",0                                                                       
+LASTNAME_START0209:
     dc.b        "Spagnolo",0                                                                     
+LASTNAME_START0210:
     dc.b        "Trinchera",0                                                                    
+LASTNAME_START0211:
     dc.b        "Barollo",0                                                                      
+LASTNAME_START0212:
     dc.b        "Corallo",0                                                                      
+LASTNAME_START0213:
     dc.b        "De Flippi",0                                                                    
+LASTNAME_START0214:
     dc.b        "Gazzani",0                                                                      
+LASTNAME_START0215:
     dc.b        "Gerson",0                                                                       
+LASTNAME_START0216:
     dc.b        "Melchiori",0                                                                    
+LASTNAME_START0217:
     dc.b        "Notaristefano",0                                                                
+LASTNAME_START0218:
     dc.b        "Olive",0                                                                        
+LASTNAME_START0219:
     dc.b        "Baldierei",0                                                                    
+LASTNAME_START0220:
     dc.b        "Damble",0                                                                       
+LASTNAME_START0221:
     dc.b        "Donofrio",0                                                                     
+LASTNAME_START0222:
     dc.b        "Morello",0                                                                      
+LASTNAME_START0223:
     dc.b        "Gatta",0                                                                        
+LASTNAME_START0224:
     dc.b        "Panucci",0                                                                      
+LASTNAME_START0225:
     dc.b        "Albertini",0                                                                    
+LASTNAME_START0226:
     dc.b        "Costacurta",0                                                                   
+LASTNAME_START0227:
     dc.b        "Boban",0                                                                        
+LASTNAME_START0228:
     dc.b        "Savicevic",0                                                                    
+LASTNAME_START0229:
     dc.b        "Eranio",0                                                                       
+LASTNAME_START0230:
     dc.b        "Gambaro",0                                                                      
-    dc.b        "Tassotti",0                                                                     
+LASTNAME_START0231:
+    dc.b        "Tassotti",0 
+LASTNAME_START0232:	
     dc.b        "Carbone",0                                                                      
+LASTNAME_START0233:
     dc.b        "Ielpo",0                                                                        
+LASTNAME_START0234:
     dc.b        "Antonioli",0                                                                    
+LASTNAME_START0235:
     dc.b        "Simone",0                                                                       
+LASTNAME_START0236:
     dc.b        "Nava",0                                                                         
+LASTNAME_START0237:
     dc.b        "Raducioiu",0                                                                    
+LASTNAME_START0238:
     dc.b        "Laudrup",0                                                                      
+LASTNAME_START0239:
     dc.b        "Baresi",0                                                                       
+LASTNAME_START0240:
     dc.b        "Maldini",0                                                                      
+LASTNAME_START0241:
     dc.b        "Papin",0                                                                        
+LASTNAME_START0242:
     dc.b        "Lentini",0                                                                      
+LASTNAME_START0243:
     dc.b        "Van Basten",0                                                                   
+LASTNAME_START0244:
     dc.b        "Rossi",0                                                                        
+LASTNAME_START0245:
     dc.b        "Donadoni",0                                                                     
+LASTNAME_START0246:
     dc.b        "Massaro",0                                                                      
+LASTNAME_START0247:
     dc.b        "Bia",0                                                                          
+LASTNAME_START0248:
     dc.b        "Di Fusco",0                                                                     
+LASTNAME_START0249:
     dc.b        "Bordin",0                                                                       
+LASTNAME_START0250:
     dc.b        "Buso",0                                                                         
+LASTNAME_START0251:
     dc.b        "Caruso",0                                                                       
+LASTNAME_START0252:
     dc.b        "Di Canio",0                                                                     
+LASTNAME_START0253:
     dc.b        "Taglialatela",0                                                                 
+LASTNAME_START0254:
     dc.b        "Altomare",0                                                                     
+LASTNAME_START0255:
     dc.b        "Cornacchia",0                                                                   
+LASTNAME_START0256:
     dc.b        "Corradini",0                                                                    
+LASTNAME_START0257:
     dc.b        "Ferrera",0                                                                      
+LASTNAME_START0258:
     dc.b        "Fonseca",0                                                                      
+LASTNAME_START0259:
     dc.b        "Francini",0                                                                     
+LASTNAME_START0300:
     dc.b        "Mauro",0                                                                        
+LASTNAME_START0301:
     dc.b        "Nela",0                                                                         
+LASTNAME_START0302:
     dc.b        "Pari",0                                                                         
-    dc.b        "Policano",0                                                                     
+LASTNAME_START0303:
+    dc.b        "Policano",0    ; Policano     6FD7F      LASTNAME_START0303:                                                     
+LASTNAME_START0304:
     dc.b        "Sansonetti",0                                                                   
+LASTNAME_START0305:
     dc.b        "Tarantino",0                                                                    
+LASTNAME_START0306:
     dc.b        "Thern",0                                                                        
+LASTNAME_START0307:
     dc.b        "Berti",0                                                                        
+LASTNAME_START0308:
     dc.b        "Brolin",0                                                                       
+LASTNAME_START0309:
     dc.b        "Cuoghi",0                                                                       
+LASTNAME_START0310:
     dc.b        "Di Chiara",0                                                                    
+LASTNAME_START0311:
     dc.b        "Grun",0                                                                         
+LASTNAME_START0312:
     dc.b        "Hervatin",0                                                                     
+LASTNAME_START0313:
     dc.b        "Matrecano",0                                                                    
+LASTNAME_START0314:
     dc.b        "Melli",0                                                                        
+LASTNAME_START0315:
     dc.b        "Osio",0                                                                         
+LASTNAME_START0316:
     dc.b        "Pin",0                                                                          
+LASTNAME_START0317:
     dc.b        "Pizzi",0                                                                        
+LASTNAME_START0318:
     dc.b        "Minotti",0                                                                      
+LASTNAME_START0319:
     dc.b        "Zoratto",0                                                                      
-    dc.b        "Crippa",0                                                                       
+LASTNAME_START0320:
+    dc.b        "Crippa",0    
+LASTNAME_START0321:	
     dc.b        "Bucci",0                                                                        
+LASTNAME_START0322:
     dc.b        "Balleri",0                                                                      
+LASTNAME_START0323:
     dc.b        "Zola",0                                                                         
+LASTNAME_START0324:
     dc.b        "Apolloni",0                                                                     
+LASTNAME_START0325:
     dc.b        "Sorce",0                                                                        
+LASTNAME_START0326:
     dc.b        "Asprilla",0                                                                     
+LASTNAME_START0327:
     dc.b        "Ballotta",0                                                                     
+LASTNAME_START0328:
     dc.b        "Benarrivo",0                                                                    
+LASTNAME_START0329:
     dc.b        "Gandini",0                                                                      
+LASTNAME_START0330:
     dc.b        "Taibi",0                                                                        
+LASTNAME_START0331:
     dc.b        "Brioschi",0                                                                     
+LASTNAME_START0332:
     dc.b        "Carannante",0                                                                   
+LASTNAME_START0333:
     dc.b        "Chiti",0                                                                        
+LASTNAME_START0334:
     dc.b        "Di Cintio",0                                                                    
+LASTNAME_START0335:
     dc.b        "Lucci",0                                                                        
+LASTNAME_START0336:
     dc.b        "Maccoppi",0                                                                     
+LASTNAME_START0337:
     dc.b        "Polonia",0                                                                      
+LASTNAME_START0338:
     dc.b        "Erbaggio",0                                                                     
+LASTNAME_START0339:
     dc.b        "Ferazzoli",0                                                                    
+LASTNAME_START0340:
     dc.b        "Iacobelli",0                                                                    
+LASTNAME_START0341:
     dc.b        "Moretti",0                                                                      
+LASTNAME_START0342:
     dc.b        "Papais",0                                                                       
+LASTNAME_START0343:
     dc.b        "Suppa",0                                                                        
+LASTNAME_START0344:
     dc.b        "Turrini",0                                                                      
+LASTNAME_START0345:
     dc.b        "De Vitis",0                                                                     
+LASTNAME_START0346:
     dc.b        "Ferrante",0                                                                     
+LASTNAME_START0347:
     dc.b        "Gennari",0                                                                      
+LASTNAME_START0348:
     dc.b        "Piovani",0                                                                      
+LASTNAME_START0349:
     dc.b        "Bonifacio",0                                                                    
+LASTNAME_START0350:
     dc.b        "Sardini",0                                                                      
+LASTNAME_START0351:
     dc.b        "Taffarel",0                                                                     
+LASTNAME_START0352:
     dc.b        "Daniel",0                                                                       
+LASTNAME_START0353:
     dc.b        "Franchini",0                                                                    
+LASTNAME_START0354:
     dc.b        "Mozzini",0                                                                      
+LASTNAME_START0355:
     dc.b        "Parlato",0                                                                      
+LASTNAME_START0356:
     dc.b        "Torrisi",0                                                                      
+LASTNAME_START0357:
     dc.b        "Accardi",0                                                                      
+LASTNAME_START0358:
     dc.b        "Catanese",0                                                                     
+LASTNAME_START0359:
     dc.b        "Cherubini",0                                                                    
+LASTNAME_START0360:
     dc.b        "Esposito",0                                                                     
+LASTNAME_START0361:
     dc.b        "Lantignotti",0                                                                  
-    dc.b        "Picasso",0                                                                      
+LASTNAME_START0362:
+    dc.b        "Picasso",0        
+LASTNAME_START0363:	
     dc.b        "Sacchetti",0                                                                    
+LASTNAME_START0364:
     dc.b        "Scienza",0                                                                      
+LASTNAME_START0365:
     dc.b        "Sgarbossa",0                                                                    
+LASTNAME_START0366:
     dc.b        "Vivani",0                                                                       
+LASTNAME_START0367:
     dc.b        "Ekstrom",0                                                                      
+LASTNAME_START0368:
     dc.b        "Pacione",0                                                                      
+LASTNAME_START0369:
     dc.b        "Padovano",0                                                                     
+LASTNAME_START0370:
     dc.b        "Cesaretti",0                                                                    
+LASTNAME_START0371:
     dc.b        "Scarchilli",0                                                                   
+LASTNAME_START0372:
     dc.b        "Pazzagli",0                                                                     
+LASTNAME_START0373:
     dc.b        "Lanna",0                                                                        
+LASTNAME_START0374:
     dc.b        "Aldair",0                                                                       
+LASTNAME_START0375:
     dc.b        "Benedetti",0                                                                    
+LASTNAME_START0376:
     dc.b        "Bonacina",0                                                                     
+LASTNAME_START0377:
     dc.b        "Lapini",0                                                                       
+LASTNAME_START0378:
     dc.b        "Cannigia",0                                                                     
+LASTNAME_START0379:
     dc.b        "Carboni",0                                                                      
+LASTNAME_START0380:
     dc.b        "Cervone",0                                                                      
+LASTNAME_START0381:
     dc.b        "Comi",0                                                                         
+LASTNAME_START0382:
     dc.b        "Fimiani",0                                                                      
+LASTNAME_START0383:
     dc.b        "Garzja",0                                                                       
+LASTNAME_START0384:
     dc.b        "Giannini",0                                                                     
+LASTNAME_START0385:
     dc.b        "Hassler",0                                                                      
+LASTNAME_START0386:
     dc.b        "Mihajlovic",0                                                                   
+LASTNAME_START0387:
     dc.b        "Muzzi",0                                                                        
+LASTNAME_START0388:
     dc.b        "Piacentini",0                                                                   
+LASTNAME_START0389:
     dc.b        "Rizzitelli",0                                                                   
+LASTNAME_START0390:
     dc.b        "Tempestilli",0                                                                  
+LASTNAME_START0391:
     dc.b        "Totti",0                                                                        
+LASTNAME_START0392:
     dc.b        "Balbo",0                                                                        
+LASTNAME_START0393:
     dc.b        "Grossi",0                                                                       
+LASTNAME_START0394:
     dc.b        "Lorieri",0                                                                      
+LASTNAME_START0395:
     dc.b        "Breda",0                                                                        
+LASTNAME_START0396:
     dc.b        "Salsano",0                                                                      
+LASTNAME_START0397:
     dc.b        "Evani",0                                                                        
+LASTNAME_START0398:
     dc.b        "Gullit",0                                                                       
+LASTNAME_START0399:
     dc.b        "Pagliuca",0                                                                     
+LASTNAME_START0400:
     dc.b        "Serena",0                                                                       
+LASTNAME_START0401:
     dc.b        "Nuciari",0                                                                      
+LASTNAME_START0402:
     dc.b        "Vierchowood",0                                                                  
+LASTNAME_START0403:
     dc.b        "Lombardo",0                                                                     
+LASTNAME_START0404:
     dc.b        "Jugovic",0                                                                      
+LASTNAME_START0405:
     dc.b        "Platt",0                                                                        
+LASTNAME_START0406:
     dc.b        "Bertarelli",0                                                                   
+LASTNAME_START0407:
     dc.b        "Bonetti",0                                                                      
+LASTNAME_START0408:
     dc.b        "Bucchioni",0                                                                    
+LASTNAME_START0409:
     dc.b        "Invernizzi",0                                                                   
+LASTNAME_START0410:
     dc.b        "Katanec",0                                                                      
+LASTNAME_START0411:
     dc.b        "Dalligna",0                                                                     
+LASTNAME_START0412:
     dc.b        "Sinigaglia",0                                                                   
+LASTNAME_START0413:
     dc.b        "Jarni",0                                                                        
+LASTNAME_START0414:
     dc.b        "Aguilera",0                                                                     
+LASTNAME_START0415:
     dc.b        "Annoni",0                                                                       
+LASTNAME_START0416:
     dc.b        "Cois",0                                                                         
+LASTNAME_START0417:
     dc.b        "Fusi",0                                                                         
-    dc.b        "Mussi",0                                                                        
+LASTNAME_START0418:
+    dc.b        "Mussi",0    
+LASTNAME_START0419:	
     dc.b        "Poggi",0                                                                        
+LASTNAME_START0420:
     dc.b        "Saralegui",0                                                                    
+LASTNAME_START0421:
     dc.b        "Sergio",0                                                                       
+LASTNAME_START0422:
     dc.b        "Silenzi",0                                                                      
+LASTNAME_START0423:
     dc.b        "Sordo",0                                                                        
+LASTNAME_START0424:
     dc.b        "Sottil",0                                                                       
+LASTNAME_START0425:
     dc.b        "Venturin",0                                                                     
+LASTNAME_START0426:
     dc.b        "Zago",0                                                                         
+LASTNAME_START0427:
     dc.b        "Galli",0                                                                        
+LASTNAME_START0428:
     dc.b        "Gregucci",0                                                                     
+LASTNAME_START0429:
     dc.b        "Delli Carri",0                                                                  
+LASTNAME_START0430:
     dc.b        "Francescoli",0                                                                  
+LASTNAME_START0431:
     dc.b        "Branca",0                                                                       
+LASTNAME_START0432:
     dc.b        "Calori",0                                                                       
+LASTNAME_START0433:
     dc.b        "Compagnon",0                                                                    
+LASTNAME_START0434:
     dc.b        "Contratto",0                                                                    
+LASTNAME_START0435:
     dc.b        "Czachowski",0                                                                   
+LASTNAME_START0436:
     dc.b        "Di Leo",0                                                                       
+LASTNAME_START0437:
     dc.b        "Giuliani",0                                                                     
+LASTNAME_START0438:
     dc.b        "Kozminski",0                                                                    
+LASTNAME_START0439:
     dc.b        "Mandorlini",0                                                                   
+LASTNAME_START0440:
     dc.b        "Marcuz",0                                                                       
+LASTNAME_START0441:
     dc.b        "Mariotto",0                                                                     
+LASTNAME_START0442:
     dc.b        "Marronaro",0                                                                    
-    dc.b        "Pellegrini",0                                                                   
+LASTNAME_START0443:
+    dc.b        "Pellegrini",0   
+LASTNAME_START0444:	
     dc.b        "Pierini",0                                                                      
+LASTNAME_START0445:
     dc.b        "Rossitto",0                                                                     
+LASTNAME_START0446:
     dc.b        "Sensini",0                                                                      
+LASTNAME_START0447:
     dc.b        "Statuto",0                                                                      
+LASTNAME_START0448:
     dc.b        "Montalbano",0                                                                   
+LASTNAME_START0449:
     dc.b        "Rossini",0                                                                      
+LASTNAME_START0450:
     dc.b        "Caniato",0                                                                      
+LASTNAME_START0451:
     dc.b        "Petruzzi",0                                                                     
+LASTNAME_START0452:
     dc.b        "Biagioni",0                                                                     
+LASTNAME_START0453:
     dc.b        "Borgonovo",0                                                                    
+LASTNAME_START0454:
     dc.b        "Chico",0                                                                        
+LASTNAME_START0455:
     dc.b        "Di Dio",0                                                                       
+LASTNAME_START0456:
     dc.b        "Di Napoli",0                                                                    
+LASTNAME_START0457:
     dc.b        "Favi",0                                                                         
+LASTNAME_START0458:
     dc.b        "Infantino",0                                                                    
+LASTNAME_START0459:
     dc.b        "Logiudice",0                                                                    
+LASTNAME_START0460:
     dc.b        "Lucidi",0                                                                       
-    dc.b        "Mazzarri",0                                                                     
+LASTNAME_START0461:
+    dc.b        "Mazzarri",0      
+LASTNAME_START0462:	
     dc.b        "Migliaccio",0                                                                   
+LASTNAME_START0463:
     dc.b        "Nuccio",0                                                                       
+LASTNAME_START0464:
     dc.b        "Pagliacetti",0                                                                  
+LASTNAME_START0465:
     dc.b        "Pagliaro",0                                                                     
+LASTNAME_START0466:
     dc.b        "Palladino",0                                                                    
+LASTNAME_START0467:
     dc.b        "Ripa",0                                                                         
+LASTNAME_START0468:
     dc.b        "Solimeno",0                                                                     
+LASTNAME_START0469:
     dc.b        "Sorbello",0                                                                     
+LASTNAME_START0470:
     dc.b        "Vaccaro",0                                                                      
+LASTNAME_START0471:
     dc.b        "Breve",0                                                                        
+LASTNAME_START0472:
     dc.b        "Cancelli",0                                                                     
+LASTNAME_START0473:
     dc.b        "Casilli",0                                                                      
+LASTNAME_START0474:
     dc.b        "Anastasi",0                                                                     
+LASTNAME_START0475:
     dc.b        "Bonanno",0                                                                      
+LASTNAME_START0476:
     dc.b        "Vecchiola",0                                                                    
+LASTNAME_START0477:
     dc.b        "Zarate",0                                                                       
+LASTNAME_START0478:
     dc.b        "Armellini",0                                                                    
+LASTNAME_START0479:
     dc.b        "Raganin",0                                                                      
+LASTNAME_START0480:
     dc.b        "Carruezzo",0                                                                    
+LASTNAME_START0481:
     dc.b        "Fanesi",0                                                                       
+LASTNAME_START0482:
     dc.b        "Turchi",0                                                                       
+LASTNAME_START0483:
     dc.b        "De Angelis",0                                                                   
+LASTNAME_START0484:
     dc.b        "Agostini",0                                                                     
+LASTNAME_START0485:
     dc.b        "Bruniera",0                                                                     
+LASTNAME_START0486:
     dc.b        "Caccia",0                                                                       
+LASTNAME_START0487:
     dc.b        "Centofanti",0                                                                   
+LASTNAME_START0488:
     dc.b        "Detari",0                                                                       
+LASTNAME_START0489:
     dc.b        "Ermini",0                                                                       
+LASTNAME_START0490:
     dc.b        "Fontana",0                                                                      
+LASTNAME_START0491:
     dc.b        "Gadda",0                                                                        
+LASTNAME_START0492:
     dc.b        "Glonek",0                                                                       
+LASTNAME_START0493:
     dc.b        "Lupo",0                                                                         
+LASTNAME_START0494:
     dc.b        "Mazzarano",0                                                                    
+LASTNAME_START0495:
     dc.b        "Micillo",0                                                                      
+LASTNAME_START0496:
     dc.b        "Nista",0                                                                        
+LASTNAME_START0497:
     dc.b        "Pecoraro Scanio",0                                                              
+LASTNAME_START0498:
     dc.b        "Sogliano",0                                                                     
+LASTNAME_START0499:
     dc.b        "Bierhoff",0                                                                     
-    dc.b        "Bizzarri",0                                                                     
+LASTNAME_START0500:
+    dc.b        "Bizzarri",0   
+LASTNAME_START0501:	
     dc.b        "Bosi",0                                                                         
+LASTNAME_START0502:
     dc.b        "Bugiardini",0                                                                   
+LASTNAME_START0503:
     dc.b        "Cavaliere",0                                                                    
+LASTNAME_START0504:
     dc.b        "Cioffi",0                                                                       
+LASTNAME_START0505:
     dc.b        "Dainzara",0                                                                     
+LASTNAME_START0506:
     dc.b        "Di Rocco",0                                                                     
+LASTNAME_START0507:
     dc.b        "Fusco",0                                                                        
+LASTNAME_START0508:
     dc.b        "Maini",0                                                                        
+LASTNAME_START0509:
     dc.b        "Mancuso",0                                                                      
+LASTNAME_START0510:
     dc.b        "Marcato",0                                                                      
+LASTNAME_START0511:
     dc.b        "Menolascina",0                                                                  
+LASTNAME_START0512:
     dc.b        "Palestini",0                                                                    
+LASTNAME_START0513:
     dc.b        "Pascucci",0                                                                     
+LASTNAME_START0514:
     dc.b        "Scaramucci",0                                                                   
+LASTNAME_START0515:
     dc.b        "Sanseverino",0                                                                  
+LASTNAME_START0516:
     dc.b        "Spinelli",0                                                                     
+LASTNAME_START0517:
     dc.b        "Troglio",0                                                                      
+LASTNAME_START0518:
     dc.b        "Zanoncelli",0                                                                   
+LASTNAME_START0519:
     dc.b        "Zinetti",0                                                                      
+LASTNAME_START0520:
     dc.b        "Zaini",0                                                                        
+LASTNAME_START0521:
     dc.b        "Pierleoni",0                                                                    
+LASTNAME_START0522:
     dc.b        "Benetti",0                                                                      
+LASTNAME_START0523:
     dc.b        "Tovalieri",0                                                                    
+LASTNAME_START0524:
     dc.b        "Alberga",0                                                                      
+LASTNAME_START0525:
     dc.b        "Alessio",0                                                                      
+LASTNAME_START0526:
     dc.b        "Amoruso",0                                                                      
+LASTNAME_START0527:
     dc.b        "Barone",0                                                                       
+LASTNAME_START0528:
     dc.b        "Bigica",0                                                                       
+LASTNAME_START0529:
     dc.b        "Briosche",0                                                                     
+LASTNAME_START0530:
     dc.b        "Cagianelli",0                                                                   
+LASTNAME_START0531:
     dc.b        "Capocchiano",0                                                                  
+LASTNAME_START0532:
     dc.b        "De Napoli",0                                                                    
+LASTNAME_START0533:
     dc.b        "Gautieri",0                                                                     
+LASTNAME_START0534:
     dc.b        "Joao Paulo",0                                                                   
+LASTNAME_START0535:
     dc.b        "Laureri",0                                                                      
+LASTNAME_START0536:
     dc.b        "Loseto",0                                                                       
+LASTNAME_START0537:
     dc.b        "Mangone",0                                                                      
+LASTNAME_START0538:
     dc.b        "Montanari",0                                                                    
+LASTNAME_START0539:
     dc.b        "Pedone",0                                                                       
+LASTNAME_START0540:
     dc.b        "Progna",0                                                                       
+LASTNAME_START0541:
     dc.b        "Protti",0                                                                       
+LASTNAME_START0542:
     dc.b        "Ricci",0                                                                        
+LASTNAME_START0543:
     dc.b        "Rizzardi",0                                                                     
+LASTNAME_START0544:
     dc.b        "Sassarini",0                                                                    
+LASTNAME_START0545:
     dc.b        "Tangorra",0                                                                     
+LASTNAME_START0546:
     dc.b        "Tatti",0                                                                        
+LASTNAME_START0547:
     dc.b        "Terracenere",0                                                                  
-    dc.b        "Piovanelli",0                                                                   
+LASTNAME_START0548:
+    dc.b        "Piovanelli",0  
+LASTNAME_START0549:	
     dc.b        "Sabau",0                                                                        
+LASTNAME_START0550:
     dc.b        "Schenardi",0                                                                    
+LASTNAME_START0551:
     dc.b        "Flamigni",0                                                                     
+LASTNAME_START0552:
     dc.b        "Gallo",0                                                                        
+LASTNAME_START0553:
     dc.b        "Gamberini",0                                                                    
+LASTNAME_START0554:
     dc.b        "Lerda",0                                                                        
+LASTNAME_START0555:
     dc.b        "Mezzanotti",0                                                                   
+LASTNAME_START0556:
     dc.b        "Ambrosetti",0                                                                   
+LASTNAME_START0557:
     dc.b        "Neri",0                                                                         
+LASTNAME_START0558:
     dc.b        "Di Muri",0                                                                      
+LASTNAME_START0559;
     dc.b        "Bonometti",0                                                                    
-    dc.b        "Bortolotti",0                                                                   
+LASTNAME_START0560:
+    dc.b        "Bortolotti",0     
+LASTNAME_START0561:	
     dc.b        "Brunetti",0                                                                     
+LASTNAME_START0562:
     dc.b        "Cusin",0                                                                        
+LASTNAME_START0563:
     dc.b        "Domini",0                                                                       
-    dc.b        "Giunta",0                                                                       
+LASTNAME_START0564:
+    dc.b        "Giunta",0   
+LASTNAME_START0565:	
     dc.b        "Hagi",0                                                                         
+LASTNAME_START0566:
     dc.b        "Landucci",0                                                                     
+LASTNAME_START0567:
     dc.b        "Marangon",0                                                                     
+LASTNAME_START0568:
     dc.b        "Mateut",0                                                                       
+LASTNAME_START0569:
     dc.b        "Passiatore",0                                                                   
+LASTNAME_START0570:
     dc.b        "Calcaterra",0                                                                   
+LASTNAME_START0571:
     dc.b        "Dadina",0                                                                       
+LASTNAME_START0572:
     dc.b        "Del Bianco",0                                                                   
+LASTNAME_START0573:
     dc.b        "Dolcetti",0                                                                     
+LASTNAME_START0574:
     dc.b        "Hubner",0                                                                       
+LASTNAME_START0575:
     dc.b        "Leoni",0                                                                        
+LASTNAME_START0576:
     dc.b        "Marin",0                                                                        
+LASTNAME_START0577:
     dc.b        "Medri",0                                                                        
+LASTNAME_START0578:
     dc.b        "Pepi",0                                                                         
+LASTNAME_START0579:
     dc.b        "Piangerelli",0                                                                  
-    dc.b        "Piraccini",0                                                                    
+LASTNAME_START0580:
+    dc.b        "Piraccini",0    
+LASTNAME_START0581:	
     dc.b        "Sacchi",0                                                                       
+LASTNAME_START0582:
     dc.b        "Salvetti",0                                                                     
+LASTNAME_START0583:
     dc.b        "Scarafoni",0                                                                    
+LASTNAME_START0584:
     dc.b        "Scugugia",0                                                                     
+LASTNAME_START0585:
     dc.b        "Sussi",0                                                                        
+LASTNAME_START0586:
     dc.b        "Teodorani",0                                                                    
+LASTNAME_START0587:
     dc.b        "Zagati",0                                                                       
+LASTNAME_START0588:
     dc.b        "Sopranzi",0                                                                     
+LASTNAME_START0589:
     dc.b        "Barcella",0                                                                     
+LASTNAME_START0590:
     dc.b        "Biato",0                                                                        
+LASTNAME_START0591:
     dc.b        "Caputo",0                                                                       
+LASTNAME_START0592:
     dc.b        "Caramel",0                                                                      
+LASTNAME_START0593:
     dc.b        "Civero",0                                                                       
+LASTNAME_START0594:
     dc.b        "Compagno",0                                                                     
+LASTNAME_START0595:
     dc.b        "Fabris",0                                                                       
+LASTNAME_START0596:
     dc.b        "Maiellaro",0                                                                    
+LASTNAME_START0597:
     dc.b        "Lemme",0                                                                        
+LASTNAME_START0598:
     dc.b        "Marulla",0                                                                      
+LASTNAME_START0599:
     dc.b        "Matrone",0                                                                      
-    dc.b        "Monza",0                                                                        
+LASTNAME_START0600:
+    dc.b        "Monza",0    
+LASTNAME_START0601:	
     dc.b        "Napolitano",0                                                                   
+LASTNAME_START0602:
     dc.b        "Negri",0                                                                        
+LASTNAME_START0603:
     dc.b        "Rubino",0                                                                       
+LASTNAME_START0604:
     dc.b        "Sconziano",0                                                                    
+LASTNAME_START0605:
     dc.b        "Vanigli",0                                                                      
+LASTNAME_START0606:
     dc.b        "Zunico",0                                                                       
+LASTNAME_START0607:
     dc.b        "De Rosa",0                                                                      
+LASTNAME_START0608:
     dc.b        "Losacco",0                                                                      
+LASTNAME_START0609:
     dc.b        "Betti",0                                                                        
+LASTNAME_START0610:
     dc.b        "Del Vecchio",0                                                                  
+LASTNAME_START0611:
     dc.b        "Insanguine",0                                                                   
+LASTNAME_START0612:
     dc.b        "Luceri",0                                                                       
+LASTNAME_START0613:
     dc.b        "Marcon",0                                                                       
-    dc.b        "Masolini",0                                                                     
+LASTNAME_START0614:
+    dc.b        "Masolini",0  
+LASTNAME_START0615:	
     dc.b        "Mazzoli",0                                                                      
+LASTNAME_START0616:
     dc.b        "Monari",0                                                                       
+LASTNAME_START0617:
     dc.b        "Mondini",0                                                                      
+LASTNAME_START0618:
     dc.b        "Nicola",0                                                                       
+LASTNAME_START0619:
     dc.b        "Quaranta",0                                                                     
+LASTNAME_START0620:
     dc.b        "Romairone",0                                                                    
+LASTNAME_START0621:
     dc.b        "Terravoli",0                                                                    
+LASTNAME_START0622:
     dc.b        "Tavolieri",0                                                                    
+LASTNAME_START0623:
     dc.b        "Cangini",0                                                                      
+LASTNAME_START0624:
     dc.b        "Sala",0                                                                         
+LASTNAME_START0625:
     dc.b        "Ercoli",0                                                                       
+LASTNAME_START0626:
     dc.b        "Cappellacci",0                                                                  
+LASTNAME_START0627:
     dc.b        "Carlone",0                                                                      
+LASTNAME_START0628:
     dc.b        "Danna",0                                                                        
+LASTNAME_START0629:
     dc.b        "Dell Oglio",0                                                                   
+LASTNAME_START0630:
     dc.b        "Effenberg",0                                                                    
+LASTNAME_START0631:
     dc.b        "Faccenda",0                                                                     
+LASTNAME_START0632:
     dc.b        "Giraldi",0                                                                      
-    dc.b        "Iachini",0                                                                      
+LASTNAME_START0633:
+    dc.b        "Iachini",0    
+LASTNAME_START0634:	
     dc.b        "Luppi",0                                                                        
+LASTNAME_START0635:
     dc.b        "Malusci",0                                                                      
+LASTNAME_START0636:
     dc.b        "Marregini",0                                                                    
+LASTNAME_START0637:
     dc.b        "Pioli",0                                                                        
+LASTNAME_START0638:
     dc.b        "Banchelli",0                                                                    
+LASTNAME_START0639:
     dc.b        "Campolo",0                                                                      
+LASTNAME_START0640:
     dc.b        "Di Sole",0                                                                      
+LASTNAME_START0641:
     dc.b        "Tedesco",0                                                                      
+LASTNAME_START0642:
     dc.b        "Robbiati",0                                                                     
+LASTNAME_START0643:
     dc.b        "Bruno",0                                                                        
+LASTNAME_START0644:
     dc.b        "Scalabrelli",0                                                                  
+LASTNAME_START0645:
     dc.b        "Toldo",0                                                                        
+LASTNAME_START0646:
     dc.b        "Tosto",0                                                                        
+LASTNAME_START0647:
     dc.b        "Baiano",0                                                                       
+LASTNAME_START0648:
     dc.b        "Batistuta",0                                                                    
+LASTNAME_START0649:
     dc.b        "Beltrammi",0                                                                    
+LASTNAME_START0650:
     dc.b        "Carnasciali",0                                                                  
+LASTNAME_START0651:
     dc.b        "Carobbi",0                                                                      
+LASTNAME_START0652:
     dc.b        "Albino",0                                                                       
+LASTNAME_START0653:
     dc.b        "Allegrini",0                                                                    
+LASTNAME_START0654:
     dc.b        "Ansaldi",0                                                                      
+LASTNAME_START0655:
     dc.b        "Baraldi",0                                                                      
+LASTNAME_START0656:
     dc.b        "Bettarini",0                                                                    
+LASTNAME_START0657:
     dc.b        "Capecchi",0                                                                     
+LASTNAME_START0658:
     dc.b        "Costi",0                                                                        
-    dc.b        "Di Francesco",0                                                                 
+LASTNAME_START0659:
+    dc.b        "Di Francesco",0   
+LASTNAME_START0660:	
     dc.b        "Di Sarno",0                                                                     
+LASTNAME_START0661:
     dc.b        "Di Stefano",0                                                                   
+LASTNAME_START0662:
     dc.b        "Ferronato",0                                                                    
+LASTNAME_START0663:
     dc.b        "Giusti",0                                                                       
+LASTNAME_START0664:
     dc.b        "Lugnan",0                                                                       
+LASTNAME_START0665:
     dc.b        "Marta",0                                                                        
+LASTNAME_START0666:
     dc.b        "Monaco",0                                                                       
+LASTNAME_START0667:
     dc.b        "Quironi",0                                                                      
+LASTNAME_START0668:
     dc.b        "Paci",0                                                                         
+LASTNAME_START0669:
     dc.b        "Pistella",0                                                                     
+LASTNAME_START0670:
     dc.b        "Rastelli",0                                                                     
+LASTNAME_START0680:
     dc.b        "Russo",0                                                                        
+LASTNAME_START0681:
     dc.b        "Taccola",0                                                                      
+LASTNAME_START0682:
     dc.b        "Vignini",0                                                                      
+LASTNAME_START0683:
     dc.b        "Bergamo",0                                                                      
+LASTNAME_START0684:
     dc.b        "Bertoni",0                                                                      
+LASTNAME_START0685:
     dc.b        "Bonfiglio",0                                                                    
+LASTNAME_START0686:
     dc.b        "Cavaletti",0                                                                    
+LASTNAME_START0687:
     dc.b        "Chiesa",0                                                                       
-    dc.b        "Consonni",0                                                                     
+LASTNAME_START0688:
+    dc.b        "Consonni",0   
+LASTNAME_START0689:	
     dc.b        "Cucciari",0                                                                     
+LASTNAME_START0690:
     dc.b        "Cucchi",0                                                                       
+LASTNAME_START0691:
     dc.b        "Daloisio",0                                                                     
+LASTNAME_START0692:
     dc.b        "Landini",0                                                                      
+LASTNAME_START0693:
     dc.b        "Marino",0                                                                       
+LASTNAME_START0694:
     dc.b        "Maranzano",0                                                                    
+LASTNAME_START0695:
     dc.b        "Meani",0                                                                        
+LASTNAME_START0696:
     dc.b        "Mezzetti",0                                                                     
+LASTNAME_START0697:
     dc.b        "Mobili",0                                                                       
+LASTNAME_START0698:
     dc.b        "Modelli",0                                                                      
+LASTNAME_START0699:
     dc.b        "Moz",0                                                                          
+LASTNAME_START0700:
     dc.b        "Paolino",0                                                                      
+LASTNAME_START0701:
     dc.b        "Provitali",0                                                                    
+LASTNAME_START0702:
     dc.b        "Tontini",0                                                                      
+LASTNAME_START0703:
     dc.b        "Adani",0                                                                        
+LASTNAME_START0704:
     dc.b        "Solda",0                                                                        
-    dc.b        "Sanfratello",0                                                                  
+LASTNAME_START0705:
+    dc.b        "Sanfratello",0    
+LASTNAME_START0706:	
     dc.b        "Artistico",0                                                                    
+LASTNAME_START0707:
     dc.b        "Babini",0                                                                       
+LASTNAME_START0708:
     dc.b        "Brambilla",0                                                                    
+LASTNAME_START0709:
     dc.b        "Bonazzi",0                                                                      
+LASTNAME_START0710:
     dc.b        "Dellamorte",0                                                                   
+LASTNAME_START0711:
     dc.b        "Del Piano",0                                                                    
+LASTNAME_START0712:
     dc.b        "Finetti",0                                                                      
+LASTNAME_START0713:
     dc.b        "Giorgio",0                                                                      
+LASTNAME_START0714:
     dc.b        "Iuliano",0                                                                      
+LASTNAME_START0715:
     dc.b        "Manighetti",0                                                                   
+LASTNAME_START0716:
     dc.b        "Marra",0                                                                        
+LASTNAME_START0717:
     dc.b        "Mignani",0                                                                      
+LASTNAME_START0718:
     dc.b        "Monguzzi",0                                                                     
+LASTNAME_START0719:
     dc.b        "Radice",0                                                                       
+LASTNAME_START0720:
     dc.b        "Rollandi",0                                                                     
+LASTNAME_START0721:
     dc.b        "Romano",0                                                                       
+LASTNAME_START0722:
     dc.b        "Saini",0                                                                        
+LASTNAME_START0723:
     dc.b        "Valtolina",0                                                                    
-    dc.b        "Brogi",0                                                                        
+LASTNAME_START0724:
+    dc.b        "Brogi",0      
+LASTNAME_START0725:	
     dc.b        "Controneo",0                                                                    
+LASTNAME_START0726:
     dc.b        "Di Livio",0                                                                     
+LASTNAME_START0727:
     dc.b        "Bonaiuti",0                                                                     
+LASTNAME_START0728:
     dc.b        "Cardini",0                                                                      
+LASTNAME_START0729:
     dc.b        "Coppola",0                                                                      
-    dc.b        "Cuicchi",0                                                                      
+LASTNAME_START0730:
+    dc.b        "Cuicchi",0     
+LASTNAME_START0731:	
     dc.b        "Dal Bianco",0                                                                   
+LASTNAME_START0732:
     dc.b        "Franceschetti",0                                                                
+LASTNAME_START0733:
     dc.b        "Gabrieli",0                                                                     
+LASTNAME_START0734:
     dc.b        "Galderisi",0                                                                    
+LASTNAME_START0735:
     dc.b        "Giordano",0                                                                     
+LASTNAME_START0736:
     dc.b        "Longhi",0                                                                       
+LASTNAME_START0737:
     dc.b        "Maniero",0                                                                      
+LASTNAME_START0738:
     dc.b        "Modica",0                                                                       
+LASTNAME_START0739:
     dc.b        "Montrone",0                                                                     
+LASTNAME_START0740:
     dc.b        "Novello",0                                                                      
+LASTNAME_START0741:
     dc.b        "Nunziata",0                                                                     
+LASTNAME_START0742:
     dc.b        "Ottoni",0                                                                       
+LASTNAME_START0743:
     dc.b        "Pellizzaro",0                                                                   
+LASTNAME_START0744:
     dc.b        "Rosa",0                                                                         
-    dc.b        "Ruffini",0                                                                      
+LASTNAME_START0745:
+    dc.b        "Ruffini",0  
+LASTNAME_START0746:
     dc.b        "Simonetta",0                                                                    
+LASTNAME_START0747:
     dc.b        "Siviero",0                                                                      
+LASTNAME_START0748:
     dc.b        "Cerretti",0                                                                     
+LASTNAME_START0749:
     dc.b        "De Rosa",0                                                                      
+LASTNAME_START0750:
     dc.b        "De Sensi",0                                                                     
+LASTNAME_START0751:
     dc.b        "Favo",0                                                                         
+LASTNAME_START0752:
     dc.b        "Licitra",0                                                                      
+LASTNAME_START0753:
     dc.b        "Moro",0                                                                         
+LASTNAME_START0754:
     dc.b        "Olivari",0                                                                      
+LASTNAME_START0755:
     dc.b        "Rizzolo",0                                                                      
+LASTNAME_START0756:
     dc.b        "Spigarelli",0                                                                   
+LASTNAME_START0757:
     dc.b        "Vinti",0                                                                        
+LASTNAME_START0758:
     dc.b        "Serra",0                                                                        
+LASTNAME_START0759:
     dc.b        "Cecere",0                                                                       
+LASTNAME_START0760:
     dc.b        "Assennato",0                                                                    
+LASTNAME_START0761:
     dc.b        "Battaglia",0                                                                    
+LASTNAME_START0762:
     dc.b        "Biffi",0                                                                        
+LASTNAME_START0763:
     dc.b        "Buccariarelli",0                                                                
-    dc.b        "Buoncammino",0                                                                  
+LASTNAME_START0764:
+    dc.b        "Buoncammino",0   
+LASTNAME_START0765:	
     dc.b        "Cammarieri",0                                                                   
+LASTNAME_START0766:
     dc.b        "Campofranco",0                                                                  
+LASTNAME_START0767:
     dc.b        "Ceredi",0                                                                       
+LASTNAME_START0768:
     dc.b        "De Juliis",0                                                                    
+LASTNAME_START0769:
     dc.b        "Di Toro",0                                                                      
+LASTNAME_START0770:
     dc.b        "Di Cara",0                                                                      
+LASTNAME_START0771:
     dc.b        "Epifani",0                                                                      
+LASTNAME_START0772:
     dc.b        "Ferretti",0                                                                     
+LASTNAME_START0773:
     dc.b        "Massara",0                                                                      
+LASTNAME_START0774:
     dc.b        "Nobile",0                                                                       
+LASTNAME_START0775:
     dc.b        "Palladini",0                                                                    
-    dc.b        "Righetti",0                                                                     
+LASTNAME_START0776:
+    dc.b        "Righetti",0    
+LASTNAME_START0777:	
     dc.b        "Rosone",0                                                                       
+LASTNAME_START0778:
     dc.b        "Savorani",0                                                                     
+LASTNAME_START0779:
     dc.b        "Sivebaek",0                                                                     
+LASTNAME_START0780:
     dc.b        "Sliskovic",0                                                                    
+LASTNAME_START0781:
     dc.b        "Impallomeni",0                                                                  
+LASTNAME_START0782:
     dc.b        "Rosati",0                                                                       
+LASTNAME_START0783:
     dc.b        "Alfieri",0                                                                      
+LASTNAME_START0784:
     dc.b        "Aurelo",0                                                                       
+LASTNAME_START0785:
     dc.b        "Bivi",0                                                                         
+LASTNAME_START0786:
     dc.b        "Carnevale",0                                                                    
+LASTNAME_START0787:
     dc.b        "Lampugnani",0                                                                   
+LASTNAME_START0788:
     dc.b        "Polidori",0                                                                     
+LASTNAME_START0789:
     dc.b        "Rocco",0                                                                        
+LASTNAME_START0790:
     dc.b        "Rotella",0                                                                      
+LASTNAME_START0791:
     dc.b        "Rovaris",0                                                                      
+LASTNAME_START0792:
     dc.b        "Susic",0                                                                        
+LASTNAME_START0793:
     dc.b        "Vitiello",0                                                                     
+LASTNAME_START0794:
     dc.b        "Martini",0                                                                      
+LASTNAME_START0795:
     dc.b        "Lazzarini",0                                                                    
+LASTNAME_START0796:
     dc.b        "Spagnulo",0                                                                     
+LASTNAME_START0797:
     dc.b        "Ambrosio",0                                                                     
+LASTNAME_START0798:
     dc.b        "Barzaghi",0                                                                     
+LASTNAME_START0799:
     dc.b        "Bombardini",0                                                                   
+LASTNAME_START0800:
     dc.b        "Bosco",0                                                                        
+LASTNAME_START0801:
     dc.b        "Brandani",0                                                                     
+LASTNAME_START0802:
     dc.b        "Ciucci",0                                                                       
+LASTNAME_START0803:
     dc.b        "Cristallini",0                                                                  
+LASTNAME_START0804:
     dc.b        "Dondo",0                                                                        
-    dc.b        "Fasce",0                                                                        
+LASTNAME_START0805:
+    dc.b        "Fasce",0     
+LASTNAME_START0806:	
     dc.b        "Fimognari",0                                                                    
+LASTNAME_START0807:
     dc.b        "Fiorentini",0                                                                   
+LASTNAME_START0808:
     dc.b        "Gabbriellini",0                                                                 
+LASTNAME_START0809:
     dc.b        "Gallaccio",0                                                                    
+LASTNAME_START0810:
     dc.b        "Barbi",0                                                                        
+LASTNAME_START0811:
     dc.b        "Billio",0                                                                       
+LASTNAME_START0812:
     dc.b        "Boselli",0                                                                      
+LASTNAME_START0813:
     dc.b        "Bozzini",0                                                                      
+LASTNAME_START0814:
     dc.b        "Buonocore",0                                                                    
+LASTNAME_START0815:
     dc.b        "Cardarelli",0                                                                   
+LASTNAME_START0816:
     dc.b        "Conti",0                                                                        
+LASTNAME_START0817:
     dc.b        "Filippini",0                                                                    
+LASTNAME_START0818:
     dc.b        "Fiorio",0                                                                       
+LASTNAME_START0819
     dc.b        "Francioso",0                                                                    
+LASTNAME_START0820:
     dc.b        "Giorgetti",0                                                                    
+LASTNAME_START0821:
     dc.b        "Marchesi",0                                                                     
+LASTNAME_START0822:
     dc.b        "Marrocco",0                                                                     
-    dc.b        "Mengucci",0                                                                     
+LASTNAME_START0823:
+    dc.b        "Mengucci",0   
+LASTNAME_START0824:	
     dc.b        "Rovinelli",0                                                                    
+LASTNAME_START0825:
     dc.b        "Sotgia",0                                                                       
+LASTNAME_START0826:
     dc.b        "Tacchi",0                                                                       
+LASTNAME_START0827:
     dc.b        "Vieri",0                                                                        
+LASTNAME_START0828:
     dc.b        "Zauli",0                                                                        
+LASTNAME_START0829:
     dc.b        "Castelli",0                                                                     
+LASTNAME_START0830:
     dc.b        "Campilongo",0                                                                   
+LASTNAME_START0831:
     dc.b        "Coli",0                                                                         
+LASTNAME_START0832:
     dc.b        "Damato",0                                                                       
+LASTNAME_START0833:
     dc.b        "Di Gia",0                                                                       
+LASTNAME_START0834:
     dc.b        "Di Muoio",0                                                                     
+LASTNAME_START0835:
     dc.b        "Fogli",0                                                                        
+LASTNAME_START0836:
     dc.b        "Locatelli",0                                                                    
+LASTNAME_START0837:
     dc.b        "Mariani",0                                                                      
-    dc.b        "Mazzantini",0                                                                   
+LASTNAME_START0838:
+    dc.b        "Mazzantini",0  
+LASTNAME_START0839:	
     dc.b        "Nardini",0                                                                      
+LASTNAME_START0840:
     dc.b        "Petrachi",0                                                                     
+LASTNAME_START0841:
     dc.b        "Servidei",0                                                                     
+LASTNAME_START0842:
     dc.b        "Vanoli",0                                                                       
+LASTNAME_START0843:
     dc.b        "Menghini",0                                                                     
+LASTNAME_START0844:
     dc.b        "Bellotti",0                                                                     
+LASTNAME_START0845:
     dc.b        "Bianchet",0                                                                     
+LASTNAME_START0846:
     dc.b        "Bonaldi",0                                                                      
+LASTNAME_START0847:
     dc.b        "Cefis",0                                                                        
+LASTNAME_START0848:
     dc.b        "Fattori",0                                                                      
+LASTNAME_START0849:
     dc.b        "Guerra",0                                                                       
+LASTNAME_START0850:
     dc.b        "Ficcadenti",0                                                                   
+LASTNAME_START0851:
     dc.b        "Fioretti",0                                                                     
+LASTNAME_START0852:
     dc.b        "Furlanetto",0                                                                   
+LASTNAME_START0853:
     dc.b        "Giglio",0                                                                       
+LASTNAME_START0854:
     dc.b        "Gregori",0                                                                      
+LASTNAME_START0855:
     dc.b        "Guardalben",0                                                                   
+LASTNAME_START0856:
     dc.b        "Inzaghi",0                                                                      
-    dc.b        "Lammachi",0                                                                     
+LASTNAME_START0857:
+    dc.b        "Lammachi",0  
+LASTNAME_START0858:	
     dc.b        "Lunini",0                                                                       
+LASTNAME_START0859:
     dc.b        "Manetti",0                                                                      
+LASTNAME_START0860:
     dc.b        "Pessotto",0                                                                     
+LASTNAME_START0861:
     dc.b        "Piubelli",0                                                                     
+LASTNAME_START0862:
     dc.b        "Pivotti",0                                                                      
+LASTNAME_START0863:
     dc.b        "Sturba",0                                                                       
+LASTNAME_START0864:
     dc.b        "Tommasi",0                                                                      
+LASTNAME_START0865:
     dc.b        "Bianchi",0                                                                      
-    dc.b        "Caverzan",0                                                                     
+LASTNAME_START0866:
+    dc.b        "Caverzan",0  
+LASTNAME_START0867:	
     dc.b        "Briaschi",0                                                                     
+LASTNAME_START0868:
     dc.b        "Cecchini",0                                                                     
+LASTNAME_START0869:
     dc.b        "Civeriati",0                                                                    
+LASTNAME_START0870:
     dc.b        "Di Carlo",0                                                                     
+LASTNAME_START0871:
     dc.b        "Dignazio",0                                                                     
+LASTNAME_START0872:
     dc.b        "Dionigi",0                                                                      
+LASTNAME_START0873:
     dc.b        "Ferrarese",0                                                                    
+LASTNAME_START0874:
     dc.b        "Frascella",0                                                                    
+LASTNAME_START0875:
     dc.b        "Lombardini",0                                                                   
+LASTNAME_START0876:
     dc.b        "Lopez",0                                                                        
+LASTNAME_START0877:
     dc.b        "Lunardon",0                                                                     
-    dc.b        "Mastrantonio",0                                                                 
+LASTNAME_START0878:
+    dc.b        "Mastrantonio",0   
+LASTNAME_START0879:	
     dc.b        "Pratico",0                                                                      
+LASTNAME_START0880:
     dc.b        "Pulga",0                                                                        
+LASTNAME_START0881:
     dc.b        "Sterchele",0                                                                    
+LASTNAME_START0882:
     dc.b        "Valoti",0                                                                       
+LASTNAME_START0883:
     dc.b        "Viviani",0                                                                      
+LASTNAME_START0884:
     dc.b        "Virille",0                                                                      
+LASTNAME_START0885:
     dc.b        "Albarello",0                                                                    
+LASTNAME_START0886:
     dc.b        "Bellato",0                                                                      
+LASTNAME_START0887:
     dc.b        "Baia",0                                                                         
+LASTNAME_START0888:
     dc.b        "Barros",0                                                                       
+LASTNAME_START0889:
     dc.b        "Isaias",0                                                                       
+LASTNAME_START0890:
     dc.b        "Joao Pinto",0                                                                   
+LASTNAME_START0891:
     dc.b        "Kulkov",0                                                                       
+LASTNAME_START0892:
     dc.b        "Mozer",0                                                                        
+LASTNAME_START0893:
     dc.b        "Timofte",0                                                                      
-    dc.b        "Butragueno",0                                                                   
+LASTNAME_START0894:
+    dc.b        "Butragueno",0   
+LASTNAME_START0895:	
     dc.b        "Dubovsky",0                                                                     
+LASTNAME_START0896:
     dc.b        "Esnaider",0                                                                     
+LASTNAME_START0897:
     dc.b        "Garcia",0                                                                       
+LASTNAME_START0898:
     dc.b        "Goicoechea",0                                                                   
+LASTNAME_START0899:
     dc.b        "Aldana",0                                                                       
+LASTNAME_START0900:
     dc.b        "Bakero",0                                                                       
+LASTNAME_START0901:
     dc.b        "Koeman",0                                                                       
+LASTNAME_START0902:
     dc.b        "Kosecki",0                                                                      
+LASTNAME_START0903:
     dc.b        "Amor",0                                                                         
+LASTNAME_START0904:
     dc.b        "Martin Vasquez",0                                                               
+LASTNAME_START0905:
     dc.b        "Michel",0                                                                       
+LASTNAME_START0906:
     dc.b        "Bebeto",0                                                                       
+LASTNAME_START0907:
     dc.b        "Nadal",0                                                                        
-    dc.b        "Pizzi",0                                                                        
+LASTNAME_START0908:
+    dc.b        "Pizzi",0  
+LASTNAME_START0909:	
     dc.b        "Romario",0                                                                      
+LASTNAME_START0910:
     dc.b        "Salinas",0                                                                      
+LASTNAME_START0911:
     dc.b        "Schuster",0                                                                     
+LASTNAME_START0912:
     dc.b        "Silva",0                                                                        
+LASTNAME_START0913:
     dc.b        "Stoichkov",0                                                                    
+LASTNAME_START0914:
     dc.b        "Beguirastain",0                                                                 
+LASTNAME_START0915:
     dc.b        "Zamorano",0                                                                     
+LASTNAME_START0916:
     dc.b        "Zubizarreta",0                                                                  
+LASTNAME_START0917:
     dc.b        "Deschamps",0                                                                    
+LASTNAME_START0918:
     dc.b        "Pancev",0                                                                       
+LASTNAME_START0919:
     dc.b        "Pele",0                                                                         
+LASTNAME_START0920:
     dc.b        "Perez",0                                                                        
+LASTNAME_START0921:
     dc.b        "Klinsmann",0                                                                    
+LASTNAME_START0922:
     dc.b        "Rai",0                                                                          
+LASTNAME_START0923:
     dc.b        "Ricardo Gomes",0                                                                
+LASTNAME_START0924:
     dc.b        "Durand",0                                                                       
+LASTNAME_START0925:
     dc.b        "Amoros",0                                                                       
+LASTNAME_START0926:
     dc.b        "Scifo",0                                                                        
+LASTNAME_START0927:
     dc.b        "Lama",0                                                                         
-    dc.b        "Blanc",0                                                                        
+LASTNAME_START0928:
+    dc.b        "Blanc",0   
+LASTNAME_START0929:	
     dc.b        "Boli",0                                                                         
+LASTNAME_START0930:
     dc.b        "Valdeir",0                                                                      
+LASTNAME_START0931:
     dc.b        "Valdo",0                                                                        
+LASTNAME_START0932:
     dc.b        "Vecruysse",0                                                                    
+LASTNAME_START0933:
     dc.b        "Voller",0                                                                       
+LASTNAME_START0934:
     dc.b        "Gomes",0                                                                        
+LASTNAME_START0935:
     dc.b        "Ziober",0                                                                       
+LASTNAME_START0936:
     dc.b        "Angloma",0                                                                      
+LASTNAME_START0937:
     dc.b        "Dozzell",0                                                                      
+LASTNAME_START0938:
     dc.b        "Barmby",0                                                                       
+LASTNAME_START0939:
     dc.b        "Le'Tissier",0                                                                   
+LASTNAME_START0940:
     dc.b        "Anderton",0                                                                     
+LASTNAME_START0941:
     dc.b        "McAllister",0                                                                   
+LASTNAME_START0942:
     dc.b        "Merson",0                                                                       
+LASTNAME_START0943:
     dc.b        "Ebbrell",0                                                                      
+LASTNAME_START0944:
     dc.b        "Ekoku",0                                                                        
+LASTNAME_START0945:
     dc.b        "Elliott",0                                                                      
+LASTNAME_START0946:
     dc.b        "Ndlovu",0                                                                       
+LASTNAME_START0947:
     dc.b        "Batty",0                                                                        
+LASTNAME_START0948:
     dc.b        "Parker",0                                                                       
-    dc.b        "Ferdinand",0                                                                    
+LASTNAME_START0949:
+    dc.b        "Ferdinand",0   
+LASTNAME_START0950:	
     dc.b        "Flowers",0                                                                      
+LASTNAME_START0951:
     dc.b        "Bosnich",0                                                                      
+LASTNAME_START0952:
     dc.b        "Giggs",0                                                                        
+LASTNAME_START0953:
     dc.b        "Beardsley",0                                                                    
+LASTNAME_START0954:
     dc.b        "Rocastle",0                                                                     
+LASTNAME_START0955:
     dc.b        "Cantona",0                                                                      
+LASTNAME_START0956:
     dc.b        "Hirst",0                                                                        
+LASTNAME_START0957:
     dc.b        "Samways",0                                                                      
+LASTNAME_START0958:
     dc.b        "Saunders",0                                                                     
+LASTNAME_START0959:
     dc.b        "Schmeichel",0                                                                   
+LASTNAME_START0960:
     dc.b        "Hoddle",0                                                                       
+LASTNAME_START0961:
     dc.b        "Hughes",0                                                                       
+LASTNAME_START0962:
     dc.b        "Sharpe",0                                                                       
+LASTNAME_START0963:
     dc.b        "Shearer",0                                                                      
+LASTNAME_START0964:
     dc.b        "Sheringham",0                                                                   
+LASTNAME_START0965:
     dc.b        "Ince",0                                                                         
+LASTNAME_START0964x: ;<GRH> FIXME
     dc.b        "Sinton",0                                                                       
+LASTNAME_START0965x: ; <GRH> FIXME
     dc.b        "Southall",0                                                                     
+LASTNAME_START0966:
     dc.b        "Speed",0                                                                        
+LASTNAME_START0967:
     dc.b        "Cole",0                                                                         
+LASTNAME_START0968:
     dc.b        "Joachim",0                                                                      
+LASTNAME_START0969:
     dc.b        "Townsend",0                                                                     
+LASTNAME_START0970:
     dc.b        "Cottee",0                                                                       
+LASTNAME_START0971:
     dc.b        "Jones",0                                                                        
+LASTNAME_START0972:
     dc.b        "Keane",0                                                                        
+LASTNAME_START0973:
     dc.b        "Daley",0                                                                        
+LASTNAME_START0974:
     dc.b        "Waddle",0                                                                       
+LASTNAME_START0975:
     dc.b        "Walker",0                                                                       
+LASTNAME_START0976:
     dc.b        "Warhurst",0                                                                     
+LASTNAME_START0977:
     dc.b        "Wilkins",0                                                                      
+LASTNAME_START0978:
     dc.b        "Wright",0                                                                       
+LASTNAME_START0979:
     dc.b        "Atkinson",0                                                                     
+LASTNAME_START0980:
     dc.b        "Dicks",0                                                                        
+LASTNAME_START0981:
     dc.b        "Dorigo",0                                                                       
+LASTNAME_START0982:
     dc.b        "Ratinho",0                                                                      
+LASTNAME_START0983:
     dc.b        "Bosman",0                                                                       
+LASTNAME_START0984:
     dc.b        "De Wolf",0                                                                      
+LASTNAME_START0985:
     dc.b        "Zetterberg",0                                                                   
+LASTNAME_START0986:
     dc.b        "Degryse",0                                                                      
+LASTNAME_START0987:
     dc.b        "Emmers",0                                                                       
+LASTNAME_START0988:
     dc.b        "Van Aerle",0                                                                    
-    dc.b        "Vanenburg",0                                                                    
+LASTNAME_START0989:
+    dc.b        "Vanenburg",0    
+LASTNAME_START0990:	
     dc.b        "Bosz",0                                                                         
+LASTNAME_START0991:
     dc.b        "Rijkaard",0                                                                     
+LASTNAME_START0992:
     dc.b        "Overmars",0                                                                     
+LASTNAME_START0993:
     dc.b        "Blind",0                                                                        
+LASTNAME_START0994:
     dc.b        "Meijer",0                                                                       
+LASTNAME_START0995:
     dc.b        "Witschge",0                                                                     
+LASTNAME_START0996:
     dc.b        "Ingesson",0                                                                     
+LASTNAME_START0997:
     dc.b        "De Boer",0                                                                      
+LASTNAME_START0998:
     dc.b        "Popescu",0                                                                      
-    dc.b        "Kieft",0                                                                        
-    dc.b        "Kiprich",0                                                                      
+LASTNAME_START0999:
+    dc.b        "Kieft",0   
+LASTNAME_START1000:	
+    dc.b        "Kiprich",0   
+LASTNAME_START1001:	
     dc.b        "de Goey",0                                                                      
+LASTNAME_START1002:
     dc.b        "Illgner",0                                                                      
+LASTNAME_START1003:
     dc.b        "Strunz",0                                                                       
+LASTNAME_START1004:
     dc.b        "Thon",0                                                                         
+LASTNAME_START1005:
     dc.b        "Buchwald",0                                                                     
+LASTNAME_START1006:
     dc.b        "Rumenigge",0                                                                    
+LASTNAME_START1007:
     dc.b        "Kirsten",0                                                                      
+LASTNAME_START1008:
     dc.b        "Sammer",0                                                                       
+LASTNAME_START1009:
     dc.b        "Matthaus",0                                                                     
+LASTNAME_START1010:
     dc.b        "Bein",0                                                                         
+LASTNAME_START1011:
     dc.b        "Pflipsen",0                                                                     
+LASTNAME_START1012:
     dc.b        "Scholl",0                                                                       
+LASTNAME_START1013:
     dc.b        "Helmer",0                                                                       
+LASTNAME_START1014:
     dc.b        "Herzog",0                                                                       
+LASTNAME_START1015:
     dc.b        "Sergio",0                                                                       
+LASTNAME_START1016:
     dc.b        "Povlsen",0                                                                      
-    dc.b        "Kopke",0                                                                        
+LASTNAME_START1017:
+    dc.b        "Kopke",0    
+LASTNAME_START1018:	
     dc.b        "Berthold",0                                                                     
+LASTNAME_START1019:
     dc.b        "Shulz",0                                                                        
+LASTNAME_START1020:
     dc.b        "Zeige",0                                                                        
+LASTNAME_START1021:
     dc.b        "Reidle",0                                                                       
+LASTNAME_START1022:
     dc.b        "Reuter",0                                                                       
+LASTNAME_START1023:
     dc.b        "Zorc",0                                                                         
+LASTNAME_START1024:
     dc.b        "Chapuisat",0                                                                    
+LASTNAME_START1025:
     dc.b        "Brehme",0                                                                       
+LASTNAME_START1026:
     dc.b        "Rodax",0                                                                        
+LASTNAME_START1027:
     dc.b        "Hasenhuttl",0                                                                   
+LASTNAME_START1028:
     dc.b        "Warzycha",0                                                                     
+LASTNAME_START1029:
     dc.b        "Zvetanov",0                                                                     
+LASTNAME_START1030:
     dc.b        "Kostadinov",0                                                                   
+LASTNAME_START1031:
     dc.b        "Dumitrescu",0                                                                   
+LASTNAME_START1032:
     dc.b        "Lacatus",0                                                                      
-    dc.b        "Duro",0                                                                         
+LASTNAME_START1033:
+    dc.b        "Duro",0     
+LASTNAME_START1034:	
     dc.b        "Pisont",0                                                                       
+LASTNAME_START1035:
     dc.b        "Novotny",0                                                                      
+LASTNAME_START1036:
     dc.b        "Ravelli",0                                                                      
+LASTNAME_START1037:
     dc.b        "Jess",0                                                                         
+LASTNAME_START1038:
     dc.b        "Steven",0                                                                       
+LASTNAME_START1039:
     dc.b        "Ferguson",0                                                                     
+LASTNAME_START1040:
     dc.b        "Goram",0                                                                        
+LASTNAME_START1041:
     dc.b        "Moller",0                                                                       
+LASTNAME_START1042:
     dc.b        "Vilfort",0                                                                      
+LASTNAME_START1043:
     dc.b        "Salenko",0                                                                      
+LASTNAME_START1044:
     dc.b        "McAllister",0                                                                   
+LASTNAME_START1045:
     dc.b        "Maradona",0                                                                     
+LASTNAME_START1046:
     dc.b        "Valderrama",0                                                                   
+LASTNAME_START1047:
     dc.b        "Careca",0                                                                       
+LASTNAME_START1048:
     dc.b        "Sanchez",0                                                                      
+LASTNAME_START1049:
     dc.b        "Ruggeri",0                                                                      
+LASTNAME_START1050:
     dc.b        "Navarrete",0                                                                    
+LASTNAME_START1051:
     dc.b        "Zaguingho",0                                                                    
+LASTNAME_START1052:
     dc.b        "Goycochea",0                                                                    
+LASTNAME_START1053:
     dc.b        "Dal Moro",0                                                                     
+LASTNAME_START1054:
     dc.b        "Onorato",0                                                                      
+LASTNAME_START1055:
     dc.b        "Brescini",0                                                                     
+LASTNAME_START1056:
     dc.b        "Pagliari",0                                                                     
+LASTNAME_START1057:
     dc.b        "Dangelo",0                                                                      
+LASTNAME_START1058:
     dc.b        "Pannitteri",0                                                                   
-    dc.b        "De Amicis",0                                                                    
+LASTNAME_START1059:
+    dc.b        "De Amicis",0    
+LASTNAME_START1060:	
     dc.b        "Grimaudo",0                                                                     
+LASTNAME_START1061:
     dc.b        "Buccheri",0                                                                     
+LASTNAME_START1062:
     dc.b        "De Marco",0                                                                     
+LASTNAME_START1063:
     dc.b        "Piccinno",0                                                                     
+LASTNAME_START1064:
     dc.b        "De Patre",0                                                                     
+LASTNAME_START1065:
     dc.b        "Battistella",0                                                                  
+LASTNAME_START1066:
     dc.b        "Poli",0                                                                         
+LASTNAME_START1067:
     dc.b        "Dego",0                                                                         
+LASTNAME_START1068:
     dc.b        "Airolde",0                                                                      
+LASTNAME_START1069:
     dc.b        "Prete",0                                                                        
+LASTNAME_START1070:
     dc.b        "Puglisi",0                                                                      
+LASTNAME_START1071:
     dc.b        "Putelli",0                                                                      
+LASTNAME_START1072:
     dc.b        "Belmonte",0                                                                     
-    dc.b        "Di Baia",0                                                                      
+LASTNAME_START1073:
+    dc.b        "Di Baia",0    
+LASTNAME_START1074:	
     dc.b        "Di Bin",0                                                                       
+LASTNAME_START1075:
     dc.b        "Di Curzio",0                                                                    
+LASTNAME_START1076:
     dc.b        "Di Fabio",0                                                                     
+LASTNAME_START1077:
     dc.b        "Di Pietro",0                                                                    
+LASTNAME_START1078:
     dc.b        "Rispoli",0                                                                      
+LASTNAME_START1079:
     dc.b        "Rizzo",0                                                                        
+LASTNAME_START1080:
     dc.b        "Belotti",0                                                                      
+LASTNAME_START1081:
     dc.b        "Romani",0                                                                       
+LASTNAME_START1082:
     dc.b        "Carmelino",0                                                                    
+LASTNAME_START1083:
     dc.b        "Carsetti",0                                                                     
+LASTNAME_START1084:
     dc.b        "Castellini",0                                                                   
+LASTNAME_START1085:
     dc.b        "Sabatelli",0                                                                    
+LASTNAME_START1086:
     dc.b        "Cataldi",0                                                                      
+LASTNAME_START1087:
     dc.b        "Cerbone",0                                                                      
+LASTNAME_START1088:
     dc.b        "Cerqueti",0                                                                     
+LASTNAME_START1089:
     dc.b        "Beninato",0                                                                     
+LASTNAME_START1090:
     dc.b        "Colautti",0                                                                     
-    dc.b        "Savi",0                                                                         
+LASTNAME_START1091:
+    dc.b        "Savi",0     
+LASTNAME_START1092:	
     dc.b        "Eritreo",0                                                                      
+LASTNAME_START1093:
     dc.b        "La Torre",0                                                                     
+LASTNAME_START1094:
     dc.b        "Labadini",0                                                                     
+LASTNAME_START1095:
     dc.b        "Beghetto",0                                                                     
+LASTNAME_START1096:
     dc.b        "Landi",0                                                                        
+LASTNAME_START1097:
     dc.b        "Fabbri",0                                                                       
+LASTNAME_START1098:
     dc.b        "Lemma",0                                                                        
+LASTNAME_START1099:
     dc.b        "Leone",0                                                                        
+LASTNAME_START1100:
     dc.b        "Limetti",0                                                                      
+LASTNAME_START1101:
     dc.b        "Lunerti",0                                                                      
+LASTNAME_START1102:
     dc.b        "Manari",0                                                                       
+LASTNAME_START1103:
     dc.b        "Strada",0                                                                       
+LASTNAME_START1104:
     dc.b        "Manzo",0                                                                        
+LASTNAME_START1105:
     dc.b        "Talevi",0                                                                       
+LASTNAME_START1106:
     dc.b        "Tebi",0                                                                         
+LASTNAME_START1107:
     dc.b        "Toledo",0                                                                       
+LASTNAME_START1108:
     dc.b        "Tomasoni",0                                                                     
+LASTNAME_START1109:
     dc.b        "Tomei",0                                                                        
+LASTNAME_START1110:
     dc.b        "Marinacci",0                                                                    
+LASTNAME_START1111:
     dc.b        "Tudisco",0                                                                      
-    dc.b        "Bevanati",0                                                                     
+LASTNAME_START1112:
+    dc.b        "Bevanati",0   
+LASTNAME_START1113:	
     dc.b        "Martino",0                                                                      
+LASTNAME_START1114:
     dc.b        "Fino",0                                                                         
+LASTNAME_START1115:
     dc.b        "Mayer",0                                                                        
+LASTNAME_START1116:
     dc.b        "Crucitti",0                                                                     
+LASTNAME_START1117:
     dc.b        "Fresta",0                                                                       
+LASTNAME_START1118:
     dc.b        "Veronici",0                                                                     
+LASTNAME_START1119:
     dc.b        "Cudini",0                                                                       
+LASTNAME_START1120:
     dc.b        "Merlo",0                                                                        
+LASTNAME_START1121:
     dc.b        "Merolla",0                                                                      
+LASTNAME_START1122:
     dc.b        "Garzieri",0                                                                     
+LASTNAME_START1123:
     dc.b        "Gelsi",0                                                                        
+LASTNAME_START1124:
     dc.b        "Minuti",0                                                                       
+LASTNAME_START1125:
     dc.b        "Genovese",0                                                                     
+LASTNAME_START1126:
     dc.b        "Monti",0                                                                        
+LASTNAME_START1127:
     dc.b        "Mosca",0                                                                        
+LASTNAME_START1128:
     dc.b        "Cunti",0                                                                        
+LASTNAME_START1129:
     dc.b        "Muro",0                                                                         
+LASTNAME_START1130:
     dc.b        "Giorgianni",0                                                                   
+LASTNAME_START1131:
     dc.b        "Giunti",0                                                                       
+LASTNAME_START1132:
     dc.b        "Goffi",0                                                                        
+LASTNAME_START1133:
     dc.b        "Negretti",0                                                                     
+LASTNAME_START1134:
     dc.b        "Madde",0                                                                        
+LASTNAME_START1134x:
     dc.b        "Maffioletti",0                                                                  
+LASTNAME_START1135:
     dc.b        "Gori",0                                                                         
+LASTNAME_START1136:
     dc.b        "Crotti",0                                                                       
-    dc.b        "Mangoni",0                                                                      
+LASTNAME_START1137:
+    dc.b        "Mangoni",0     
+LASTNAME_START1138:	
     dc.b        "Guarino",0                                                                      
+LASTNAME_START1139:
     dc.b        "Gutili",0                                                                       
+LASTNAME_START1140:
     dc.b        "Caliari",0                                                                      
+LASTNAME_START1141:
     dc.b        "Marsan",0                                                                       
+LASTNAME_START1142:
     dc.b        "Campioli",0                                                                     
+LASTNAME_START1143:
     dc.b        "Aresi",0                                                                        
+LASTNAME_START1144:
     dc.b        "Masini",0                                                                       
+LASTNAME_START1145:
     dc.b        "Rusconi",0                                                                      
+LASTNAME_START1146:
     dc.b        "Cappalletti",0                                                                  
+LASTNAME_START1147:
     dc.b        "Mauri",0                                                                        
+LASTNAME_START1148:
     dc.b        "Bonadei",0                                                                      
+LASTNAME_START1149:
     dc.b        "Mazzei",0                                                                       
-    dc.b        "Salvalaggio",0                                                                  
+LASTNAME_START1150:
+    dc.b        "Salvalaggio",0  
+LASTNAME_START1151:	
     dc.b        "Danelutti",0                                                                    
+LASTNAME_START1152:
     dc.b        "Bonadio",0                                                                      
+LASTNAME_START1153:
     dc.b        "Caridi",0                                                                       
+LASTNAME_START1154:
     dc.b        "Evangelisti",0                                                                  
+LASTNAME_START1155:
     dc.b        "Scardigli",0                                                                    
+LASTNAME_START1156:
     dc.b        "Schiaffino",0                                                                   
+LASTNAME_START1157:
     dc.b        "Boschin",0                                                                      
+LASTNAME_START1158:
     dc.b        "Argentisi",0                                                                    
+LASTNAME_START1159:
     dc.b        "Facciolo",0                                                                     
+LASTNAME_START1160:
     dc.b        "Milanese",0                                                                     
+LASTNAME_START1161:
     dc.b        "Serioli",0                                                                      
+LASTNAME_START1162:
     dc.b        "Facini",0                                                                       
+LASTNAME_START1163:
     dc.b        "Mirabelli",0                                                                    
+LASTNAME_START1164:
     dc.b        "Mirisola",0                                                                     
+LASTNAME_START1165:
     dc.b        "Misso",0                                                                        
+LASTNAME_START1166:
     dc.b        "Farnetti",0                                                                     
+LASTNAME_START1167:
     dc.b        "Casazza",0                                                                      
-    dc.b        "Montella",0                                                                     
+LASTNAME_START1168:
+    dc.b        "Montella",0   
+LASTNAME_START1169:	
     dc.b        "Soda",0                                                                         
+LASTNAME_START1170:
     dc.b        "Sottili",0                                                                      
+LASTNAME_START1171:
     dc.b        "Spalletti",0                                                                    
+LASTNAME_START1172:
     dc.b        "Fermanelli",0                                                                   
+LASTNAME_START1173:
     dc.b        "Morotti",0                                                                      
+LASTNAME_START1174:
     dc.b        "Figaia",0                                                                       
+LASTNAME_START1175:
     dc.b        "Amarotti",0                                                                     
+LASTNAME_START1176:
     dc.b        "Strano",0                                                                       
+LASTNAME_START1177:
     dc.b        "Superbi",0                                                                      
+LASTNAME_START1178:
     dc.b        "Bracaloni",0                                                                    
+LASTNAME_START1179:
     dc.b        "Tarozzi",0                                                                      
+LASTNAME_START1180:
     dc.b        "Ceccaroni",0                                                                    
+LASTNAME_START1181:
     dc.b        "Angelotti",0                                                                    
+LASTNAME_START1182:
     dc.b        "Tiberio",0                                                                      
+LASTNAME_START1183:
     dc.b        "Gatti",0                                                                        
+LASTNAME_START1184:
     dc.b        "Toccafondi",0                                                                   
+LASTNAME_START1185:
     dc.b        "Nervo",0                                                                        
+LASTNAME_START1186:
     dc.b        "Nistri",0                                                                       
+LASTNAME_START1187:
     dc.b        "La Rosa",0                                                                      
-    dc.b        "Tonin",0                                                                        
+LASTNAME_START1188:
+    dc.b        "Tonin",0   
+LASTNAME_START1189:	
     dc.b        "Tonini",0                                                                       
+LASTNAME_START1190:
     dc.b        "Olivares",0                                                                     
+LASTNAME_START1191:
     dc.b        "Trapella",0                                                                     
+LASTNAME_START1192:
     dc.b        "Gattuso",0                                                                      
+LASTNAME_START1193:
     dc.b        "Anaclerio",0                                                                    
+LASTNAME_START1194:
     dc.b        "Pacciani",0                                                                     
+LASTNAME_START1195:
     dc.b        "Labardi",0                                                                      
+LASTNAME_START1196:
     dc.b        "Cervallati",0                                                                   
+LASTNAME_START1197:
     dc.b        "Pandullo",0                                                                     
+LASTNAME_START1198:
     dc.b        "Gentilini",0                                                                    
+LASTNAME_START1199:
     dc.b        "Papari",0                                                                       
+LASTNAME_START1200:
     dc.b        "Paratici",0                                                                     
+LASTNAME_START1201:
     dc.b        "Lancini",0                                                                      
+LASTNAME_START1202:
     dc.b        "Brocchi",0                                                                      
+LASTNAME_START1203:
     dc.b        "Lanzara",0                                                                      
+LASTNAME_START1204:
     dc.b        "Perugi",0                                                                       
+LASTNAME_START1205:
     dc.b        "Di Gioia",0                                                                     
-    dc.b        "Picardi",0                                                                      
+LASTNAME_START1206:
+    dc.b        "Picardi",0  
+LASTNAME_START1207:	
     dc.b        "Bizzari",0                                                                      
+LASTNAME_START1208:
     dc.b        "Collauto",0                                                                     
+LASTNAME_START1209:
     dc.b        "Bambini",0                                                                      
+LASTNAME_START1210:
     dc.b        "Zanin",0                                                                        
+LASTNAME_START1211:
     dc.b        "Zanuttig",0                                                                     
+LASTNAME_START1212:
     dc.b        "List",0                                                                         
+LASTNAME_START1213:
     dc.b        "Pompini",0                                                                      
+LASTNAME_START1214:
     dc.b        "Lo Pinto",0                                                                     
+LASTNAME_START1215:
     dc.b        "Zocchi",0                                                                       
+LASTNAME_START1216:
     dc.b        "Pregnolato",0                                                                   
+LASTNAME_START1217:
     dc.b        "Cossato",0                                                                      
+LASTNAME_START1218:
     dc.b        "Provvido",0                                                                     
 BYTE_00071ad3:                
     dc.b        $0
@@ -36403,34 +38145,45 @@ PreMenuStrings:
     dc.b        $0
     dc.b        "Week %d %s %d",0                                                                
     dc.b        "Season",0,0                                                                       
-    dc.b        "Preseason",0                                                                   
+    dc.b        "Preseason",0      
+String_ManagerMenu00:	
     dc.b        "Sunday Fixtures",0                                                              
+String_ManagerMenu01:
     dc.b        "View Tables",0                                                                  
+String_ManagerMenu02:
     dc.b        "Fixture Info",0,0                                                                 
+String_ManagerMenu03:
     dc.b        "Club Details",0                                                                 
     dc.b        $0
+String_ManagerMenu04:
     dc.b        "Match Reports",0                                                                
+String_ManagerMenu05:
     dc.b        "Find Player",0                                                                  
+String_ManagerMenu06:
     dc.b        "Board Resign",0                                                                 
     dc.b        $0
+String_ManagerMenu07:
     dc.b        "Manager Jobs",0,0                                                                 
+String_ManagerMenu08:
     dc.b        "National Squads",0                                                              
+String_ManagerMenu09:
     dc.b        "Game Options",0                                                                 
     dc.b        $0
+String_ManagerMenu10:
     dc.b        "Save Game",0
 Fixup_Address_07:
-;in Ghidra the location is 00072B78, not referenced?
-    dc.l        $062AE2
-    dc.l        $062AF2
-    dc.l        $062AFE
-    dc.l        $062B0C
-    dc.l        $062B1A
-    dc.l        $062B28
-    dc.l        $062B34
-    dc.l        $062B42
-    dc.l        $062B50
-    dc.l        $062B60
-    dc.l        $062B6E
+;in Ghidra the location is 00072B78, This reference goes backwards so minus not add!
+    dc.l        String_ManagerMenu00;Fixup_Address_07 - Additions_07;$062AE2
+    dc.l        String_ManagerMenu01;Fixup_Address_07 - Additions_07 + $10;$062AF2
+    dc.l        String_ManagerMenu02;Fixup_Address_07 - Additions_07 + $20;$062AFE
+    dc.l        String_ManagerMenu03;Fixup_Address_07 - Additions_07 + $30;$062B0C
+    dc.l        String_ManagerMenu04;Fixup_Address_07 - Additions_07 + $40;$062B1A
+    dc.l        String_ManagerMenu05;Fixup_Address_07 - Additions_07 + $50;$062B28
+    dc.l        String_ManagerMenu06;Fixup_Address_07 - Additions_07 + $60;$062B34
+    dc.l        String_ManagerMenu07;Fixup_Address_07 - Additions_07 + $70;$062B42
+    dc.l        String_ManagerMenu08;Fixup_Address_07 - Additions_07 + $80;$062B50
+    dc.l        String_ManagerMenu09;Fixup_Address_07 - Additions_07 + $90;$062B60
+    dc.l        String_ManagerMenu10;Fixup_Address_07 - Additions_07 + $A0;$062B6E
     dc.b        "New Season",0                                                                   
     dc.b        $0
     dc.b        "Continue Season",0                                                              
@@ -36455,34 +38208,46 @@ Fixup_Address_07:
     dc.b        "Hall Of Fame|"                                                              
     dc.b        "Monthly Awards|",0                                                              
     dc.b        $0
+String_TinyText00:
     dc.b        "PL",0                                                                           
     dc.b        $0
+String_TinyText01:
     dc.b        "W",0                                                                            
+String_TinyText02:
     dc.b        "D",0                                                                            
+String_TinyText03:
     dc.b        "L",0                                                                            
+String_TinyText04:
     dc.b        "F",0                                                                            
+String_TinyText05:
     dc.b        "A",0                                                                            
+String_TinyText06:
     dc.b        "W",0                                                                            
+String_TinyText07:
     dc.b        "D",0                                                                            
+String_TinyText08:
     dc.b        "L",0                                                                            
+String_TinyText09:
     dc.b        "F",0                                                                            
+String_TinyText10:
     dc.b        "A",0                                                                            
+String_TinyText11:
     dc.b        "PT",0                                                                           
     dc.b        $0
 Fixup_Address_08:
 ; Location in Ghidra 00072CE6, not referenced?
-    dc.l        $062CCA
-    dc.l        $062CCE
-    dc.l        $062CD0
-    dc.l        $062CD2
-    dc.l        $062CD4
-    dc.l        $062CD6
-    dc.l        $062CD8
-    dc.l        $062CDA
-    dc.l        $062CDC
-    dc.l        $062CDE
-    dc.l        $062CE0
-    dc.l        $062CE2
+    dc.l        String_TinyText00;Fixup_Address_08 + Additions_08 + $10;$062CCA
+    dc.l        String_TinyText01;Fixup_Address_08 + Additions_08 + $10;$062CCE
+    dc.l        String_TinyText02;Fixup_Address_08 + Additions_08 + $10;$062CD0
+    dc.l        String_TinyText03;Fixup_Address_08 + Additions_08 + $10;$062CD2
+    dc.l        String_TinyText04;Fixup_Address_08 + Additions_08 + $10;$062CD4
+    dc.l        String_TinyText05;Fixup_Address_08 + Additions_08 + $10;$062CD6
+    dc.l        String_TinyText06;Fixup_Address_08 + Additions_08 + $10;$062CD8
+    dc.l        String_TinyText07;Fixup_Address_08 + Additions_08 + $10;$062CDA
+    dc.l        String_TinyText08;Fixup_Address_08 + Additions_08 + $10;$062CDC
+    dc.l        String_TinyText09;Fixup_Address_08 + Additions_08 + $10;$062CDE
+    dc.l        String_TinyText10;Fixup_Address_08 + Additions_08 + $10;$062CE0
+    dc.l        String_TinyText11;Fixup_Address_08 + Additions_08 + $10;$062CE2
     dc.b        $0
     dc.b        $0
     dc.b        " %s",0                                                                          
@@ -36781,22 +38546,29 @@ Fixup_Address_08:
     dc.b        $0
     dc.b        "          EXIT",0                                                               
     dc.b        $0
+String_Abbreviated00:
     dc.b        " P ",0                                                                          
+String_Abbreviated01:
     dc.b        " W ",0                                                                          
+String_Abbreviated02:
     dc.b        " D ",0                                                                          
+String_Abbreviated03:
     dc.b        " L ",0                                                                          
+String_Abbreviated04:
     dc.b        " F ",0                                                                          
+String_Abbreviated05:
     dc.b        " A ",0                                                                          
+String_Abbreviated06:
     dc.b        "PTS",0
 Fixup_Address_09:
 ;Location in Ghidra 00073574, not referenced?
-    dc.l        $063558
-    dc.l        $06355C
-    dc.l        $063560
-    dc.l        $063564
-    dc.l        $063568
-    dc.l        $06356C
-    dc.l        $063570
+    dc.l        String_Abbreviated00;Fixup_Address_09 + Additions_09;$063558
+    dc.l        String_Abbreviated01;Fixup_Address_09 + Additions_09 + $10;$06355C
+    dc.l        String_Abbreviated02;Fixup_Address_09 + Additions_09 + $20;$063560
+    dc.l        String_Abbreviated03;Fixup_Address_09 + Additions_09 + $30;$063564
+    dc.l        String_Abbreviated04;Fixup_Address_09 + Additions_09 + $40;$063568
+    dc.l        String_Abbreviated05;Fixup_Address_09 + Additions_09 + $50;$06356C
+    dc.l        String_Abbreviated06;Fixup_Address_09 + Additions_09 + $60;$063570
     dc.b        " Team",0                                                                        
     dc.b        " %s ",0                                                                         
     dc.b        $0
@@ -36811,7 +38583,7 @@ Fixup_Address_09:
     dc.b        "%s",0,0                                                                                                                                                      
     dc.b        "%-11s",0                                                                         
     dc.b        "%-11s",0                                                                         
-    dc.b        "rb",0,0                                                                       ,0                                                                           
+    dc.b        "rb",0,0                                                                       ;,0 ;<RMAC>didn't ignore this but VASM did!                                                                          
     dc.b        "38PF",0                                                                          
     dc.b        0                                                                            
     dc.b        "38CP",0                                                                          
@@ -36878,37 +38650,46 @@ Fixup_Address_09:
     dc.b        $0
     dc.b        "                 DONE",0                                                        
     dc.b        "Loans",0                                                                        
-DRM_PAGENUMBER_MAYBE:         
+DRM_PAGENUMBER_MAYBE00:         
     dc.b        $31
     dc.b        $0
+DRM_PAGENUMBER_MAYBE01:
     dc.b        $35
     dc.b        $0
+DRM_PAGENUMBER_MAYBE02:
     dc.b        $31
     dc.b        $30
     dc.b        $0
     dc.b        $0
+DRM_PAGENUMBER_MAYBE03:
     dc.b        $31
     dc.b        $35
     dc.b        $0
     dc.b        $0
+DRM_PAGENUMBER_MAYBE04:
     dc.b        $31
     dc.b        $38
     dc.b        $0
     dc.b        $0
+DRM_PAGENUMBER_MAYBE05:
     dc.b        $32
     dc.b        $30
     dc.b        $0
     dc.b        $0
+DRM_PAGENUMBER_MAYBE06:
     dc.b        $31
     dc.b        $0
+DRM_PAGENUMBER_MAYBE07:
     dc.b        $31
     dc.b        $39
     dc.b        $0
     dc.b        $0
+DRM_PAGENUMBER_MAYBE08:
     dc.b        $33
     dc.b        $34
     dc.b        $0
     dc.b        $0
+DRM_PAGENUMBER_MAYBE09:
     dc.b        $33
     dc.b        $38
     dc.b        $0
@@ -36919,68 +38700,82 @@ DRM_PAGENUMBER_MAYBE:
     dc.b        $22
 Fixup_Address_10:
 ;not referenced?
-    dc.l        $063732
+    dc.l        DRM_PAGENUMBER_MAYBE00;Fixup_Address_10 + Additions_10;$063732
     dc.l        $11003E
 Fixup_Address_11:
-    dc.l        $063734
+    dc.l        DRM_PAGENUMBER_MAYBE01;Fixup_Address_11 + Additions_11;$063734
     dc.l       $B0061
 Fixup_Address_12:
-    dc.l        $063736
+    dc.l        DRM_PAGENUMBER_MAYBE02;Fixup_Address_12 + Additions_12;$063736
     dc.l       $B0084
 Fixup_Address_13:
-    dc.l        $06373A
+    dc.l        DRM_PAGENUMBER_MAYBE03;Fixup_Address_13 + Additions_13;$06373A
     dc.l       $B0098
 Fixup_Address_14:
-    dc.l        $06373E
+    dc.l        DRM_PAGENUMBER_MAYBE04;Fixup_Address_14 + Additions_14;$06373E
     dc.l       $B00A7
 Fixup_Address_15:
-    dc.l        $063742
+    dc.l        DRM_PAGENUMBER_MAYBE05;Fixup_Address_15 + Additions_15;$063742
     dc.l        $15001E
 Fixup_Address_16:
-    dc.l        $063746
+    dc.l        DRM_PAGENUMBER_MAYBE06;Fixup_Address_16 + Additions_16;$063746
     dc.l        $0A2001E
 Fixup_Address_17:
-    dc.l        $063748
+    dc.l        DRM_PAGENUMBER_MAYBE07;Fixup_Address_17 + Additions_17;$0$063748
     dc.l        $11A001E
 Fixup_Address_18:
-    dc.l        $06374C
+    dc.l        DRM_PAGENUMBER_MAYBE08;Fixup_Address_18 + Additions_18;$06374C
     dc.l        $13A001E
 Fixup_Address_19:
-    dc.l        $063750
+    dc.l        DRM_PAGENUMBER_MAYBE09;Fixup_Address_19 + Additions_19;$063750
     dc.b        "League Progress",0                                                              
-    dc.b        "                DONE",0,0,0,0                                                         
+    dc.b        "                DONE",0,0,0,0     
+String_FinanceText00:	
     dc.b        "GATE RECEIPTS",0                                                                
+String_FinanceText01:
     dc.b        "SPONSOR PAYMENT",0                                                              
+String_FinanceText02:
     dc.b        "PLAYERS SOLD",0,0                                                                 
+String_FinanceText03:
     dc.b        "INTEREST",0                                                                     
     dc.b        $0
+String_FinanceText04:
     dc.b        "TELEVISION NETS",0                                                              
+String_FinanceText05:
     dc.b        "CASH PRIZES",0                                                                  
+String_FinanceText06:
     dc.b        "OTHER GAINS",0                                                                  
+String_FinanceText07:
     dc.b        "STAFF WAGES",0                                                                  
+String_FinanceText08:
     dc.b        "RATES AND TAXES",0                                                              
+String_FinanceText09:
     dc.b        "PLAYERS BOUGHT",0                                                               
     dc.b        $0
+String_FinanceText10:
     dc.b        "INTEREST ON OVERDRAFT",0                                                        
+String_FinanceText11:
     dc.b        "GROUND MAINTENANCE",0,0                                                           
+String_FinanceText12:
     dc.b        "LEAGUE FINES",0                                                                 
     dc.b        $0
+String_FinanceText13:
     dc.b        "GENERAL EXPENSES",0,0
 Fixup_Address_20:	
-    dc.l        $0637CC
-    dc.l        $0637DA
-    dc.l        $0637EA
-    dc.l        $0637F8
-    dc.l        $063802
-    dc.l        $063812
-    dc.l        $06381E
-    dc.l        $06382A
-    dc.l        $063836
-    dc.l        $063846
-    dc.l        $063856
-    dc.l        $06386C
-    dc.l        $063880
-    dc.l        $06388E
+    dc.l        String_FinanceText00;Fixup_Address_20 + Additions_20;$0637CC
+    dc.l        String_FinanceText01;Fixup_Address_20 + Additions_20 + $10;$0637DA
+    dc.l        String_FinanceText02;Fixup_Address_20 + Additions_20 + $20;$0637EA
+    dc.l        String_FinanceText03;Fixup_Address_20 + Additions_20 + $30;$0637F8
+    dc.l        String_FinanceText04;Fixup_Address_20 + Additions_20 + $40;$063802
+    dc.l        String_FinanceText05;Fixup_Address_20 + Additions_20 + $50;$063812
+    dc.l        String_FinanceText06;Fixup_Address_20 + Additions_20 + $60;$06381E
+    dc.l        String_FinanceText07;Fixup_Address_20 + Additions_20 + $70;$06382A
+    dc.l        String_FinanceText08;Fixup_Address_20 + Additions_20 + $80;$063836
+    dc.l        String_FinanceText09;Fixup_Address_20 + Additions_20 + $90;$063846
+    dc.l        String_FinanceText10;Fixup_Address_20 + Additions_20 + $A0;$063856
+    dc.l        String_FinanceText11;Fixup_Address_20 + Additions_20 + $B0;$06386C
+    dc.l        String_FinanceText12;Fixup_Address_20 + Additions_20 + $C0;$063880
+    dc.l        String_FinanceText13;Fixup_Address_20 + Additions_20 + $D0;$06388E
     dc.b        "Accounts",0                                                                     
     dc.b        $0
     dc.b        " ITEM                   ",0                                                     
@@ -37258,59 +39053,70 @@ Fixup_Address_20:
     dc.b        $0
     dc.b        "  ",0                                                                           
     dc.b        $0
+String_ShortText00:
     dc.b        "PS",0                                                                           
     dc.b        $0
+String_ShortText01:
     dc.b        "TK",0                                                                           
     dc.b        $0
+String_ShortText02:
     dc.b        "PA",0                                                                           
     dc.b        $0
+String_ShortText03:
     dc.b        "HD",0                                                                           
     dc.b        $0
+String_ShortText04:
     dc.b        "FL",0                                                                           
     dc.b        $0
+String_ShortText05:
     dc.b        "CR",0                                                                           
     dc.b        $0
+String_ShortText06:
     dc.b        "AG",0                                                                           
     dc.b        $0
+String_ShortText07:
     dc.b        "IF",0                                                                           
     dc.b        $0
+String_ShortText08:
     dc.b        "SDE",0                                                                          
+String_ShortText09:
     dc.b        "FIT",0                                                                          
+String_ShortText10:
     dc.b        "AVR",0                                                                          
     dc.b        "An",0                                                                           
     dc.b        $0
 Fixup_Address_21:
-    dc.l        $0641F8
+    dc.l		String_ShortText00;Fixup_Address_21 + Additions_21;$0641F8
     dc.l        $41880000
 Fixup_Address_22:
-    dc.l        $0641FC
+    dc.l        String_ShortText01;Fixup_Address_22 + Additions_22;$0641FC
     dc.l        $41990000
 Fixup_Address_23:
-    dc.l        $064200
+    dc.l        String_ShortText02;Fixup_Address_23 + Additions_23;$064200
     dc.l        $41AA0000
 Fixup_Address_24:
-    dc.l        $064204
+    dc.l        String_ShortText03;Fixup_Address_24 + Additions_24;$064204
     dc.l        $41BB0000
 Fixup_Address_25:
-    dc.l        $064208
+    dc.l        String_ShortText04;Fixup_Address_25 + Additions_25;$064208
     dc.l        $41CC0000
 Fixup_Address_26:	
-    dc.l        $06420C
+    dc.l        String_ShortText05;Fixup_Address_26 + Additions_26;$06420C
     dc.l        $41DD0000
 Fixup_Address_27:
-    dc.l        $064210
+    dc.l        String_ShortText06;Fixup_Address_27 + Additions_27;$064210
     dc.l        $41EE0000
 Fixup_Address_28:
-    dc.l        $064214
+    dc.l        String_ShortText07;Fixup_Address_28 + Additions_28;$064214
     dc.l        $41FF0000
 Fixup_Address_29:
-    dc.l        $064218
+    dc.l        String_ShortText08;Fixup_Address_29 + Additions_29;$064218
     dc.l        $42098000
 Fixup_Address_30:
-    dc.l        $06421C
+    dc.l        String_ShortText09;Fixup_Address_30 + Additions_30;$06421C
     dc.l        $42138000
 Fixup_Address_31:
-    dc.l        $064220
+    dc.l        String_ShortText10;Fixup_Address_31 + Additions_31;$064220
     dc.b        " DEFENDERS",0                                                                  
     dc.b        $0
     dc.b        " MIDFIELDERS",0                                                                 
@@ -37398,20 +39204,24 @@ Fixup_Address_31:
     dc.b        "Extra Time",0                                                                   
     dc.b        $0
     dc.b        "Penalty Shoot-Out !",0                                                          
-DRM_SCORES_MAYBE:             
+DRM_SCORES_MAYBE00:             
     dc.b        "04 10 11 12 13",0                                                                
     dc.b        $0
+DRM_SCORES_MAYBE01:
     dc.b        "07 11",0                                                                        
+DRM_SCORES_MAYBE02:
     dc.b        "02 09",0                                                                         
+DRM_SCORES_MAYBE03:
     dc.b        "06 14",0                                                                         
+DRM_SCORES_MAYBE04:
     dc.b        "03 13",0
 Fixup_Address_32:
 ;000744be	
-    dc.l        $064496
-    dc.l        $0644A6
-    dc.l        $0644AC
-    dc.l        $0644B2
-    dc.l        $0644B8
+    dc.l        DRM_SCORES_MAYBE00;$064496
+    dc.l        DRM_SCORES_MAYBE01;$0644A6
+    dc.l        DRM_SCORES_MAYBE02;$0644AC
+    dc.l        DRM_SCORES_MAYBE03;$0644B2
+    dc.l        DRM_SCORES_MAYBE04;$0644B8
     dc.b        "%02d",0                                                                         
     dc.b        $0
     dc.b        "%02d",0                                                                         
@@ -37450,72 +39260,100 @@ Fixup_Address_32:
     dc.b        $0
     dc.b        "spoken to",0                                                                    
     dc.b        " ",0                                                                            
-    dc.b        "He %s",0                                                                        
+    dc.b        "He %s",0   
+String_FoulDescription00:	
     dc.b        "brought down",0                                                                 
     dc.b        $0
+String_FoulDescription01:
     dc.b        "hacked at",0                                                                    
+String_FoulDescription02:
     dc.b        "kicked",0,0                                                                       
+String_FoulDescription03:
     dc.b        "body checked",0                                                                 
     dc.b        $0
+String_FoulDescription04:
     dc.b        "obstructed",0                                                                   
     dc.b        $0
+String_FoulDescription05:
     dc.b        "up-ended",0,0                                                                     
+String_FoulDescription06:
     dc.b        "tugged at",0                                                                    
+String_FoulDescription07:
     dc.b        "flattened",0                                                                    
+String_FoulDescription08:
     dc.b        "tripped",0                                                                      
+String_FoulDescription09:
     dc.b        "pushed",0,0                                                                       
+String_FoulDescription10:
     dc.b        "shoved",0,0                                                                       
+String_FoulDescription11:
     dc.b        "held back",0                                                                    
+String_FoulDescription12:
     dc.b        "clattered into",0                                                               
     dc.b        $0
+String_FoulDescription13:
     dc.b        "handballed*",0                                                                  
+String_FoulDescription14:
     dc.b        "said too much*",0                                                               
     dc.b        $0
+String_FoulDescription15:
     dc.b        "feigned injury*",0                                                              
+String_FoulDescription16:
     dc.b        "gestured to the crowd*",0                                                       
     dc.b        $0
+String_FoulDescription17:
     dc.b        "kicked the ball away*",0                                                        
+String_FoulDescription18:
     dc.b        "punched",0                                                                      
+String_FoulDescription19:
     dc.b        "headbutted",0,0                                                                   
+String_FoulDescription20:
     dc.b        "brought down",0                                                                 
     dc.b        $0
+String_FoulDescription21:
     dc.b        "cynically hacked",0,0                                                             
+String_FoulDescription22:
     dc.b        "spat at",0                                                                      
+String_FoulDescription23:
     dc.b        "elbowed",0                                                                      
+String_FoulDescription24:
     dc.b        "shoved the ref*",0                                                              
+String_FoulDescription25:
     dc.b        "dived deliberately*",0                                                          
+String_FoulDescription26:
     dc.b        "swore at the ref*",0                                                            
+String_FoulDescription27:
     dc.b        "intimidated the ref*",0,0
 Fixup_Address_33:
 ;	00074768
-    dc.l        $0645F4
-    dc.l        $064602
-    dc.l        $06460C
-    dc.l        $064614
-    dc.l        $064622
-    dc.l        $06462E
-    dc.l        $064638
-    dc.l        $064642
-    dc.l        $06464C
-    dc.l        $064654
-    dc.l        $06465C
-    dc.l        $064664
-    dc.l        $06466E
-    dc.l        $06467E
-    dc.l        $06468A
-    dc.l        $06469A
-    dc.l        $0646AA
-    dc.l        $0646C2
-    dc.l        $0646D8
-    dc.l        $0646E0
-    dc.l        $0646EC
-    dc.l        $0646FA
-    dc.l        $06470C
-    dc.l        $064714
-    dc.l        $06471C
-    dc.l        $06472C
-    dc.l        $064740
-    dc.l        $064752
+    dc.l        String_FoulDescription00;Fixup_Address_33 + Additions_33;$0645F4
+    dc.l        String_FoulDescription01;Fixup_Address_33 + Additions_33 + $10;$064602
+    dc.l        String_FoulDescription02;Fixup_Address_33 + Additions_33 + $10;$06460C
+    dc.l        String_FoulDescription03;Fixup_Address_33 + Additions_33 + $10;$064614
+    dc.l        String_FoulDescription04;Fixup_Address_33 + Additions_33 + $10;$064622
+    dc.l        String_FoulDescription05;Fixup_Address_33 + Additions_33 + $10;$06462E
+    dc.l        String_FoulDescription06;Fixup_Address_33 + Additions_33 + $10;$064638
+    dc.l        String_FoulDescription07;Fixup_Address_33 + Additions_33 + $10;$064642
+    dc.l        String_FoulDescription08;Fixup_Address_33 + Additions_33 + $10;$06464C
+    dc.l        String_FoulDescription09;Fixup_Address_33 + Additions_33 + $10;$064654
+    dc.l        String_FoulDescription10;Fixup_Address_33 + Additions_33 + $10;$06465C
+    dc.l        String_FoulDescription11;Fixup_Address_33 + Additions_33 + $10;$064664
+    dc.l        String_FoulDescription12;Fixup_Address_33 + Additions_33 + $10;$06466E
+    dc.l        String_FoulDescription13;Fixup_Address_33 + Additions_33 + $10;$06467E
+    dc.l        String_FoulDescription14;Fixup_Address_33 + Additions_33 + $10;$06468A
+    dc.l        String_FoulDescription15;Fixup_Address_33 + Additions_33 + $10;$06469A
+    dc.l        String_FoulDescription16;Fixup_Address_33 + Additions_33 + $10;$0646AA
+    dc.l        String_FoulDescription17;Fixup_Address_33 + Additions_33 + $10;$0646C2
+    dc.l        String_FoulDescription18;Fixup_Address_33 + Additions_33 + $10;$0646D8
+    dc.l        String_FoulDescription19;Fixup_Address_33 + Additions_33 + $10;$0646E0
+    dc.l        String_FoulDescription20;Fixup_Address_33 + Additions_33 + $10;$0646EC
+    dc.l        String_FoulDescription21;Fixup_Address_33 + Additions_33 + $10;$0646FA
+    dc.l        String_FoulDescription22;Fixup_Address_33 + Additions_33 + $10;$06470C
+    dc.l        String_FoulDescription23;Fixup_Address_33 + Additions_33 + $10;$064714
+    dc.l        String_FoulDescription24;Fixup_Address_33 + Additions_33 + $10;$06471C
+    dc.l        String_FoulDescription25;Fixup_Address_33 + Additions_33 + $10;$06472C
+    dc.l        String_FoulDescription26;Fixup_Address_33 + Additions_33 + $10;$064740
+    dc.l        String_FoulDescription27;Fixup_Address_33 + Additions_33 + $10;$064752
     dc.b        "Tactical move",0                                                                
     dc.b        "*Exit|Tactical change|Opponents team|",0                                        
     dc.b        "Match Stats|",0,0,0,0                                                                 
@@ -37529,118 +39367,163 @@ Fixup_Address_33:
     dc.b        "%s %s move",0                                                                   
     dc.b        $0
     dc.b        "Attacking...",0,0                                                                 
-    dc.b        "Defending...",0,0,0,0                                                                 
+    dc.b        "Defending...",0,0,0,0 
+String_GoalDescription00:	
     dc.b        "Tapped",0,0                                                                       
+String_GoalDescription01:
     dc.b        "Volleyed",0                                                                     
     dc.b        $0
+String_GoalDescription02:
     dc.b        "Headed",0                                                                       
     dc.b        $0
+String_GoalDescription03:
     dc.b        "Guided",0                                                                       
     dc.b        $0
+String_GoalDescription04:
     dc.b        "Placed",0                                                                       
     dc.b        $0
+String_GoalDescription05:
     dc.b        "Side footed",0                                                                  
+String_GoalDescription06:
     dc.b        "Driven",0                                                                       
     dc.b        $0
+String_GoalDescription07:
     dc.b        "Curled",0                                                                       
     dc.b        $0
+String_GoalDescription08:
     dc.b        "Chipped",0                                                                      
+String_GoalDescription09:
     dc.b        "Thundered",0                                                                    
+String_GoalDescription10:
     dc.b        "Flicked",0                                                                      
+String_GoalDescription11:
     dc.b        "Lashed",0,0                                                                       
+String_GoalDescription12:
     dc.b        "Hooked",0,0                                                                       
+String_GoalDescription13:
     dc.b        "Scrambled",0                                                                    
+String_GoalDescription14:
     dc.b        "Rifled",0                                                                       
     dc.b        $0
+String_GoalDescription15:
     dc.b        "Hammered",0,0                                                                     
+String_GoalDescription16:
     dc.b        "Glorious strike",0                                                              
+String_GoalDescription17:
     dc.b        "Smashed",0                                                                      
+String_GoalDescription18:
     dc.b        "Powered",0                                                                      
+String_GoalDescription19:
     dc.b        "Downward header",0                                                              
+String_GoalDescription20:
     dc.b        "Bullet header",0                                                                
+String_GoalDescription21:
     dc.b        "Looping header",0                                                               
     dc.b        $0
+String_GoalDescription22:
     dc.b        "Forced",0                                                                       
     dc.b        $0
+String_GoalDescription23:
     dc.b        "Rammed",0                                                                       
     dc.b        $0
+String_GoalDescription24:
     dc.b        "Despatched",0                                                                   
     dc.b        $0
+String_GoalDescription25:
     dc.b        "Hit ferociously",0                                                              
+String_GoalDescription26:
     dc.b        "Thumped",0                                                                      
+String_GoalDescription27:
     dc.b        "Slotted",0                                                                      
+String_GoalDescription28:
     dc.b        "Buried",0                                                                       
     dc.b        $0
+String_GoalDescription29:
     dc.b        "Bundled",0                                                                      
+String_GoalDescription30:
     dc.b        "Hit first time",0                                                               
     dc.b        $0
+String_GoalDescription31:
     dc.b        "Calmly placed",0                                                                
+String_GoalDescription32:
     dc.b        "Clinical strike",0                                                              
+String_GoalDescription33:
     dc.b        "Crashed",0  
 Fixup_Address_34:	
 ;749e0
-    dc.l        $064884
-    dc.l        $06488C
-    dc.l        $064896
-    dc.l        $06489E
-    dc.l        $0648A6
-    dc.l        $0648AE
-    dc.l        $0648BA
-    dc.l        $0648C2
-    dc.l        $0648CA
-    dc.l        $0648D2
-    dc.l        $0648DC
-    dc.l        $0648E4
-    dc.l        $0648EC
-    dc.l        $0648F4
-    dc.l        $0648FE
-    dc.l        $064906
-    dc.l        $064910
-    dc.l        $064920
-    dc.l        $064928
-    dc.l        $064930
-    dc.l        $064940
-    dc.l        $06494E
-    dc.l        $06495E
-    dc.l        $064966
-    dc.l        $06496E
-    dc.l        $06497A
-    dc.l        $06498A
-    dc.l        $064992
-    dc.l        $06499A
-    dc.l        $0649A2
-    dc.l        $0649AA
-    dc.l        $0649BA
-    dc.l        $0649C8
-    dc.l        $0649D8
+    dc.l        String_GoalDescription00;Fixup_Address_34 + Additions_34;$064884
+    dc.l        String_GoalDescription01;Fixup_Address_34 + Additions_34 + $10;$06488C
+    dc.l        String_GoalDescription02;Fixup_Address_34 + Additions_34 + $10;$064896
+    dc.l        String_GoalDescription03;Fixup_Address_34 + Additions_34 + $10;$06489E
+    dc.l        String_GoalDescription04;Fixup_Address_34 + Additions_34 + $10;$0648A6
+    dc.l        String_GoalDescription05;Fixup_Address_34 + Additions_34 + $10;$0648AE
+    dc.l        String_GoalDescription06;Fixup_Address_34 + Additions_34 + $10;$0648BA
+    dc.l        String_GoalDescription07;Fixup_Address_34 + Additions_34 + $10;$0648C2
+    dc.l        String_GoalDescription08;Fixup_Address_34 + Additions_34 + $10;$0648CA
+    dc.l        String_GoalDescription09;Fixup_Address_34 + Additions_34 + $10;$0648D2
+    dc.l        String_GoalDescription10;Fixup_Address_34 + Additions_34 + $10;$0648DC
+    dc.l        String_GoalDescription11;Fixup_Address_34 + Additions_34 + $10;$0648E4
+    dc.l        String_GoalDescription12;Fixup_Address_34 + Additions_34 + $10;$0648EC
+    dc.l        String_GoalDescription13;Fixup_Address_34 + Additions_34 + $10;$0648F4
+    dc.l        String_GoalDescription14;Fixup_Address_34 + Additions_34 + $10;$0648FE
+    dc.l        String_GoalDescription15;Fixup_Address_34 + Additions_34 + $10;$064906
+    dc.l        String_GoalDescription16;Fixup_Address_34 + Additions_34 + $10;$064910
+    dc.l        String_GoalDescription17;Fixup_Address_34 + Additions_34 + $10;$064920
+    dc.l        String_GoalDescription18;Fixup_Address_34 + Additions_34 + $10;$064928
+    dc.l        String_GoalDescription19;Fixup_Address_34 + Additions_34 + $10;$064930
+    dc.l        String_GoalDescription20;Fixup_Address_34 + Additions_34 + $10;$064940
+    dc.l        String_GoalDescription21;Fixup_Address_34 + Additions_34 + $10;$06494E
+    dc.l        String_GoalDescription22;Fixup_Address_34 + Additions_34 + $10;$06495E
+    dc.l        String_GoalDescription23;Fixup_Address_34 + Additions_34 + $10;$064966
+    dc.l        String_GoalDescription24;Fixup_Address_34 + Additions_34 + $10;$06496E
+    dc.l        String_GoalDescription25;Fixup_Address_34 + Additions_34 + $10;$06497A
+    dc.l        String_GoalDescription26;Fixup_Address_34 + Additions_34 + $10;$06498A
+    dc.l        String_GoalDescription27;Fixup_Address_34 + Additions_34 + $10;$064992
+    dc.l        String_GoalDescription28;Fixup_Address_34 + Additions_34 + $10;$06499A
+    dc.l        String_GoalDescription29;Fixup_Address_34 + Additions_34 + $10;$0649A2
+    dc.l        String_GoalDescription30;Fixup_Address_34 + Additions_34 + $10;$0649AA
+    dc.l        String_GoalDescription31;Fixup_Address_34 + Additions_34 + $10;$0649BA
+    dc.l        String_GoalDescription32;Fixup_Address_34 + Additions_34 + $10;$0649C8
+    dc.l        String_GoalDescription33;Fixup_Address_34 + Additions_34 + $10;$0649D8
+string_GoalmouthText00:
     dc.b        "past*",0                                                                        
+string_GoalmouthText01:
     dc.b        "into the net",0,0                                                                 
+string_GoalmouthText02:
     dc.b        "into the corner",0                                                              
+string_GoalmouthText03:
     dc.b        "into the top corner",0                                                          
+string_GoalmouthText04:
     dc.b        "in off a post",0                                                                
+string_GoalmouthText05:
     dc.b        "in off the bar",0                                                               
     dc.b        $0
+string_GoalmouthText06:
     dc.b        "in beyond*",0                                                                   
     dc.b        $0
+string_GoalmouthText07:
     dc.b        "through a crowd",0                                                              
+string_GoalmouthText08:
     dc.b        "under*",0                                                                       
     dc.b        $0
+string_GoalmouthText09:
     dc.b        "home",0                                                                         
     dc.b        $0
+string_GoalmouthText10:
     dc.b        "into the open net",0
 Fixup_Address_35:	
 ;74afa
-    dc.l        $064A68
-    dc.l        $064A6E
-    dc.l        $064A7C
-    dc.l        $064A8C
-    dc.l        $064AA0
-    dc.l        $064AAE
-    dc.l        $064ABE
-    dc.l        $064ACA
-    dc.l        $064ADA
-    dc.l        $064AE2
-    dc.l        $064AE8
+    dc.l        string_GoalmouthText00;Fixup_Address_35 + Additions_35;$064A68
+    dc.l        string_GoalmouthText01;Fixup_Address_35 + Additions_35 + $10;$064A6E
+    dc.l        string_GoalmouthText02;Fixup_Address_35 + Additions_35 + $20;$064A7C
+    dc.l        string_GoalmouthText03;Fixup_Address_35 + Additions_35 + $30;$064A8C
+    dc.l        string_GoalmouthText04;Fixup_Address_35 + Additions_35 + $40;$064AA0
+    dc.l        string_GoalmouthText05;Fixup_Address_35 + Additions_35 + $50;$064AAE
+    dc.l        string_GoalmouthText06;Fixup_Address_35 + Additions_35 + $60;$064ABE
+    dc.l        string_GoalmouthText07;Fixup_Address_35 + Additions_35 + $70;$064ACA
+    dc.l        string_GoalmouthText08;Fixup_Address_35 + Additions_35 + $80;$064ADA
+    dc.l        string_GoalmouthText09;Fixup_Address_35 + Additions_35 + $90;$064AE2
+    dc.l        string_GoalmouthText10;Fixup_Address_35 + Additions_35 + $A0;$064AE8
     dc.b        $0
     dc.b        $3
     dc.b        $0
@@ -38643,88 +40526,100 @@ Fixup_Address_35:
     dc.b        " AV R ",0                                                                       
     dc.b        $0
     dc.b        " VALUE   ",0                                                                    
+String_GenericMenuText00:
     dc.b        "   -SCR",0                                                                      
+String_GenericMenuText01:
     dc.b        "       EXIT",0                                                                  
-    dc.b        "   +SCR",0                                                                      
+String_GenericMenuText02:
+    dc.b        "   +SCR",0   
+String_GenericMenuText03:	
     dc.b        "*",0
 Fixup_Address_36:	
-    dc.l        $0664E4
+    dc.l        String_GenericMenuText00;Fixup_Address_36 + Additions_36;$0664E4
     dc.b        $1
     dc.b        $9
     dc.b        $0
     dc.b        $48
 Fixup_Address_37:	
-    dc.l        $0664EC
+    dc.l        String_GenericMenuText01;Fixup_Address_37 + Additions_37;$0664EC
     dc.b        $1
     dc.b        $2
     dc.b        $0
     dc.b        $93
 Fixup_Address_38:	
-    dc.l        $0664F8
+    dc.l        String_GenericMenuText02;Fixup_Address_38 + Additions_38;$0664F8
     dc.b        $1
     dc.b        $9
     dc.b        $0
     dc.b        $48
 Fixup_Address_39:	
-    dc.l        $066500
+    dc.l        String_GenericMenuText03;Fixup_Address_39 + Additions_39;$066500
     dc.b        $0
     dc.b        $0
     dc.b        $0
     dc.b        $0
+String_GenericMenuText04:
     dc.b        "   -SCR",0                                                                      
+String_GenericMenuText05:
     dc.b        "            EXIT",0                                                             
     dc.b        $0
+String_GenericMenuText06:
     dc.b        "*",0
 Fixup_Address_40:		
-    dc.l        $066522
+    dc.l        String_GenericMenuText04;Fixup_Address_40 + Additions_40;$066522
     dc.b        $1
     dc.b        $9
     dc.b        $0
     dc.b        $48
 Fixup_Address_41:	
-    dc.l        $06652A
+    dc.l        String_GenericMenuText05;Fixup_Address_41 + Additions_41;$06652A
     dc.b        $1
     dc.b        $2
     dc.b        $0
     dc.b        $0E0
 Fixup_Address_42:	
-    dc.l        $06653C
+    dc.l        String_GenericMenuText06;Fixup_Address_42 + Additions_42;$06653C
     dc.b        $0
     dc.b        $0
     dc.b        $0
     dc.b        $0
+String_GenericMenuText07:
     dc.b        "            EXIT",0                                                             
     dc.b        $0
+String_GenericMenuText08:
     dc.b        "   +SCR",0                                                                      
+String_GenericMenuText09:
     dc.b        "*",0
 Fixup_Address_43:		
-    dc.l        $066556
+    dc.l        String_GenericMenuText07;Fixup_Address_43 + Additions_43;$066556
     dc.b        $1
     dc.b        $2
     dc.b        $0
     dc.b        $0E0
 Fixup_Address_44:	
-    dc.l        $066568
+    dc.l        String_GenericMenuText08;Fixup_Address_44 + Additions_44;$066568
     dc.b        $1
     dc.b        $9
     dc.b        $0
     dc.b        $48
 Fixup_Address_45:	
-    dc.l        $066570
+    dc.l        String_GenericMenuText09;Fixup_Address_45 + Additions_45;$066570
     dc.b        $0
     dc.b        $0
     dc.b        $0
     dc.b        $0
+String_GenericMenuText10:
     dc.b        "                 EXIT",0                                                        
+String_GenericMenuText11:
     dc.b        "*",0
 Fixup_Address_46:		
-    dc.l        $06658A
+    dc.l        String_GenericMenuText10;Fixup_Address_46 + Additions_46;$06658A
     dc.b        $1
     dc.b        $2
     dc.b        $1
     dc.b        $2D
 Fixup_Address_47:	
-    dc.l        $0665A0
+    dc.l        String_GenericMenuText11;Fixup_Address_47 + Additions_47;$0665A0
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -38820,24 +40715,30 @@ Fixup_Address_47:
     dc.b        "%s %s ",0                                                                       
     dc.b        $0
     dc.b        "%s have appointed %s%s as their new %s.",0                                      
-    dc.b        "Job News",0,0                                                                     
+    dc.b        "Job News",0,0     
+String_CompetitionsText00:	
     dc.b        "League Champions",0                                                             
     dc.b        $0
+String_CompetitionsText01:
     dc.b        "Italian Cup",0                                                                  
+String_CompetitionsText02:
     dc.b        "Anglo-Ital Cup",0                                                               
     dc.b        $0
+String_CompetitionsText03:
     dc.b        "UEFA Cup",0,0                                                                     
+String_CompetitionsText04:
     dc.b        "Cup Winners Cup",0                                                              
+String_CompetitionsText05:
     dc.b        "European Cup",0                                                                 
     dc.b        $0
 Fixup_Address_48:
 ;7697d
-    dc.l        $066928
-    dc.l        $06693A
-    dc.l        $066946
-    dc.l        $066956
-    dc.l        $066960
-    dc.l        $066970
+    dc.l        String_CompetitionsText00;Fixup_Address_48 + Additions_48;$066928
+    dc.l        String_CompetitionsText01;Fixup_Address_48 + Additions_48 + $10;$06693A
+    dc.l        String_CompetitionsText02;Fixup_Address_48 + Additions_48 + $10;$066946
+    dc.l        String_CompetitionsText03;Fixup_Address_48 + Additions_48 + $10;$066956
+    dc.l        String_CompetitionsText04;Fixup_Address_48 + Additions_48 + $10;$066960
+    dc.l        String_CompetitionsText05;Fixup_Address_48 + Additions_48 + $10;$066970
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -40302,11 +42203,15 @@ Fixup_Address_48:
     dc.b        0                                                                             
     dc.b        0                                                                             
     dc.b        "%s squad news",0                                                                
-    dc.b        "%s's contract expired this week - he is now a free agent.",0                                                     
+    dc.b        "%s's contract expired this week - he is now a free agent.",0 
+String_PlayerGoalsInfo00:	
     dc.b        "Seasons",0                                                                      
+String_PlayerGoalsInfo01:
     dc.b        "Apps",0                                                                         
-    dc.b        0                                                                             
-    dc.b        "Goals",0                                                                        
+    dc.b        0        
+String_PlayerGoalsInfo02:	
+    dc.b        "Goals",0                                                                      
+String_PlayerGoalsInfo03:	
     dc.b        "Av R",0                                                                         
     dc.b        $0
     dc.b        $1
@@ -40314,25 +42219,25 @@ Fixup_Address_48:
     dc.b        $0
     dc.b        $32
 Fixup_Address_49:
-    dc.l        $068190
+    dc.l        String_PlayerGoalsInfo00;Fixup_Address_49 + Additions_49;$068190
     dc.b        $1
     dc.b        $10
     dc.b        $0
     dc.b        $54
 Fixup_Address_50:
-    dc.l        $068198
+    dc.l        String_PlayerGoalsInfo01;Fixup_Address_50 + Additions_50;$068198
     dc.b        $1
     dc.b       $0D
     dc.b        $0
     dc.b        $76
 Fixup_Address_51:
-    dc.l        $06819E
+    dc.l        String_PlayerGoalsInfo02;Fixup_Address_51 + Additions_51;$06819E
     dc.b        $1
     dc.b        $10
     dc.b        $0
     dc.b        $98
 Fixup_Address_52:
-    dc.l        $0681A4
+    dc.l        String_PlayerGoalsInfo03;Fixup_Address_52 + Additions_52;$0681A4
     dc.b        $0
     dc.b        $0
     dc.b        " %s - aged %d",0                                                                
@@ -40378,22 +42283,29 @@ Fixup_Address_52:
     dc.b        "   %03d",0                                                                      
     dc.b        "   %03d",0                                                                      
     dc.b        "   %03d",0                                                                      
-    dc.b        "   %.3s",0                                                                      
-    dc.b        "PLD",0                                                                          
-    dc.b        "WON",0                                                                          
-    dc.b        "DRN",0                                                                          
-    dc.b        "LST",0                                                                          
-    dc.b        "FOR",0                                                                          
-    dc.b        "AGG",0                                                                          
+    dc.b        "   %.3s",0    
+String_LeagueTableText00:	
+    dc.b        "PLD",0  
+String_LeagueTableText01:	
+    dc.b        "WON",0  
+String_LeagueTableText02:	
+    dc.b        "DRN",0  
+String_LeagueTableText03:	
+    dc.b        "LST",0  
+String_LeagueTableText04:	
+    dc.b        "FOR",0  
+String_LeagueTableText05:	
+    dc.b        "AGG",0  
+String_LeagueTableText06:	
     dc.b        "PTS",0
 Fixup_Address_53:	
-    dc.l        $0682B6
-    dc.l        $0682BA
-    dc.l        $0682BE
-    dc.l        $0682C2
-    dc.l        $0682C6
-    dc.l        $0682CA
-    dc.l        $0682CE
+    dc.l        String_LeagueTableText00;Fixup_Address_53 + Additions_53;$0682B6
+    dc.l        String_LeagueTableText01;Fixup_Address_53 + Additions_53 + $10;$0682BA
+    dc.l        String_LeagueTableText02;Fixup_Address_53 + Additions_53 + $20;$0682BE
+    dc.l        String_LeagueTableText03;Fixup_Address_53 + Additions_53 + $30;$0682C2
+    dc.l        String_LeagueTableText04;Fixup_Address_53 + Additions_53 + $40;$0682C6
+    dc.l        String_LeagueTableText05;Fixup_Address_53 + Additions_53 + $50;$0682CA
+    dc.l        String_LeagueTableText06;Fixup_Address_53 + Additions_53 + $60;$0682CE
     dc.b        "Info",0                                                                         
     dc.b        "",0                                                                             
     dc.b        "        General",0                                                              
@@ -41189,28 +43101,36 @@ Fixup_Address_53:
     dc.b        $0
     dc.b        $0
     dc.b        "*Exit|Stop Reporting|",0                                                        
-    dc.b        "Ok - %s no longer watched",0                                                    
+    dc.b        "Ok - %s no longer watched",0  
+String_MiscMenuText00:	
     dc.b        "Last",0                                                                         
     dc.b        $0
+String_MiscMenuText01:
     dc.b        "Report",0,0                                                                       
+String_MiscMenuText02:
     dc.b        "Stop",0                                                                         
     dc.b        $0
+String_MiscMenuText03:
     dc.b        "Watching",0,0                                                                     
+String_MiscMenuText04:
     dc.b        "Player",0,0                                                                       
+String_MiscMenuText05:
     dc.b        "Factfile",0                                                                     
     dc.b        $0
+String_MiscMenuText06:
     dc.b        "View",0                                                                         
     dc.b        $0
+String_MiscMenuText07:
     dc.b        "Staff",0
 Fixup_Address_54:	
-    dc.l        $0692E2
-    dc.l        $0692E8
-    dc.l        $0692F0
-    dc.l        $0692F6
-    dc.l        $069300
-    dc.l        $069308
-    dc.l        $069312
-    dc.l        $069318
+    dc.l        String_MiscMenuText00;Fixup_Address_54 + Additions_54;$0692E2
+    dc.l        String_MiscMenuText01;Fixup_Address_54 + Additions_54 + $10;$0692E8
+    dc.l        String_MiscMenuText02;Fixup_Address_54 + Additions_54 + $20;$0692F0
+    dc.l        String_MiscMenuText03;Fixup_Address_54 + Additions_54 + $30;$0692F6
+    dc.l        String_MiscMenuText04;Fixup_Address_54 + Additions_54 + $40;$069300
+    dc.l        String_MiscMenuText05;Fixup_Address_54 + Additions_54 + $50;$069308
+    dc.l        String_MiscMenuText06;Fixup_Address_54 + Additions_54 + $60;$069312
+    dc.l        String_MiscMenuText07;Fixup_Address_54 + Additions_54 + $70;$069318
     dc.b        "Scout Report",0,0                                                                 
     dc.b        " Report on %s of %s ",0                                                         
     dc.b        $0
@@ -41265,25 +43185,33 @@ Fixup_Address_54:
     dc.b        "                 Done",0                                                        
     dc.b        "rb",0                                                                           
     dc.b        $0
+String_SquadReportMenu00:
     dc.b        "View",0                                                                         
     dc.b        $0
+String_SquadReportMenu01:
     dc.b        "Factfile",0,0                                                                     
-    dc.b        "Match",0                                                                        
+String_SquadReportMenu02:
+    dc.b        "Match",0
+String_SquadReportMenu03:	
     dc.b        "Report",0                                                                       
     dc.b        $0
-    dc.b        "His",0                                                                          
-    dc.b        "Squad",0                                                                        
-    dc.b        "Our",0                                                                          
+String_SquadReportMenu04:
+    dc.b        "His",0  
+String_SquadReportMenu05:	
+    dc.b        "Squad",0
+String_SquadReportMenu06:	
+    dc.b        "Our",0  
+String_SquadReportMenu07:	
     dc.b        "Squad",0
 Fixup_Address_55:	
-    dc.l        $0694C8
-    dc.l        $0694CE
-    dc.l        $0694D8
-    dc.l        $0694DE
-    dc.l        $0694E6
-    dc.l        $0694EA
-    dc.l        $0694F0
-    dc.l        $0694F4
+    dc.l        String_SquadReportMenu00;Fixup_Address_55 + Additions_55;$0694C8
+    dc.l        String_SquadReportMenu01;Fixup_Address_55 + Additions_55 + $10;$0694CE
+    dc.l        String_SquadReportMenu02;Fixup_Address_55 + Additions_55 + $20;$0694D8
+    dc.l        String_SquadReportMenu03;Fixup_Address_55 + Additions_55 + $30;$0694DE
+    dc.l        String_SquadReportMenu04;Fixup_Address_55 + Additions_55 + $40;$0694E6
+    dc.l        String_SquadReportMenu05;Fixup_Address_55 + Additions_55 + $50;$0694EA
+    dc.l        String_SquadReportMenu06;Fixup_Address_55 + Additions_55 + $60;$0694F0
+    dc.l        String_SquadReportMenu07;Fixup_Address_55 + Additions_55 + $70;$0694F4
     dc.b        $0
     dc.b        $0
     dc.b        $14
@@ -41400,26 +43328,34 @@ Fixup_Address_55:
     dc.b        $0
     dc.b        "You already have a fixture",0                                                   
     dc.b        $0
-    dc.b        "No information available",0,0                                                     
+    dc.b        "No information available",0,0   
+String_Opponents_Menu00:	
     dc.b        "Select",0,0                                                                       
+String_Opponents_Menu01:
     dc.b        "Opponents",0                                                                    
+String_Opponents_Menu02:
     dc.b        "Select",0                                                                       
     dc.b        $0
+String_Opponents_Menu03:
     dc.b        "Venue",0                                                                        
+String_Opponents_Menu04:
     dc.b        "Opponents",0                                                                    
+String_Opponents_Menu05:
     dc.b        "Details",0                                                                      
+String_Opponents_Menu06:
     dc.b        "Cancel",0                                                                       
     dc.b        $0
+String_Opponents_Menu07:
     dc.b        "Fixture",0
 Fixup_Address_56:	
-    dc.l        $06987C
-    dc.l        $069884
-    dc.l        $06988E
-    dc.l        $069896
-    dc.l        $06989C
-    dc.l        $0698A6
-    dc.l        $0698AE
-    dc.l        $0698B6
+    dc.l        String_Opponents_Menu00;Fixup_Address_56 + Additions_56;$06987C
+    dc.l        String_Opponents_Menu01;Fixup_Address_56 + Additions_56 + $10;$069884
+    dc.l        String_Opponents_Menu02;Fixup_Address_56 + Additions_56 + $20;$06988E
+    dc.l        String_Opponents_Menu03;Fixup_Address_56 + Additions_56 + $30;$069896
+    dc.l        String_Opponents_Menu04;Fixup_Address_56 + Additions_56 + $40;$06989C
+    dc.l        String_Opponents_Menu05;Fixup_Address_56 + Additions_56 + $50;$0698A6
+    dc.l        String_Opponents_Menu06;Fixup_Address_56 + Additions_56 + $60;$0698AE
+    dc.l        String_Opponents_Menu07;Fixup_Address_56 + Additions_56 + $70;$0698B6
     dc.b        "Arrange Friendly",0,0                                                             
     dc.b        " Select a team to approach ",0                                                  
     dc.b        " - Scr",0                                                                       
@@ -41613,36 +43549,46 @@ Fixup_Address_56:
     dc.b        " ----",0                                                                        
     dc.b        $0
     dc.b        $0
+String_Move_Menu00:
     dc.b        "Move",0                                                                         
     dc.b        $0
+String_Move_Menu01:
     dc.b        "Up",0                                                                           
     dc.b        $0
+String_Move_Menu02:
     dc.b        "Move",0                                                                         
     dc.b        $0
+String_Move_Menu03:
     dc.b        "Down",0                                                                         
     dc.b        $0
+String_Move_Menu04:
     dc.b        "View",0                                                                         
     dc.b        $0
+String_Move_Menu05:
     dc.b        "Factfile",0                                                                     
     dc.b        $0
+String_Move_Menu06:
     dc.b        "Show",0                                                                         
     dc.b        $0
+String_Move_Menu07:
     dc.b        "Goals",0                                                                        
+String_Move_Menu08:
     dc.b        "Show",0                                                                         
     dc.b        $0
+String_Move_Menu09:
     dc.b        "Av R",0                                                                         
     dc.b        $0
 Fixup_Address_57:
-    dc.l        $069E60
-    dc.l        $069E66
-    dc.l        $069E6A
-    dc.l        $069E70
-    dc.l        $069E76
-    dc.l        $069E7C
-    dc.l        $069E86
-    dc.l        $069E8C
-    dc.l        $069E92
-    dc.l        $069E98
+    dc.l        String_Move_Menu00;Fixup_Address_57 + Additions_57;$069E60
+    dc.l        String_Move_Menu01;Fixup_Address_57 + Additions_57 + $10;$069E66
+    dc.l        String_Move_Menu02;Fixup_Address_57 + Additions_57 + $20;$069E6A
+    dc.l        String_Move_Menu03;Fixup_Address_57 + Additions_57 + $30;$069E70
+    dc.l        String_Move_Menu04;Fixup_Address_57 + Additions_57 + $40;$069E76
+    dc.l        String_Move_Menu05;Fixup_Address_57 + Additions_57 + $50;$069E7C
+    dc.l        String_Move_Menu06;Fixup_Address_57 + Additions_57 + $60;$069E86
+    dc.l        String_Move_Menu07;Fixup_Address_57 + Additions_57 + $70;$069E8C
+    dc.l        String_Move_Menu08;Fixup_Address_57 + Additions_57 + $80;$069E92
+    dc.l        String_Move_Menu09;Fixup_Address_57 + Additions_57 + $90;$069E98
     dc.b        "No.%d",0                                                                        
     dc.b        "%s %s",0                                                                        
     dc.b        "The ref consults his linesman",0                                                
@@ -41819,57 +43765,77 @@ string_Fullstop:
     dc.b        "Championship Manager Italia",0                                                  
     dc.b        "Game Environment",0                                                             
     dc.b        $0
-    dc.b        "Progress",0,0                                                                     
-    dc.b        "Preparing",0                                                                    
+    dc.b        "Progress",0,0
+Strings_CreatingMessages00:	
+    dc.b        "Preparing",0
+Strings_CreatingMessages01:		
     dc.b        "Disk",0                                                                         
     dc.b        $0
+Strings_CreatingMessages02:	
     dc.b        "Creating",0                                                                     
     dc.b        $0
+Strings_CreatingMessages03:	
     dc.b        "Player Data",0                                                                  
+Strings_CreatingMessages04:	
     dc.b        "Creating",0,0                                                                     
+Strings_CreatingMessages05:	
     dc.b        "Staff Data",0,0                                                                   
+	Strings_CreatingMessages06:	
     dc.b        "Creating",0                                                                     
     dc.b        $0
-    dc.b        "Euro Data",0                                                                    
+Strings_CreatingMessages07:	
+    dc.b        "Euro Data",0  
+Strings_CreatingMessages08:		
     dc.b        "Creating",0                                                                     
     dc.b        $0
+Strings_CreatingMessages09:	
     dc.b        "Club Records",0,0                                                                 
+Strings_CreatingMessages10:	
     dc.b        "Creating",0                                                                     
     dc.b        $0
+Strings_CreatingMessages11:	
     dc.b        "Fixture List",0,0                                                                 
-    dc.b        "Player",0,0                                                                       
+Strings_CreatingMessages12:	
+    dc.b        "Player",0,0
+Strings_CreatingMessages13:		
     dc.b        "Retirements",0                                                                  
+Strings_CreatingMessages14:	
     dc.b        "Creating",0                                                                     
     dc.b        $0
+Strings_CreatingMessages15:	
     dc.b        "Squads",0                                                                       
     dc.b        $0
-    dc.b        "Computer",0,0                                                                     
+Strings_CreatingMessages16:	
+    dc.b        "Computer",0,0  
+Strings_CreatingMessages17:		
     dc.b        "Intelligence",0                                                                 
     dc.b        $0
-    dc.b        "Transfer",0,0                                                                     
+Strings_CreatingMessages18:	
+    dc.b        "Transfer",0,0
+Strings_CreatingMessages19:		
     dc.b        "List",0                                                                         
     dc.b        $0
 Fixup_Address_58:
-    dc.l        $06A844
-    dc.l        $06A84E
-    dc.l        $06A854
-    dc.l        $06A85E
-    dc.l        $06A86A
-    dc.l        $06A874
-    dc.l        $06A880
-    dc.l        $06A88A
-    dc.l        $06A894
-    dc.l        $06A89E
-    dc.l        $06A8AC
-    dc.l        $06A8B6
-    dc.l        $06A8C4
-    dc.l        $06A8CC
-    dc.l        $06A8D8
-    dc.l        $06A8E2
-    dc.l        $06A8EA
-    dc.l        $06A8F4
-    dc.l        $06A902
-    dc.l        $06A90C
+    dc.l        Strings_CreatingMessages00;06A844
+    dc.l        Strings_CreatingMessages01;$06A84E
+    dc.l        Strings_CreatingMessages02;$06A854
+    dc.l        Strings_CreatingMessages03;$06A85E
+    dc.l        Strings_CreatingMessages04;$06A86A
+    dc.l        Strings_CreatingMessages05;$06A874
+    dc.l        Strings_CreatingMessages06;$06A880
+    dc.l        Strings_CreatingMessages07;$06A88A
+    dc.l        Strings_CreatingMessages08;$06A894
+    dc.l        Strings_CreatingMessages09;$06A89E
+    dc.l        Strings_CreatingMessages10;$06A8AC
+    dc.l        Strings_CreatingMessages11;$06A8B6
+    dc.l        Strings_CreatingMessages12;$06A8C4
+    dc.l        Strings_CreatingMessages13;$06A8CC
+    dc.l        Strings_CreatingMessages14;$06A8D8
+    dc.l        Strings_CreatingMessages15;$06A8E2
+    dc.l        Strings_CreatingMessages16;$06A8EA
+    dc.l        Strings_CreatingMessages17;$06A8F4
+    dc.l        Strings_CreatingMessages18;$06A902
+    dc.l        Strings_CreatingMessages19;$06A90C
     dc.b        "Start-up Options",0,0                                                             
     dc.b        "Please select from the following options : -",0                                 
     dc.b        $0
@@ -41949,49 +43915,65 @@ Fixup_Address_58:
     dc.b        "Thanks to everyone who wrote in last time -",0                                  
     dc.b        "your response has been overwhelming. We are",0                                  
     dc.b        "currently replying to all your letters.",0,0,0                                      
-    dc.b        "Championship Manager Italia",0,0,0                                                  
+    dc.b        "Championship Manager Italia",0,0,0     
+String_Tactics_Text00:	
     dc.b        "GK",0                                                                           
     dc.b        $0
+String_Tactics_Text01:
     dc.b        "SWP",0                                                                          
+String_Tactics_Text02:
     dc.b        "ANCHOR",0,0                                                                       
+String_Tactics_Text03:
     dc.b        "DEF",0                                                                          
+String_Tactics_Text04:
     dc.b        "MID",0                                                                          
+String_Tactics_Text05:
     dc.b        "ATT",0                                                                          
+String_Tactics_Text06:
     dc.b        "SUPP",0                                                                         
     dc.b        $0
+String_Tactics_Text07:
     dc.b        "RIGHT",0                                                                        
+String_Tactics_Text08:
     dc.b        "LEFT",0                                                                         
     dc.b        $0
+String_Tactics_Text09:
     dc.b        "CENTRE",0                                                                       
     dc.b        $0
+String_Tactics_Text10:
     dc.b        "CAPT",0                                                                         
     dc.b        $0
+String_Tactics_Text11:
     dc.b        "NORM",0                                                                         
     dc.b        $0
+String_Tactics_Text12:
     dc.b        "FORW",0                                                                         
     dc.b        $0
+String_Tactics_Text13:
     dc.b        "BACK",0                                                                         
     dc.b        $0
+String_Tactics_Text14:
     dc.b        "BONUS",0                                                                        
+String_Tactics_Text15:
     dc.b        "SWAP",0                                                                         
     dc.b        $0
 Fixup_Address_59:
-    dc.l        $06AEFC
-    dc.l        $06AF00
-    dc.l        $06AF04
-    dc.l        $06AF0C
-    dc.l        $06AF10
-    dc.l        $06AF14
-    dc.l        $06AF18
-    dc.l        $06AF1E
-    dc.l        $06AF24
-    dc.l        $06AF2A
-    dc.l        $06AF32
-    dc.l        $06AF38
-    dc.l        $06AF3E
-    dc.l        $06AF44
-    dc.l        $06AF4A
-    dc.l        $06AF50
+    dc.l        String_Tactics_Text00;Fixup_Address_59 + Additions_59;$06AEFC
+    dc.l        String_Tactics_Text01;Fixup_Address_59 + Additions_59 + $10;$06AF00
+    dc.l        String_Tactics_Text02;Fixup_Address_59 + Additions_59 + $20;$06AF04
+    dc.l        String_Tactics_Text03;Fixup_Address_59 + Additions_59 + $30;$06AF0C
+    dc.l        String_Tactics_Text04;Fixup_Address_59 + Additions_59 + $40;$06AF10
+    dc.l        String_Tactics_Text05;Fixup_Address_59 + Additions_59 + $50;$06AF14
+    dc.l        String_Tactics_Text06;Fixup_Address_59 + Additions_59 + $60;$06AF18
+    dc.l        String_Tactics_Text07;Fixup_Address_59 + Additions_59 + $70;$06AF1E
+    dc.l        String_Tactics_Text08;Fixup_Address_59 + Additions_59 + $80;$06AF24
+    dc.l        String_Tactics_Text09;Fixup_Address_59 + Additions_59 + $90;$06AF2A
+    dc.l        String_Tactics_Text10;Fixup_Address_59 + Additions_59 + $A0;$06AF32
+    dc.l        String_Tactics_Text11;Fixup_Address_59 + Additions_59 + $B0;$06AF38
+    dc.l        String_Tactics_Text12;Fixup_Address_59 + Additions_59 + $C0;$06AF3E
+    dc.l        String_Tactics_Text13;Fixup_Address_59 + Additions_59 + $D0;$06AF44
+    dc.l        String_Tactics_Text14;Fixup_Address_59 + Additions_59 + $E0;$06AF4A
+    dc.l        String_Tactics_Text15;Fixup_Address_59 + Additions_59 + $F0;$06AF50
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -42013,16 +43995,20 @@ Fixup_Address_59:
     dc.b        "Maximum 2 subs per game",0                                                      
     dc.b        "No.16 can only replace 'keeper",0                                               
     dc.b        $0
-    dc.b        "No.16 cannot be repositioned",0,0                                                 
+    dc.b        "No.16 cannot be repositioned",0,0 
+String_New00:	
     dc.b        "New",0                                                                          
+String_New01:
     dc.b        "Style",0                                                                        
+String_New02:
     dc.b        "New",0                                                                          
+String_New03:
     dc.b        "Formation",0
 Fixup_Address_60:	
-    dc.l        $06B050
-    dc.l        $06B054
-    dc.l        $06B05A
-    dc.l        $06B05E
+    dc.l        String_New00;Fixup_Address_60 + Additions_60;$06B050
+    dc.l        String_New01;Fixup_Address_60 + Additions_60 + $10;$06B054
+    dc.l        String_New02;Fixup_Address_60 + Additions_60 + $20;$06B05A
+    dc.l        String_New03;Fixup_Address_60 + Additions_60 + $30;$06B05E
     dc.b        $0
     dc.b        $32
     dc.b        $0
@@ -42087,37 +44073,50 @@ Fixup_Address_60:
     dc.b        $1
     dc.b        $1
     dc.b        $0
+String_Position00:
     dc.b        "Goalkeepers",0                                                                  
+String_Position01:
     dc.b        "Right-backs",0                                                                  
+String_Position02:
     dc.b        "Left-backs",0,0                                                                   
+String_Position03:
     dc.b        "Centre-backs",0                                                                 
     dc.b        $0
+String_Position04:
     dc.b        "Right-midfielders",0                                                            
+String_Position05:
     dc.b        "Left-midfielders",0                                                             
     dc.b        $0
+String_Position06:
     dc.b        "Centre-midfielders",0                                                           
     dc.b        $0
+String_Position07:
     dc.b        "Right-wingers",0                                                                
+String_Position08:
     dc.b        "Left-wingers",0                                                                 
     dc.b        $0
+String_Position09:
     dc.b        "Centre-forwards",0                                                              
+String_Position10:
     dc.b        "Sweepers",0,0                                                                     
+String_Position11:
     dc.b        "Anchor men",0,0                                                                   
+String_Position12:
     dc.b        "Support men",0
 Fixup_Address_61:
-    dc.l        $06B0C4
-    dc.l        $06B0D0
-    dc.l        $06B0DC
-    dc.l        $06B0E8
-    dc.l        $06B0F6
-    dc.l        $06B108
-    dc.l        $06B11A
-    dc.l        $06B12E
-    dc.l        $06B13C
-    dc.l        $06B14A
-    dc.l        $06B15A
-    dc.l        $06B164
-    dc.l        $06B170
+    dc.l        String_Position00;Fixup_Address_61 + Additions_61;$06B0C4
+    dc.l        String_Position01;Fixup_Address_61 + Additions_61 + $10;$06B0D0
+    dc.l        String_Position02;Fixup_Address_61 + Additions_61 + $20;$06B0DC
+    dc.l        String_Position03;Fixup_Address_61 + Additions_61 + $30;$06B0E8
+    dc.l        String_Position04;Fixup_Address_61 + Additions_61 + $40;$06B0F6
+    dc.l        String_Position05;Fixup_Address_61 + Additions_61 + $50;$06B108
+    dc.l        String_Position06;Fixup_Address_61 + Additions_61 + $60;$06B11A
+    dc.l        String_Position07;Fixup_Address_61 + Additions_61 + $70;$06B12E
+    dc.l        String_Position08;Fixup_Address_61 + Additions_61 + $80;$06B13C
+    dc.l        String_Position09;Fixup_Address_61 + Additions_61 + $90;$06B14A
+    dc.l        String_Position10;Fixup_Address_61 + Additions_61 + $A0;$06B15A
+    dc.l        String_Position11;Fixup_Address_61 + Additions_61 + $B0;$06B164
+    dc.l        String_Position12:Fixup_Address_61 + Additions_61 + $C0;$06B170
     dc.b        "%d %s selected",0                                                               
     dc.b        0                                                                              
     dc.b        "Can't play Sweeper & Anchor man",0                                              
@@ -42203,42 +44202,57 @@ Fixup_Address_61:
     dc.b        " ",0                                                                            
     dc.b        "%c.",0                                                                          
     dc.b        " ",0                                                                            
-    dc.b        "%s %s",0                                                                        
+    dc.b        "%s %s",0  
+String_Numbers01:	
     dc.b        "One",0                                                                          
+String_Numbers02:
     dc.b        "Two",0                                                                          
+String_Numbers03:
     dc.b        "Three",0                                                                        
+String_Numbers04:
     dc.b        "Four",0                                                                         
     dc.b        0                                                                              
+String_Numbers05:
     dc.b        "Five",0                                                                         
-    dc.b        0                                                                              
+    dc.b        0
+String_Numbers06:	
     dc.b        "Six",0                                                                          
+String_Numbers07:
     dc.b        "Seven",0                                                                        
+String_Numbers08:
     dc.b        "Eight",0                                                                        
+String_Numbers09:
     dc.b        "Nine",0                                                                         
-    dc.b        0                                                                              
+    dc.b        0
+String_Numbers10:	
     dc.b        "Ten",0                                                                          
+String_Numbers11:
     dc.b        "Eleven",0,0                                                                       
+String_Numbers12:
     dc.b        "Twelve",0,0                                                                       
+String_Numbers13:
     dc.b        "Thirteen",0                                                                     
     dc.b        $0
+String_Numbers14:
     dc.b        "Fourteen",0,0                                                                     
+String_Numbers15:
     dc.b        "Fifteen",0
 Fixup_Address_62:		
-    dc.l        $06B394
-    dc.l        $06B398
-    dc.l        $06B39C
-    dc.l        $06B3A2
-    dc.l        $06B3A8
-    dc.l        $06B3AE
-    dc.l        $06B3B2
-    dc.l        $06B3B8
-    dc.l        $06B3BE
-    dc.l        $06B3C4
-    dc.l        $06B3C8
-    dc.l        $06B3D0
-    dc.l        $06B3D8
-    dc.l        $06B3E2
-    dc.l        $06B3EC
+    dc.l        String_Numbers01;Fixup_Address_62 + Additions_62;$06B394
+    dc.l        String_Numbers02;Fixup_Address_62 + Additions_62 + $10;$06B398
+    dc.l        String_Numbers03;Fixup_Address_62 + Additions_62 + $10;$06B39C
+    dc.l        String_Numbers04;Fixup_Address_62 + Additions_62 + $10;$06B3A2
+    dc.l        String_Numbers05;Fixup_Address_62 + Additions_62 + $10;$06B3A8
+    dc.l        String_Numbers06;Fixup_Address_62 + Additions_62 + $10;$06B3AE
+    dc.l        String_Numbers07;Fixup_Address_62 + Additions_62 + $10;$06B3B2
+    dc.l        String_Numbers08;Fixup_Address_62 + Additions_62 + $10;$06B3B8
+    dc.l        String_Numbers09;Fixup_Address_62 + Additions_62 + $10;$06B3BE
+    dc.l        String_Numbers10;Fixup_Address_62 + Additions_62 + $10;$06B3C4
+    dc.l        String_Numbers11;Fixup_Address_62 + Additions_62 + $10;$06B3C8
+    dc.l        String_Numbers12;Fixup_Address_62 + Additions_62 + $10;$06B3D0
+    dc.l        String_Numbers13;Fixup_Address_62 + Additions_62 + $10;$06B3D8
+    dc.l        String_Numbers14;Fixup_Address_62 + Additions_62 + $10;$06B3E2
+    dc.l        String_Numbers15;Fixup_Address_62 + Additions_62 + $10;$06B3EC
     dc.b        0                                                                              
     dc.b        0                                                                              
     dc.b        "%d",0                                                                           
@@ -43482,8 +45496,8 @@ BYTE_0007b5c8:
     dc.b        $0
     dc.b        $0
 Fixup_Address_63:
-    dc.l        $06BB3C
-    dc.l        $06BD7C
+    dc.l        Unknown_Value00;Fixup_Address_63 + Additions_63;$06BB3C
+    dc.l        Unknown_Value01;Fixup_Address_63 + Additions_63 + $10;$06BD7C
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -43495,8 +45509,8 @@ Fixup_Address_63:
     dc.b        $0
     dc.b        $1
 Fixup_Address_64:
-    dc.l        $06BFBC
-    dc.l        $06C2BC
+    dc.l        Unknown_Value02;Fixup_Address_64 + Additions_64;$06BFBC
+    dc.l        Unknown_Value03:;Fixup_Address_64 + Additions_64 + $10;$06C2BC
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -43508,8 +45522,8 @@ Fixup_Address_64:
     dc.b        $0FF
     dc.b        $0FF
 Fixup_Address_65:
-    dc.l        $06C5BC
-    dc.l        $06CB5C
+    dc.l        Unknown_Value04;Fixup_Address_65 + Additions_65;$06C5BC
+    dc.l        Unknown_Value05;Fixup_Address_65 + Additions_65 + $10;$06CB5C
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -43558,18 +45572,22 @@ Fixup_Address_65:
     dc.b        "Ok. Remove disk & reset Computer",0,0                                             
     dc.b        "Ok. Reset Computer",0,0                                                           
     dc.b        0                                                                              
-    dc.b        0                                                                              
-    dc.b        "DISK1",0                                                                        
+    dc.b        0
+String_Disk1:
+    dc.b        "DISK1",0 
+String_Disk2:	
     dc.b        "DISK2",0                                                                        
+String_Disk3:
     dc.b        "DISK3",0
 Fixup_Address_66:	
-    dc.l        $06BB06
-    dc.l        $06BB0C
-    dc.l        $06BB12
-    dc.b        "Insert write-enabled %s",0                                                      
+    dc.l        String_Disk1;$06BB06
+    dc.l        String_Disk2;$06BB0C
+    dc.l        String_Disk3;$06BB12
+    dc.b        "Insert write-enabled %s",0   
+Unknown_Value00:	
+    dc.b        $0 ; 0007bb3c
     dc.b        $0
-    dc.b        $0
-    dc.b        $0
+    dc.b        $0 
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -44143,6 +46161,7 @@ Fixup_Address_66:
     dc.b        $0
     dc.b        $0
     dc.b        $0
+Unknown_Value01:
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -44719,6 +46738,7 @@ Fixup_Address_66:
     dc.b        $0
     dc.b        $0
     dc.b        $0
+Unknown_Value02:
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -45487,6 +47507,7 @@ Fixup_Address_66:
     dc.b        $0E
     dc.b        $6
     dc.b        $0
+Unknown_Value03:
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -46255,7 +48276,8 @@ Fixup_Address_66:
     dc.b        $3E
     dc.b        $6
     dc.b        $7C
-    dc.b        $0
+Unknown_Value04:	
+    dc.b        $0 ; 7C5BC
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -47695,6 +49717,7 @@ Fixup_Address_66:
     dc.b        $0
     dc.b        $0
     dc.b        $0
+Unknown_Value05:
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -49136,1167 +51159,1818 @@ Fixup_Address_66:
     dc.b        $7E
     dc.b        $7C
 Fixup_Address_67:
-    dc.l        $06DA14
-    dc.l        $06DA1D
-    dc.l        $06DA26
-    dc.l        $06DA30
-    dc.l        $06DA37
-    dc.l        $06DA3D
-    dc.l        $06DA43
-    dc.l        $06DA4C
-    dc.l        $06DA52
-    dc.l        $06DA58
-    dc.l        $06DA5E
-    dc.l        $06DA65
-    dc.l        $06DA6B
-    dc.l        $06DA74
-    dc.l        $06DA7D
-    dc.l        $06DA82
-    dc.l        $06DA8C
-    dc.l        $06DA93
-    dc.l        $06DA9B
-    dc.l        $06DAA4
-    dc.l        $06DAAB
-    dc.l        $06DAB2
-    dc.l        $06DAB7
-    dc.l        $06DABF
-    dc.l        $06DAC6
-    dc.l        $06DACE
-    dc.l        $06DAD7
-    dc.l        $06DAE2
-    dc.l        $06DAEB
-    dc.l        $06DAF2
-    dc.l        $06DAF8
-    dc.l        $06DAFF
-    dc.l        $06DB07
-    dc.l        $06DB0F
-    dc.l        $06DB14
-    dc.l        $06DB1C
-    dc.l        $06DB24
-    dc.l        $06DB2B
-    dc.l        $06DB33
-    dc.l        $06DB33
-    dc.l        $06DB34
-    dc.l        $06DB45
-    dc.l        $06DB50
-    dc.l        $06DB5E
-    dc.l        $06DB6E
-    dc.l        $06DB7E
-    dc.l        $06DB88
-    dc.l        $06DB94
-    dc.l        $06DBA4
-    dc.l        $06DBB2
-    dc.l        $06DBBC
-    dc.l        $06DBC7
-    dc.l        $06DBD6
-    dc.l        $06DBE0
-    dc.l        $06DBEB
-    dc.l        $06DBFB
-    dc.l        $06DC0B
-    dc.l        $06DC17
-    dc.l        $06DC1F
-    dc.l        $06DC30
-    dc.l        $06DC3C
-    dc.l        $06DC4C
-    dc.l        $06DC58
-    dc.l        $06DC69
-    dc.l        $06DC77
-    dc.l        $06DC81
-    dc.l        $06DC92
-    dc.l        $06DCA3
-    dc.l        $06DCB0
-    dc.l        $06DCC1
-    dc.l        $06DCD1
-    dc.l        $06DCE1
-    dc.l        $06DCEE
-    dc.l        $06DCFF
-    dc.l        $06DD0F
-    dc.l        $06DD1E
-    dc.l        $06DD2E
-    dc.l        $06DD3F
-    dc.l        $06DD4C
-    dc.l        $06DD4C
-    dc.l        $06DD4D
-    dc.l        $06DD53
-    dc.l        $06DD5C
-    dc.l        $06DD64
-    dc.l        $06DD6F
-    dc.l        $06DD78
-    dc.l        $06DD81
-    dc.l        $06DD87
-    dc.l        $06DD90
-    dc.l        $06DD98
-    dc.l        $06DDA3
-    dc.l        $06DDAD
-    dc.l        $06DDB6
-    dc.l        $06DDC2
-    dc.l        $06DDCA
-    dc.l        $06DDD2
-    dc.l        $06DDDC
-    dc.l        $06DDE3
-    dc.l        $06DDED
-    dc.l        $06DDF4
-    dc.l        $06DDFC
-    dc.l        $06DE02
-    dc.l        $06DE0C
-    dc.l        $06DE15
-    dc.l        $06DE1E
-    dc.l        $06DE27
-    dc.l        $06DE30
-    dc.l        $06DE39
-    dc.l        $06DE43
-    dc.l        $06DE49
-    dc.l        $06DE4F
-    dc.l        $06DE59
-    dc.l        $06DE61
-    dc.l        $06DE68
-    dc.l        $06DE6D
-    dc.l        $06DE74
-    dc.l        $06DE80
-    dc.l        $06DE85
-    dc.l        $06DE8A
-    dc.l        $06DE90
-    dc.l        $06DE96
-    dc.l        $06DE9F
-    dc.l        $06DEA8
-    dc.l        $06DEB3
-    dc.l        $06DEBA
-    dc.l        $06DEC3
-    dc.l        $06DEC9
-    dc.l        $06DED1
-    dc.l        $06DED8
-    dc.l        $06DEDD
-    dc.l        $06DEE4
-    dc.l        $06DEF0
-    dc.l        $06DEF8
-    dc.l        $06DF00
-    dc.l        $06DF0A
-    dc.l        $06DF13
-    dc.l        $06DF1D
-    dc.l        $06DF24
-    dc.l        $06DF2C
-    dc.l        $06DF36
-    dc.l        $06DF3F
-    dc.l        $06DF47
-    dc.l        $06DF4F
-    dc.l        $06DF5B
-    dc.l        $06DF65
-    dc.l        $06DF6F
-    dc.l        $06DF79
-    dc.l        $06DF81
-    dc.l        $06DF8A
-    dc.l        $06DF94
-    dc.l        $06DF9E
-    dc.l        $06DFAA
-    dc.l        $06DFB1
-    dc.l        $06DFBA
-    dc.l        $06DFC3
-    dc.l        $06DFCB
-    dc.l        $06DFD6
-    dc.l        $06DFDF
-    dc.l        $06DFEA
-    dc.l        $06DFEF
-    dc.l        $06DFF8
-    dc.l        $06E005
-    dc.l        $06E00D
-    dc.l        $06E014
-    dc.l        $06E01C
-    dc.l        $06E025
-    dc.l        $06E02E
-    dc.l        $06E036
-    dc.l        $06E03D
-    dc.l        $06E047
-    dc.l        $06E04E
-    dc.l        $06E053
-    dc.l        $06E05E
-    dc.l        $06E068
-    dc.l        $06E071
-    dc.l        $06E07A
-    dc.l        $06E082
-    dc.l        $06E08A
-    dc.l        $06E091
-    dc.l        $06E09B
-    dc.l        $06E0A2
-    dc.l        $06E0AB
-    dc.l        $06E0B3
-    dc.l        $06E0B8
-    dc.l        $06E0BF
-    dc.l        $06E0C9
-    dc.l        $06E0D2
-    dc.l        $06E0D7
-    dc.l        $06E0E2
-    dc.l        $06E0E8
-    dc.l        $06E0F1
-    dc.l        $06E0FA
-    dc.l        $06E103
-    dc.l        $06E10B
-    dc.l        $06E112
-    dc.l        $06E116
-    dc.l        $06E11B
-    dc.l        $06E125
-    dc.l        $06E12E
-    dc.l        $06E136
-    dc.l        $06E13E
-    dc.l        $06E148
-    dc.l        $06E152
-    dc.l        $06E15B
-    dc.l        $06E164
-    dc.l        $06E16C
-    dc.l        $06E173
-    dc.l        $06E17D
-    dc.l        $06E18A
-    dc.l        $06E18F
-    dc.l        $06E198
-    dc.l        $06E1A3
-    dc.l        $06E1AE
-    dc.l        $06E1B9
-    dc.l        $06E1C3
-    dc.l        $06E1CB
-    dc.l        $06E1D6
-    dc.l        $06E1E1
-    dc.l        $06E1EB
-    dc.l        $06E1F5
-    dc.l        $06E1FE
-    dc.l        $06E208
-    dc.l        $06E212
-    dc.l        $06E21F
-    dc.l        $06E228
-    dc.l        $06E231
-    dc.l        $06E236
-    dc.l        $06E240
-    dc.l        $06E24A
-    dc.l        $06E256
-    dc.l        $06E25F
-    dc.l        $06E268
-    dc.l        $06E272
-    dc.l        $06E27A
-    dc.l        $06E285
-    dc.l        $06E290
-    dc.l        $06E298
-    dc.l        $06E2A0
-    dc.l        $06E2AC
-    dc.l        $06E2B6
-    dc.l        $06E2C0
-    dc.l        $06E2CB
-    dc.l        $06E2D5
-    dc.l        $06E2DF
-    dc.l        $06E2EC
-    dc.l        $06E2F3
-    dc.l        $06E2FB
-    dc.l        $06E301
-    dc.l        $06E30C
-    dc.l        $06E314
-    dc.l        $06E31F
-    dc.l        $06E328
-    dc.l        $06E332
-    dc.l        $06E339
-    dc.l        $06E342
-    dc.l        $06E34C
-    dc.l        $06E353
-    dc.l        $06E35C
-    dc.l        $06E366
-    dc.l        $06E36F
-    dc.l        $06E378
-    dc.l        $06E381
-    dc.l        $06E388
-    dc.l        $06E38F
-    dc.l        $06E395
-    dc.l        $06E39E
-    dc.l        $06E3A7
-    dc.l        $06E3AE
-    dc.l        $06E3B4
-    dc.l        $06E3B8
-    dc.l        $06E3C2
-    dc.l        $06E3CD
-    dc.l        $06E3D6
-    dc.l        $06E3E0
-    dc.l        $06E3E6
-    dc.l        $06E3EF
-    dc.l        $06E3F6
-    dc.l        $06E3FE
-    dc.l        $06E408
-    dc.l        $06E412
-    dc.l        $06E419
-    dc.l        $06E422
-    dc.l        $06E42B
-    dc.l        $06E436
-    dc.l        $06E441
-    dc.l        $06E44D
-    dc.l        $06E45B
-    dc.l        $06E466
-    dc.l        $06E471
-    dc.l        $06E47C
-    dc.l        $06E489
-    dc.l        $06E493
-    dc.l        $06E49B
-    dc.l        $06E4A3
-    dc.l        $06E4A8
-    dc.l        $06E4AD
-    dc.l        $06E4B8
-    dc.l        $06E4C2
-    dc.l        $06E4C9
-    dc.l        $06E4D6
-    dc.l        $06E4E1
-    dc.l        $06E4EC
-    dc.l        $06E4F4
-    dc.l        $06E4FC
-    dc.l        $06E508
-    dc.l        $06E511
-    dc.l        $06E51D
-    dc.l        $06E527
-    dc.l        $06E52F
-    dc.l        $06E53A
-    dc.l        $06E544
-    dc.l        $06E54F
-    dc.l        $06E559
-    dc.l        $06E563
-    dc.l        $06E56D
-    dc.l        $06E577
-    dc.l        $06E581
-    dc.l        $06E58A
-    dc.l        $06E596
-    dc.l        $06E5A0
-    dc.l        $06E5A7
-    dc.l        $06E5B1
-    dc.l        $06E5B6
-    dc.l        $06E5BC
-    dc.l        $06E5C3
-    dc.l        $06E5CE
-    dc.l        $06E5D5
-    dc.l        $06E5DF
-    dc.l        $06E5EB
-    dc.l        $06E5F2
-    dc.l        $06E5FC
-    dc.l        $06E602
-    dc.l        $06E609
-    dc.l        $06E610
-    dc.l        $06E618
-    dc.l        $06E620
-    dc.l        $06E629
-    dc.l        $06E633
-    dc.l        $06E63E
-    dc.l        $06E648
-    dc.l        $06E650
-    dc.l        $06E658
-    dc.l        $06E65E
-    dc.l        $06E669
-    dc.l        $06E675
-    dc.l        $06E67D
-    dc.l        $06E687
-    dc.l        $06E691
-    dc.l        $06E698
-    dc.l        $06E6A1
-    dc.l        $06E6A7
-    dc.l        $06E6AE
-    dc.l        $06E6B7
-    dc.l        $06E6C0
-    dc.l        $06E6C7
-    dc.l        $06E6D0
-    dc.l        $06E6D7
-    dc.l        $06E6DE
-    dc.l        $06E6E3
-    dc.l        $06E6EC
-    dc.l        $06E6F3
-    dc.l        $06E6FD
-    dc.l        $06E704
-    dc.l        $06E70C
-    dc.l        $06E716
-    dc.l        $06E721
-    dc.l        $06E72A
-    dc.l        $06E736
-    dc.l        $06E73F
-    dc.l        $06E74A
-    dc.l        $06E754
-    dc.l        $06E75F
-    dc.l        $06E767
-    dc.l        $06E76E
-    dc.l        $06E776
-    dc.l        $06E77E
-    dc.l        $06E787
-    dc.l        $06E791
-    dc.l        $06E79A
-    dc.l        $06E7A0
-    dc.l        $06E7A9
-    dc.l        $06E7B3
-    dc.l        $06E7BD
-    dc.l        $06E7C6
-    dc.l        $06E7CE
-    dc.l        $06E7DA
-    dc.l        $06E7E1
-    dc.l        $06E7E8
-    dc.l        $06E7F3
-    dc.l        $06E7FB
-    dc.l        $06E804
-    dc.l        $06E80B
-    dc.l        $06E813
-    dc.l        $06E81F
-    dc.l        $06E827
-    dc.l        $06E832
-    dc.l        $06E83D
-    dc.l        $06E84A
-    dc.l        $06E854
-    dc.l        $06E858
-    dc.l        $06E85F
-    dc.l        $06E864
-    dc.l        $06E86F
-    dc.l        $06E878
-    dc.l        $06E883
-    dc.l        $06E889
-    dc.l        $06E892
-    dc.l        $06E89D
-	dc.l		$06E8A5
-    dc.l        $06E8AB
-    dc.l        $06E8B1
-    dc.l        $06E8BA
-    dc.l        $06E8C6
-    dc.l        $06E8CD
-    dc.l        $06E8D7
-    dc.l        $06E8E3
-    dc.l        $06E8EF
-    dc.l        $06E8F5
-    dc.l        $06E8FE
-    dc.l        $06E904
-    dc.l        $06E90F
-    dc.l        $06E91B
-    dc.l        $06E922
-    dc.l        $06E929
-    dc.l        $06E92F
-    dc.l        $06E93A
-    dc.l        $06E941
-    dc.l        $06E94B
-    dc.l        $06E951
-    dc.l        $06E95D
-    dc.l        $06E967
-    dc.l        $06E96D
-    dc.l        $06E979
-    dc.l        $06E97E
-    dc.l        $06E98A
-    dc.l        $06E992
-    dc.l        $06E999
-    dc.l        $06E9A2
-    dc.l        $06E9A9
-    dc.l        $06E9B3
-    dc.l        $06E9C0
-    dc.l        $06E9CB
-    dc.l        $06E9D5
-    dc.l        $06E9E1
-    dc.l        $06E9EC
-    dc.l        $06E9F6
-    dc.l        $06E9FE
-    dc.l        $06EA04
-    dc.l        $06EA0D
-    dc.l        $06EA15
-    dc.l        $06EA1E
-    dc.l        $06EA27
-    dc.l        $06EA2D
-    dc.l        $06EA38
-    dc.l        $06EA3E
-    dc.l        $06EA46
-    dc.l        $06EA4C
-    dc.l        $06EA52
-    dc.l        $06EA59
-    dc.l        $06EA62
-    dc.l        $06EA6A
-    dc.l        $06EA73
-    dc.l        $06EA7A
-    dc.l        $06EA84
-    dc.l        $06EA8C
-    dc.l        $06EA92
-    dc.l        $06EA9C
-    dc.l        $06EAA3
-    dc.l        $06EAAC
-    dc.l        $06EAB2
-    dc.l        $06EABC
-    dc.l        $06EAC7
-    dc.l        $06EACF
-    dc.l        $06EAD6
-    dc.l        $06EADE
-    dc.l        $06EAE5
-    dc.l        $06EAED
-    dc.l        $06EAF7
-    dc.l        $06EB00
-    dc.l        $06EB0A
-    dc.l        $06EB11
-    dc.l        $06EB19
-    dc.l        $06EB22
-    dc.l        $06EB2A
-    dc.l        $06EB32
-    dc.l        $06EB3E
-    dc.l        $06EB45
-    dc.l        $06EB4B
-    dc.l        $06EB55
-    dc.l        $06EB5C
-    dc.l        $06EB61
-    dc.l        $06EB68
-    dc.l        $06EB6E
-    dc.l        $06EB76
-    dc.l        $06EB80
-    dc.l        $06EB8A
-    dc.l        $06EB99
-    dc.l        $06EB9F
-    dc.l        $06EBA5
-    dc.l        $06EBAF
-    dc.l        $06EBB9
-    dc.l        $06EBC2
-    dc.l        $06EBCB
-    dc.l        $06EBD4
-    dc.l        $06EBDE
-    dc.l        $06EBE6
-    dc.l        $06EBED
-    dc.l        $06EBF4
-    dc.l        $06EBFF
-    dc.l        $06EC09
-    dc.l        $06EC11
-    dc.l        $06EC16
-    dc.l        $06EC1E
-    dc.l        $06EC26
-    dc.l        $06EC2E
-    dc.l        $06EC3A
-    dc.l        $06EC43
-    dc.l        $06EC49
-    dc.l        $06EC51
-    dc.l        $06EC58
-    dc.l        $06EC64
-    dc.l        $06EC6E
-    dc.l        $06EC74
-    dc.l        $06EC7C
-    dc.l        $06EC83
-    dc.l        $06EC89
-    dc.l        $06EC91
-    dc.l        $06EC9D
-    dc.l        $06ECA3
-    dc.l        $06ECAE
-    dc.l        $06ECB9
-    dc.l        $06ECC1
-    dc.l        $06ECC8
-    dc.l        $06ECCF
-    dc.l        $06ECD6
-    dc.l        $06ECDF
-    dc.l        $06ECE7
-    dc.l        $06ECF1
-    dc.l        $06ECFB
-    dc.l        $06ED02
-    dc.l        $06ED0F
-    dc.l        $06ED14
-    dc.l        $06ED20
-    dc.l        $06ED27
-    dc.l        $06ED32
-    dc.l        $06ED3E
-    dc.l        $06ED48
-    dc.l        $06ED53
-    dc.l        $06ED5D
-    dc.l        $06ED63
-    dc.l        $06ED6A
-    dc.l        $06ED72
-    dc.l        $06ED7C
-    dc.l        $06ED84
-    dc.l        $06ED8C
-    dc.l        $06ED93
-    dc.l        $06ED9D
-    dc.l        $06EDA7
-    dc.l        $06EDAE
-    dc.l        $06EDBA
-    dc.l        $06EDC2
-    dc.l        $06EDC9
-    dc.l        $06EDD0
-    dc.l        $06EDD9
-    dc.l        $06EDE2
-    dc.l        $06EDF0
-    dc.l        $06EDF7
-    dc.l        $06EDFC
-    dc.l        $06EE02
-    dc.l        $06EE09
-    dc.l        $06EE17
-    dc.l        $06EE24
-    dc.l        $06EE2C
-    dc.l        $06EE37
-    dc.l        $06EE41
-    dc.l        $06EE49
-    dc.l        $06EE52
-    dc.l        $06EE57
-    dc.l        $06EE61
-    dc.l        $06EE65
-    dc.l        $06EE6B
-    dc.l        $06EE71
+    dc.l        String_Italian_Clubs00;$06DA14 - Atalanta
+    dc.l        String_Italian_Clubs01;$06DA1D
+    dc.l        String_Italian_Clubs02;$06DA26
+    dc.l        String_Italian_Clubs03;$06DA30
+    dc.l 		String_Italian_Clubs04;06DA37
+    dc.l 		String_Italian_Clubs05;06DA3D
+    dc.l 		String_Italian_Clubs06;06DA43
+    dc.l 		String_Italian_Clubs07;06DA4C
+    dc.l 		String_Italian_Clubs08;06DA52
+    dc.l 		String_Italian_Clubs09;06DA58
+    dc.l 		String_Italian_Clubs10;06DA5E
+    dc.l 		String_Italian_Clubs11;06DA65
+    dc.l 		String_Italian_Clubs12;06DA6B
+    dc.l 		String_Italian_Clubs13;06DA74
+    dc.l 		String_Italian_Clubs14;06DA7D
+    dc.l 		String_Italian_Clubs15;06DA82
+    dc.l 		String_Italian_Clubs16;06DA8C
+    dc.l 		String_Italian_Clubs17;06DA93
+    dc.l 		String_Italian_Clubs18;06DA9B
+    dc.l 		String_Italian_Clubs19;06DAA4
+    dc.l 		String_Italian_Clubs20;06DAAB
+    dc.l 		String_Italian_Clubs21;06DAB2
+    dc.l 		String_Italian_Clubs22;06DAB7
+    dc.l 		String_Italian_Clubs23;06DABF
+    dc.l 		String_Italian_Clubs24;06DAC6
+    dc.l 		String_Italian_Clubs25;06DACE
+    dc.l 		String_Italian_Clubs26;06DAD7
+    dc.l 		String_Italian_Clubs27;06DAE2
+    dc.l 		String_Italian_Clubs28;06DAEB
+    dc.l 		String_Italian_Clubs29;06DAF2
+    dc.l 		String_Italian_Clubs30;06DAF8
+    dc.l 		String_Italian_Clubs31;06DAFF
+    dc.l 		String_Italian_Clubs32;06DB07
+    dc.l 		String_Italian_Clubs33;06DB0F
+    dc.l 		String_Italian_Clubs34;06DB14
+    dc.l 		String_Italian_Clubs35;06DB1C
+    dc.l 		String_Italian_Clubs36;06DB24
+    dc.l 		String_Italian_Clubs37;06DB2B Vicenza
+	dc.l 		String_Missing_Club00 ; value zero. Removed entry? 0007db33
+	dc.l 		String_Missing_Club01 ; value zero. same as above! 0007db33
+	
+    dc.l 		String_Italian_Stadiums00; Stadio Communale
+    dc.l 		String_Italian_Stadiums01; Sant Elia*	
+    dc.l 		String_Italian_Stadiums02;06DB34
+    dc.l 		String_Italian_Stadiums03;06DB45
+    dc.l 		String_Italian_Stadiums04;06DB50
+    dc.l 		String_Italian_Stadiums05;06DB5E
+    dc.l 		String_Italian_Stadiums06;06DB6E
+    dc.l 		String_Italian_Stadiums07;06DB7E
+    dc.l 		String_Italian_Stadiums08;06DB88
+    dc.l 		String_Italian_Stadiums09;06DB94
+    dc.l 		String_Italian_Stadiums10;06DBA4
+    dc.l 		String_Italian_Stadiums11;06DBB2
+    dc.l 		String_Italian_Stadiums12;06DBBC
+    dc.l 		String_Italian_Stadiums13;06DBC7
+    dc.l 		String_Italian_Stadiums14;06DBD6
+    dc.l 		String_Italian_Stadiums15; Liugi Ferraris*
+    dc.l 		String_Italian_Stadiums16;06DBEB
+    dc.l 		String_Italian_Stadiums17;06DBFB
+    dc.l 		String_Italian_Stadiums18;06DC0B
+    dc.l 		String_Italian_Stadiums19;06DC17
+    dc.l 		String_Italian_Stadiums20;06DC1F
+    dc.l 		String_Italian_Stadiums21;06DC30
+    dc.l 		String_Italian_Stadiums22;06DC3C
+    dc.l 		String_Italian_Stadiums23;06DC4C
+    dc.l 		String_Italian_Stadiums24;06DC58
+    dc.l 		String_Italian_Stadiums25;06DC69
+    dc.l 		String_Italian_Stadiums26;06DC77
+    dc.l 		String_Italian_Stadiums27;06DC81
+    dc.l 		String_Italian_Stadiums28; Alberto Braglia*
+    dc.l 		String_Italian_Stadiums29;06DCA3
+    dc.l 		String_Italian_Stadiums30;06DCB0
+    dc.l 		String_Italian_Stadiums31;06DCC1
+    dc.l 		String_Italian_Stadiums32;06DCD1
+    dc.l 		String_Italian_Stadiums33;06DCE1
+    dc.l 		String_Italian_Stadiums34;06DCEE
+    dc.l 		String_Italian_Stadiums35;06DCFF
+    dc.l 		String_Italian_Stadiums36;06DD0F
+    dc.l 		String_Italian_Stadiums37; Romeo Menti*
+	dc.l 		String_Missing_Stadium00 ; value zero. Removed entry?
+	dc.l 		String_Missing_Stadium01 ; value zero. same as above!
+	
+    dc.l 		String_Portugal_Clubs00;Porto
+    dc.l 		String_Portugal_Clubs01;06DD3F
+    dc.l 		String_Portugal_Clubs02;06DD4C
+    dc.l 		String_Portugal_Clubs03;06DD4C	
+    dc.l 		String_Portugal_Clubs04;06DD4D
+    dc.l 		String_Portugal_Clubs05;06DD53
+    dc.l 		String_Portugal_Clubs06;06DD5C
+    dc.l 		String_Portugal_Clubs07;06DD64
+    dc.l 		String_Portugal_Clubs08;06DD6F
+    dc.l 		String_Portugal_Clubs09;Salgueiros
+	
+    dc.l 		String_Spain_Clubs00;Barcelona
+    dc.l 		String_Spain_Clubs01;06DD87
+    dc.l 		String_Spain_Clubs02;06DD90
+    dc.l 		String_Spain_Clubs03;06DD98	
+    dc.l 		String_Spain_Clubs04;06DDA3
+    dc.l 		String_Spain_Clubs05;06DDAD
+    dc.l 		String_Spain_Clubs06;06DDB6
+    dc.l 		String_Spain_Clubs07;06DDC2
+    dc.l 		String_Spain_Clubs08;06DDCA
+    dc.l 		String_Spain_Clubs09;06DDD2
+    dc.l 		String_Spain_Clubs10;06DDDC
+    dc.l 		String_Spain_Clubs11;06DDE3
+    dc.l 		String_Spain_Clubs12;06DDED
+    dc.l 		String_Spain_Clubs13;06DDF4
+    dc.l 		String_Spain_Clubs14;06DDFC
+    dc.l 		String_Spain_Clubs15;06DE02
+    dc.l 		String_Spain_Clubs16;Tenerife
+    dc.l 		String_Spain_Clubs17;06DE15
+    dc.l 		String_Spain_Clubs18;06DE1E
+    dc.l 		String_Spain_Clubs19;Betis
+	
+    dc.l 		String_France_Clubs00;Marseille
+    dc.l 		String_France_Clubs01;06DE39
+    dc.l 		String_France_Clubs02;06DE43
+    dc.l 		String_France_Clubs03;06DE49
+    dc.l 		String_France_Clubs04;06DE4F
+    dc.l 		String_France_Clubs05;06DE59
+    dc.l 		String_France_Clubs06;06DE61
+    dc.l 		String_France_Clubs07;06DE68
+    dc.l 		String_France_Clubs08;06DE6D
+    dc.l 		String_France_Clubs09;06DE74
+    dc.l 		String_France_Clubs10;06DE80
+    dc.l 		String_France_Clubs11;06DE85
+    dc.l 		String_France_Clubs12;06DE8A
+    dc.l 		String_France_Clubs13;06DE90
+    dc.l 		String_France_Clubs14;06DE96
+    dc.l 		String_France_Clubs15;06DE9F
+    dc.l 		String_France_Clubs16;06DEA8
+    dc.l 		String_France_Clubs17;06DEB3
+    dc.l 		String_France_Clubs18;Nice
+    dc.l 		String_France_Clubs19;Rennes
+	
+    dc.l 		String_England_Clubs00;Aston Villa
+    dc.l 		String_England_Clubs01;06DED1
+    dc.l 		String_England_Clubs02;06DED8
+    dc.l 		String_England_Clubs03;06DEDD
+    dc.l 		String_England_Clubs04;06DEE4
+    dc.l 		String_England_Clubs05;06DEF0
+    dc.l 		String_England_Clubs06;06DEF8
+    dc.l 		String_England_Clubs07;06DF00
+    dc.l 		String_England_Clubs08;06DF0A
+    dc.l 		String_England_Clubs09;06DF13
+    dc.l 		String_England_Clubs10;06DF1D
+    dc.l 		String_England_Clubs11;06DF24
+    dc.l 		String_England_Clubs12;06DF2C
+    dc.l 		String_England_Clubs13;06DF36
+    dc.l 		String_England_Clubs14;06DF3F
+    dc.l 		String_England_Clubs15;Wimbledon
+    dc.l 		String_England_Clubs16;06DF4F
+    dc.l 		String_England_Clubs17;06DF5B
+    dc.l 		String_England_Clubs18;06DF65
+    dc.l 		String_England_Clubs19;06DF6F
+    dc.l 		String_England_Clubs20;06DF79
+    dc.l 		String_England_Clubs21;06DF79
+    dc.l 		String_England_Clubs22;06DF81
+    dc.l 		String_England_Clubs23;06DF8A
+    dc.l 		String_England_Clubs24;06DF94
+    dc.l 		String_England_Clubs25;06DF9E
+    dc.l 		String_England_Clubs26;06DFAA
+    dc.l 		String_England_Clubs27;Sunderland
+	
+    dc.l 		String_Switzerland_Clubs00;Sion
+    dc.l 		String_Switzerland_Clubs01;06DFC3
+    dc.l 		String_Switzerland_Clubs02;06DFCB
+    dc.l 		String_Switzerland_Clubs03;06DFD6
+    dc.l 		String_Switzerland_Clubs04;06DFDF	
+    dc.l 		String_Switzerland_Clubs05;06DFEA
+    dc.l 		String_Switzerland_Clubs06;06DFEF
+    dc.l 		String_Switzerland_Clubs07;06DFF8
+    dc.l 		String_Switzerland_Clubs08;06E005
+    dc.l 		String_Switzerland_Clubs09;06E00D
+    dc.l 		String_Switzerland_Clubs10;06E014
+    dc.l 		String_Switzerland_Clubs11;Zurich
+	
+    dc.l 		String_Belgium_Clubs00;Gent
+    dc.l 		String_Belgium_Clubs01;06E02E
+    dc.l 		String_Belgium_Clubs02;06E036
+    dc.l 		String_Belgium_Clubs03;06E03D
+    dc.l 		String_Belgium_Clubs04;06E047	
+    dc.l 		String_Belgium_Clubs05;06E04E
+    dc.l 		String_Belgium_Clubs06;06E053
+    dc.l 		String_Belgium_Clubs07;06E05E
+    dc.l 		String_Belgium_Clubs08;06E068
+    dc.l 		String_Belgium_Clubs09;06E071
+    dc.l 		String_Belgium_Clubs10;06E07A
+    dc.l 		String_Belgium_Clubs11;06E082
+    dc.l 		String_Belgium_Clubs12;06E08A
+    dc.l 		String_Belgium_Clubs13;06E091
+    dc.l 		String_Belgium_Clubs14;06E09B
+    dc.l 		String_Belgium_Clubs15;06E0A2
+    dc.l 		String_Belgium_Clubs16;06E0AB
+    dc.l 		String_Belgium_Clubs17;06E0B3
+    dc.l 		String_Belgium_Clubs18;Union
+	
+    dc.l 		String_Luxembourg_Clubs00;Avenir B
+    dc.l 		String_Luxembourg_Clubs01;06E0C9
+    dc.l 		String_Luxembourg_Clubs02;06E0D2
+    dc.l 		String_Luxembourg_Clubs03;06E0D7
+    dc.l 		String_Luxembourg_Clubs04;Aris B
+	
+    dc.l 		String_Netherlands_Clubs00;PSV
+    dc.l 		String_Netherlands_Clubs01;06E0F1
+    dc.l 		String_Netherlands_Clubs02;06E0FA
+    dc.l 		String_Netherlands_Clubs03;06E103
+    dc.l 		String_Netherlands_Clubs04;06E10B	
+    dc.l 		String_Netherlands_Clubs05;06E112
+    dc.l 		String_Netherlands_Clubs06;06E116
+    dc.l 		String_Netherlands_Clubs07;06E11B
+    dc.l 		String_Netherlands_Clubs08;06E125
+    dc.l 		String_Netherlands_Clubs09;06E12E
+    dc.l 		String_Netherlands_Clubs10;06E136
+    dc.l 		String_Netherlands_Clubs11;06E13E
+    dc.l 		String_Netherlands_Clubs12;06E148
+    dc.l 		String_Netherlands_Clubs13;06E152
+    dc.l 		String_Netherlands_Clubs14;06E15B
+    dc.l 		String_Netherlands_Clubs15;06E164
+    dc.l 		String_Netherlands_Clubs16;06E16C
+    dc.l 		String_Netherlands_Clubs17;Heerenvenn
+	
+    dc.l 		String_IrelandBoth_Clubs00;St Patrick
+    dc.l 		String_IrelandBoth_Clubs01;06E18A
+    dc.l 		String_IrelandBoth_Clubs02;06E18F
+    dc.l 		String_IrelandBoth_Clubs03;06E198
+    dc.l 		String_IrelandBoth_Clubs04;06E1A3
+    dc.l 		String_IrelandBoth_Clubs05;06E1AE
+    dc.l 		String_IrelandBoth_Clubs06;06E1B9
+    dc.l 		String_IrelandBoth_Clubs07;06E1C3
+    dc.l 		String_IrelandBoth_Clubs08;06E1CB
+    dc.l 		String_IrelandBoth_Clubs09;06E1D6
+    dc.l 		String_IrelandBoth_Clubs10;06E1E1
+    dc.l 		String_IrelandBoth_Clubs11;06E1EB
+    dc.l 		String_IrelandBoth_Clubs12;06E1F5
+    dc.l 		String_IrelandBoth_Clubs13;06E1FE
+    dc.l 		String_IrelandBoth_Clubs14;06E208
+    dc.l 		String_IrelandBoth_Clubs15;Coleraine
+	
+    dc.l 		String_German_Clubs00;Kaisersltrn
+    dc.l 		String_German_Clubs01;06E228
+    dc.l 		String_German_Clubs02;06E231
+    dc.l 		String_German_Clubs03;06E236
+    dc.l 		String_German_Clubs04;06E240	
+    dc.l 		String_German_Clubs05;06E24A
+    dc.l 		String_German_Clubs06;06E256
+    dc.l 		String_German_Clubs07;06E25F
+    dc.l 		String_German_Clubs08;06E268
+    dc.l 		String_German_Clubs09;06E272
+    dc.l 		String_German_Clubs10;06E27A
+    dc.l 		String_German_Clubs11;06E285
+    dc.l 		String_German_Clubs12;06E290
+    dc.l 		String_German_Clubs13;06E298
+    dc.l 		String_German_Clubs14;Madgeburg
+    dc.l 		String_German_Clubs15;06E2AC
+    dc.l 		String_German_Clubs16;06E2B6
+    dc.l 		String_German_Clubs17;Cz Jena
+	
+    dc.l 		String_Austria_Clubs00;Tirol
+    dc.l 		String_Austria_Clubs01;06E2D5
+    dc.l 		String_Austria_Clubs02;06E2DF
+    dc.l 		String_Austria_Clubs03;06E2EC
+    dc.l 		String_Austria_Clubs04;06E2F3
+    dc.l 		String_Austria_Clubs05;06E2FB
+    dc.l 		String_Austria_Clubs06;06E301
+    dc.l 		String_Austria_Clubs07;06E30C
+    dc.l 		String_Austria_Clubs08;06E314
+    dc.l 		String_Austria_Clubs09;Vienna
+	
+    dc.l 		String_Yugoslavia_Clubs00;Krems Sc
+    dc.l 		String_Yugoslavia_Clubs01;06E332
+    dc.l 		String_Yugoslavia_Clubs02;06E339
+    dc.l 		String_Yugoslavia_Clubs03;06E342
+    dc.l 		String_Yugoslavia_Clubs04;06E34C
+    dc.l 		String_Yugoslavia_Clubs05;06E353
+    dc.l 		String_Yugoslavia_Clubs06;06E35C	
+    dc.l 		String_Yugoslavia_Clubs07;06E366
+    dc.l 		String_Yugoslavia_Clubs08;06E36F
+    dc.l 		String_Yugoslavia_Clubs09;06E378
+    dc.l 		String_Yugoslavia_Clubs10;06E381
+    dc.l 		String_Yugoslavia_Clubs11;06E388
+    dc.l 		String_Yugoslavia_Clubs12;06E38F
+    dc.l 		String_Yugoslavia_Clubs13;06E395
+    dc.l 		String_Yugoslavia_Clubs14;06E39E
+    dc.l 		String_Yugoslavia_Clubs15;06E3A7
+    dc.l 		String_Yugoslavia_Clubs16;06E3AE
+    dc.l 		String_Yugoslavia_Clubs17; Borac	
+    dc.l 		String_Yugoslavia_Clubs18;06E3B8
+    dc.l 		String_Yugoslavia_Clubs19;06E3C2
+    dc.l 		String_Yugoslavia_Clubs20;06E3CD
+    dc.l 		String_Yugoslavia_Clubs21;06E3D6
+    dc.l 		String_Yugoslavia_Clubs22;06E3E0
+    dc.l 		String_Yugoslavia_Clubs23;06E3E6
+    dc.l 		String_Yugoslavia_Clubs24;06E3EF
+    dc.l 		String_Yugoslavia_Clubs25;06E3F6
+    dc.l 		String_Yugoslavia_Clubs26;06E3FE
+    dc.l 		String_Yugoslavia_Clubs27;Lokomotive
+	
+    dc.l 		String_Albania_Clubs00; Besa Kavja
+	
+    dc.l 		String_Greece_Clubs00;Panathinaikos
+    dc.l 		String_Greece_Clubs01;06E422
+    dc.l 		String_Greece_Clubs02;06E42B
+    dc.l 		String_Greece_Clubs03;06E436
+    dc.l 		String_Greece_Clubs04;06E441
+    dc.l 		String_Greece_Clubs05;06E44D
+    dc.l 		String_Greece_Clubs06;06E45B
+    dc.l 		String_Greece_Clubs07;06E466
+    dc.l 		String_Greece_Clubs08;06E471
+    dc.l 		String_Greece_Clubs09;06E47C
+    dc.l 		String_Greece_Clubs10;06E489
+    dc.l 		String_Greece_Clubs11;06E493
+    dc.l 		String_Greece_Clubs12;06E49B
+    dc.l 		String_Greece_Clubs13;06E4A3
+    dc.l 		String_Greece_Clubs14;06E4A8
+    dc.l 		String_Greece_Clubs15;06E4AD
+    dc.l 		String_Greece_Clubs16;06E4B8
+    dc.l 		String_Greece_Clubs17;Larissa
+	
+    dc.l 		String_Turkey_Clubs00;Galatasaray
+    dc.l 		String_Turkey_Clubs01;06E4C9
+    dc.l 		String_Turkey_Clubs02;06E4D6
+    dc.l 		String_Turkey_Clubs03;06E4E1
+    dc.l 		String_Turkey_Clubs04;06E4EC
+    dc.l 		String_Turkey_Clubs05;06E4F4
+    dc.l 		String_Turkey_Clubs06;06E508
+    dc.l 		String_Turkey_Clubs07;06E511
+    dc.l 		String_Turkey_Clubs08;06E51D
+    dc.l 		String_Turkey_Clubs09;06E527
+    dc.l 		String_Turkey_Clubs10;06E52F
+    dc.l 		String_Turkey_Clubs11;06E53A
+    dc.l 		String_Turkey_Clubs12;06E544
+    dc.l 		String_Turkey_Clubs13;06E54F
+    dc.l 		String_Turkey_Clubs14;Zevtinburns
+    dc.l 		String_Turkey_Clubs15;Koyaspor
+	
+	dc.l 		String_Bulgaria_Clubs00;Vitosa
+    dc.l 		String_Bulgaria_Clubs01;06E56D
+    dc.l 		String_Bulgaria_Clubs02;06E577
+    dc.l 		String_Bulgaria_Clubs03;06E581
+    dc.l 		String_Bulgaria_Clubs04;06E58A
+    dc.l 		String_Bulgaria_Clubs05;06E596
+    dc.l 		String_Bulgaria_Clubs06;06E5A0
+    dc.l 		String_Bulgaria_Clubs07;06E5B1
+    dc.l 		String_Bulgaria_Clubs08;06E5B6
+    dc.l 		String_Bulgaria_Clubs09;06E5BC
+    dc.l 		String_Bulgaria_Clubs10;06E5C3
+    dc.l 		String_Bulgaria_Clubs11;06E5CE
+    dc.l 		String_Bulgaria_Clubs12;06E5D5
+    dc.l 		String_Bulgaria_Clubs13;06E5DF
+    dc.l 		String_Bulgaria_Clubs14;06E5EB
+    dc.l 		String_Bulgaria_Clubs15;Haskovo
+
+    dc.l 		String_Romania_Clubs00;Steaua B	
+    dc.l 		String_Romania_Clubs01;06E5FC
+    dc.l 		String_Romania_Clubs02;06E602
+    dc.l 		String_Romania_Clubs03;06E609
+    dc.l 		String_Romania_Clubs04;06E610
+    dc.l 		String_Romania_Clubs05;06E618
+    dc.l 		String_Romania_Clubs06;06E629
+    dc.l 		String_Romania_Clubs07;06E633
+    dc.l 		String_Romania_Clubs08;06E63E
+    dc.l 		String_Romania_Clubs09;06E648
+    dc.l 		String_Romania_Clubs10;06E650
+    dc.l 		String_Romania_Clubs11;06E658
+    dc.l 		String_Romania_Clubs12;06E65E
+    dc.l 		String_Romania_Clubs13;06E669
+    dc.l 		String_Romania_Clubs14;06E675
+    dc.l 		String_Romania_Clubs15;Fc Olt
+	
+	dc.l 		String_Hungary_Clubs00;Debrecen
+    dc.l 		String_Hungary_Clubs01;06E687
+    dc.l 		String_Hungary_Clubs02;06E691
+    dc.l 		String_Hungary_Clubs03;06E698
+    dc.l 		String_Hungary_Clubs04;06E6A1
+    dc.l 		String_Hungary_Clubs05;06E6A7
+    dc.l 		String_Hungary_Clubs06;06E6B7
+    dc.l 		String_Hungary_Clubs07;06E6C0
+    dc.l 		String_Hungary_Clubs08;06E6C7
+    dc.l 		String_Hungary_Clubs09;06E6D0
+    dc.l 		String_Hungary_Clubs10;06E6D7
+    dc.l 		String_Hungary_Clubs11;06E6DE
+    dc.l 		String_Hungary_Clubs12;06E6E3
+    dc.l 		String_Hungary_Clubs13;06E6EC
+    dc.l 		String_Hungary_Clubs14;06E6F3
+    dc.l 		String_Hungary_Clubs15;06E6FD
+    dc.l 		String_Hungary_Clubs16;Slovan B
+    dc.l 		String_Hungary_Clubs17;Union Cheb
+
+    dc.l 		String_Czech_Clubs00;Sp Prague
+    dc.l 		String_Czech_Clubs01;06E716
+    dc.l 		String_Czech_Clubs02;06E721
+    dc.l 		String_Czech_Clubs03;06E72A
+    dc.l 		String_Czech_Clubs04;06E736
+    dc.l 		String_Czech_Clubs05;06E73F
+    dc.l 		String_Czech_Clubs06;06E754
+    dc.l 		String_Czech_Clubs07;06E75F
+    dc.l 		String_Czech_Clubs08;06E767
+    dc.l 		String_Czech_Clubs09;06E76E
+    dc.l 		String_Czech_Clubs10;06E776
+    dc.l 		String_Czech_Clubs11;06E77E
+    dc.l 		String_Czech_Clubs12;Zbrojovka
+	
+	dc.l 		String_Poland_Clubs00;Lks Lodz
+    dc.l 		String_Poland_Clubs01;06E791
+    dc.l 		String_Poland_Clubs02;06E79A
+    dc.l 		String_Poland_Clubs03;06E7A0
+    dc.l 		String_Poland_Clubs04;06E7A9
+    dc.l 		String_Poland_Clubs05;06E7B3
+    dc.l 		String_Poland_Clubs06;06E7C6
+    dc.l 		String_Poland_Clubs07;06E7CE
+    dc.l 		String_Poland_Clubs08;06E7DA
+    dc.l 		String_Poland_Clubs09;06E7E1
+    dc.l 		String_Poland_Clubs10;06E7E8
+    dc.l 		String_Poland_Clubs11;06E7F3
+    dc.l 		String_Poland_Clubs12;06E7FB
+    dc.l 		String_Poland_Clubs13;06E804
+    dc.l 		String_Poland_Clubs14;06E80B
+    dc.l 		String_Poland_Clubs15;Olimpia P
+    dc.l 		String_Poland_Clubs16;06E81F
+    dc.l 		String_Poland_Clubs17;06E827
+    dc.l 		String_Poland_Clubs18;Gais
+	
+	dc.l 		String_Sweden_Clubs00;Djurgarden
+    dc.l 		String_Sweden_Clubs01;06E83D
+    dc.l 		String_Sweden_Clubs02;06E84A
+    dc.l 		String_Sweden_Clubs03;06E854
+    dc.l 		String_Sweden_Clubs04;06E858
+    dc.l 		String_Sweden_Clubs05;06E85F
+    dc.l 		String_Sweden_Clubs06;06E86F
+    dc.l 		String_Sweden_Clubs07;06E878
+    dc.l 		String_Sweden_Clubs08;Brage
+	
+	dc.l 		String_Armenia_Clubs00;Ararat Y
+		
+    dc.l 		String_Ukraine_Clubs00;Dynamo Kiev
+    dc.l 		String_Ukraine_Clubs01;06E8C6
+    dc.l 		String_Ukraine_Clubs02;Metallist
+	
+    dc.l 		String_Russia_Clubs00;Cska Moscow
+    dc.l 		String_Russia_Clubs01;06E8E3
+    dc.l 		String_Russia_Clubs02;06E8EF
+    dc.l 		String_Russia_Clubs03;06E8F5
+    dc.l 		String_Russia_Clubs04;06E8FE
+    dc.l 		String_Russia_Clubs05;06E904
+    dc.l 		String_Russia_Clubs06;06E90F
+    dc.l 		String_Russia_Clubs07;06E91B Dnepro
+	
+    dc.l 		String_Norway_Clubs00;Tromso
+    dc.l 		String_Norway_Clubs01;06E929
+    dc.l 		String_Norway_Clubs02;06E92F
+    dc.l 		String_Norway_Clubs03;06E93A
+    dc.l 		String_Norway_Clubs04;06E941
+    dc.l 		String_Norway_Clubs05;06E94B
+    dc.l 		String_Norway_Clubs06;06E951
+    dc.l 		String_Norway_Clubs07;06E95D
+    dc.l 		String_Norway_Clubs08;06E967
+    dc.l 		String_Norway_Clubs09;06E96D
+	dc.l 		String_Norway_Clubs10;Moss
+    dc.l 		String_Norway_Clubs11;Vif Fotball
+ 	
+    dc.l 		String_Scotland_Clubs00;Rangers
+    dc.l 		String_Scotland_Clubs01;06E992
+    dc.l 		String_Scotland_Clubs02;06E999
+    dc.l 		String_Scotland_Clubs03;06E9A2
+    dc.l 		String_Scotland_Clubs04;06E9A9
+    dc.l 		String_Scotland_Clubs05;06E9B3
+    dc.l 		String_Scotland_Clubs06;06E9C0
+    dc.l 		String_Scotland_Clubs07;06E9CB
+    dc.l 		String_Scotland_Clubs08;06E9D5
+    dc.l 		String_Scotland_Clubs09;Motherwell
+	
+    dc.l 		String_Iceland_Clubs00;Reykjavik
+    dc.l 		String_Iceland_Clubs01;06E9F6
+    dc.l 		String_Iceland_Clubs02;06E9FE
+    dc.l 		String_Iceland_Clubs03;06EA04
+    dc.l 		String_Iceland_Clubs04;06EA0D
+    dc.l 		String_Iceland_Clubs05;Akureyi
+	
+    dc.l 		String_Finland_Clubs00;Helsinki
+    dc.l 		String_Finland_Clubs01;Lahti
+    dc.l 		String_Finland_Clubs02;Rovaniemen
+    dc.l 		String_Finland_Clubs03;Turun
+    dc.l 		String_Finland_Clubs04;Tampere
+    dc.l 		String_Finland_Clubs05;Turku
+    dc.l 		String_Finland_Clubs06;Vassa
+	
+	dc.l 		String_Cyprus_Clubs00;Omonia
+    dc.l 		String_Cyprus_Clubs01;06EA2D
+    dc.l 		String_Cyprus_Clubs02;06EA38
+    dc.l 		String_Cyprus_Clubs03;06EA3E
+    dc.l 		String_Cyprus_Clubs04;06EA46
+    dc.l 		String_Cyprus_Clubs05;Famagusta
+	
+    dc.l 		String_Israel_Clubs00;Maccabi
+    dc.l 		String_Israel_Clubs01;06EA8C
+    dc.l 		String_Israel_Clubs02;06EA92
+    dc.l 		String_Israel_Clubs03;06EA9C
+    dc.l 		String_Israel_Clubs04;06EAA3
+    dc.l 		String_Israel_Clubs05;06EAAC
+    dc.l 		String_Israel_Clubs06;Jerusalem
+	
+    dc.l 		String_Denmark_Clubs00;Copenhagen
+    dc.l 		String_Denmark_Clubs01;06EAC7
+    dc.l 		String_Denmark_Clubs02;06EACF
+    dc.l 		String_Denmark_Clubs03;06EAD6
+    dc.l 		String_Denmark_Clubs04;06EADE
+    dc.l 		String_Denmark_Clubs05;06EAE5
+    dc.l 		String_Denmark_Clubs06;06EAED
+    dc.l 		String_Denmark_Clubs07;06EAF7
+    dc.l 		String_Denmark_Clubs08;06EB00
+    dc.l 		String_Denmark_Clubs09;Viborg
+	
+    dc.l 		String_LowerLeagueItalian_Clubs00 ; Bologna
+    dc.l 		String_LowerLeagueItalian_Clubs01
+    dc.l 		String_LowerLeagueItalian_Clubs02
+    dc.l 		String_LowerLeagueItalian_Clubs03
+    dc.l 		String_LowerLeagueItalian_Clubs04
+    dc.l 		String_LowerLeagueItalian_Clubs05
+    dc.l 		String_LowerLeagueItalian_Clubs06
+    dc.l 		String_LowerLeagueItalian_Clubs07
+    dc.l 		String_LowerLeagueItalian_Clubs08
+    dc.l 		String_LowerLeagueItalian_Clubs09
+    dc.l 		String_LowerLeagueItalian_Clubs10
+    dc.l 		String_LowerLeagueItalian_Clubs11
+    dc.l 		String_LowerLeagueItalian_Clubs12
+    dc.l 		String_LowerLeagueItalian_Clubs13
+    dc.l 		String_LowerLeagueItalian_Clubs14
+    dc.l 		String_LowerLeagueItalian_Clubs15
+    dc.l 		String_LowerLeagueItalian_Clubs16
+    dc.l 		String_LowerLeagueItalian_Clubs17; Spezi
+    dc.l 		String_LowerLeagueItalian_Clubs18
+    dc.l 		String_LowerLeagueItalian_Clubs19
+    dc.l 		String_LowerLeagueItalian_Clubs20
+    dc.l 		String_LowerLeagueItalian_Clubs21
+    dc.l 		String_LowerLeagueItalian_Clubs22
+    dc.l 		String_LowerLeagueItalian_Clubs23
+    dc.l 		String_LowerLeagueItalian_Clubs24
+    dc.l 		String_LowerLeagueItalian_Clubs25
+    dc.l 		String_LowerLeagueItalian_Clubs26
+    dc.l 		String_LowerLeagueItalian_Clubs27
+    dc.l 		String_LowerLeagueItalian_Clubs28
+    dc.l 		String_LowerLeagueItalian_Clubs29
+    dc.l 		String_LowerLeagueItalian_Clubs30
+    dc.l 		String_LowerLeagueItalian_Clubs31
+    dc.l 		String_LowerLeagueItalian_Clubs32
+    dc.l 		String_LowerLeagueItalian_Clubs33; Reggina
+    dc.l 		String_LowerLeagueItalian_Clubs34
+    dc.l 		String_LowerLeagueItalian_Clubs35
+    dc.l 		String_LowerLeagueItalian_Clubs36
+    dc.l 		String_LowerLeagueItalian_Clubs37
+    dc.l 		String_LowerLeagueItalian_Clubs38
+    dc.l 		String_LowerLeagueItalian_Clubs39
+    dc.l 		String_LowerLeagueItalian_Clubs40
+    dc.l 		String_LowerLeagueItalian_Clubs41
+    dc.l 		String_LowerLeagueItalian_Clubs42
+    dc.l 		String_LowerLeagueItalian_Clubs43
+    dc.l 		String_LowerLeagueItalian_Clubs44
+    dc.l 		String_LowerLeagueItalian_Clubs45
+    dc.l 		String_LowerLeagueItalian_Clubs46
+    dc.l 		String_LowerLeagueItalian_Clubs47
+    dc.l 		String_LowerLeagueItalian_Clubs48
+    dc.l 		String_LowerLeagueItalian_Clubs49
+    dc.l 		String_LowerLeagueItalian_Clubs50; Suzzara
+    dc.l 		String_LowerLeagueItalian_Clubs51
+    dc.l 		String_LowerLeagueItalian_Clubs52
+    dc.l 		String_LowerLeagueItalian_Clubs53
+    dc.l 		String_LowerLeagueItalian_Clubs54
+    dc.l 		String_LowerLeagueItalian_Clubs55
+    dc.l 		String_LowerLeagueItalian_Clubs56
+    dc.l 		String_LowerLeagueItalian_Clubs57
+    dc.l 		String_LowerLeagueItalian_Clubs58
+    dc.l 		String_LowerLeagueItalian_Clubs59
+    dc.l 		String_LowerLeagueItalian_Clubs60
+    dc.l 		String_LowerLeagueItalian_Clubs61
+    dc.l 		String_LowerLeagueItalian_Clubs62
+    dc.l 		String_LowerLeagueItalian_Clubs63
+    dc.l 		String_LowerLeagueItalian_Clubs64
+    dc.l 		String_LowerLeagueItalian_Clubs65
+    dc.l 		String_LowerLeagueItalian_Clubs66
+    dc.l 		String_LowerLeagueItalian_Clubs67; Pontedera
+    dc.l 		String_LowerLeagueItalian_Clubs68
+    dc.l 		String_LowerLeagueItalian_Clubs69
+    dc.l 		String_LowerLeagueItalian_Clubs70
+    dc.l 		String_LowerLeagueItalian_Clubs71
+    dc.l 		String_LowerLeagueItalian_Clubs72
+    dc.l 		String_LowerLeagueItalian_Clubs73
+    dc.l 		String_LowerLeagueItalian_Clubs74
+    dc.l 		String_LowerLeagueItalian_Clubs75
+    dc.l 		String_LowerLeagueItalian_Clubs76
+    dc.l 		String_LowerLeagueItalian_Clubs77
+    dc.l 		String_LowerLeagueItalian_Clubs78
+    dc.l 		String_LowerLeagueItalian_Clubs79
+    dc.l 		String_LowerLeagueItalian_Clubs80
+    dc.l 		String_LowerLeagueItalian_Clubs81
+    dc.l 		String_LowerLeagueItalian_Clubs82
+    dc.l 		String_LowerLeagueItalian_Clubs83
+    dc.l 		String_LowerLeagueItalian_Clubs84; Sanguiseppese
+    dc.l 		String_LowerLeagueItalian_Clubs85
+    dc.l 		String_LowerLeagueItalian_Clubs86
+    dc.l 		String_LowerLeagueItalian_Clubs87
+    dc.l 		String_LowerLeagueItalian_Clubs88
+    dc.l 		String_LowerLeagueItalian_Clubs89
+    dc.l 		String_LowerLeagueItalian_Clubs90
+    dc.l 		String_LowerLeagueItalian_Clubs91
+    dc.l 		String_LowerLeagueItalian_Clubs92
+    dc.l 		String_LowerLeagueItalian_Clubs93
+    dc.l 		String_LowerLeagueItalian_Clubs94
+    dc.l 		String_LowerLeagueItalian_Clubs95
+    dc.l 		String_LowerLeagueItalian_Clubs96
+    dc.l 		String_LowerLeagueItalian_Clubs97
+    dc.l 		String_LowerLeagueItalian_Clubs98
+    dc.l 		String_LowerLeagueItalian_Clubs99
+    dc.l 		String_LowerLeagueItalian_Clubs100
+    dc.l        String_LowerLeagueItalian_Clubs101 ;Bastia
+;---------------------------------------------------------------
+String_Italian_Clubs00:
     dc.b        "Atalanta",0                                                                     
+String_Italian_Clubs01:
     dc.b        "Cagliari",0                                                                     
+String_Italian_Clubs02:
     dc.b        "Cremonese",0                                                                    
+String_Italian_Clubs03:
     dc.b        "Foggia",0                                                                       
+String_Italian_Clubs04:
     dc.b        "Genoa",0                                                                        
+String_Italian_Clubs05:
     dc.b        "Inter",0                                                                        
+String_Italian_Clubs06:
     dc.b        "Juventus",0                                                                     
+String_Italian_Clubs07:
     dc.b        "Lazio",0                                                                        
+String_Italian_Clubs08:
     dc.b        "Lecce",0                                                                        
+String_Italian_Clubs09:
     dc.b        "Milan",0                                                                        
+String_Italian_Clubs10:
     dc.b        "Napoli",0                                                                       
+String_Italian_Clubs11:
     dc.b        "Parma",0                                                                        
+String_Italian_Clubs12:
     dc.b        "Piacenza",0                                                                     
+String_Italian_Clubs13:
     dc.b        "Reggiana",0                                                                     
+String_Italian_Clubs14:
     dc.b        "Roma",0                                                                         
+String_Italian_Clubs15:
     dc.b        "Sampdoria",0                                                                    
+String_Italian_Clubs16:
     dc.b        "Torino",0                                                                       
+String_Italian_Clubs17:
     dc.b        "Udinese",0                                                                      
+String_Italian_Clubs18:
     dc.b        "Acireale",0                                                                     
+String_Italian_Clubs19:
     dc.b        "Ancona",0                                                                       
+String_Italian_Clubs20:
     dc.b        "Ascoli",0                                                                       
+String_Italian_Clubs21:
     dc.b        "Bari",0                                                                         
+String_Italian_Clubs22:
     dc.b        "Brescia",0                                                                      
+String_Italian_Clubs23:
     dc.b        "Cesena",0                                                                       
+String_Italian_Clubs24:
     dc.b        "Cosenza",0                                                                      
+String_Italian_Clubs25:
     dc.b        "F.Andria",0                                                                     
+String_Italian_Clubs26:
     dc.b        "Fiorentina",0                                                                   
+String_Italian_Clubs27:
     dc.b        "Lucchese",0                                                                     
+String_Italian_Clubs28:
     dc.b        "Modena",0                                                                       
+String_Italian_Clubs29:
     dc.b        "Monza",0                                                                        
+String_Italian_Clubs30:
     dc.b        "Padova",0                                                                       
+String_Italian_Clubs31:
     dc.b        "Palermo",0                                                                      
+String_Italian_Clubs32:
     dc.b        "Pescara",0                                                                      
+String_Italian_Clubs33:
     dc.b        "Pisa",0                                                                         
+String_Italian_Clubs34:
     dc.b        "Ravenna",0                                                                      
-    dc.b        "Venezia",0                                                                      
+String_Italian_Clubs35:
+    dc.b        "Venezia",0      
+String_Italian_Clubs36:	
     dc.b        "Verona",0                                                                       
-    dc.b        "Vicenza",0,0                                                                      
+String_Italian_Clubs37:
+    dc.b        "Vicenza",0 
+String_Missing_Club00:
+String_Missing_Club01:	
+	dc.b 		$0
+;---------------------------------------------------------------	
+String_Italian_Stadiums00:
     dc.b        "Stadio Communale",0                                                             
+String_Italian_Stadiums01:
     dc.b        "Sant Elia*",0                                                                   
+String_Italian_Stadiums02:
     dc.b        "Givanni Zini*",0                                                                
+String_Italian_Stadiums03:
     dc.b        "Pino Zaccheria*",0                                                              
+String_Italian_Stadiums04:
     dc.b        "Luigi Ferraris*",0                                                              
+String_Italian_Stadiums05:
     dc.b        "San Siro*",0                                                                    
+String_Italian_Stadiums06:
     dc.b        "Delle Alpi*",0                                                                  
+String_Italian_Stadiums07:
     dc.b        "Stadio Olimpico",0                                                              
+String_Italian_Stadiums08:
     dc.b        "Via del Mare*",0                                                                
+String_Italian_Stadiums09:
     dc.b        "San Siro*",0                                                                    
+String_Italian_Stadiums10:
     dc.b        "San Paolo*",0                                                                   
+String_Italian_Stadiums11:
     dc.b        "Ennio Tardini*",0                                                               
+String_Italian_Stadiums12:
     dc.b        "Galleana*",0                                                                    
+String_Italian_Stadiums13:
     dc.b        "Mirabello*",0                                                                   
+String_Italian_Stadiums14:
     dc.b        "Stadio Olimpico",0                                                              
+String_Italian_Stadiums15:
     dc.b        "Liugi Ferraris*",0                                                              
+String_Italian_Stadiums16:
     dc.b        "Delle Alpi*",0                                                                  
+String_Italian_Stadiums17:
     dc.b        "Friuli*",0                                                                      
+String_Italian_Stadiums18:
     dc.b        "Stadio Communale",0                                                             
+String_Italian_Stadiums19:
     dc.b        "Del Conero*",0                                                                  
+String_Italian_Stadiums20:
     dc.b        "Stadio Del Duca",0                                                              
+String_Italian_Stadiums21:
     dc.b        "San Nicola*",0                                                                  
+String_Italian_Stadiums22:
     dc.b        "Mario Rigamonti*",0                                                             
+String_Italian_Stadiums23:
     dc.b        "Dino Manuzzi*",0                                                                
+String_Italian_Stadiums24:
     dc.b        "San Vito*",0                                                                    
+String_Italian_Stadiums25:
     dc.b        "Stadio Communale",0                                                             
+String_Italian_Stadiums26:
     dc.b        "Stadio Communale",0                                                             
+String_Italian_Stadiums27:
     dc.b        "Porta Elisa*",0                                                                 
+String_Italian_Stadiums28:
     dc.b        "Alberto Braglia*",0                                                             
+String_Italian_Stadiums29:
     dc.b        "Stadio Brianteo",0                                                              
+String_Italian_Stadiums30:
     dc.b        "Silvio Appiani*",0                                                              
+String_Italian_Stadiums31:
     dc.b        "La Favorita*",0                                                                 
+String_Italian_Stadiums32:
     dc.b        "Stadio Adriatico",0                                                             
+String_Italian_Stadiums33:
     dc.b        "Arena Garibaldi",0                                                              
+String_Italian_Stadiums34:
     dc.b        "Bruno Benelli*",0                                                               
+String_Italian_Stadiums35:
     dc.b        "Pieluigi Penzo*",0                                                              
+String_Italian_Stadiums36:
     dc.b        "Stadio Bentegodi",0                                                             
-    dc.b        "Romeo Menti*",0                                                                 
-    dc.b        $0
-    dc.b        "Porto",0                                                                        
+String_Italian_Stadiums37:
+    dc.b        "Romeo Menti*",0     ; 7dd3f    
+String_Missing_Stadium00:
+String_Missing_Stadium01:	
+    dc.b        $0 ; 7dd4c x 2
+;---------------------------------------------------------------
+String_Portugal_Clubs00:
+    dc.b        "Porto",0   ;0007dd4d                                                                     
+String_Portugal_Clubs01:
     dc.b        "Sporting",0                                                                     
+String_Portugal_Clubs02:
     dc.b        "Benfica",0                                                                      
+String_Portugal_Clubs03:
     dc.b        "Belevenses",0                                                                   
+String_Portugal_Clubs04:
     dc.b        "Boavista",0                                                                     
+String_Portugal_Clubs05:
     dc.b        "Tirsense",0                                                                     
+String_Portugal_Clubs06:
     dc.b        "Braga",0                                                                        
+String_Portugal_Clubs07:
     dc.b        "Maritimo",0                                                                     
+String_Portugal_Clubs08:
     dc.b        "Estoril",0                                                                      
-    dc.b        "Salgueiros",0                                                                   
+String_Portugal_Clubs09:
+    dc.b        "Salgueiros",0  
+;---------------------------------------------------------------	
+String_Spain_Clubs00:
     dc.b        "Barcelona",0                                                                    
+String_Spain_Clubs01:
     dc.b        "Logrones",0                                                                     
+String_Spain_Clubs02:
     dc.b        "Real Madrid",0                                                                  
+String_Spain_Clubs03:
     dc.b        "Osasuna",0                                                                      
+String_Spain_Clubs04:
     dc.b        "Sevilla",0                                                                      
+String_Spain_Clubs05:
     dc.b        "At.Madrid",0                                                                    
+String_Spain_Clubs06:
     dc.b        "Burgos",0                                                                       
+String_Spain_Clubs07:
     dc.b        "At.Bilbao",0                                                                    
+String_Spain_Clubs08:
     dc.b        "Oviedo",0                                                                       
+String_Spain_Clubs09:
     dc.b        "Espanol",0                                                                      
+String_Spain_Clubs10:
     dc.b        "Gijon",0                                                                        
+String_Spain_Clubs11:
     dc.b        "Castellon",0                                                                    
+String_Spain_Clubs12:
     dc.b        "Zaragoza",0                                                                     
+String_Spain_Clubs13:
     dc.b        "Valencia",0                                                                     
+String_Spain_Clubs14:
     dc.b        "Mallorca",0                                                                     
+String_Spain_Clubs15:
     dc.b        "Sociedad",0                                                                     
+String_Spain_Clubs16:
     dc.b        "Tenerife",0                                                                     
+String_Spain_Clubs17:
     dc.b        "Valladoid",0                                                                    
-    dc.b        "Cadiz",0                                                                        
-    dc.b        "Betis",0                                                                        
+String_Spain_Clubs18:
+    dc.b        "Cadiz",0     
+String_Spain_Clubs19:	
+    dc.b        "Betis",0   
+;---------------------------------------------------------------	
+String_France_Clubs00:
     dc.b        "Marseille",0                                                                    
+String_France_Clubs01:
     dc.b        "Auxerre",0                                                                      
+String_France_Clubs02:
     dc.b        "Monaco",0                                                                       
+String_France_Clubs03:
     dc.b        "Metz",0                                                                         
-    dc.b        "Nantes",0                                                                       
+String_France_Clubs04:
+    dc.b        "Nantes",0
+String_France_Clubs05:
     dc.b        "Montpellier",0                                                                  
+String_France_Clubs06:
     dc.b        "Lyon",0                                                                         
+String_France_Clubs07:
     dc.b        "Caen",0                                                                         
+String_France_Clubs08:
     dc.b        "Lille",0                                                                        
+String_France_Clubs09:
     dc.b        "Brest",0                                                                        
+String_France_Clubs10:
     dc.b        "Paris Sg",0                                                                     
+String_France_Clubs11:
     dc.b        "Bordeaux",0                                                                     
+String_France_Clubs12:
     dc.b        "St.Etienne",0                                                                   
+String_France_Clubs13:
     dc.b        "Toulon",0                                                                       
+String_France_Clubs14:
     dc.b        "Toulouse",0                                                                     
+String_France_Clubs15:
     dc.b        "Nancy",0                                                                        
+String_France_Clubs16:
     dc.b        "Sochaux",0                                                                      
+String_France_Clubs17:
     dc.b        "Cannes",0                                                                       
+String_France_Clubs18:
     dc.b        "Nice",0                                                                         
-    dc.b        "Rennes",0                                                                       
+String_France_Clubs19:
+    dc.b        "Rennes",0   
+;---------------------------------------------------------------
+String_England_Clubs00:
     dc.b        "Aston Villa",0                                                                  
+String_England_Clubs01:
     dc.b        "Man Utd",0                                                                      
+String_England_Clubs02:
     dc.b        "Norwich",0                                                                      
+String_England_Clubs03:
     dc.b        "Sheff Wed",0                                                                    
+String_England_Clubs04:
     dc.b        "Coventry",0                                                                     
+String_England_Clubs05:
     dc.b        "Blackburn",0                                                                    
+String_England_Clubs06:
     dc.b        "Q.P.R.",0                                                                       
+String_England_Clubs07:
     dc.b        "Ipswich",0                                                                      
+String_England_Clubs08:
     dc.b        "Tottenham",0                                                                    
+String_England_Clubs09:
     dc.b        "Man City",0                                                                     
+String_England_Clubs10:
     dc.b        "Arsenal",0                                                                      
+String_England_Clubs11:
     dc.b        "Chelsea",0                                                                      
+String_England_Clubs12:
     dc.b        "Southampton",0                                                                  
+String_England_Clubs13:
     dc.b        "Leeds Utd",0                                                                    
+String_England_Clubs14:
     dc.b        "Liverpool",0                                                                    
+String_England_Clubs15:
     dc.b        "Wimbledon",0                                                                    
+String_England_Clubs16:
     dc.b        "Everton",0                                                                      
+String_England_Clubs17:
     dc.b        "West Ham",0                                                                     
+String_England_Clubs18:
     dc.b        "Sheff Utd",0                                                                    
+String_England_Clubs19:
     dc.b        "Newcastle",0                                                                    
-    dc.b        "Middlesboro",0                                                                  
+String_England_Clubs20:
+    dc.b        "Middlesboro",0
+String_England_Clubs21:	
     dc.b        "Oldham",0                                                                       
+String_England_Clubs22:
     dc.b        "N.Forest",0                                                                     
+String_England_Clubs23:
     dc.b        "C.Palace",0                                                                     
+String_England_Clubs24:
     dc.b        "Swindon",0                                                                      
+String_England_Clubs25:
     dc.b        "Portsmouth",0                                                                   
+String_England_Clubs26:
     dc.b        "Tranmere",0                                                                     
-    dc.b        "Sunderland",0                                                                   
-    dc.b        "Sion",0                                                                         
+String_England_Clubs27:
+    dc.b        "Sunderland",0
+;---------------------------------------------------------------
+String_Switzerland_Clubs00:	
+    dc.b        "Sion",0   
+String_Switzerland_Clubs01:	
     dc.b        "Lausanne",0                                                                     
+String_Switzerland_Clubs02:
     dc.b        "Grasshoppers",0                                                                 
-    dc.b        "N.Xamax",0                                                                      
-    dc.b        "Lugano",0                                                                       
-    dc.b        "Lucerne",0                                                                      
-    dc.b        "Ya Berne",0                                                                     
-    dc.b        "Servette",0                                                                     
-    dc.b        "St Gall",0                                                                      
-    dc.b        "Aarazu",0                                                                       
+String_Switzerland_Clubs03:
+    dc.b        "N.Xamax",0
+String_Switzerland_Clubs04:	
+    dc.b        "Lugano",0 
+String_Switzerland_Clubs05:	
+    dc.b        "Lucerne",0
+String_Switzerland_Clubs06:	
+    dc.b        "Ya Berne",0
+String_Switzerland_Clubs07:	
+    dc.b        "Servette",0
+String_Switzerland_Clubs08:	
+    dc.b        "St Gall",0
+String_Switzerland_Clubs09:	
+    dc.b        "Aarazu",0 
+String_Switzerland_Clubs10	
     dc.b        "Wettiugen",0                                                                    
-    dc.b        "Zurich",0                                                                       
+String_Switzerland_Clubs11:
+    dc.b        "Zurich",0
+;-----------------------------------------------------------------
+String_Belgium_Clubs00:	
     dc.b        "Gent",0                                                                         
+String_Belgium_Clubs01:
     dc.b        "Anderlecht",0                                                                   
+String_Belgium_Clubs02:
     dc.b        "Fc Bruges",0                                                                    
+String_Belgium_Clubs03:
     dc.b        "Mechelen",0                                                                     
+String_Belgium_Clubs04:
     dc.b        "Standard",0                                                                     
+String_Belgium_Clubs05:
     dc.b        "Lorerew",0                                                                      
+String_Belgium_Clubs06:
     dc.b        "Antwerp",0                                                                      
+String_Belgium_Clubs07:
     dc.b        "Ereren",0                                                                       
+String_Belgium_Clubs08:
     dc.b        "Charleroi",0                                                                    
+String_Belgium_Clubs09:
     dc.b        "Cercle",0                                                                       
-    dc.b        "Fc Liege",0                                                                     
+String_Belgium_Clubs10:
+    dc.b        "Fc Liege",0   
+String_Belgium_Clubs11:	
     dc.b        "Waregen",0                                                                      
+String_Belgium_Clubs12:
     dc.b        "Genk",0                                                                         
+String_Belgium_Clubs13:
     dc.b        "Lierse",0                                                                       
+String_Belgium_Clubs14:
     dc.b        "Beerschot",0                                                                    
+String_Belgium_Clubs15:
     dc.b        "Kortrijk",0                                                                     
+String_Belgium_Clubs16:
     dc.b        "Rwdm",0                                                                         
+String_Belgium_Clubs17:
     dc.b        "St Truiden",0                                                                   
-    dc.b        "Union",0                                                                        
+String_Belgium_Clubs18:
+    dc.b        "Union",0
+;----------------------------------------------------------------------------
+String_Luxembourg_Clubs00:	
     dc.b        "Avenir B",0                                                                     
+String_Luxembourg_Clubs01:
     dc.b        "Jeunesse",0                                                                     
+String_Luxembourg_Clubs02:
     dc.b        "Red Boys",0                                                                     
+String_Luxembourg_Clubs03:
     dc.b        "Progres",0                                                                      
-    dc.b        "Aris B",0                                                                       
-    dc.b        "PSV",0                                                                          
-    dc.b        "Ajax",0                                                                         
+String_Luxembourg_Clubs04:
+    dc.b        "Aris B",0 
+;-----------------------------------------------------------------------------
+String_Netherlands_Clubs00:		
+    dc.b        "PSV",0    
+String_Netherlands_Clubs01:	
+    dc.b        "Ajax",0   
+String_Netherlands_Clubs02:	
     dc.b        "Groningen",0                                                                    
+String_Netherlands_Clubs03:
     dc.b        "Den Haag",0                                                                     
-    dc.b        "Vitesse",0                                                                      
-    dc.b        "Fortuna",0                                                                      
+String_Netherlands_Clubs04:
+    dc.b        "Vitesse",0
+String_Netherlands_Clubs05:	
+    dc.b        "Fortuna",0
+String_Netherlands_Clubs06:	
     dc.b        "Feyenoord",0                                                                    
+String_Netherlands_Clubs07:
     dc.b        "Fc Twente",0                                                                    
+String_Netherlands_Clubs08:
     dc.b        "Waalwijk",0                                                                     
+String_Netherlands_Clubs09:
     dc.b        "Volendan",0                                                                     
+String_Netherlands_Clubs10:
     dc.b        "Utrecht",0                                                                      
-    dc.b        "Sparta",0                                                                       
+String_Netherlands_Clubs11:
+    dc.b        "Sparta",0
+String_Netherlands_Clubs12:	
     dc.b        "Willen Ii",0                                                                    
+String_Netherlands_Clubs13:
     dc.b        "Svv Schiedam",0                                                                 
-    dc.b        "Roda",0                                                                         
+String_Netherlands_Clubs14:
+    dc.b        "Roda",0  
+String_Netherlands_Clubs15:	
     dc.b        "Nijmegen",0                                                                     
+String_Netherlands_Clubs16:
     dc.b        "Maastricht",0                                                                   
-    dc.b        "Heerenvenn",0                                                                   
+String_Netherlands_Clubs17:
+    dc.b        "Heerenvenn",0
+;----------------------------------------------------------------------------------------
+String_IrelandBoth_Clubs00:	
     dc.b        "St Patrick",0                                                                   
+String_IrelandBoth_Clubs01:
     dc.b        "Cork City",0                                                                    
-    dc.b        "Dundalk",0                                                                      
+String_IrelandBoth_Clubs02:
+    dc.b        "Dundalk",0                                                                   
+String_IrelandBoth_Clubs03:
     dc.b        "Shamrock R",0                                                                   
+String_IrelandBoth_Clubs04:
     dc.b        "Derry City",0                                                                   
+String_IrelandBoth_Clubs05:
     dc.b        "Bohemians",0                                                                    
+String_IrelandBoth_Clubs06:
     dc.b        "Waterford",0                                                                    
-    dc.b        "Limerick",0                                                                     
+String_IrelandBoth_Clubs07:
+    dc.b        "Limerick",0    		
+String_IrelandBoth_Clubs08:
     dc.b        "Portadown",0                                                                    
+String_IrelandBoth_Clubs09:
     dc.b        "Glentoran",0                                                                    
+String_IrelandBoth_Clubs10:
     dc.b        "Cliftonville",0                                                                 
+String_IrelandBoth_Clubs11:
     dc.b        "Glenavon",0                                                                     
+String_IrelandBoth_Clubs12:
     dc.b        "Linfield",0                                                                     
-    dc.b        "Ards",0                                                                         
+String_IrelandBoth_Clubs13:
+    dc.b        "Ards",0   
+String_IrelandBoth_Clubs14:	
     dc.b        "Ballymena",0                                                                    
-    dc.b        "Coleraine",0                                                                    
+String_IrelandBoth_Clubs15:
+    dc.b        "Coleraine",0
+;------------------------------------------------------------------------------------------
+String_German_Clubs00:			
     dc.b        "Kaisersltrn",0                                                                  
+String_German_Clubs01:
     dc.b        "Bayern M",0                                                                     
+String_German_Clubs02:
     dc.b        "Werder B",0                                                                     
+String_German_Clubs03:
     dc.b        "Eintracht",0                                                                    
+String_German_Clubs04:
     dc.b        "Cologne",0                                                                      
+String_German_Clubs05:
     dc.b        "Leverkusen",0                                                                   
+String_German_Clubs06:
     dc.b        "Borussia D",0                                                                   
+String_German_Clubs07:
     dc.b        "Hamburg",0                                                                      
+String_German_Clubs08:
     dc.b        "Fortuna",0                                                                      
+String_German_Clubs09:
     dc.b        "Borussia Mg",0                                                                  
+String_German_Clubs10:
     dc.b        "Stuttgart",0                                                                    
+String_German_Clubs11:
     dc.b        "Karlsruhe",0                                                                    
+String_German_Clubs12:
     dc.b        "Bradenburg",0                                                                   
+String_German_Clubs13:
     dc.b        "Lokomotiv",0                                                                    
+String_German_Clubs14:
     dc.b        "Madgeburg",0                                                                    
+String_German_Clubs15:
     dc.b        "Dynamo Dresd",0                                                                 
+String_German_Clubs16:
     dc.b        "Berlin",0                                                                       
-    dc.b        "Cz Jena",0                                                                      
+String_German_Clubs17:
+    dc.b        "Cz Jena",0
+;--------------------------------------------------------------------------------------------
+String_Austria_Clubs00:	
     dc.b        "Tirol",0                                                                        
+String_Austria_Clubs01:	
     dc.b        "Fk Austria",0                                                                   
+String_Austria_Clubs02:	
     dc.b        "Rapid V",0                                                                      
+String_Austria_Clubs03:	
     dc.b        "Sturm Graz",0                                                                   
+String_Austria_Clubs04:	
     dc.b        "Salzburg",0                                                                     
+String_Austria_Clubs05:	
     dc.b        "Vorwaerts",0                                                                    
+String_Austria_Clubs06:	
     dc.b        "Alpine",0                                                                       
+String_Austria_Clubs07:	
     dc.b        "Admira W",0                                                                     
+String_Austria_Clubs08:	
     dc.b        "Wiener Sc",0                                                                    
-    dc.b        "Vienna",0                                                                       
+String_Austria_Clubs09:	
+    dc.b        "Vienna",0
+;---------------------------------------------------------------------------------------    
+String_Yugoslavia_Clubs00:			
     dc.b        "Krems Sc",0                                                                     
+String_Yugoslavia_Clubs01:
     dc.b        "St Polten",0                                                                    
+String_Yugoslavia_Clubs02:
     dc.b        "Red Star",0                                                                     
+String_Yugoslavia_Clubs03:
     dc.b        "Partizan",0                                                                     
+String_Yugoslavia_Clubs04:
     dc.b        "Radnicki",0                                                                     
+String_Yugoslavia_Clubs05:
     dc.b        "Osijek",0                                                                       
+String_Yugoslavia_Clubs06:
     dc.b        "Dinamo",0                                                                       
+String_Yugoslavia_Clubs07:
     dc.b        "Velez",0                                                                        
+String_Yugoslavia_Clubs08:
     dc.b        "Proleter",0                                                                     
+String_Yugoslavia_Clubs09:
     dc.b        "Olimpija",0                                                                     
+String_Yugoslavia_Clubs10:
     dc.b        "Rijera",0                                                                       
-    dc.b        "Zemun",0                                                                        
-    dc.b        "Rad",0                                                                          
-    dc.b        "Buducnost",0                                                                    
+String_Yugoslavia_Clubs11:
+    dc.b        "Zemun",0 
+String_Yugoslavia_Clubs12:	
+    dc.b        "Rad",0   ;0007e3b4
+String_Yugoslavia_Clubs13:	
+    dc.b        "Buducnost",0
+String_Yugoslavia_Clubs14:	
     dc.b        "Zeleznicar",0                                                                   
-    dc.b        "Slobodia",0                                                                     
+String_Yugoslavia_Clubs15:
+    dc.b        "Slobodia",0  
+String_Yugoslavia_Clubs16:	
     dc.b        "Vojvodina",0                                                                    
-    dc.b        "Borac",0                                                                        
+String_Yugoslavia_Clubs17:
+    dc.b        "Borac",0     
+String_Yugoslavia_Clubs18:	
     dc.b        "Sarajevo",0                                                                     
-    dc.b        "Hajdur",0                                                                       
-    dc.b        "Spartak",0                                                                      
+String_Yugoslavia_Clubs19:
+    dc.b        "Hajdur",0    
+String_Yugoslavia_Clubs20:	
+    dc.b        "Spartak",0
+String_Yugoslavia_Clubs21:	
     dc.b        "Flamurari",0                                                                    
-    dc.b        "Partizani",0                                                                    
-    dc.b        "Dinamo",0                                                                       
-    dc.b        "Apolonia",0                                                                     
+String_Yugoslavia_Clubs22:
+    dc.b        "Partizani",0 
+String_Yugoslavia_Clubs23:	
+    dc.b        "Dinamo",0
+String_Yugoslavia_Clubs24:	
+    dc.b        "Apolonia",0
+String_Yugoslavia_Clubs25:	
     dc.b        "Vilaznia",0                                                                     
-    dc.b        "17 Nentori",0                                                                   
-    dc.b        "Lokomotive",0                                                                   
-    dc.b        "Besa Kavaja",0                                                                  
+String_Yugoslavia_Clubs26:
+    dc.b        "17 Nentori",0
+String_Yugoslavia_Clubs27:	
+    dc.b        "Lokomotive",0
+	;------------------------------------------------------------
+String_Albania_Clubs00:	
+    dc.b        "Besa Kavaja",0
+;----------------------------------------------------------------
+String_Greece_Clubs00:			
     dc.b        "Panathinaikos",0                                                                
+String_Greece_Clubs01:
     dc.b        "Olympiakos",0                                                                   
+String_Greece_Clubs02:
     dc.b        "Athinaikos",0                                                                   
+String_Greece_Clubs03:
     dc.b        "Aek Athens",0                                                                   
+String_Greece_Clubs04:
     dc.b        "Panserraikos",0                                                                 
+String_Greece_Clubs05:
     dc.b        "Ofi Crete",0                                                                    
+String_Greece_Clubs06:
     dc.b        "Apollon",0                                                                      
+String_Greece_Clubs07:
     dc.b        "Iraklis",0                                                                      
+String_Greece_Clubs08:
     dc.b        "Paok",0                                                                         
+String_Greece_Clubs09:
     dc.b        "Aris",0                                                                         
+String_Greece_Clubs10:
     dc.b        "Panachairi",0                                                                   
+String_Greece_Clubs11:
     dc.b        "Panionios",0                                                                    
+String_Greece_Clubs12:
     dc.b        "Xanthi",0                                                                       
+String_Greece_Clubs13:
     dc.b        "Pas Ioannina",0                                                                 
+String_Greece_Clubs14:
     dc.b        "Dova Drama",0                                                                   
+String_Greece_Clubs15:
     dc.b        "Levadiaros",0                                                                   
+String_Greece_Clubs16:
     dc.b        "Joniros",0                                                                      
-    dc.b        "Larissa",0                                                                      
+String_Greece_Clubs17:
+    dc.b        "Larissa",0    
+;--------------------------------------------------------------------------
+String_Turkey_Clubs00:	
     dc.b        "Galatasaray",0                                                                  
+String_Turkey_Clubs01:
     dc.b        "Besiktas",0                                                                     
+String_Turkey_Clubs02:
     dc.b        "Trabzonspor",0                                                                  
+String_Turkey_Clubs03:
     dc.b        "Aydinspor",0                                                                    
+String_Turkey_Clubs04:
     dc.b        "Sariyer",0                                                                      
+String_Turkey_Clubs05:
     dc.b        "Genclerber",0                                                                   
+String_Turkey_Clubs06:
     dc.b        "Gaziantep",0                                                                    
+String_Turkey_Clubs07:
     dc.b        "Fenerbahce",0                                                                   
+String_Turkey_Clubs08:
     dc.b        "Ankkaragu",0                                                                    
+String_Turkey_Clubs09:
     dc.b        "Bakirkoys",0                                                                    
+String_Turkey_Clubs10:
     dc.b        "Karsiyara",0                                                                    
+String_Turkey_Clubs11:
     dc.b        "Bursaspor",0                                                                    
+String_Turkey_Clubs12:
     dc.b        "Adanaspor",0                                                                    
+String_Turkey_Clubs13:
     dc.b        "Boluspor",0                                                                     
+String_Turkey_Clubs14:
     dc.b        "Zevtinburns",0                                                                  
-    dc.b        "Konyaspor",0                                                                    
+String_Turkey_Clubs15:
+    dc.b        "Konyaspor",0 
+;--------------------------------------------------------------------------
+String_Bulgaria_Clubs00:	
     dc.b        "Vitosa",0                                                                       
+String_Bulgaria_Clubs01:
     dc.b        "Lok Sofia",0                                                                    
+String_Bulgaria_Clubs02:
     dc.b        "Etur",0                                                                         
+String_Bulgaria_Clubs03:
     dc.b        "Botev",0                                                                        
+String_Bulgaria_Clubs04:
     dc.b        "Sliven",0                                                                       
+String_Bulgaria_Clubs05:
     dc.b        "Cska Sofia",0                                                                   
+String_Bulgaria_Clubs06:
     dc.b        "Slavia",0                                                                       
+String_Bulgaria_Clubs07:
     dc.b        "Lok Gorna",0                                                                    
+String_Bulgaria_Clubs08:
     dc.b        "Lok Plovdiv",0                                                                  
+String_Bulgaria_Clubs09:
     dc.b        "Dounau",0                                                                       
+String_Bulgaria_Clubs10:
     dc.b        "Chernomer",0                                                                    
+String_Bulgaria_Clubs11:
     dc.b        "Berce",0                                                                        
+String_Bulgaria_Clubs12:
     dc.b        "Mineur",0                                                                       
+String_Bulgaria_Clubs13:
     dc.b        "Yantra",0                                                                       
+String_Bulgaria_Clubs14:
     dc.b        "Sredets",0                                                                      
-    dc.b        "Haskovo",0                                                                      
+String_Bulgaria_Clubs15:
+    dc.b        "Haskovo",0
+;---------------------------------------------------------------------------------
+String_Romania_Clubs00:	
     dc.b        "Steaua B",0                                                                     
+String_Romania_Clubs01:
     dc.b        "Asa Tirgu",0                                                                    
+String_Romania_Clubs02:
     dc.b        "Victoria B",0                                                                   
+String_Romania_Clubs03:
     dc.b        "Univert C",0                                                                    
+String_Romania_Clubs04:
     dc.b        "Arges P",0                                                                      
+String_Romania_Clubs05:
     dc.b        "Rapid B",0                                                                      
+String_Romania_Clubs06:
     dc.b        "Bihor",0                                                                        
+String_Romania_Clubs07:
     dc.b        "Univert Cn",0                                                                   
+String_Romania_Clubs08:
     dc.b        "Inter Sibiu",0                                                                  
+String_Romania_Clubs09:
     dc.b        "Sportul",0                                                                      
+String_Romania_Clubs10:
     dc.b        "Constanta",0                                                                    
+String_Romania_Clubs11:
     dc.b        "Corvinhul",0                                                                    
+String_Romania_Clubs12:
     dc.b        "Otelul",0                                                                       
+String_Romania_Clubs13:
     dc.b        "Dynamo B",0                                                                     
+String_Romania_Clubs14:
     dc.b        "Bacau",0                                                                        
-    dc.b        "Fc Olt",0                                                                       
+String_Romania_Clubs15:
+    dc.b        "Fc Olt",0   
+;-----------------------------------------------------------------
+String_Hungary_Clubs00:	
     dc.b        "Debrecen",0                                                                     
+String_Hungary_Clubs01:
     dc.b        "Veszprem",0                                                                     
+String_Hungary_Clubs02:
     dc.b        "Honved",0                                                                       
+String_Hungary_Clubs03:
     dc.b        "Vac Izzo",0                                                                     
+String_Hungary_Clubs04:
     dc.b        "Mtk Vm",0                                                                       
-    dc.b        "Vassas",0                                                                       
+String_Hungary_Clubs05:
+    dc.b        "Vassas",0                                                                      
+String_Hungary_Clubs06:
     dc.b        "Pecs",0                                                                         
+String_Hungary_Clubs07:
     dc.b        "Videoton",0                                                                     
+String_Hungary_Clubs08:
     dc.b        "Slotor",0                                                                       
+String_Hungary_Clubs09:
     dc.b        "Raba Etor",0                                                                    
+String_Hungary_Clubs10:
     dc.b        "Szeged",0                                                                       
+String_Hungary_Clubs11:
     dc.b        "Volan B",0                                                                      
+String_Hungary_Clubs12:
     dc.b        "Tatabanya",0                                                                    
+String_Hungary_Clubs13:
     dc.b        "Bekescsaba",0                                                                   
+String_Hungary_Clubs14:
     dc.b        "Uspest D",0                                                                     
+String_Hungary_Clubs15:
     dc.b        "Ferencvaros",0                                                                  
+String_Hungary_Clubs16:
     dc.b        "Slovan B",0                                                                     
-    dc.b        "Union Cheb",0                                                                   
+String_Hungary_Clubs17:
+    dc.b        "Union Cheb",0  
+;------------------------------------------------------------
+String_Czech_Clubs00:	
     dc.b        "Sp Prague",0                                                                    
+String_Czech_Clubs01:
     dc.b        "Dac Streda",0                                                                   
+String_Czech_Clubs02:
     dc.b        "Dukla B",0                                                                      
+String_Czech_Clubs03:
     dc.b        "Tatran",0                                                                       
+String_Czech_Clubs04:
     dc.b        "Inter B",0                                                                      
+String_Czech_Clubs05:
     dc.b        "Banik O",0                                                                      
+String_Czech_Clubs06:
     dc.b        "B Prague",0                                                                     
+String_Czech_Clubs07:
     dc.b        "Vitkovice",0                                                                    
+String_Czech_Clubs08:
     dc.b        "D Prague",0                                                                     
+String_Czech_Clubs09:
     dc.b        "Sigma",0                                                                        
+String_Czech_Clubs10:
     dc.b        "Fc Nitro",0                                                                     
+String_Czech_Clubs11:
     dc.b        "Spartak H",0                                                                    
-    dc.b        "Zbrojovka",0                                                                    
+String_Czech_Clubs12:
+    dc.b        "Zbrojovka",0   
+;-----------------------------------------------------------------
+String_Poland_Clubs00:	
     dc.b        "Lks Lodz",0                                                                     
+String_Poland_Clubs01:
     dc.b        "Slask W",0                                                                      
+String_Poland_Clubs02:
     dc.b        "Jagiellonia",0                                                                  
+String_Poland_Clubs03:
     dc.b        "Wsla K",0                                                                       
+String_Poland_Clubs04:
     dc.b        "Lech P",0                                                                       
+String_Poland_Clubs05:
     dc.b        "Zaglebie S",0                                                                   
+String_Poland_Clubs06:
     dc.b        "Zawisza",0                                                                      
+String_Poland_Clubs07:
     dc.b        "Katovice",0                                                                     
+String_Poland_Clubs08:
     dc.b        "Ruch C",0                                                                       
+String_Poland_Clubs09:
     dc.b        "Motor L",0                                                                      
+String_Poland_Clubs10:
     dc.b        "Widzew Lodz",0                                                                  
+String_Poland_Clubs11:
     dc.b        "Gomik Z",0                                                                      
+String_Poland_Clubs12:
     dc.b        "Stalmielec",0                                                                   
+String_Poland_Clubs13:
     dc.b        "Zaglebie L",0                                                                   
+String_Poland_Clubs14:
     dc.b        "Legia Warsaw",0                                                                 
+String_Poland_Clubs15:
     dc.b        "Olimpia P",0                                                                    
-    dc.b        "AIK",0                                                                          
+String_Poland_Clubs16:
+    dc.b        "AIK",0
+String_Poland_Clubs17:	
     dc.b        "Orebro",0                                                                       
-    dc.b        "Gais",0                                                                         
+String_Poland_Clubs18:
+    dc.b        "Gais",0   
+;--------------------------------------------------------------------------	
+String_Sweden_Clubs00:	
     dc.b        "Djurgarden",0                                                                   
+String_Sweden_Clubs01:
     dc.b        "Hammarby",0                                                                     
+String_Sweden_Clubs02:
     dc.b        "Gothenburg",0                                                                   
+String_Sweden_Clubs03:
     dc.b        "Malmo",0                                                                        
+String_Sweden_Clubs04:	
     dc.b        "Halmstad",0                                                                     
+String_Sweden_Clubs05:	
     dc.b        "Norrkoping",0                                                                   
+String_Sweden_Clubs06:
     dc.b        "Orgryte",0                                                                      
+String_Sweden_Clubs07:
     dc.b        "Oster",0                                                                        
-    dc.b        "Brage",0                                                                        
-    dc.b        "Ararat Y",0                                                                     
+String_Sweden_Clubs08:
+    dc.b        "Brage",0
+;---------------------------------------------------------------------------
+String_Armenia_Clubs00:	
+    dc.b        "Ararat Y",0
+;---------------------------------------------------------------------------
+String_Ukraine_Clubs00:	
     dc.b        "Dynamo Kiev",0                                                                  
+String_Ukraine_Clubs01:
     dc.b        "Odessa",0                                                                       
-    dc.b        "Metallist",0                                                                    
+String_Ukraine_Clubs02:
+    dc.b        "Metallist",0   
+;---------------------------------------------------------------------------------	
+String_Russia_Clubs00:	
     dc.b        "Cska Moscow",0                                                                  
+String_Russia_Clubs01:
     dc.b        "Spartak Mos",0                                                                  
+String_Russia_Clubs02:
     dc.b        "Minsk",0                                                                        
+String_Russia_Clubs03:
     dc.b        "Dushanbe",0                                                                     
+String_Russia_Clubs04:
     dc.b        "Rotor",0                                                                        
+String_Russia_Clubs05:
     dc.b        "Dynamo Mos",0                                                                   
+String_Russia_Clubs06:
     dc.b        "Torpedo Mos",0                                                                  
-    dc.b        "Dnepro",0                                                                       
+String_Russia_Clubs07:
+    dc.b        "Dnepro",0    
+;----------------------------------------------------------
+String_Norway_Clubs00:	
     dc.b        "Tromso",0                                                                       
+String_Norway_Clubs01:
     dc.b        "Molde",0                                                                        
+String_Norway_Clubs02:
     dc.b        "Lillestrom",0                                                                   
+String_Norway_Clubs03:
     dc.b        "Viking",0                                                                       
+String_Norway_Clubs04:
     dc.b        "Rosenborg",0                                                                    
+String_Norway_Clubs05:
     dc.b        "Brann",0                                                                        
+String_Norway_Clubs06:
     dc.b        "Rongsvinger",0                                                                  
+String_Norway_Clubs07:
     dc.b        "Fyllingen",0                                                                    
+String_Norway_Clubs08:
     dc.b        "Start",0                                                                        
-    dc.b        "Stromgodset",0                                                                  
+String_Norway_Clubs09:
+    dc.b        "Stromgodset",0   
+String_Norway_Clubs10:	
     dc.b        "Moss",0                                                                         
-    dc.b        "Vif Fotball",0                                                                  
+String_Norway_Clubs11:
+    dc.b        "Vif Fotball",0  
+;----------------------------------------------------------
+String_Scotland_Clubs00:	
     dc.b        "Rangers",0                                                                      
+String_Scotland_Clubs01:
     dc.b        "Celtic",0                                                                       
+String_Scotland_Clubs02:
     dc.b        "Aberdeen",0                                                                     
+String_Scotland_Clubs03:
     dc.b        "Hearts",0                                                                       
+String_Scotland_Clubs04:
     dc.b        "St Mirren",0                                                                    
+String_Scotland_Clubs05:
     dc.b        "St Johnstone",0                                                                 
+String_Scotland_Clubs06:
     dc.b        "Dundee Utd",0                                                                   
+String_Scotland_Clubs07:
     dc.b        "Hibernian",0                                                                    
+String_Scotland_Clubs08:
     dc.b        "Dunfermline",0                                                                  
-    dc.b        "Motherwell",0                                                                   
+String_Scotland_Clubs09:
+    dc.b        "Motherwell",0  
+;----------------------------------------------------------------
+String_Iceland_Clubs00:	
     dc.b        "Reykjavik",0                                                                    
+String_Iceland_Clubs01:
     dc.b        "Akranes",0                                                                      
+String_Iceland_Clubs02:
     dc.b        "Valur",0                                                                        
+String_Iceland_Clubs03:
     dc.b        "Keflavik",0                                                                     
+String_Iceland_Clubs04:
     dc.b        "Husavik",0                                                                      
-    dc.b        "Akureyri",0                                                                     
-    dc.b        "Helsinki",0                                                                     
-    dc.b        "Lahti",0                                                                        
+String_Iceland_Clubs05:
+    dc.b        "Akureyri",0    
+;-----------------------------------------------------------------------	
+String_Finland_Clubs00:
+    dc.b        "Helsinki",0
+String_Finland_Clubs01:	
+    dc.b        "Lahti",0   
+String_Finland_Clubs02:	
     dc.b        "Rovaniemen",0                                                                   
+String_Finland_Clubs03:
     dc.b        "Turun",0                                                                        
+String_Finland_Clubs04:
     dc.b        "Tampere",0                                                                      
+String_Finland_Clubs05:
     dc.b        "Turku",0                                                                        
-    dc.b        "Vaasa",0                                                                        
+String_Finland_Clubs06:
+    dc.b        "Vaasa",0
+;---------------------------------------------------------------------
+String_Cyprus_Clubs00:
     dc.b        "Omonia",0                                                                       
+String_Cyprus_Clubs01:
     dc.b        "Limassol",0                                                                     
+String_Cyprus_Clubs02:
     dc.b        "Larnaca",0                                                                      
+String_Cyprus_Clubs03:
     dc.b        "Troodhos",0                                                                     
+String_Cyprus_Clubs04:
     dc.b        "Morfou",0                                                                       
-    dc.b        "Famagusta",0                                                                    
+String_Cyprus_Clubs05:
+    dc.b        "Famagusta",0
+;------------------------------------------------------------------------
+String_Israel_Clubs00:	
     dc.b        "Maccabi",0                                                                      
+String_Israel_Clubs01:
     dc.b        "Haifa",0                                                                        
+String_Israel_Clubs02:
     dc.b        "Ramat Gan",0                                                                    
+String_Israel_Clubs03:
     dc.b        "Qesari",0                                                                       
+String_Israel_Clubs04:
     dc.b        "Nazerath",0                                                                     
+String_Israel_Clubs05:
     dc.b        "Zefat",0                                                                        
-    dc.b        "Jerusalem",0                                                                    
+String_Israel_Clubs06:
+    dc.b        "Jerusalem",0   
+;----------------------------------------------------------------------
+String_Denmark_Clubs00:	
     dc.b        "Copenhagen",0                                                                   
+String_Denmark_Clubs01:
     dc.b        "Brondby",0                                                                      
+String_Denmark_Clubs02:
     dc.b        "Aarhus",0                                                                       
+String_Denmark_Clubs03:
     dc.b        "Aalborg",0                                                                      
+String_Denmark_Clubs04:
     dc.b        "Odense",0                                                                       
+String_Denmark_Clubs05:
     dc.b        "Esjberg",0                                                                      
+String_Denmark_Clubs06:
     dc.b        "Helsinger",0                                                                    
+String_Denmark_Clubs07:
     dc.b        "Roskilde",0                                                                     
+String_Denmark_Clubs08:
     dc.b        "Svendborg",0                                                                    
-    dc.b        "Viborg",0                                                                       
-    dc.b        "Bologna",0                                                                      
-    dc.b        "S.P.A.L.",0                                                                     
-    dc.b        "Taranto",0                                                                      
-    dc.b        "Ternana",0                                                                      
-    dc.b        "Alessandria",0                                                                  
-    dc.b        "Arezzo",0                                                                       
-    dc.b        "Carpi",0                                                                        
-    dc.b        "Carrarese",0                                                                    
-    dc.b        "Chievo",0                                                                       
-    dc.b        "Como",0                                                                         
-    dc.b        "Empoli",0                                                                       
-    dc.b        "Leffe",0                                                                        
-    dc.b        "Massese",0                                                                      
-    dc.b        "Palazzolo",0                                                                    
-    dc.b        "Pro Sesto",0                                                                    
-    dc.b        "Sambenedettese",0                                                               
-    dc.b        "Siena",0                                                                        
-    dc.b        "Spezi",0                                                                        
-    dc.b        "Triestina",0                                                                    
-    dc.b        "Vis Psaro",0                                                                    
-    dc.b        "Avellino",0                                                                     
-    dc.b        "Barletta",0                                                                     
-    dc.b        "Casarano",0                                                                     
-    dc.b        "Casertana",0                                                                    
-    dc.b        "Catania",0                                                                      
-    dc.b        "Chieti",0                                                                       
-    dc.b        "Giarre",0                                                                       
-    dc.b        "Isolaverde",0                                                                   
-    dc.b        "Lodigiana",0                                                                    
-    dc.b        "Messina",0                                                                      
-    dc.b        "Nola",0                                                                         
-    dc.b        "Perugia",0                                                                      
-    dc.b        "Potenza",0                                                                      
-    dc.b        "Reggina",0                                                                      
-    dc.b        "Salernitana",0                                                                  
-    dc.b        "Siracusa",0                                                                     
-    dc.b        "Aosta",0                                                                        
-    dc.b        "Centese",0                                                                      
-    dc.b        "Casale",0                                                                       
-    dc.b        "Fiorenzuola",0                                                                  
-    dc.b        "Giorgione",0                                                                    
-    dc.b        "Lecco",0                                                                        
-    dc.b        "Mantova",0                                                                      
-    dc.b        "Novara",0                                                                       
-    dc.b        "Olbia",0                                                                        
-    dc.b        "Oltrepo",0                                                                      
-    dc.b        "Ospitaletto",0                                                                  
-    dc.b        "Pavia",0                                                                        
-    dc.b        "Pergocrema",0                                                                   
-    dc.b        "Solbiatese",0                                                                   
-    dc.b        "Suzzara",0                                                                      
-    dc.b        "Tempio",0                                                                       
-    dc.b        "Trento",0                                                                       
-    dc.b        "Varese",0                                                                       
-    dc.b        "Avezzano",0                                                                     
-    dc.b        "Baracca",0                                                                      
-    dc.b        "Castel DS",0                                                                    
-    dc.b        "Cerveteri",0                                                                    
-    dc.b        "Cecina",0                                                                       
-    dc.b        "Civitanovese",0                                                                 
-    dc.b        "Fano",0                                                                         
-    dc.b        "Francavilla",0                                                                  
-    dc.b        "Gualdo",0                                                                       
-    dc.b        "M Ponsacco",0                                                                   
-    dc.b        "Montevarchi",0                                                                  
-    dc.b        "Pistoiese",0                                                                    
-    dc.b        "Poggibonsi",0                                                                   
-    dc.b        "Pontedera",0                                                                    
-    dc.b        "Prato",0                                                                        
-    dc.b        "Rimini",0                                                                       
-    dc.b        "Vastese",0                                                                      
-    dc.b        "Viareggio",0                                                                    
-    dc.b        "Akragas",0                                                                      
-    dc.b        "Altmura",0                                                                      
-    dc.b        "Astrea",0                                                                       
-    dc.b        "Bisceglie",0                                                                    
-    dc.b        "Catanzaro",0                                                                    
-    dc.b        "Formia",0                                                                       
-    dc.b        "Juve Stabia",0                                                                  
-    dc.b        "Leonzio",0                                                                      
-    dc.b        "Licata",0                                                                       
-    dc.b        "Matera",0                                                                       
-    dc.b        "Molfetta",0                                                                     
-    dc.b        "Monopoli",0                                                                     
-    dc.b        "Sangiuseppese",0                                                                
-    dc.b        "Savoia",0                                                                       
-    dc.b        "Sora",0                                                                         
-    dc.b        "Trani",0                                                                        
-    dc.b        "Turris",0                                                                       
-    dc.b        "Vigor Lamezia",0                                                                
-    dc.b        "Pro Vercelli",0                                                                 
-    dc.b        "Saronno",0                                                                      
-    dc.b        "Cittadella",0                                                                   
-    dc.b        "Pievigina",0                                                                    
-    dc.b        "Treviso",0                                                                      
-    dc.b        "Albinese",0                                                                     
-    dc.b        "Mira",0                                                                         
-    dc.b        "Palmanova",0                                                                    
-    dc.b        "Bra",0                                                                          
-    dc.b        "Acqui",0                                                                        
-    dc.b        "Russi",0                                                                        
-    dc.b        "Bastia",0                                                                       
+String_Denmark_Clubs09:
+    dc.b        "Viborg",0
+;-------------------------------------------------------------------------
+String_LowerLeagueItalian_Clubs00:	
+    dc.b        "Bologna",0       
+String_LowerLeagueItalian_Clubs01:	
+    dc.b        "S.P.A.L.",0      
+String_LowerLeagueItalian_Clubs02:	
+    dc.b        "Taranto",0       
+String_LowerLeagueItalian_Clubs03:	
+    dc.b        "Ternana",0       
+String_LowerLeagueItalian_Clubs04:	
+    dc.b        "Alessandria",0   
+String_LowerLeagueItalian_Clubs05:	
+    dc.b        "Arezzo",0        
+String_LowerLeagueItalian_Clubs06:	
+    dc.b        "Carpi",0         
+String_LowerLeagueItalian_Clubs07:	
+    dc.b        "Carrarese",0     
+String_LowerLeagueItalian_Clubs08:	
+    dc.b        "Chievo",0        
+String_LowerLeagueItalian_Clubs09:	
+    dc.b        "Como",0          
+String_LowerLeagueItalian_Clubs10:	
+    dc.b        "Empoli",0        
+String_LowerLeagueItalian_Clubs11:	
+    dc.b        "Leffe",0         
+String_LowerLeagueItalian_Clubs12:	
+    dc.b        "Massese",0       
+String_LowerLeagueItalian_Clubs13:	
+    dc.b        "Palazzolo",0     
+String_LowerLeagueItalian_Clubs14:	
+    dc.b        "Pro Sesto",0     
+String_LowerLeagueItalian_Clubs15:	
+    dc.b        "Sambenedettese",0
+String_LowerLeagueItalian_Clubs16:	
+    dc.b        "Siena",0         
+String_LowerLeagueItalian_Clubs17:	
+    dc.b        "Spezi",0         
+String_LowerLeagueItalian_Clubs18:	
+    dc.b        "Triestina",0     
+String_LowerLeagueItalian_Clubs19:	
+    dc.b        "Vis Psaro",0     
+String_LowerLeagueItalian_Clubs20:	
+    dc.b        "Avellino",0      
+String_LowerLeagueItalian_Clubs21:	
+    dc.b        "Barletta",0      
+String_LowerLeagueItalian_Clubs22:	
+    dc.b        "Casarano",0      
+String_LowerLeagueItalian_Clubs23:	
+    dc.b        "Casertana",0     
+String_LowerLeagueItalian_Clubs24:	
+    dc.b        "Catania",0       
+String_LowerLeagueItalian_Clubs25:	
+    dc.b        "Chieti",0        
+String_LowerLeagueItalian_Clubs26:	
+    dc.b        "Giarre",0        
+String_LowerLeagueItalian_Clubs27:	
+    dc.b        "Isolaverde",0    
+String_LowerLeagueItalian_Clubs28:	
+    dc.b        "Lodigiana",0     
+String_LowerLeagueItalian_Clubs29:	
+    dc.b        "Messina",0       
+String_LowerLeagueItalian_Clubs30:	
+    dc.b        "Nola",0          
+String_LowerLeagueItalian_Clubs31:	
+    dc.b        "Perugia",0       
+String_LowerLeagueItalian_Clubs32:	
+    dc.b        "Potenza",0       
+String_LowerLeagueItalian_Clubs33:	
+    dc.b        "Reggina",0       
+String_LowerLeagueItalian_Clubs34:	
+    dc.b        "Salernitana",0   
+String_LowerLeagueItalian_Clubs35:	
+    dc.b        "Siracusa",0      
+String_LowerLeagueItalian_Clubs36:	
+    dc.b        "Aosta",0         
+String_LowerLeagueItalian_Clubs37:	
+    dc.b        "Centese",0       
+String_LowerLeagueItalian_Clubs38:	
+    dc.b        "Casale",0        
+String_LowerLeagueItalian_Clubs39:	
+    dc.b        "Fiorenzuola",0   
+String_LowerLeagueItalian_Clubs40:	
+    dc.b        "Giorgione",0     
+String_LowerLeagueItalian_Clubs41:	
+    dc.b        "Lecco",0         
+String_LowerLeagueItalian_Clubs42:	
+    dc.b        "Mantova",0       
+String_LowerLeagueItalian_Clubs43:	
+    dc.b        "Novara",0        
+String_LowerLeagueItalian_Clubs44:	
+    dc.b        "Olbia",0         
+String_LowerLeagueItalian_Clubs45:	
+    dc.b        "Oltrepo",0       
+String_LowerLeagueItalian_Clubs46:	
+    dc.b        "Ospitaletto",0   
+String_LowerLeagueItalian_Clubs47:	
+    dc.b        "Pavia",0         
+String_LowerLeagueItalian_Clubs48:	
+    dc.b        "Pergocrema",0    
+String_LowerLeagueItalian_Clubs49:	
+    dc.b        "Solbiatese",0    
+String_LowerLeagueItalian_Clubs50:	
+    dc.b        "Suzzara",0       
+String_LowerLeagueItalian_Clubs51:	
+    dc.b        "Tempio",0        
+String_LowerLeagueItalian_Clubs52:	
+    dc.b        "Trento",0        
+String_LowerLeagueItalian_Clubs53:	
+    dc.b        "Varese",0        
+String_LowerLeagueItalian_Clubs54:	
+    dc.b        "Avezzano",0      
+String_LowerLeagueItalian_Clubs55:	
+    dc.b        "Baracca",0       
+String_LowerLeagueItalian_Clubs56:	
+    dc.b        "Castel DS",0     
+String_LowerLeagueItalian_Clubs57:	
+    dc.b        "Cerveteri",0     
+String_LowerLeagueItalian_Clubs58:	
+    dc.b        "Cecina",0        
+String_LowerLeagueItalian_Clubs59:	
+    dc.b        "Civitanovese",0  
+String_LowerLeagueItalian_Clubs60:	
+    dc.b        "Fano",0          
+String_LowerLeagueItalian_Clubs61:	
+    dc.b        "Francavilla",0   
+String_LowerLeagueItalian_Clubs62:	
+    dc.b        "Gualdo",0        
+String_LowerLeagueItalian_Clubs63:	
+    dc.b        "M Ponsacco",0    
+String_LowerLeagueItalian_Clubs64:	
+    dc.b        "Montevarchi",0   
+String_LowerLeagueItalian_Clubs65:	
+    dc.b        "Pistoiese",0     
+String_LowerLeagueItalian_Clubs66:	
+    dc.b        "Poggibonsi",0    
+String_LowerLeagueItalian_Clubs67:	
+    dc.b        "Pontedera",0     
+String_LowerLeagueItalian_Clubs68:	
+    dc.b        "Prato",0         
+String_LowerLeagueItalian_Clubs69:	
+    dc.b        "Rimini",0        
+String_LowerLeagueItalian_Clubs70:	
+    dc.b        "Vastese",0       
+String_LowerLeagueItalian_Clubs71:	
+    dc.b        "Viareggio",0     
+String_LowerLeagueItalian_Clubs72:	
+    dc.b        "Akragas",0       
+String_LowerLeagueItalian_Clubs73:	
+    dc.b        "Altmura",0       
+String_LowerLeagueItalian_Clubs74:	
+    dc.b        "Astrea",0        
+String_LowerLeagueItalian_Clubs75:	
+    dc.b        "Bisceglie",0     
+String_LowerLeagueItalian_Clubs76:	
+    dc.b        "Catanzaro",0     
+String_LowerLeagueItalian_Clubs77:	
+    dc.b        "Formia",0        
+String_LowerLeagueItalian_Clubs78:	
+    dc.b        "Juve Stabia",0   
+String_LowerLeagueItalian_Clubs79:	
+    dc.b        "Leonzio",0       
+String_LowerLeagueItalian_Clubs80:	
+    dc.b        "Licata",0        
+String_LowerLeagueItalian_Clubs81:	
+    dc.b        "Matera",0        
+String_LowerLeagueItalian_Clubs82:	
+    dc.b        "Molfetta",0      
+String_LowerLeagueItalian_Clubs83:	
+    dc.b        "Monopoli",0      
+String_LowerLeagueItalian_Clubs84:	
+    dc.b        "Sangiuseppese",0 
+String_LowerLeagueItalian_Clubs85:	
+    dc.b        "Savoia",0        
+String_LowerLeagueItalian_Clubs86:	
+    dc.b        "Sora",0          
+String_LowerLeagueItalian_Clubs87:	
+    dc.b        "Trani",0         
+String_LowerLeagueItalian_Clubs88:	
+    dc.b        "Turris",0        
+String_LowerLeagueItalian_Clubs89:	
+    dc.b        "Vigor Lamezia",0 
+String_LowerLeagueItalian_Clubs90:	
+    dc.b        "Pro Vercelli",0  
+String_LowerLeagueItalian_Clubs91:	
+    dc.b        "Saronno",0       
+String_LowerLeagueItalian_Clubs92:	
+    dc.b        "Cittadella",0    
+String_LowerLeagueItalian_Clubs93:	
+    dc.b        "Pievigina",0     
+String_LowerLeagueItalian_Clubs94:	
+    dc.b        "Treviso",0       
+String_LowerLeagueItalian_Clubs95:	
+    dc.b        "Albinese",0      
+String_LowerLeagueItalian_Clubs96:	
+    dc.b        "Mira",0          
+String_LowerLeagueItalian_Clubs97:	
+    dc.b        "Palmanova",0     
+String_LowerLeagueItalian_Clubs98:	
+    dc.b        "Bra",0           
+String_LowerLeagueItalian_Clubs99:	
+    dc.b        "Acqui",0         
+String_LowerLeagueItalian_Clubs100:	
+    dc.b        "Russi",0         
+String_LowerLeagueItalian_Clubs101:	
+    dc.b        "Bastia",0        
+;--------------------------------------------------------------------------------------------------	
 WORD_0007ee78:                
     dc.w        $0
 VAR_Vblank_Interrupt:         
@@ -50398,7 +53072,7 @@ BYTE_0007eea5:
     dc.b        $0
     dc.b        $0
 Fixup_Address_68:
-    dc.l        $06EF18
+    dc.l        Fixup_Address_69;$06EF18
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -50420,7 +53094,7 @@ Fixup_Address_68:
     dc.b        $0
     dc.b        $0
 Fixup_Address_69:
-    dc.l        $06EF30
+    dc.l        Fixup_Address_70;$06EF30
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -50442,7 +53116,7 @@ Fixup_Address_69:
     dc.b        $0
     dc.b        $0
 Fixup_Address_70:
-    dc.l        $06EF48
+    dc.l        Fixup_Address_71;$06EF48
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -50464,7 +53138,7 @@ Fixup_Address_70:
     dc.b        $0
     dc.b        $0
 Fixup_Address_71:
-    dc.l        $06EF60
+    dc.l        Unsure;$06EF60
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -50485,6 +53159,7 @@ Fixup_Address_71:
     dc.b        $0
     dc.b        $0
     dc.b        $0
+Unsure:
     dc.b        $0
     dc.b        $0
     dc.b        $0
@@ -50709,8 +53384,8 @@ LONG_0007ef90:
     dc.b        $2
     dc.b        $2
 Fixup_Address_72:
-    dc.b        $2
-    dc.b        $10
+    dc.b        $02 ; the original fixup table ends with two zero entries. Could try to put something here to try and match it?
+    dc.b        $10 ; program runs fine with out it.
     dc.b        $10
     dc.b        $10
     dc.b        $10
