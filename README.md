@@ -2,6 +2,7 @@
 
 A decompilation of the Atari ST game Championship Manager Italia. This is the hard drive install of the game and not the floppy disk based version.
 I have added a version which bypasses the copy protection it is called "nocheck.prg" it is located in the game folder. It may have some bugs if so please let me know if you find any.
+Also I have added a version for Championship Manager '93 ( English not Italian version ) in the CMAN93 folder.
 
 This is my first full decompilation and was done using a combination of Ghidra and Fred's dissasembler ( https://atari-forum.com/viewtopic.php?t=14540 )
 The code is assembled using VASM\VBCC ( http://www.compilers.de/vasm.html ) with the following commands :-
